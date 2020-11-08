@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Falltuna Notes!</title>
+      <link href="falltuna-project/falltuna-main/"/>
+      <url>falltuna-project/falltuna-main/</url>
+      
+        <content type="html"><![CDATA[<p>这是秋天的金枪鱼稿件合集, 优先收录markdown文件格式的稿件, 其余格式(由于转化麻烦), 会很快加入, 尽情期待.</p><p>为什么需要这个网页呢? 因为很多平台(如微信公众平台、今日头条)并不支持LaTeX或者Mermaid Graph(尽管后者只在“递推数列”那几期出现过)</p><p>所以只能用截图的形式呈现给读者, 固然是不如原始状态的.<br>(尤其是头条的前几期……)</p><p>因此这个网站用于展示最原始(或是理想状态下)的falltuna笔记.</p><h2 id="已收录部分"><a href="#已收录部分" class="headerlink" title="已收录部分"></a>已收录部分</h2><p><strong>Day X表示在今日头条出现在第X天, DAYX表示在公众号出现在第X天, 以第一次出现为准</strong></p><p><strong>排列顺序按照成文顺序</strong></p><p><em>“[1]”:未收录文章</em></p><p><em>“[2]”:仅在头条出现的文章</em></p><hr><p>Day 1 <a href="../../nanwai/old_notes/ftday1">两道化学选择题_by南外</a><del>第一篇金枪鱼</del></p><p>Day 2<a href="../../vnrConvasdyne/old_notes/ftday2">一道趣题(集合与命题)_by吃白巧克力的黑猫</a></p><p>Day 7<a href="old_notes/ftday7.md">氧化剂的pk_by南外</a></p><p>未收录<sup>[1]</sup><a href="../../vnrConvasdyne/old_notes/falltunaday8p1">相伴函数与相伴向量_by吃白巧克力的黑猫</a></p><p>Day 8<a href="../../vnrConvasdyne/old_notes/falltunaday8p2">在解题过程中多用一些几何意义吧!_by吃白巧克力的黑猫</a></p><p>Day 13<a href="../../vnrConvasdyne/old_notes/falltunaday10">浅谈巴比伦算法_by吃白巧克力的黑猫</a></p><p>Day 12<a href="../../vnrConvasdyne/old_notes/falltunaday10(2">椭圆焦点三角形面积公式及其证明_by江涛</a>)</p><p>Day 15<a href="../../vnrConvasdyne/old_notes/ftday15">一个极限的两种解法_by吃白巧克力的黑猫</a></p><p>Day 16<a href="../../vnrConvasdyne/old_notes/ft16">构造递推数列解决排列组合问题(上)_by吃白巧克力的黑猫</a></p><p>Day 17<a href="../../vnrConvasdyne/old_notes/ft17">构造递推数列解决排列组合问题(下)_by吃白巧克力的黑猫</a></p><p>Day 18<a href="../../vnrConvasdyne/old_notes/ft18">一道三角比计算题_by吃白巧克力的黑猫</a></p><p>DAY25<a href="../../vnrConvasdyne/old_notes/ft19">高斯函数求值_by吃白巧克力的黑猫</a>(<del>最令人失望的金枪鱼——蓝色天空</del>)</p><p>Day 20<a href="../../vnrConvasdyne/old_notes/ft20">构造二次函数解决范围确认题_by吃白巧克力的黑猫</a></p><p>Day 19<a href="../../vnrConvasdyne/old_notes/ftday21">数列关系式的处理_by吃白巧克力的黑猫</a></p><p>Day 23<a href="../../vnrConvasdyne/old_notes/ftday22">一道数列相关的数学题_by吃白巧克力的黑猫</a></p><p>Day 22<a href="../../vnrConvasdyne/old_notes/ftday23">用数学归纳法证明数列性质_by吃白巧克力的黑猫</a></p><p>Day 24<a href="../../vnrConvasdyne/old_notes/ftday24">构造二次函数证明不等式_by吃白巧克力的黑猫</a></p><p>Day 25<sup>[2]</sup><a href="../../vnrConvasdyne/old_notes/ftday25">从整体分析问题_by吃白巧克力的黑猫</a></p><p>未收录<sup>[1]</sup><a href="../../vnrConvasdyne/old_notes/ftday26">未命名物理题_by吃白巧克力的黑猫</a></p><h3 id="函数图像及其变换-蓝色天空"><a href="#函数图像及其变换-蓝色天空" class="headerlink" title="函数图像及其变换 (蓝色天空)"></a>函数图像及其变换 (蓝色天空)</h3><h3 id="对数篇-吃白巧克力的黑猫"><a href="#对数篇-吃白巧克力的黑猫" class="headerlink" title="对数篇 (吃白巧克力的黑猫)"></a>对数篇 (吃白巧克力的黑猫)</h3><p>DAY41<a href="../../vnrConvasdyne/old_notes/ftday41">对数篇(1) 对数的定义_by吃白巧克力的黑猫</a></p><p>DAY42<a href="../../vnrConvasdyne/old_notes/ftday42">对数篇(2) 换底公式_by吃白巧克力的黑猫</a></p><p>DAY43<a href="../../vnrConvasdyne/old_notes/ftday43">对数篇(3) 指数方程_by吃白巧克力的黑猫</a></p><p>DAY44<a href="../../vnrConvasdyne/old_notes/ftday44">对数篇(4) 对数方程_by吃白巧克力的黑猫</a></p><p>DAY45<a href="../../vnrConvasdyne/old_notes/ftday45">对数篇(5) 计算尺_by吃白巧克力的黑猫</a></p><p><del>并不是合适的教程, 被人说是既没内容还太跳跃. ——作者注</del></p><h3 id="那些学完就忘的立体几何-吃白巧克力的黑猫"><a href="#那些学完就忘的立体几何-吃白巧克力的黑猫" class="headerlink" title="那些学完就忘的立体几何 (吃白巧克力的黑猫)"></a>那些学完就忘的立体几何 (吃白巧克力的黑猫)</h3><p>DAY47<a href="../../vnrConvasdyne/old_notes/ftday47">那些学完就忘的立体几何#1 (基础概念)</a></p><p>DAY48<a href="../../vnrConvasdyne/old_notes/ftday48">那些学完就忘的立体几何#2 (四条公理与等角定理)</a></p><p>DAY49<a href="../../vnrConvasdyne/old_notes/ftday49">那些学完就忘的立体几何#3 (直线与直线的位置关系)</a></p><p>DAY50<a href="../../vnrConvasdyne/old_notes/ftday50">那些学完就忘的立体几何#4 (异面直线所成角计算)</a></p><p>DAY51/DAY52<a href="../../vnrConvasdyne/old_notes/ftday52">那些学完就忘的立体几何#5 (线面垂直)</a></p><p>DAY53<a href="../../vnrConvasdyne/old_notes/ftday53">那些学完就忘的立体几何#6 (三垂线定理)</a></p><p>DAY54<a href="../../vnrConvasdyne/old_notes/ftday54">那些学完就忘的立体几何#7 (线面夹角)</a></p><p>DAY55<a href="../../vnrConvasdyne/old_notes/ftday55">那些学完就忘的立体几何#8 (三余弦定理)</a></p><p><del>没什么条理和章法的教程, 因为作者学完忘了而断更. ——作者注</del></p><h3 id="数列极限-蓝色天空"><a href="#数列极限-蓝色天空" class="headerlink" title="数列极限 (蓝色天空)"></a>数列极限 (蓝色天空)</h3><h3 id="函数极限-蓝色天空"><a href="#函数极限-蓝色天空" class="headerlink" title="函数极限 (蓝色天空)"></a>函数极限 (蓝色天空)</h3>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>DAY55 那些学完就忘的立体几何#8 (三余弦定理)</title>
+      <link href="vnrConvasdyne/old_notes/ftday55/"/>
+      <url>vnrConvasdyne/old_notes/ftday55/</url>
+      
+        <content type="html"><![CDATA[<p>上节课我们认识了三余弦定理, 现在是见识三余弦之威力的时刻.</p><hr><p>例题1: P为Rt△ABC所在平面α外一点, ∠ACB=90º (如图)</p><p>若PC=a, ∠PCA=∠PCB=60º, 求P到α的距离及PC和α所成的角.</p><p><img src="../../../img/day55/Screen Shot 5781-01-14 at 20.45.03.png" alt="Screen Shot 5781-01-14 at 20.45.03" style="zoom:30%;" /></p><p>还记得前几天的“精编三步”吗? <del>不记得的话也没关系</del></p><p>首先, “作”. 你觉得直线PC在平面上的射影是哪条线呢? 反正我觉得是∠ACB平分线.</p><p>接下来是“证”</p><p>本人的证法如下:</p><p><del>不妨设AC&gt;BC</del></p><p><img src="../../../img/day55/Screen Shot 5781-01-14 at 21.33.21.png" alt="Screen Shot 5781-01-14 at 21.33.21" style="zoom:30%;" /></p><p>在AC上取Q, 使得CQ=CB, 联结BQ (似乎是凑成了一个等腰直角三角形), 取中点M, 联结CM</p><p>显然∠QCM=∠BCM, 易证△PCB≌△PCQ⇒△PBM≌△PQM⇒PM⟂BQ, 又BQ⟂CM</p><p>所以BQ⟂平面PCM</p><p>平面PCM与α交线是CM, 作PF⟂CM延长线, 垂足为F</p><p>由线面垂直性质1, PF⟂BQ, 又PF⟂CM, CM∩BQ=M, 所以PF⟂α, 又F∈CM, 所以……</p><p>终于证明了本人的猜想是正确的(CM是PC在α上的射影)</p><p>最后一步是“算”</p><p>cos∠PCF·cos∠BCM=cos∠PCB</p><p>所以, ∠PCF=π/4</p><p>练习: 若PA=PB=PC, AC=18, P到α的距离为40, 求P到BC的距离 (不提供过程和答案, 毕竟最麻烦的证明已经结束了)</p><hr><p>例题2: <strong>在正方体ABCD-A₁B₁C₁D₁中, E,F分别为BC, A₁D₁中点(如图), 求AD与平面B₁EDF所成角的余弦值.</strong></p><p><img src="../../../img/day55/Screen Shot 5781-01-14 at 18.19.29.png" alt="Screen Shot 5781-01-14 at 18.19.29" style="zoom:50%;" /></p><p>还是精编三步:</p><p>第一步是要<strong>作</strong>出AD在B₁EDF上的射影(<del>一般是靠第七感</del>)</p><p><img src="../../../img/day55/Screen Shot 5781-01-14 at 18.29.50.png" alt="Screen Shot 5781-01-14 at 18.29.50" style="zoom:20%;" />→<img src="../../../img/day55/Screen Shot 5781-01-14 at 18.27.17.png" alt="Screen Shot 5781-01-14 at 18.27.17" style="zoom:20%;" /></p><p><del>第七感极强的同学脑子里可能会有这样的画面</del></p><p>所以可以看出AD在B₁EDF上的射影在直线DB₁上. <del>恐怕这不需要太多第七感</del></p><p>第二步, 证明AD在B₁EDF上的射影它真的在DB₁上.</p><p>这都好办<del>(并不是某化学老师说的)</del></p><p>所以接下来就留给同学们证明. (三余弦定理, 不提供过程)</p><p>这次来说一下计算吧!</p><p><del>删掉第七感为你带来的图, 回到原图,</del> 联结AB₁</p><script type="math/tex; mode=display">\begin{cases}A_1B=\sqrt{2}\\AD=1\\B_1D=\sqrt{3}\end{cases}\implies \cos\angle ADB_1=\frac{\sqrt{3}}{3}</script><p>显然, 用余弦定理可以解决此题的计算.</p><hr><p>不得不说, 写最近3篇太累了.<del>尤其是对于背不出三余弦的我.</del></p><p>写立体几何很麻烦. 不信看下面那张图(保留一切作图痕迹版) <del>GeoGebra的直线默认粗细是5, 不能忍, 每一根直线都得手动调到3的粗细, 不可理喻……</del> </p><p><img src="../../../img/day55/Screen Shot 5781-01-14 at 21.36.49.png" alt="Screen Shot 5781-01-14 at 21.36.49" style="zoom:30%;" /></p><p>然后LaTeX的话也就那样(落泪), 几何的LaTeX也没比代数复杂多少(代数: 一个不等式你可以写2行字). 一开始可能对\iff, \implies, \perp这些新符号不熟悉, 时间长了自然也就记住了. 但写推出过程时的排版还是挺讨厌的.</p><p><img src="../../../img/day55/Screen Shot 5781-01-14 at 21.37.36.png" alt="Screen Shot 5781-01-14 at 21.37.36" style="zoom:50%;" /></p><p><del>立体几何图用电脑画多了审美观都刷新了. 救命! 我忍受不了我的作业本了!</del></p><p>希望各位大佬们可以来投稿, 给本人放个假. </p><p>只要有5个人每周提供一道题目, 我就可以轻松一些了<del>一周就只需要肝一天了, 剩下的时间可以用来开发金枪鱼官方平台.</del> </p><p>因为官方平台<del>将会</del>支持Markdown (以及附带的 LaTeX、Mermaid Graph、Flowchart、HTML Tags), 所以投稿的时候也可以轻松一些了. <del>我们又不是写论文的, 为什么要用Word这种精甚的高档货呢?</del></p><p><strong>一周最优秀的投稿者有机会(指在运输范围内)可以获得金枪鱼(油浸, 185克)一罐!(我除外, 反正本来就是我的罐头)</strong></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>DAY54 那些学完就忘的立体几何#7 (线面夹角)</title>
+      <link href="vnrConvasdyne/old_notes/ftday54/"/>
+      <url>vnrConvasdyne/old_notes/ftday54/</url>
+      
+        <content type="html"><![CDATA[<p>前几天的文章里介绍了空间里直线之间的位置关系, 又介绍了线面垂直, 现在我们来看看线面夹角这个概念.</p><h4 id="1º-l-α"><a href="#1º-l-α" class="headerlink" title="1º: l//α"></a>1º: l//α</h4><p>定义 l与α夹角为0</p><h4 id="2º-l⟂α"><a href="#2º-l⟂α" class="headerlink" title="2º: l⟂α"></a>2º: l⟂α</h4><p>定义l与α夹角为π/2</p><h4 id="3º-l∩α-O"><a href="#3º-l∩α-O" class="headerlink" title="3º: l∩α=O"></a>3º: l∩α=O</h4><p><img src="../../../img/day54/Screen Shot 5781-01-14 at 18.01.12.png" alt="Screen Shot 5781-01-14 at 18.01.12" style="zoom:50%;" /></p><p>定义l与α夹角为∠POQ</p><p><strong><code>(斜交于平面的直线与平面的夹角即为直线与直线在平面上射影的夹角)</code></strong></p><hr><p>接下来试着来证明下面这个结论:</p><p><img src="../../../img/day54/Screen Shot 5781-01-14 at 20.04.50.png" alt="Screen Shot 5781-01-14 at 20.04.50" style="zoom:50%;" /></p><script type="math/tex; mode=display">\begin{cases}PO\cap平面OHQ=O\\PQ\perp 平面OHQ\\QH\perp OH\end{cases}\implies \cos\angle POH=\cos\angle POQ\cdot\cos\angle QOH</script><p>证明过程如下: $设\angle POH=\alpha, \angle POQ=\beta, \angle QOH=\gamma$</p><script type="math/tex; mode=display">\left. \begin{gathered}PQ\perp 平面OHQ\implies & HQ\perp PQ\\& HQ\perp OH\end{gathered} \right\}\implies PH\perp OH</script><p>(利用三垂线定理证明垂直)</p><script type="math/tex; mode=display">\cos\beta=\frac{OQ}{OP},\cos\gamma=\frac{OH}{OQ}</script><script type="math/tex; mode=display">\cos\beta\cdot\cos\gamma=\cos\frac{OH}{OP}=\cos\alpha</script><p>得证.</p><p>是不是很简单? 然而……这就是大名鼎鼎的<strong>三余弦定理</strong>(又称爪子定理、折叠角公式)</p><p>三余弦定理很有用, 具体例子见下期.</p><hr><p>由于本期很短, 在这里随便啰嗦一点.</p><p>其实我到现在还没背出来三余弦定理, 而且这个结论说实话, 对于第七感比较弱的人很反直觉(反倒是三正弦定理对第七感弱的人比较友善).</p><p>看到这个推导过程, 可能有些人会说什么“不就是这么个破公式吗, 背是不用背的, 现场推导就行了!” </p><p>公式这种东西, 其实是一个有用的模型. 正因为这个结论常用才会被作为公式. 试扪心自问, 能否背出三角比的升降幂公式? 我反正是背不出来的, 但因为知道升降幂公式的存在, 就知道了一种解题思路, 做题时回忆起来说不定就能解出题目.</p><p>其实出题老师说不定就是想着“啊这里出一道三余弦可以快速解决的题目吧……”就写下了一道题, 要是看到题目的时候还不回忆起三余弦, 就算会推导三余弦也没用了.</p><p>会推导公式固然是好的, 但也不能忘了条件和应用场景啊……(说的就是我)</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>DAY53 那些学完就忘的立体几何#6 (三垂线定理)</title>
+      <link href="vnrConvasdyne/old_notes/ftday53/"/>
+      <url>vnrConvasdyne/old_notes/ftday53/</url>
+      
+        <content type="html"><![CDATA[<p>今天介绍的是三垂线定理.</p><h2 id="射影"><a href="#射影" class="headerlink" title="射影"></a>射影</h2><p>首先先要介绍射影这个概念.</p><p>射影(Projection)就是把一个集合中的某些元素(或者一个子集A???)对应到该集合的某个子集(B)上去(个人理解, 请勿参考), 称为A在B上的射影.</p><p><del>所以直线/点在平面上的射影就是“把直线/点用力拍在平面上的样子”</del></p><p>抛开上面那几行超级不严谨的定义, 接下来是立体几何中射影的几个情况.</p><p><img src="../../../img/day53/Screen Shot 5781-01-14 at 13.07.22.png" alt="Screen Shot 5781-01-14 at 13.07.22" style="zoom:50%;" /></p><p>请看这张令人眼花缭乱的图.</p><p>平面外的P点在橙色平面(姑且叫做α)上的射影P’, 就是过P点作垂直于α垂线的垂足.</p><p>(为了严谨, 先定义平面上的点在平面上的射影为它本身)</p><p>于是这就是点在平面上的射影(一个元素在全集的子集上的射影)</p><p>考虑到直线是由无穷多个点构成的(或者应该用组成? <del>初中化学不学以致用的后果在此</del> ), 此时把直线上无穷多个点全都投影一遍就可以知道直线在平面上的射影了(虽说不可操作)</p><p>MN是垂直于α的直线, 这就导致MN上每一个点在α上的射影都是一个点(垂足Q), 也就是MN与α的交点, 所以我们有: <strong><code>垂直于平面的直线在平面上的投影为直线与平面的交点</code> </strong></p><p>再看这条直线CD, 它平行于α(也就是没有交点), 这时候, 它在平面上的射影就是一条直线C’D’. C’D’//CD, CC’⟂CD, DD’⟂CD. </p><p>最后是直线AB, 它与α交于A, 这时候在平面上的射影还是一条直线, BB’ ⟂α, 这两条直线的交点即为AB与α的交点. </p><hr><h2 id="三垂线定理"><a href="#三垂线定理" class="headerlink" title="三垂线定理"></a>三垂线定理</h2><p>所谓三垂线定理, 以自然语言叙述就是:</p><p><strong><code>平面上与已知直线在平面上射影垂直的直线也垂直于已知直线</code></strong></p><p><del>由于中文水平不足写成绕口令形式非常抱歉, 请看下文的图解和符号语言</del></p><p><img src="../../../img/day53/Screen Shot 5781-01-14 at 12.43.21.png" alt="Screen Shot 5781-01-14 at 12.43.21" style="zoom:50%;" /></p><p><small>(由于截图上没标示出来, 在这里注明直线PO为直线l, 另外蓝色的直线是a)</small></p><script type="math/tex; mode=display">\begin{cases}l\cap\alpha=O (P\in l)\\PQ\perp\alpha\\a\subset\alpha\\\end{cases}</script><p><small>(这些是前提, 下面是正文)</small></p><script type="math/tex; mode=display">PQ\perp a \iff l\perp a</script><p><small>(原本的三垂线定理“正文”应该是:PQ⟂a =&gt; l⟂a.  但实际上由于其逆定理亦成立, 故还有PQ⟂a &lt;= l⟂a, 合起来就是上文那个样子.)</small></p><p>我一直觉得这个东西很难记, 但现在发现只要脑中有图就够了. <del>等到足够熟练了, 绕口令都能凭空编出来</del></p><hr><p>证明如下:</p><script type="math/tex; mode=display">\left. \begin{gathered}PQ \perp\alpha \\a\subset\alpha\end{gathered} \right\}\implies PQ\perp\alpha</script><script type="math/tex; mode=display">\left. 设平面 POQ 为 \beta\\\begin{gathered}l\subset\beta\\a\perp\beta\end{gathered} \right\}\implies a\perp l</script><p>逆定理的证明类似.</p><hr><p>以上为三垂线定理的内容.</p><p>练习: 在四面体ABCD中, AC⟂BD, AD⟂BC, 求证A在BCD上的射影是三角形BCD的垂心. (不提供答案)</p><hr><p>啊话说回来有人吐槽这个系列连贯性弱, 没有令人读下去的热情. 我承认, 这是真的. </p><p>但是等到完结以后我们会重新整理这个系列然后推出remake版的(包括思维导图, 不够好的图应该也要重画), 并以epub/pdf/mobi形式发布, 敬请期待!</p><p><del>话说我这么好的markdown编辑器+theme导出成纯文本word文稿真是太浪费了.</del></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>DAY51/DAY52 那些学完就忘的立体几何#5 (线面垂直)</title>
+      <link href="vnrConvasdyne/old_notes/ftday52/"/>
+      <url>vnrConvasdyne/old_notes/ftday52/</url>
+      
+        <content type="html"><![CDATA[<p>经过了前几篇的折磨(目前我还不知道究竟前几篇有多困难, 毕竟我是先写本文再打算去补前几篇的), 本期我们来看一个相对轻松一些的话题——线面垂直.</p><h2 id="线面垂直的定义"><a href="#线面垂直的定义" class="headerlink" title="线面垂直的定义"></a>线面垂直的定义</h2><p>线面垂直, 顾名思义, 就是直线与平面垂直. <del>这好像是废话</del></p><p>其定义就是: <strong><code>直线与平面上 任意一条直线都垂直, 记号为l⟂α</code></strong></p><p><del>第七感比较弱的同学可能对此感到奇怪, 为什么是任意一条直线? 平面上会有无数条直线和已知直线异面的? 但别忘了还有异面垂直这件事!</del></p><h2 id="线面垂直的判定"><a href="#线面垂直的判定" class="headerlink" title="线面垂直的判定"></a>线面垂直的判定</h2><p>我们不能指望用线面垂直的定义去证明线面垂直, 毕竟那可是要证明无数条直线垂直于已知直线啊! <del>地球毁灭了都证不完</del></p><p>所以, 下面是线面垂直的判定定理:</p><p><strong><code>若已知直线垂直于平面上的两条相交直线, 则已知直线垂直于平面.</code></strong></p><script type="math/tex; mode=display">\begin{cases}a \subset \alpha\\b\subset\alpha\\a\cap b=M\\l\perp a\\l\perp b\end{cases}</script><script type="math/tex; mode=display">=>l\perp \alpha</script><p>狂欢吧! 本来是无穷多条直线的工作量被简化成了两条直线! (虽说这两条直线有特殊条件限制)</p><p><del>不要吐槽这看起来很长, 因为等到熟练了以后</del>如果你觉得a⊂α, b⊂α是显然的, 就可以不用写!</p><h3 id="判定定理的证明"><a href="#判定定理的证明" class="headerlink" title="判定定理的证明"></a>判定定理的证明</h3><p>接下来要证明这个结论</p><p><del>学过空间向量的同学可以用空间向量秒杀, 但现在还是老老实实好好证明吧</del></p><p>∵a, b ⊂ α, a ∩ b = O</p><p>所以a,b都是α上的直线, 而且更棒的是他们不平行.</p><p>所以我们可以先把平面α分割成三个划分: A是所有平行于a(包括a)的直线的集合;  B是所有平行于b(包括b)的直线的集合; C是所有其他直线的集合.</p><p>l ⊥ a</p><p>=&gt; ∀x∈A, x ⊥ l (等角定理)</p><p>同理∀y∈B, y ⊥ l</p><p>于是我们证明了A,B这两个子集的所有直线都平行于l</p><p>剩下的就只有C集合要处理了</p><p><del>这时候我恨不得使用空间向量分解定理, 可惜不行</del></p><p>从C中随便取出一条直线c, 在c上随便取一点Q. 在l上, 平面外取一点P.</p><p>过Q作直线, 使得QA=QB, 其中A∈a, B∈b, 联结AB, PA, PB, PQ.</p><p>PO⊥OA =&gt; PA²=AO²+PO²</p><p>同理PB²=BO²+PO²</p><p>又由于中线定理, </p><p>2OQ²+1/2AB²=OA²+OB²</p><p>2PQ² +1/2AB²=PA²+PB²</p><p>把这四个式子加加减减, 最终竟然得到了PQ²=PO²+OQ², </p><p>说明l确实垂直于c, </p><p>既然对于任意的c都能如此操作</p><p>所以C中所有元素都垂直于l</p><p>得证.</p><p>当然网上还有用全等证明的方法, 那个的辅助线更多, 感兴趣的话可以上网查, 这里不写了.</p><hr><p>有了线面垂直的判定定理, 我们可以判定线面垂直了.</p><p>注意! 平面上两条直线必须是相交的! 如果是平行的话会出事! <del>第七感好的同学估计已经想象出来了.</del></p><h2 id="线面垂直的性质"><a href="#线面垂直的性质" class="headerlink" title="线面垂直的性质"></a>线面垂直的性质</h2><p>线面垂直具有很多性质, 这些性质很实用(不如说没有这些性质, 就算你<del>不小心</del>证明线面垂直, 也没什么用)</p><h3 id="线面垂直性质"><a href="#线面垂直性质" class="headerlink" title="线面垂直性质"></a>线面垂直性质</h3><p><strong><code>如果一条直线垂直于一平面, 则该直线垂直于平面中的任意一条直线.</code></strong></p><p>话说这是定义吧! 但无论是上课还是网上资料都把这个作为性质.</p><h3 id="引理1"><a href="#引理1" class="headerlink" title="引理1"></a>引理1</h3><p><strong><code>过已知平面外一点能且只能作一条直线垂直于平面.</code></strong></p><p>好的接下来我们来证明. </p><blockquote><p>假设过点P可以作两条直线垂直于已知平面α, 分别为m和n.</p><p>假设两个垂足分别是A和B, 联结AB.</p><p>在三角形PAB中好像有两个直角啊, 矛盾了.</p><p>得证.</p></blockquote><p>引理1也是个有用的性质, 更重要的是我们要用这个证明性质定理. (所以才叫引理)</p><h3 id="引理2"><a href="#引理2" class="headerlink" title="引理2"></a>引理2</h3><p><strong><code>两条平行直线中一条垂直于已知平面, 则另一条也垂直于已知平面.</code></strong></p><script type="math/tex; mode=display">\begin{cases}a\perp\alpha\\b//a\end{cases}\implies b\perp\alpha</script><blockquote><p>a, b 确立平面β. 设α∩β=l, b∩α=P</p><p>在平面β上, b⊥l</p><p>过P作直线c, c⊂α</p><p>由性质, a⊥c</p><p>由等角定理, b⊥c</p><p>又c∩l=P</p><p>所以b⊥α</p><p>得证</p></blockquote><h3 id="性质定理"><a href="#性质定理" class="headerlink" title="性质定理"></a>性质定理</h3><p><strong><code>两条垂直于同一平面的直线互相平行.</code></strong></p><p>符号语言来说就是:</p><script type="math/tex; mode=display">\begin{cases}m\perp\alpha\\n\perp\alpha\end{cases}\implies m//n</script><p>是个直观来说成立的结论, 但我们还是试着证明一下.</p><p>还是利用反证法.</p><blockquote><p>1º 假设m∩n=P</p><p>那么过P点有两条垂直于平面α的直线, 与引理1矛盾.</p><p>2º 假设m和n是异面直线</p><p>从m上取一点Q,</p><p>Q在直线n外, 所以经过Q和n可以确定一个平面β</p><p>过Q, 在β上作l//n</p><p>又n⊥α</p><p>l⊥α (引理2)</p><p>于是过Q点有两条直线(m和l)垂直于平面α, 与引理1矛盾.</p><p>综合1º, 2º, m//n</p><p>得证</p></blockquote><hr><p>反证是一种很重要的证明方式, 尤其是在立体几何证明中. 当你忽然发现正面迎敌没有办法说明, 或者正面迎敌需要证明无数次的时候就可以试试看反证了.</p><p>这些就是线面垂直的重点内容了. 本期无作业~</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>DAY50 那些学完就忘的立体几何#4 (异面直线所成角计算)</title>
+      <link href="vnrConvasdyne/old_notes/ftday50/"/>
+      <url>vnrConvasdyne/old_notes/ftday50/</url>
+      
+        <content type="html"><![CDATA[<p>如果我们要在多面体中求异面直线所成角, 我们可以通过构造出一个与异面直线所成角大小相等(或互补)的平面上的角, 并计算它的大小, 以此得出异面直线所成的角的大小. <del>话说读的时候这句话怎么断句啊</del></p><p>根据<del>题目又多又难的</del>高中数学精编上的建议, 解这种立体几何计算题要按照“作、证、算”三步. 对于本专题, “作”直接反映高阶思维, “证”展现逻辑能力和条理性, “算”则无外乎餘弦定理、畢氏定理这些方法, 不过体力活耳! (开玩笑的, 计算也很重要)</p><p>今天我们来看两道例题.</p><p>话说回来, 其实作图是做立体几何题时很重要的步骤! 老师也说什么画好图就是做好了一半的题.<del>然而我第七感不够, 画图也画不好, 而且嫌麻烦所以不写什么作图经验, 但其实作图是非常重要的!</del></p><hr><p>例题一:</p><p>已知AB, BC, CD为不在同一平面内的三条线段, AB, BC, CD的中点为P, Q, R, 满足PQ=2, QR=√5, PR=3, 求AC与BD所成的角.</p><p><img src="../../../img/day50/Screen Shot 5781-01-10 at 22.04.32.png" alt="Screen Shot 5781-01-10 at 22.04.32" style="zoom:50%;" /></p><p>$联结AC, BD$<br>$在三角形ABC中:$<br>$\frac{BP}{AB}=\frac{BQ}{BC}$<br>$\implies PQ//AC$<br>$同理, QR//BD$<br>$\therefore AC与BD所成的角等于\angle PQR(或其补角)$<br>$\because QR=\sqrt{5}=\sqrt{PQ^2+PR^2}$<br>$\therefore \triangle PQR为Rt\triangle, \angle PQR=90^\circ$<br>$\therefore AC与BD所成的角为90^\circ$</p><p>本题中, 我们通过<del>题目自带的平行以及</del>等角定理把AC与BD所成的角转换为某一三角形的内角, 由此算出异面直线的所成角.</p><hr><p>例题二:</p><p><img src="../../../img/day50/image-57810110220559618.png" alt="image-57810110220559618" style="zoom:50%;" /></p><p>在正四面体ABCD中, 若E为棱CD的中点, 求AE与BC所成角的余弦值.</p><p>设AC=1, 取BD中点P, 联结PE, AP.</p><p>PE是三角形DBC的中位线, 所以BE//PE. 所以AC与BE所成角即为∠AEP(或其补角)</p><p>在三角形APE中, AP=√3/2, AE=√3/2, PE=1/2 (通过勾股定理以及中位线性质计算得出)</p><p>由余弦定理, cos∠AEP=√3/6</p><p>故AC与BE所成角的余弦值即为√3/6</p><p>本题中, 我们构造了一个三角形, 使得其中的一个内角等于异面直线所成角.</p><hr><p>练习:</p><p>在正四面体ABCD中, 若E,F分别为棱CD, AD的中点, 求AF与CE所成角的正切值. (不提供详解)</p><p>在空间四边形ABCD中, 已知AD=1, BC=√3, 且AD⊥BC, 对角线BD=√(13)/2, AC=√3/2, 求AC和BD所成的角. (不提供解答)</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>DAY49 那些学完就忘的立体几何#3 (直线与直线的位置关系)</title>
+      <link href="vnrConvasdyne/old_notes/ftday49/"/>
+      <url>vnrConvasdyne/old_notes/ftday49/</url>
+      
+        <content type="html"><![CDATA[<p>在空间中呢, 直线与直线有三种关系:</p><h2 id="相交"><a href="#相交" class="headerlink" title="相交"></a>相交</h2><p>两条直线相交, 有一个交点.</p><h2 id="平行"><a href="#平行" class="headerlink" title="平行"></a>平行</h2><p>两直线没有交点, 而且存在一个平面同时包含两条直线.</p><h2 id="异面"><a href="#异面" class="headerlink" title="异面"></a>异面</h2><p><del>看到前面那敷衍的两句话, 其实本期关键就是异面.</del></p><p>不同在任何一个平面内的两直线叫做异面直线.</p><h3 id="异面直线判定定理"><a href="#异面直线判定定理" class="headerlink" title="异面直线判定定理"></a>异面直线判定定理</h3><p>要证明两条直线不在同一平面上, 直接用定义的话岂不是要把空间里每一个平面都找一遍? 怎么可能找得完? 所以这时候我们需要借助的是异面直线的判定定理.</p><p><strong><code>交于平面的一直线与平面上不过此交点的直线异面.</code></strong></p><script type="math/tex; mode=display">\begin{cases}m\cap\alpha=P\\n\subset\alpha\\P\notin n\end{cases}\implies m与n异面</script><p>判定定理友善多了, 但我们需要证明满足判定定理所示条件时, 两直线真的异面(即满足定义)</p><p>接下来是对判定定理的证明.</p><blockquote><p>假设存在平面β使得m,n⊂β</p><p>任取Q∈m, Q≠P</p><p>那么有Q∉α和Q∈β.</p><p>已知P∈β, n⊂β, 又P∈α, n⊂α.</p><p>所以α和β重合(公理3推论2)</p><p>所以有Q∈α, 但已知Q∉α. 矛盾. 所以不存在平面β使得m,n⊂β, 证毕.</p></blockquote><hr><h2 id="空间中直线所成角"><a href="#空间中直线所成角" class="headerlink" title="空间中直线所成角"></a>空间中直线所成角</h2><p>首先, 我们先定义两平行直线所成的角是0.</p><p>相交直线的夹角很容易定义, 但如何定义异面直线所成角呢?</p><p>假设我们有异面直线a和b, 过空间内任意点P, 作a’//a, b’//b, 这时, a’与b’所成的锐角或者直角, 就是“异面直线a与b所成的角”</p><p>当a’与b’所成角为90º时, 那么就称异面直线a与b垂直.</p><h2 id="异面直线的距离"><a href="#异面直线的距离" class="headerlink" title="异面直线的距离"></a>异面直线的距离</h2><p>有且仅有一条直线垂直于两异面直线(我不会证明), 此线即称为异面直线的公垂线.</p><p>公垂线与两异面直线的两交点所成的线段即称为公垂线段, 而公垂线段的长度就是异面直线的距离.</p><h2 id="空间四边形"><a href="#空间四边形" class="headerlink" title="空间四边形"></a>空间四边形</h2><p>四条线段拼接起来, 首尾相连, 四个顶点不共面, 这种图形就叫<strong>空间四边形</strong>. 典型的例子是: 把一张A4纸沿对角线折一下, 然后放在书桌上. 因为折了一下所以有一点会不在桌面上(四点不共面), 此时它还是四边形, 但就是空间四边形了.</p><p>从两条异面直线上各取两点, 就能组成一个空间四边形, 后面的题目里经常会有的.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>DAY48 那些学完就忘的立体几何#2 (四条公理与等角定理)</title>
+      <link href="vnrConvasdyne/old_notes/ftday48/"/>
+      <url>vnrConvasdyne/old_notes/ftday48/</url>
+      
+        <content type="html"><![CDATA[<p>所谓公理, 就是那种不证自明的, 理所应当的命题.</p><p>现在这一期要介绍的就是立体几何中的几个公理以及重要的等角定理.</p><h2 id="公理1"><a href="#公理1" class="headerlink" title="公理1"></a>公理1</h2><p><code>如果一条直线上的两点在一个平面内，那么这条直线上的所有点都在这个平面内.</code></p><p>用集合语言来表示就是:</p><script type="math/tex; mode=display">\begin{cases}A,B \in a\\A,B \in \alpha\\\end{cases}\implies a\subset\alpha</script><p>说实话, 我根本举不出反例.</p><h2 id="公理2"><a href="#公理2" class="headerlink" title="公理2"></a>公理2</h2><p><code>如果两个平面有一个公共点，那么它们无数多个公共点，且所有公共点的集合是一 条经过该公共点的直线.</code></p><p>用集合语言来表示就是:</p><script type="math/tex; mode=display">\begin{cases}P \in \alpha\\P \in \beta\\\end{cases}\implies \alpha \cap \beta = l, P\in l</script><p>说实话, 我还是举不出反例.</p><h2 id="公理3"><a href="#公理3" class="headerlink" title="公理3"></a>公理3</h2><p>公理3就很重要了, 尤其是公理3的3个推论. 有了它们, 我们才能确定平面, 才能作辅助平面.</p><p><code>经过不在同一条直线上的三点有且只有一个平面.</code></p><p>(或者可以称作是: <code>三个不共线的点确定一个平面</code>)</p><p><code>推论一: 经过一条直线和直线外的一点有且只有一个平面.</code></p><p>已经是直线外一点了, 肯定三点不共线, 所以根据公理3, 过一条直线和直线外的一点可以确定平面.</p><p><code>推论二: 经过两条相交直线有且只有一个平面.</code></p><p>取交点A, 再从两条直线上分别取一点B, C. </p><p>C在直线AB外, 因为推论一成立所以这个也一定成立.</p><p><code>推论三: 经过两条平行直线有且只有一个平面.</code></p><p>其证明和推论二差不多.</p><h2 id="公理4"><a href="#公理4" class="headerlink" title="公理4"></a>公理4</h2><p>可以认定是平行的传递性.</p><p><code>平行于同一条直线的两条直线互相平行.</code></p><p>可以说是废话了, 但其实立体几何届很多看似成立的结论……其实也成立, 但我们从来没证明过, 所以需要证明才能使用.</p><p>为什么要这么做呢? 因为还有一些看似成立的结论实则是经不起推敲的. <del>第七感比较强的人可能马上就能举出反例, 但如果第七感不够强的话,</del> 乱写过程很容易给自己招致麻烦.</p><h2 id="等角定理"><a href="#等角定理" class="headerlink" title="等角定理"></a>等角定理</h2><p><code>如果一个角的两边和另一个角的两边分别平行，那么这两个角相等(或互补).</code></p><p>“或互补” 很重要! 毕竟确实有可能互补(在后面会出现很多变态的“求异面直线夹角”类型的题目, 夹角一定是锐角(或直角), 但是通过平行直线转换过去的那个角搞不好可能是钝角呢?)</p><p><del>第七感强的同学如果能直接想象出两个角的大小关系的话可以省略括号.</del></p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>以上就是立体几何基础的部分, 有了这些工具, 接下来就是要对付难缠的立体几何题了!</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>DAY47 那些学完就忘的立体几何#1 (基础概念)</title>
+      <link href="vnrConvasdyne/old_notes/ftday47/"/>
+      <url>vnrConvasdyne/old_notes/ftday47/</url>
+      
+        <content type="html"><![CDATA[<p>从学习平面的概念到空间向量也过去了一个月的时间, 传说这些立体几何内容很容易遗忘(似乎是因为学了万能的空间向量以后就没必要用了.) 但这些纯逻辑的几何推理也具有一定的美, 也为了以后考试的时候不要记不住三垂线啊三余弦啊这些公式, 特此整理.</p><p>虽说如此这份资料应该是很基础的……</p><p>不如说这份资料只有一些基础概念和很少的典型例题, 如果要正经学习立体几何, 这个系列只能作为参考.</p><p>学习立体几何需要什么呢?</p><p>首先要对平面几何有了解<del>, 至少要知道平行、垂直、全等、相似这些基础概念,</del></p><p>会勾股定理和余弦定理, 也有三角比基础.</p><p>可以去了解“斜二测图法”, 对做题时画图有很大的帮助(其实主要是电脑上不方便做图所以就省略了这一至关重要的章节……)</p><p><del>如果有<strong>强大的第七感</strong>(空间想象力)那就更好了.</del></p><p><del>P.S.本人的第七感很一般</del></p><h2 id="平面的概念"><a href="#平面的概念" class="headerlink" title="平面的概念"></a>平面的概念</h2><p>平面这个东西好像很难用数学定义. 总之, 目前为止我学的平面几何就是在平面上计算的.</p><p>正如直线是无数个点拼接成的, 平面可以看作是无数条直线拼接成的. </p><p>和直线差不多的是, 平面<strong>无限延伸</strong>, 而且没有厚度.</p><p>我们可以用希腊字母(α,β,γ…), 大写字母(平面M,平面N, 只要不产生歧义即可), 平面上的直线或几点(<strong>平面AB</strong>,<strong>平面ABC</strong>,<strong>平面ABCD</strong>)来表示平面.(注意! 用几个已经存在的点表示平面的时候一定要在前面加上平面, 否则可能有歧义!)</p><h2 id="用符号表示平面、直线、点的关系"><a href="#用符号表示平面、直线、点的关系" class="headerlink" title="用符号表示平面、直线、点的关系"></a>用符号表示平面、直线、点的关系</h2><p>我们要是在做题的时候整天写什么</p><p>直线BC在平面α上, 直线AC与平面β交于Q, 点P在平面BAC上……</p><p>也太麻烦了吧!</p><p>所以我们用集合的符号表示它们的关系.</p><p>由于点可以构成直线、平面, 所以我们把点作为元素, 而直线与平面就作为集合.</p><p><img src="../../../img/day47/Screen Shot 5781-01-09 at 19.56.31.png" alt="Screen Shot 5781-01-09 at 19.56.31" style="zoom:50%;" /></p><p>如图所示, 对于直线a与直线b, 我们有</p><p>A∈a (点A在直线a上)</p><p>A∉b (点A不在直线b上)</p><p>对于平面, 也有</p><p>A∈α (点A在平面α上)</p><p>A∉β (点A不在平面β上)</p><hr><p>把直线a和b都看作集合, 那么它们的交集要么是空集, 要么就是有交点</p><p>比如a与b交于H可以记作a∩b=H</p><p><img src="../../../img/day47/Screen Shot 5781-01-09 at 20.03.26.png" style="zoom:30%;" /></p><p>在空间中, 直线不相交的情况有两种: 平行与异面. </p><p>异面即找不出一个平面同时包含两条直线. (这一内容会在后面细讲)</p><p>直线AD//直线HE, 直线AD与直线GH异面.</p><hr><p>回到第一张图</p><p>如果直线在平面上, 不难理解直线是平面的子集; 由于直线只是双向无限延伸, 而平面任意方向无限延伸, 所以直线算是平面的真子集.</p><p>这时候</p><p>a⊂α (直线a在平面α)</p><p>直线如果不在平面上, 那要么与平面有一个交点(b与α交于H), 要么直线平行于平面(c平行于α)</p><p>这两个分别表示为:</p><p>b∩α=H</p><p>c//α</p><hr><p>最后, 两个平面之间的关系只有两种: 要么平行, 要么相交. 平面(由于能无限延伸)与平面的交集是一条直线(假设叫直线l).</p><p>这两种分别可以表示成:</p><p>α//β</p><p>α∩β=l</p><hr><p>以上就是关于立体几何的一些基础概念. 下一期我们会介绍几条公理.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>DAY46 对数篇(5) 计算尺</title>
+      <link href="vnrConvasdyne/old_notes/ftday45/"/>
+      <url>vnrConvasdyne/old_notes/ftday45/</url>
+      
+        <content type="html"><![CDATA[<p>上回分解:</p><p>原式可以化简为:</p><p>log<sub>2</sub>2x=log<sub>2</sub>(x-a)<sup>2</sup></p><p>于是乎我们就可以得到, 在2x&gt;0, (x-a)<sup>2</sup>&gt;0的限制条件下, 当2x=(x-a)<sup>2</sup>有一个实数根时a满足条件.</p><p>也即是说2x=(x-a)<sup>2</sup>有一个大于0的实根.</p><p>这里推荐标答里两边开根号, 把a用x表示出来然后配方解的方案(比起直接拆省去很多不必要的讨论).</p><p>最后得到a∈{-1/2}∪[0, +∞)</p><hr><p>在卡西欧、TI这些电子计算器遍地开花前, 有一种计算工具曾经统治了人类三百余年, 而这种工具的出现正是基于对数的发明. 这种工具就是计算尺.</p><p><img src="../../../img/day45/image-57810101232951202.png" alt="image-57810101232951202"></p><p><img src="../../../img/day45/1024px-Slide_rule_example2_with_labels.svg.png" alt="2880px-Slide_rule_example2_with_labels.svg"></p><p>如图<small>(引用自维基百科(CC-BY-SA 3.0)</small>,计算尺的刻度并不是线性的, 而是在lgX处标上X. </p><p>计算尺利用的就是对数的两个运算性质.</p><p><img src="../../../img/day45/image-57810101232935495.png" alt="image-57810101232935495"></p><p>比如若我们要计算182乘以212, 把滑尺(人们常说的C尺)刻度的182对齐固定部分的X(人们常说的D尺)</p><p><img src="../img/day45/image-57810101233607230.png" alt="image-57810101233607230" /></p><p>然后去D尺上的212处读, 可以读到在386附近, 根据估算, 212乘以182约等于38600 (实际答案是38584,没差多少)</p><p><img src="../../../img/day45/image-57810101234203464.png" alt="image-57810101234203464"></p><p>当我们在使用计算尺估算的时候, 实际上是把绿色这一段和紫色这一段相加.</p><p><strong>本质是$\log(1.82)+\log(2.12)\approx\log(3.86)$</strong></p><p>反之亦然, 除法亦能计算.</p><p>有了乘除法的对应后, 人们又在计算尺上加上了三角比的对应等等, 计算尺成为了一个绝佳的计算(或是估算, 毕竟现实中没必要那么精准)工具.</p><p>然而, 计算尺还是有缺陷:</p><p>首先它(因为刻度上没有位数之分)不能帮你算出结果有几位, 所以积/商的大致范围还得要由使用者估算.</p><p>其次, 它不能直接计算加减法, 需要先把加减法转化成乘除法再计算.</p><p><img src="../../../img/day45/1280px-IBM_150_Extra_Engineers_1951.jpg" alt="1280px-IBM_150_Extra_Engineers_1951"></p><p>固然计算尺不会死机, 也高度标准化所以不需要独立的说明书, 但显然计算尺无法适应时代了. <del>不过作为作文素材还是很不错的.</del></p><p>上图(1951年)IBM的广告就用一种震撼人心的手法向大家阐释了计算器比起计算尺的强大计算力. 然而广告并不是在说明人会被机器取代, 而是告诉大家: 计算器取代计算尺, 是把富有创造力的工程师们从冗杂的体力劳动中解放出来. 回想起前辈们挑着油灯, 拿着计算尺, 翻着八位对数表苦算之岁月, 我由衷想到, 我们能生活在这个卡西欧遍地开花的时代实属幸运.</p><blockquote><p> 对数篇·完</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>DAY45 对数篇(4) 对数方程</title>
+      <link href="vnrConvasdyne/old_notes/ftday44/"/>
+      <url>vnrConvasdyne/old_notes/ftday44/</url>
+      
+        <content type="html"><![CDATA[<p>上期解答:</p><p>设u=3<sup>-|x-1|</sup>, 由此可得u∈(0,1], 讨论f(u)=2au-u<sup>2</sup>-2a-1(即原式)与u轴交点即可求出a的范围. a∈(-∞, -1/2)</p><hr><p>本期我们来看对数方程.</p><blockquote><p>(1)log<sub>a</sub>f(x)=b (a&gt;0, a≠1)</p></blockquote><p>我们可以把它化简为f(x)=a<sup>b</sup>, 需要验算</p><blockquote><p>(2)log<sub>a</sub>f(x)=log<sub>a</sub>g(x) (a&gt;0, a≠1)</p></blockquote><p>我们可以把它作为f(x)=g(x)来处理, 但解x=x<sub>0</sub>要满足f(x<sub>0</sub>)&gt;0, g(x<sub>0</sub>)&gt;0</p><blockquote><p>(3)Alog<sub>a</sub><sup>2</sup>x+Blog<sub>a</sub>x+C=0 (a&gt;0, a≠1)</p></blockquote><p>换元, 需要验算.</p><hr><p>我们来看一道例题:</p><blockquote><p>若关于x的方程lg2x·lg3x=-a<sup>2</sup>, 有两个相异实数根, 求a的取值范围以及两根之积.</p></blockquote><p>乍一看两个对数相乘似乎无可奈何, 但实际上这两个对数还能再拆.</p><p>lg2x·lg3x=(lgx+lg2)(lgx+lg3)=lg<sup>2</sup>x+(lg6)lgx+lg2·lg3=-a<sup>2</sup></p><p>=&gt;lg<sup>2</sup>x+(lg6)lgx+lg2·lg3+a<sup>2</sup>=0</p><p>于是乎这就是(3)类对数方程了, 换元, 以其判别式大于0, 得:</p><p>lg<sup>2</sup>6-4(lg2·lg3)a<sup>2</sup>&gt;0</p><p>于是a的范围可以求出(由于表达式复杂, 不写了),</p><p>两根之积, 把a=0(在a的取值范围中)代入, lg2x·lg3x=0, x<sub>1</sub>=1/2,  x<sub>2</sub>=1/3, 所以两根之积等于1/6.</p><hr><p>练习:</p><blockquote><p>若关于x的方程log<sub>2</sub>x+1=2log<sub>2</sub>(x-a)恰有一个实数根, 求实数a的取值范围.</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>DAY44 对数篇(3) 指数方程</title>
+      <link href="vnrConvasdyne/old_notes/ftday43/"/>
+      <url>vnrConvasdyne/old_notes/ftday43/</url>
+      
+        <content type="html"><![CDATA[<p>上期答案:</p><p>(1)</p><p>设3<sup>x</sup>=k</p><p>$\frac{1}{x}+\frac{1}{2y}=\log_k3+\frac12\log_k4=\log_k3+\log_k2=\log_k6=\frac{1}{\log_6k}=\frac1z$</p><p>(2)</p><p>设3<sup>x</sup>=k</p><p>$\frac{3x}{4y}=\frac{3\log_3k}{4\log_4k}=\frac{\frac{3}{\log_k3}}{\frac{4}{log_k4}}=\frac{log_k64}{log_k81}&lt;1$</p><p>同理4y&lt;6z</p><p>所以3x&lt;4y&lt;6z</p><hr><p>今天我要来介绍指数方程. 虽说如此, 由于个人原因, 那个年代的数学笔记全部丢失, 所以只能凭借精编了.</p><p>指数方程主要有以下几类:</p><ul><li>a<sup>x</sup>=b (a&gt;0, a≠1, b&gt;0)</li></ul><p>方程的解为x=log<sub>a</sub>b</p><ul><li>a<sup>f(x)</sup>=a<sup>g(x)</sup> (a&gt;0, a≠1)</li></ul><p>在这种情况下, 直接求解f(x)=g(x)的解即可.</p><ul><li>A·a<sup>2x</sup>+B·a<sup>x</sup>+C=0 或 A·a<sup>2x</sup>+B·a<sup>x</sup>b<sup>x</sup>+Cb<sup>2x</sup>=0 (a,b&gt;0, a,b≠1, a≠b)</li></ul><p>换元, 令u=a<sup>x</sup>(或(a/b)<sup>x</sup>,在后一个例子中), 将原式化简为二次函数, 解之即可.</p><p>需注意的是只能保留正根(因为a<sup>x</sup>(或(a/b)<sup>x</sup>,在后一个例子中)作为真数必须大于0)</p><hr><p>例题:</p><blockquote><p>解关于x的方程:</p><p>$\frac{a^x-a^{-x}}{a^x+a^{-x}}=b$</p></blockquote><p><del>可能眼睛尖的同学已经发现了当a=e的时候这东西就是tanh(x)=b, 所以|b|≥1时无解</del></p><p>设u=a<sup>x</sup>,</p><p>经过一系列眩目的变形, 我们得到了: $u=\sqrt{\frac{1-b}{1+b}}$</p><p>显然, b∈[-1,1) 时无解, 而b=1时, u=0, 真数不大于0, 也无解.</p><p>于是当b∈(-∞, -1)∪(1, +∞), 有解</p><p>$x=\frac12\log_a\frac{1-b}{1+b}$</p><hr><p>练习:</p><blockquote><p>若关于x的方程2a·3<sup>-|x-1|</sup>-3<sup>-2|x-1|</sup>-2a-1=0有实数解, 求实数a的取值范围.</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>DAY43 对数篇(2) 换底公式</title>
+      <link href="vnrConvasdyne/old_notes/ftday42/"/>
+      <url>vnrConvasdyne/old_notes/ftday42/</url>
+      
+        <content type="html"><![CDATA[<p>上期答案:</p><p>(1):</p><p>a<sup>log<sub>a</sub>b</sup>=b</p><p>=&gt; log<sub>b</sub> a<sup>log<sub>a</sub> b</sup> =1</p><p>=&gt;log<sub>a</sub>b·log<sub>b</sub>a=1</p><p>(2):</p><p>$2\lg\frac{x-y}{2}=\lg x+\lg y$</p><p>=&gt;$\lg\frac{(x-y)^2}{4}=\lg xy$</p><p>=&gt;$(x-y)^2=4xy$</p><p>=&gt;$(\frac{x}{y})^2+6(\frac{x}{y})+1=0$</p><p>=&gt;$\frac{x}{y}=3-2\sqrt2$(舍), $\frac{x}{y}=3+2\sqrt2$</p><hr><p>这一期要介绍的是换底公式.</p><blockquote><p>$\log_bN=\frac{\log_aN}{\log_ab}$</p></blockquote><p>证明过程和上期习题1答案差不多.</p><blockquote><p>例题: 设56<sup>a</sup>=14, 试用a表示log<sub>7</sub>56 (一年多前的某日, 此题在某班红极一时)</p></blockquote><p>首先, a=log<sub>56</sub>14</p><p>$\log_7 56=\frac{\log_2 56}{\log_2 7}=\frac{3+\log_2 7}{\log_2 7}$</p><p>所以要求的只有log<sub>2</sub>7.</p><p>$\log_2 7=\log_2 14-1=\frac{1}{\log_{14}2}=\frac{1}{\frac12\log_{4}4}-1=\frac{1}{\frac12(\log_{4}56-1)}-1=\frac{1}{\frac12(\frac{1}{a}-1)}-1=\frac{3a-1}{1-a}$</p><p>代入, 得到: $\log_7 56=\frac{2}{3a-1}$</p><p>练习题:</p><blockquote><p>已知正实数x, y, z 满足3<sup>x</sup>=4<sup>y</sup>=6<sup>z</sup>.</p><p>(1): 求证:$\frac{1}{z}-\frac{1}{x}=\frac{1}{2y}$</p><p>(2): 比较3x, 4y, 6z 的大小.</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>DAY42 对数篇(1) 对数的定义</title>
+      <link href="vnrConvasdyne/old_notes/ftday41/"/>
+      <url>vnrConvasdyne/old_notes/ftday41/</url>
+      
+        <content type="html"><![CDATA[<p>对数是指数的逆运算. </p><p>传说古代法国贵族把对数运算作为消遣方式. 对数距离我们的生活很近, 在日常生活中也经常出现对数, 如pH、分贝数、半衰期<del>以及我们的数学考卷中</del>.</p><p>对数的定义如下:</p><p>在a&gt;0, 且a≠1, 且 N&gt;0的条件下, 唯一满足a<sup>x</sup>=N(称为<strong>真数</strong>)的数x, 称为N以a为<strong>底</strong>的<strong>对数</strong>, 以符号log<sub>a</sub>N表示. 当a=2时, 一般写作lbN(虽说如此, 从未见过有人这么写); 当a=e时, 一般写作lnN; 当a=10时, 一般写作lgN(或者logN)</p><p>log<sub>a</sub>N也只是在20世纪才出现的, 所以如果你能发明一套更完善的表示对数的符号, 如果流行起来了也能进未来的教科书呢!</p><p>有了这个定义以后, 我们可以开始计算了:</p><blockquote><p>例1:</p><p>log<sub>5</sub>5√5+lne</p></blockquote><p>根据log的定义, 5的多少次方是5√5呢? 显然是1.5次.</p><p>那lne是多少呢? 显然是1.</p><p>所以原式=2.5</p><p>接下来来介绍对数的运算性质</p><hr><p> log<sub>a</sub>MN=log<sub>a</sub>M+log<sub>a</sub>N</p><p>证明如下:</p><p>设μ=log<sub>a</sub>M,ν=log<sub>a</sub>N</p><p>=&gt;M=a<sup>μ</sup>, N=a<sup>ν</sup></p><p>∴MN=a<sup>μ+ν</sup>, log(MN)=μ+ν=log<sub>a</sub>M+log<sub>a</sub>N</p><p>同理可得:</p><p>$\log_a\frac MN=\log_aM-\log_aN$</p><hr><p> log<sub>a</sub>M<sup>c</sup>=c log<sub>a</sub>M</p><p>证明如下:</p><p>设μ=log<sub>a</sub>M, M<sup>c</sup>=a<sup>μc</sup>, ∴log<sub>a</sub>M<sup>c</sup>=log<sub>a</sub>a<sup>μc</sup>=μc=c log<sub>a</sub>M</p><hr><p>由上面两个, 我们可以看出其实对数可以把乘法除法转换为加法减法, 把乘方转化为减法.</p><p>有了这两个性质, 在计算对数时我们可以自由转换真数的值.</p><p>练习:</p><blockquote><p>(1)利用已知性质(不用换底公式), 证明log<sub>a</sub>b·log<sub>b</sub>a=1</p><p>(2)$2\lg\frac{x-y}{2}=\lg x+\lg y$,求$\frac xy$</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>DAY25 高斯函数求值</title>
+      <link href="vnrConvasdyne/old_notes/ft19/"/>
+      <url>vnrConvasdyne/old_notes/ft19/</url>
+      
+        <content type="html"><![CDATA[<p>例题: 设$x\in\mathbb{R}$, 求$\max\{|\frac1x-[\frac1x+\frac12]|\}$</p><p>我们可以设定后面高斯函数里的东西是一个与$x$有关的变量, 再利用它高斯函数的性质确定其范围:</p><p>设$u=[\frac1x+\frac12]$</p><p>由高斯函数的定义(向下取整), 有$u\le\frac1x+\frac12\lt u+1$</p><p>所以有$\frac1x-u\lt \frac12$以及$\frac1x-u\ge -\frac12$</p><p>那么显然$\frac1x-u$取到$ -\frac12$时, 其绝对值最大.</p><p>代入后发现$x=2$时能取到, 因此求出了$\max\{|\frac1x-[\frac1x+\frac12]|\}$</p><p>这道题目的过程并不复杂, 但要考虑到用高斯函数的定义解决问题很关键. 其实看到高斯函数这种超脱世俗, 不能用常见的不等式确认范围的东西时, 就应该想到用定义解决问题, 这道题是一个很好的例子.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Day 25 从整体分析问题</title>
+      <link href="vnrConvasdyne/old_notes/ftday25/"/>
+      <url>vnrConvasdyne/old_notes/ftday25/</url>
+      
+        <content type="html"><![CDATA[<p>在做数学题的时候, 从整体分析问题也是一种有效的技巧.</p><p>举这样一道经典的例题:</p><h2 id="例题一"><a href="#例题一" class="headerlink" title="例题一"></a>例题一</h2><p>能否找出7个实数, 使得任意3个相加之和小于0, 但任意5个相加之和大于0? 如果能请举例, 如果不能请说明理由.</p><p>直觉告诉我这多半是不能的. 具体该怎么证明呢? 这时候我们能借助一张数表.</p><p>假设我们真的找到了这样的7个数字, 把它们按照这个顺序列举出来:</p><script type="math/tex; mode=display">a_1\space a_2\space a_3\space a_4\space a_5a_2\space a_3\space a_4\space a_5\space a_6a_3\space a_4\space a_5\space a_6\space a_7</script><p>在这张表格中, 每一列的和都小于0, 所以所有列加起来也小于0.</p><p>可是每一行的和都大于0, 因此所有行之和大于0.</p><p>也就是说, 这张数表里的所有数字之和既大于0又小于0, 矛盾.</p><h2 id="另一个例子"><a href="#另一个例子" class="headerlink" title="另一个例子"></a>另一个例子</h2><p>假设在一张$3 \times3$的表格中, 每一个格子填一个数.</p><p>记$S_i$是i行的三个数的和,</p><p>记$T_j$是j列三个数的和.</p><p>设$P_{ij}=S_i-T_j$</p><p>求证: $P_{ij}$中至多有6个是正数.</p><p>我们先考虑$S_1+S_2+S_3$, 它是这张数表中所有数字之和. 同理, $T_1+T_2+T_3$也是, 这两个和显然相等.</p><p>现在, 把这两个和相减.</p><p>$S_1+S_2+S_3-T_1+T_2+T_3=0$</p><p>重新分配一下以后就是:</p><p>$(S_1-T_1)+(S_2-T_2)+(S_3-T_3)=0$</p><p>也就是:</p><p>$P_{11}+P_{22}+P_{33}=0$</p><p>这三个数里面至少有一个不是正数.</p><p>同理, 重新排列还可以得到:</p><p>$P_{12}+P_{23}+P_{31}$里至少有一个不是正数; $P_{13}+P_{21}+P_{32}$里至少有一个不是正数.</p><p>因此, 在$P_{ij}$中至多只有6个正数.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>未收录 未命名物理题</title>
+      <link href="vnrConvasdyne/old_notes/ftday26/"/>
+      <url>vnrConvasdyne/old_notes/ftday26/</url>
+      
+        <content type="html"><![CDATA[<p>一条均匀木板长12m, 重200N, 可绕$O$轴转动, $AO$为3m,$B$端用一根最多可承受200N拉力的绳系住, 使木板呈水平状态, 绳与木板的夹角$\alpha=30^\circ$. 现在有一个重力为600N的人在板上行走, 问此人在距离$A$端多远的范围内是安全的?</p><p>板长L=12m, 所以板重力作用在距离A点6m处, 在支点O右侧3m, 所以竖直向下重力的力矩为$G_板(\frac L2-OA)=600$N·m</p><p>假设人最多可以距离A点x米,</p><p>先考虑人在$OB$的情况: </p><p>如果人距离$OB$太近, 绳子会断, 所以要计算绳子最大拉力时人的位置, 此时人与A的距离是人距离A的最大值.</p><p>$G_人(x-OA)+G_板(\frac L2-OA)\le T_{max}\cdot OBsin\alpha$</p><p>解得:</p><p>$x\le3.5$m</p><p>再考虑人在$OA$情况:</p><p>如果人距离$A$很近, 木板可能会逆时针旋转, 因此要计算木板刚好受力平衡的情况, 此时人与A的距离是人距离A的最小值.</p><p>$G_人(OA-x)\le G_板(\frac L2-OA)$</p><p>解得:</p><p>$x\ge2$m</p><p>所以人在距离A端2~3.5米的距离范围内活动是安全的.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 物理 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Day 24 构造二次函数证明不等式</title>
+      <link href="vnrConvasdyne/old_notes/ftday24/"/>
+      <url>vnrConvasdyne/old_notes/ftday24/</url>
+      
+        <content type="html"><![CDATA[<p>设$a,b,c$是非负实数, 满足:$a^4+b^4+c^4\le2(a^2b^2+b^2c^2+c^2a^2)$</p><p>证明:$a,b,c$中的每一个不大于另外两个之和.</p><p>不妨设$a\le b\le c$</p><p>移项, 把c作为主元:</p><p>$c^4-2(a^2+b^2)c^2+(a^4+b^4-2a^2b^2)\le0$</p><p>$(c^2)^2-2(a^2+b^2)(c^2)+(a^2-b^2)^2\le0$</p><p>想到之前都是利用构造二次函数+判别式确定范围的方法, 证明三个数之间的关系, 我不假思索地定义:</p><p>$f(t)\triangleq t^2-2(a^2+b^2)t+(a^2-b^2)^2$</p><p>由于abc都存在, 所以$\Delta_{f_t}\ge0$</p><p>$i.e. 4(a^2+b^2)-4(a^2-b^2)=16a^2b^2\ge0$</p><p>看到这个判别式我感到无计可施, 不过老师提醒我们说, 还可以求出c的取值范围:</p><p>$t_1,t_2=\frac12(2a^2+2b^2\pm4|ab|)$,又因为ab非负, 所以可以直接去掉绝对值:</p><p>$=(a^2+b^2\pm2ab)$</p><p>$c^2 \in [t_1,t_2]=[(a-b)^2,(a+b)^2]$</p><p>于是乎, 我们就得到了:</p><script type="math/tex; mode=display">\begin{cases}a+b\ge c\\b-a \le c\end{cases}</script><p>其余同理.</p><hr><p>当然其实还有更简单的:</p><p>直觉告诉我, 原式与$(a+b-c)(b+c-a)(c+a-b)$的展开式有关. 次数少了一次, 那么是谁不见了呢? 看到原来的式子轮换对称, 我不假思索地试着加上了$(a+b+c)$, 验证表明, 其展开式确实就是原式进行移项后的结果.</p><p>也就是说:</p><p>原式&lt;=&gt;$(a+b-c)(b+c-a)(c+a-b)(a+b+c)\ge 0$</p><p>由于$a,b,c\ge0$所以显然$a+b+c\ge0$</p><p>所以如果要满足条件, 前面的三个式子要么全部非负, 要么有且仅有一个非负.</p><p>假设$a+b-c\ge0$, 则$b+c-a\le0, c+a-b\le0$,但$b+c-a+c+a-b=2c\ge0$,矛盾, 所以前面三个式子均大于等于0.</p><p>得证.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Day 23 一道数列相关的数学题</title>
+      <link href="vnrConvasdyne/old_notes/ftday22/"/>
+      <url>vnrConvasdyne/old_notes/ftday22/</url>
+      
+        <content type="html"><![CDATA[<p>问: 是否存在数$0\lt a\lt1$和一个无穷正数列$x_1,x_2,…,x_n,…$</p><p>满足:$1+x_{n+1}\le x_n+\frac an\cdot x_n(n=1,2,…)$总成立? 请说明理由.</p><p>利用反证法, 假设真的存在这样一个数列,</p><p>把关系式右边写成:</p><p>$x_n\cdot(\frac{a+n}n)$</p><p>可以推出:</p><p>$x_n\ge \frac{n}{n+a}\cdot(1+x_{n+1})$</p><p>由于$0<a<1$, 所以$\frac n{n+a}>\frac n{n+1}$</p><p>所以有$x_n\gt\frac n{n+1}\cdot(1+x_{n+1})$</p><p>接下来又是经典的转换, 当看到$n,n+1$和$x_n,x_{n+1}$我想到把$n$除过去:</p><p>$\frac{x_n}{n}\gt\frac{1+x_{n+1}}{n+1}=\frac{x_{n+1}}{n+1}+\frac1{n+1}$</p><p>我们构造了一个新数列$\frac{x_n}{n}$,设为$b_n$</p><p>那么有:</p><script type="math/tex; mode=display">b_1>\frac12+b_2>\frac13+\frac12+b_3>...>\sum_{i=1}^n\frac1i+b_{n+1}</script><p>为方便表示, 我们把$\sum_{i=1}^n\frac1i+b_{n+1}$设为$S_n$</p><p>$S_n\to\infty$, $b_1-S_n\to-\infty$, 则一定存在有$b_{m}&lt;0$, 但题目条件里$x_n$是正数列, 所以$b_n$也是正数列, 矛盾.</p><p>所以不存在这样的数列和数$a$</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Day 22 用数学归纳法证明数列性质</title>
+      <link href="vnrConvasdyne/old_notes/ftday23/"/>
+      <url>vnrConvasdyne/old_notes/ftday23/</url>
+      
+        <content type="html"><![CDATA[<p>$a_1,a_2,…a_n$是正实数列.</p><p>满足: $a_{n+1}\ge\frac{na_n}{a_n^2+n-1}$</p><p>求证:$\sum_{i=1}^n a_n\ge n$</p><hr><p>按照数学归纳法的套路, 我们应该先证明n=1的情况是满足条件的, 如下:</p><p>$1^\circ:$</p><script type="math/tex; mode=display">a_2\ge\frac{a_1}{a_2}=\frac1{a_1}a_1+a_2\ge a_1+\frac{1}{a_1}\ge2</script><p>其中第一个大于等于号来自题目条件, 第二个是利用基本不等式得到的.</p><hr><p>接下来, 假设n=k(k≥2)时原数列满足求证内容, 我们要证明n=k+1时也满足.</p><p>$2^\circ$:</p><script type="math/tex; mode=display">\sum_{i=1}^k a_i\ge k</script><p>两种情况: </p><p>第一种, $a_{k+1}\gt1$时, 必定成立.</p><p>第二种, $0&lt;a_{k+1}\le1$, 我们重点讨论这种情况:</p><p>好的, 现在……</p><p>我们把条件的式子两边取倒数(我根本想不到这一步):</p><script type="math/tex; mode=display">\frac{1}{a_{k+1}}\le\frac{a_k^2+k-1}{ka_k}</script><p>这一步骤的本质是什么呢? 我仔细想想, 是把数列项最高次+多项式转移到分子上, 方便运算.</p><p>左右乘以k, 得到:</p><script type="math/tex; mode=display">\frac{k}{a_{k+1}}\le\frac{a_k^2+k-1}{a_k}=a_k+\frac{k-1}{a_k}</script><p>再移项, 得到:</p><script type="math/tex; mode=display">a_k\ge\frac{k}{a_{k+1}}-\frac{k-1}{a_k}</script><p>这是可能是关键一步, 但如果缺乏练习根本想不出这一步. 仔细一想我接触的大多数数列题的套路都是把$a_{k+1}$与$k+1+i$集中在同一个项里, 把$a_{k}$与$k+i$集中在另一个式子里(大致如此).</p><p>老师讲解到这里, 我觉得它可以裂项, 而且更幸运的是k-1=0, 所以:</p><script type="math/tex; mode=display">\sum_{i=1}^k a_i \ge \frac{k}{a_{k+1}}</script><p>那么, </p><script type="math/tex; mode=display">\sum_{i=1}^{k+1} a_i \ge \frac{k}{a_{k+1}}+a_{k+1}</script><p>为什么要单独拆出$a_{k+1}$呢? 我觉得是因为:</p><ul><li>题目已知$\sum_{i=1}^k a_i\ge k$这一条件, 如果不单独拆出来就不能利用</li><li>如果不拆出来, 就会引入新的$a_{k+2}$</li></ul><p>我们可以利用耐克函数的性质: </p><p>当$a_{k+1}\le\sqrt k$时, 右边的式子单调递减.</p><p>又由于$a_{k+1}\in(0,1]$, 且$\sqrt k\ge\sqrt2,$ 所以右边的式子最小值在$a_{k+1}=1$时取到. </p><p>因此, 我们有</p><script type="math/tex; mode=display">\sum_{i=1}^{k+1} a_i \ge \frac{k}{a_{k+1}}+a_{k+1}\ge k+1</script><p>所以,若:$\sum_{i=1}^k a_i\ge k$成立, 则$\sum_{i=1}^{k+1} a_i \ge k+1$成立.</p><p>综合$1^\circ,2^\circ$,有对于正实数列$a_1,a_2,…a_n$, 若满足 $a_{n+1}\ge\frac{na_n}{a_n^2+n-1}$</p><p>则$\sum_{i=1}^n a_n\ge n$成立.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Day 20 构造二次函数解决范围确认题</title>
+      <link href="vnrConvasdyne/old_notes/ft20/"/>
+      <url>vnrConvasdyne/old_notes/ft20/</url>
+      
+        <content type="html"><![CDATA[<p>题目: 设$a,b,c\in\mathbb{R}$, 且$a+b+c=0, abc=1.$</p><p>证明: $a,b,c$中至少有一个大于3/2.</p><p>首先, 看到题目是两个对称式, 所以就自然而然想到要不妨设$a\le b\le c$</p><p>题目是什么意思呢? 要证明如果$a,b,c$中没一个大于3/2的, 那么就不符合条件.</p><p>自然而然我们想到了反证法.</p><p>如果$c$也小于等于3/2, 那么就不存在$a,b,c$满足条件.</p><p>换句话说, 如果存在$a,b,c$满足条件, c必须大于3/2.</p><p>这时候我们可以把条件的式子稍微修改一下:</p><script type="math/tex; mode=display">\begin{cases}a+b=-c\\ab=\frac1c\end{cases}</script><p>为什么要这么做呢? 因为我们要构造一个二次函数, 存在两根$a,b$. </p><p>而由于根与系数的关系即为题目条件, 因此若存在这样的$a,b,c$, 必定符合题目条件.</p><p>构造函数$f(t)=t^2-ct+\frac1c$</p><p>$\Delta=c^2-\frac4c\gt0$</p><p>$i.e. c^3&gt;4&gt;\frac{27}8=(3/2)^3$时有两个实根</p><p>所以我们证明了要存在满足条件的$a,b,c$,一定要有至少一个大于3/2.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Day 19 数列关系式的处理</title>
+      <link href="vnrConvasdyne/old_notes/ftday21/"/>
+      <url>vnrConvasdyne/old_notes/ftday21/</url>
+      
+        <content type="html"><![CDATA[<p>例题: </p><p>数列$x_1,x_2,…x_n,…$满足$x_1=x_2=1, x_n=\frac{x_{n-1}^2+2}{x_{n-2}}, n=3,4,…$</p><p>证明: 数列$x_1,x_2,…x_n,…$是整数列.</p><p>首先看到$x_n=\frac{x_{n-1}^2+2}{x_{n-2}}$时, 有数列的项在分母上, 难以处理, 所以乘过去, 得到$x_nx_{n-2}=x_{n-1}^2+2$</p><p>为了得到数列的递推关系, 经常把$n$换成$n+1$, 得到:$x_{n+1}x_{n-1}=x_{n}^2+2$然后两个式子相减, 同时也可以消除烦人的常数项:</p><script type="math/tex; mode=display">x_{n+1}x_{n-1}-x_nx_{n-2}=x_{n}^2-x_{n-1}^2</script><p>这是在数列中常用的技巧.</p><p>移项, 得到:</p><script type="math/tex; mode=display">x_{n+1}x_{n-1}+x_{n-1}^2=x_{n}^2+x_nx_{n-2}</script><p>两边提取公因子, 得到:</p><script type="math/tex; mode=display">x_{n-1}(x_{n+1}+x_{n-1})=x_{n}(x_n+x_{n-2})</script><p>将$x_n, x_{n-1}$除过去, 我们得到:</p><script type="math/tex; mode=display">\frac{x_{n+1}+x_{n-1}}{x_{n}}=\frac{x_n+x_{n-2}}{x_{n-1}}</script><p>实际上我们相当于构造了一个新的数列$b_n=\frac{x_n+x_{n-2}}{x_{n-1}}$满足$b_n=b_{n+1}$</p><p>回到原式:</p><script type="math/tex; mode=display">\frac{x_n+x_{n-2}}{x_{n-1}}=\frac{x_{n-1}+x_{n-3}}{x_{n-2}}=\frac{x_{n-2}+x_{n-4}}{x_{n-3}}=...=\frac{x_{3}+x_{1}}{x_{2}}=4</script><p>所以就相当于证明了$\forall n\ge 3, n\in\mathbb{N^*}: x_n=4x_{n-1}-x_{n-2}$, 显然对于$x_{n-1},x_{n-2}\in\mathbb{Z}$, 一定有$x_n\in\mathbb{Z}$</p><p>所以就证明了数列$x_1,x_2,…x_n,…$是整数列.</p><hr><p>练习题: 首项为1的数列$\{a_n\}$各项不全为正. 若对于任意正整数$n$, 均有$a_n+\frac1{a_{n+1}}=a_{n+1}+\frac1{a_{n+2}}=a_{n+2}+\frac1{a_n}$,</p><p>求$a_{2021}$.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Day 18 一道三角比计算题</title>
+      <link href="vnrConvasdyne/old_notes/ft18/"/>
+      <url>vnrConvasdyne/old_notes/ft18/</url>
+      
+        <content type="html"><![CDATA[<p>三角比(三角函数)的求值与证明题总让人感到头疼. 今天我们介绍一道有趣的求值题:</p><p>题目: 在$\triangle ABC$中,</p><p>$\sin A=10\sin B\sin C,$</p><p>$\cos A= 10\cos B\cos C$, </p><p>求$\tan A$的值.</p><p>我在看到这道题时, 第一反应是:</p><p>$\because ABC$组成一个三角形, $\therefore A+B+C=\pi$把$A$用$\pi-B-C$替换, 得到以下等式:</p><script type="math/tex; mode=display">\sin(\pi-B-C)=10\sin B\sin C</script><script type="math/tex; mode=display">\cos(\pi-B-C)=10\cos B\cos C</script><p>于是由诱导公式, 上面两个式子可以分别改为: </p><script type="math/tex; mode=display">\sin(B+C)=10\sin B\sin C</script><script type="math/tex; mode=display">-\cos(B+C)=10\cos B\cos C</script><p>用两角和公式展开得到:</p><script type="math/tex; mode=display">\sin B\cos C+ \cos B\sin C=10\sin B\sin C,</script><script type="math/tex; mode=display">\sin B\sin C-\cos B\cos C=10\cos B\cos C</script><p>第一个式子同除以$\sin B\sin C$得到$\cot C+ \cot B=10$, 第二个式子化简以后, 同除以$\sin B\sin C$得到$\cot C\cot B=\frac1{11}$</p><p>所以$\tan B+\tan C = \frac{\cot C+\cot B}{\cot B\cot C}=110$, 使用正切和角公式得到:$\tan A = -\tan(B+C)=\frac{\tan B+\tan C}{1-\tan B\tan C}=-\frac{110}{1-11}=11$</p><p>另一个更巧妙的方案是用条件的第二个式子减去第一个:</p><p>$\cos A-\sin A=10(\cos B\cos C-\sin B\sin C)=10\cos(B+C)=-10\cos A$</p><p>所以显然, $\tan A=11$</p><p>其实看到题目条件等式的右侧, 应该自然联想余弦和角公式. 又因为题目给出了三角形这一条件, 所以自然想到要消除3个变量中的某一个(或者某两个)得到tanA.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Day 17 构造递推数列解决排列组合问题(下)</title>
+      <link href="vnrConvasdyne/old_notes/ft17/"/>
+      <url>vnrConvasdyne/old_notes/ft17/</url>
+      
+        <content type="html"><![CDATA[<p>我们再来看一个构造递推数列解决排列组合问题的例子:</p><p>10个人排成一排, 每人在红, 黄两种颜色的球中选一个(两种颜色的球足够多), 要求拿红球的人的身边至少也有一个拿红球的人. 共有多少种满足条件的排列方法?</p><p>仿照上一题, 我们构造递推数列解决问题.</p><p>设$S_n$表示有n个人时满足条件的选球方式总数, </p><p>$y_n$表示有n人, 且最后一个人拿着黄球的选球方式总数, </p><p>$r_n$表示有n人, 且最后一个人拿着红球的选球方式总数, </p><p>则有:$S_n=r_n+y_n$</p><pre class="mermaid">graph LR;sn[n人总选法]-->an[最后一人拿红球]sn-->bn[最后一人拿黄球]</pre><p>先来讨论最后一个人选的球的情况: </p><p>如果最后一个人拿着的球是黄色的, 那么排除这个人不考虑, 前面的人的排列方式仍然是满足条件的. (因为黄球不必和黄球或红球相邻)</p><p>所以我们有: $y_n=S_{n-1}$</p><pre class="mermaid">graph LR;sn[n人总选法]-->an[最后一人拿红球]sn-->bn[最后一人拿黄球]bn-->knm1[和n-1人的总选法相同]</pre><p>但如果最后一个人拿着红球, 由于题目要求拿着红球的人身旁的人也一定要拿红球, 因此倒数第二个人也拿着红球.</p><pre class="mermaid">graph LR;sn[n人总选法]-->an[最后一人拿红球]sn-->bn[最后一人拿黄球]bn-->knm1[和n-1人的总选法相同]an-->knm2[倒数第二个人必定是红球]</pre><p>那么如果最后一个人拿红球, 倒数第二个人拿着红球, 倒数第三个人呢? 这时候又分拿红球和拿黄球的情况了.</p><p>如果是拿黄球, 那么去掉最后三个人, 对前面的排列是否满足条件没有影响.</p><p>如果是拿红球, 那么有连续三个人拿红球, 去掉最后一个人也不影响前面的排列是否满足条件.</p><pre class="mermaid">graph LR;sn[n人总选法]-->an[最后一人拿红球]sn-->bn[最后一人拿黄球]bn-->knm1[和n-1人的总选法相同]an-->knm2[倒数第二个人必定是红球]knm2-->jmn1[倒数第三人拿黄球]-->jnm1[和n-3人总选法一样]knm2-->jmn2[倒数第三个人拿红球]-->jnm2[和n-1人, 最后一个人拿红球的情况一样]</pre><p>用数列公式表达就是:$r_n=r_{n-1}+S_{n-3}$</p><script type="math/tex; mode=display">\begin{cases}S_n=r_n+y_n\\y_n=S_{n-1}\\r_n=r_{n-1}+S_{n-3}\end{cases}</script><p>由这个方程组可以推出递推公式: $S_n=2S_{n-1}-S_{n-2}+S_{n-3}$</p><p>但需要注意的是需要计算出$S_1,S_2,S_3$之后才能开始递推, 最后得到$S_{10}=200$</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Day 16 构造递推数列解决排列组合问题(上)</title>
+      <link href="vnrConvasdyne/old_notes/ft16/"/>
+      <url>vnrConvasdyne/old_notes/ft16/</url>
+      
+        <content type="html"><![CDATA[<p>构造递推数列是解决排列组合问题的一个重要方法.</p><p>例题:</p><p>六个人排成一列, 每人在红, 黄, 蓝, 白, 黑五种颜色的球中选一个(每种颜色的球足够多), 要求任意相邻的两个人所选的球或者同色, 或者至少有一个为白色, 满足条件的选球方式数为___.</p><p>分析这道题时, 我们先从最后一个选球的人开始考虑起, 选法有其他颜色/白色两种.</p><p>如果最后一个人选的球是白色, 那么前面的人又有两种情况; 如果最后一个人选的球是其他颜色, 那么对于倒数第二个人, 还需要分是“同色”还是“白色”的情况.</p><p>如果要全部分类讨论, 一定是没完没了的.</p><p>让我们用递推的方式解决这个问题.</p><p>设$S_n$表示有n个人时满足条件的选球方式总数, </p><p>$a_n$表示有n人, 且最后一个人选的是白球的选球方式总数, </p><p>$b_n$表示有n人, 且最后一个人选的不是白球的选球方式总数.</p><p>则有:$S_n=a_n+b_n$</p><pre class="mermaid">graph LR;sn[n人总选法]-->an[最后一人选白球]sn-->bn[最后一人选彩球]</pre><p>现在考虑如果最后一人选白球的情况, 那么去掉这个白球, 前面所有球仍然满足条件, 所以n-1人满足条件的情况总数等于有n人, 且最后一人选白球的情况总数, 即$a_n=S_{n-1}$.</p><pre class="mermaid">graph LR;sn[n人总选法]-->an[最后一人选白球=n-1人总选法]sn-->bn[最后一人选彩球]</pre><p>现在考虑最后一个球是彩色球的情况: </p><p>如果倒数第二个人选的球是白色的, 那么去掉最后两个球对剩余n-2个球是否满足条件不影响, 考虑到末尾的彩球有4种颜色(选法), 所以乘以4.</p><p>如果倒数第二个人选的球是彩色的, 那么又要分两种情况考虑, 就相当于考虑n-1人, 最后一人选彩色球的情况总数.</p><p>即$b_n=4\cdot S_{n-2}+b_{n-1}$.</p><pre class="mermaid">graph LR;sn[n人总选法]-->an[最后一人选白球=n-1人总选法]sn-->bn[最后一人选彩球]bn-->bnm1[倒数第二个还是彩球=n-1人, 最后一人选彩球]bn-->4an[倒数第二人选白球=n-2人的情况总数]</pre><script type="math/tex; mode=display">\begin{cases}S_n=a_n+b_n\\a_n=S_{n-1}\\b_n=4\cdot S_{n-2}+b_{n-1}\end{cases}</script><p>有这个递推数列之后, 不妨用人少的情况验证.</p><p>通过枚举可以得到</p><p>$a_1=1, b_1=4, S_1=5\\a_2=5,b_2=8, S_2=13$</p><p>代入递推式验证, 发现是正确的.</p><p>通过上面的方程组算出$S_n$的递推公式: $S_n=2S_{n-1}+3S_{n-2}$</p><p>接下来, 可以算出$S_6=1093$</p><p>所以,  满足条件的选球方式数为1093.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Day 15 一个极限的两种解法</title>
+      <link href="vnrConvasdyne/old_notes/ftday15/"/>
+      <url>vnrConvasdyne/old_notes/ftday15/</url>
+      
+        <content type="html"><![CDATA[<p>今天我们来看一个有趣的极限:</p><script type="math/tex; mode=display">\lim\limits_{n\to\infty}(n\cdot\sin\frac{180^\circ}n)</script><p>方法一: 代数变换</p><p> $\lim\limits_{n\to\infty}(n\cdot\sin\frac{180^\circ}n)$</p><p> $=\lim\limits_{x\to 0}(\frac1x\cdot\sin(\pi x))$</p><p> $=\lim\limits_{x\to 0}(\frac{\sin(\pi x)}{\pi x}\cdot\pi)$</p><p> $=\pi\cdot\lim\limits_{x\to 0}(\frac{\sin(\pi x)}{\pi x})$</p><p> $=\pi\cdot\lim\limits_{\pi\cdot x\to 0}(\frac{\sin(\pi x)}{\pi x})$</p><p>由极限 $\lim\limits_{x\to 0}(\frac{\sin x}x = 1)$ 得原式= $\pi\cdot1=\pi$ </p><p>方法二: 几何意义</p><p>将180º的弧分为n份, $\sin\frac{180^\circ}n$表示的是图中所示的绿色线段长度, 而$n\cdot\sin\frac{180^\circ}n$则是n个绿色线段的长度.</p><p><img src="../../../img/day15/Screen Shot 5780-11-29 at 23.46.15.png" alt="Screen Shot 5780-11-29 at 23.46.15" style="zoom:30%;" /></p><p>显然, 我们可以得出, 分割的份数n越大, 绿色线段总的长度就越接近圆弧的长度, 因此在n趋近于无穷大时, $n\cdot\sin\frac{180^\circ}n$ 就趋近于180º圆弧之长,即π. </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Day 13 浅谈巴比伦算法</title>
+      <link href="vnrConvasdyne/old_notes/falltunaday10/"/>
+      <url>vnrConvasdyne/old_notes/falltunaday10/</url>
+      
+        <content type="html"><![CDATA[<p>亚历山大港的希罗 (Hero of Alexandria) 是一位多才多艺的工程师, 汽转球, (已知最早的蒸汽机, 尽管后人普遍认为这种玩具对生产没什么作用), 自动售货机, 风力风琴等有趣的机械都是他的发明.</p><p>而要提到希罗在数学上的成就, 家喻户晓的<strong>海伦公式</strong> (Heron’s formula)就以他命名, 而这一期文章要提到的是另一个希罗的发明——<strong>巴比伦算法</strong>.</p><p>巴比伦算法是一种估算数的平方根的算法.</p><p>使用巴比伦算法估算$S$的平方根时, 先取一个估算值$x_0 (x_0&gt;0)$, 则一定有$min\{x_0, \frac S{x_0} \}\le\sqrt S \le max\{x_0, \frac S{x_0} \}$, 取新的估算值$x_1=\frac{x_0+\frac{S}{x_0}}{2}$, 再重复这种计算, 就能得到更准确的估算值.</p><p>比如说, 我们要计算8191532的平方根.</p><p>$8191532 \approx 8.19\cdot 10^6$, 所以我们估算其平方根大约在$3\cdot 10^3$左右.</p><p>我们取$3000$和$\frac{8191532}{3000}$的算数平均值, 得到约为2865.255333</p><p>再取$2865.255333$和$\frac{8191532}{2865.255333}$的算数平均值, 得到2862.087007</p><p>再重复一次, 我们得到其平方根约为2862.085254, 已经非常接近正确数据了.</p><hr><p>实际上, 巴比伦算法是<strong>牛顿法</strong>的一种特例. 我们要计算$\sqrt{S}$实际上是要计算$x^2-S=0$的正根.</p><p>我们用牛顿法的公式$x_{n+1}=x_n-\frac{f(x_n)}{f’(x_n)}$,把$f(x)=x^2-S$代入, 得到: $x_{n+1}=x_n-\frac{x^2-S}{2x_n}=x_n+\frac{S-x_n}{2x_n}=\frac{S+x_n}{2x_n}=\frac{x_n+\frac{S}{x_n}}{2}$</p><p>也就是我们计算时使用的那个式子.</p><p>按照同样的原理, 很容易得出立方根的迭代公式$x_{n+1} = \frac{2x_n+\frac{S}{x_n^2}}{3}$</p><p>读者们也可以由此推算出n次方根的迭代公式.</p><hr><p>就在几十年前, 人们还需要依靠计算尺、对数表才能计算. 而在对数出现前的古代, 有条理地计算也被当作是数学能力的一部分. 婆罗摩笈多也认为, 能够在一年内解出某个Pell方程的人就算是数学家了. 但现在, 学生们可以轻松使用计算器速算. 尽管如此, 我们学生也应该去了解计算器背后的原理, 这也是学习数学的一部分.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Day 12 椭圆焦点三角形面积公式及其证明</title>
+      <link href="nanwai/old_notes/falltunaday10(2)/"/>
+      <url>nanwai/old_notes/falltunaday10(2)/</url>
+      
+        <content type="html"><![CDATA[<p>求椭圆焦点三角形$PF_1F_2$面积</p><p><img src="../../../img/day12/Screen Shot 5780-11-25 at 14.24.18.png" alt="Screen Shot 5780-11-25 at 14.24.18" style="zoom:30%;" /></p><p>已知: 椭圆 $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1 (a&gt;b), F_1, F_2$为椭圆两焦点, $\angle F_1PF_2=\theta$, </p><p>求$S_{\triangle PF_1F_2}$</p><p>解: 设$PF_1=m, PF_2=n$</p><p>$\therefore m + n =2a$</p><p>在$\triangle PF_1F_2$中, 由余弦定理:</p><p>$F_1F_2^2 = PF_1^2 + PF_2^2-2PF_1\cdot PF_2\cdot\cos\theta$</p><p>$\therefore 4c^2 = m^2+n^2-2mn\cos\theta = (m+n)^2-2mn(1+\cos\theta)$</p><p>$\therefore 4c^2=4a^2-2mn(1+\cos\theta)$</p><p>$mn(1+\cos\theta) = 2a^2-2c^2=2b^2$</p><p>$\therefore mn = \frac{2b^2}{1+\cos\theta}$</p><p>$\therefore S_{\triangle PF_1F_2} = \frac12 PF_1\cdot PF_2\cdot \sin\theta = \frac12 mn\sin\theta = \frac{b^2\sin\theta}{1+\cos\theta}$</p><p>由三角比公式$\tan\frac\theta2=\frac{\sin\theta}{1+\cos\theta}$</p><p>$\therefore S_{\triangle PF_1F_2}=b^2\tan\frac\theta2$</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>未收录 相伴函数与相伴向量</title>
+      <link href="vnrConvasdyne/old_notes/falltunaday8p1/"/>
+      <url>vnrConvasdyne/old_notes/falltunaday8p1/</url>
+      
+        <content type="html"><![CDATA[<p>定义$\vec{OM}=(a,b)$的“相伴函数“为$f(x)=a\sin x + b\cos x (x\in \mathbb{R})$,</p><p>向量$\vec{OM}=(a,b)$称为函数$f(x)=a\sin x + b\cos x$的“相伴向量”(其中$O$为坐标原点). </p><p>记平面内所有向量的“相伴函数”构成的集合为$S$.</p><p>(1)设$h(x)=\cos(x+ \frac\pi6)-2\cos(x+\alpha)(\alpha \in \mathbb{R})$, </p><p>求证: $h(x) \in S$, 并求$h(x)$的“相伴向量”模的取值范围;</p><hr><p>(1) 分析: 既然要证明$h(x)$是$S$的元素, 那么只需要把$h(x)$化成$a\sin x + b\cos x$的形式即可. 关键是怎么做? </p><p>原括号里有$ \frac\pi6$和$\alpha$作为参数, 使用<strong>两角和差公式</strong>应该可以把参数拆出来, 保留$\cos(x)$和$\sin(x)$</p><p>解: $h(x)=\cos x\cdot \cos \frac\pi6-\sin x\cdot \sin\frac\pi6-2\cos x\cos \alpha + 2\sin x \sin\alpha$</p><p>经过化简后得到: $h(x)=(2\sin\alpha - \frac12)\sin x + (\frac{\sqrt{3}}2 - 2\cos\alpha)\cos x$</p><p>$\therefore h(x)\in S$</p><p>那么“伴随向量”的模长取值范围也不难求了:</p><p>$\vec{OM}=(2\sin\alpha-\frac12,\frac{\sqrt3}2-2\cos\alpha)$</p><p>$|\vec{OM}|^2=4\sin^2\alpha+\frac14-2\sin\alpha+\frac34+4\cos^2\alpha-2\sqrt3\cos\alpha$</p><p>$\because \sin^2\alpha+\cos^2\alpha=1$</p><p>$\therefore |\vec{OM}|^2 = 5- 2(\sin\alpha+\sqrt{3}\cos\alpha)$</p><p>又$a\sin x+b\cos x = \sqrt{a^2+b^2}\sin(x+\arctan\frac ba)$</p><p>$\therefore |\vec{OM}|^2 = 5- 4\sin(\alpha+\frac\pi3)$</p><p>由于$\sin (x) \in [-1,1]$</p><p>$\therefore |\vec{OM}|^2\in[1,9]$</p><p>$\therefore |\vec{OM}|\in[1,3]$</p><p>小结: 应对这样的题目时, 应该先分析需要把式子化简成什么样子, 再使用公式变形. 同时也应该掌握<strong>两角和公式</strong>、<strong>辅助角公式</strong>以及三角函数的基本性质. (实际上<strong>辅助角公式</strong>可以现场推导, 但需要对“式子能化简到什么程度”有意识)</p><hr><p>(秋天的金枪鱼- Day? 来自“秋天的金枪鱼”的“吃白巧克力的黑猫”)</p><p>如果对我们有什么建议, 或是有想了解的知识/题目, 请留言! 谢谢支持!</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Day 8 在解题过程中多用一些几何意义吧!</title>
+      <link href="vnrConvasdyne/old_notes/falltunaday8p2/"/>
+      <url>vnrConvasdyne/old_notes/falltunaday8p2/</url>
+      
+        <content type="html"><![CDATA[<!-- <script   src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script> --><p>对有些人来说, 无论是在初中数学中还是高中数学中, 几何都有些烦人. 不过有时, 要解决代数问题, 我们也得联系几何意义. 下面是一道例题</p><hr><p>定义非零向量$\vec{OM}=(a,b)$的“相伴函数“为$f(x)=a\sin x + b\cos x (x\in \mathbb{R})$,</p><p> 向量$\vec{OM}=(a,b)$称为函数$f(x)=a\sin x + b\cos x$的“相伴向量”(其中$O$为坐标原点). </p><p>记平面内所有向量的“相伴函数”构成的集合为$S$.</p><p>(2)已知点$M(a,b)(b\neq0)$ 满足: $(a-\sqrt3)^2+(b-1)^2=1$上一点, </p><p>向量$\vec{OM}$的“相伴函数”$f(x)$在$x=x_0$处取得最大值. 当点$M$运动时, 求$\tan2x_0$的取值范围.</p><hr><p>先开始分析题目</p><p>观察可知,  $(a-\sqrt3)^2+(b-1)^2=1$是一个圆, 圆心在$(\sqrt3,1)$,半径为1, 所以$a\ge \sqrt3-1, b\gt0$</p><p>$f(x)$可以用<strong>辅助角公式</strong>化简为$\sqrt{a^2+b^2}\sin (x+\arctan\frac ba)$若要取到最大值, 一定是在$x+\arctan\frac ba=\frac\pi2+2k\pi$时,</p><p>$i.e. x_0=\frac\pi2-\arctan\frac ba + 2k\pi$, 显然$2k\pi$不影响正切值, 省略.</p><hr><h3 id="如果我们就这样开始计算……"><a href="#如果我们就这样开始计算……" class="headerlink" title="如果我们就这样开始计算……"></a>如果我们就这样开始计算……</h3><p>那么既然得到了$x_0=\frac\pi2-\arctan\frac ba$, 就知道$2x_0=\pi - 2\arctan\frac ba$,</p><p>$\tan 2x_0=-\tan(2\arctan\frac ba)$, 那么根据正切两倍角公式, 不难得出$\tan2 x_0=\frac{-2\frac ba}{1-\frac{b^2}{a^2}}=-\frac{2ab}{a^2-b^2}$, 现在这个式子看起来好多了, 但考虑到我们对$a,b$的了解仅限上面那个复杂得要死的圆, 就算能化简出$a,b$的关系… (一看就知道有根号) 求这样一个式子的值域也是一件很困难的事.</p><hr><h3 id="如果多考虑点几何意义……"><a href="#如果多考虑点几何意义……" class="headerlink" title="如果多考虑点几何意义……"></a>如果多考虑点几何意义……</h3><p>$M$点坐标是$(a,b)$,  $\frac ba$的意义是什么呢?</p><p>根据直线斜率的定义, $k_{OM}=\frac ba$</p><p>$M$既然在这个圆上, </p><p><img src="../../../img/day8/Screen Shot 5780-11-22 at 17.23.19.png" alt="Screen Shot 5780-11-22 at 17.23.19" style="zoom:30%;" /></p><p>那斜率最小就是这种情况: $M$点在$x$轴正半轴上:$\frac ba=0$.</p><p>然而题目条件规定$(b\neq0)$, 也就是说:</p><p>$\therefore x_{0_{max}}=\frac\pi2-0 \lt\frac\pi2 $</p><p>看起来很顺利, 但是$x_{0_{min}}$怎么求呢?</p><p>我们知道从圆外一点引一条直线, 与圆有交点, 切点的斜率取到最大值或者最小值 (可以证明, 但这里直接用这个结论).</p><p><img src="../../../img/day8/Screen Shot 5780-11-22 at 17.41.27.png" alt="Screen Shot 5780-11-22 at 17.41.27" style="zoom:30%;" /></p><p>显然, 切线$OM\perp AM$,</p><p>$\therefore\triangle AOD\cong\triangle AOM (HL.)$</p><p>显然, 此时$x_{0_{max}}=\frac\pi2-\alpha_{OM}=\frac\pi2-2\cdot \frac\pi6 = \frac\pi6$</p><p>$\therefore x_0 \in [\frac\pi6, \frac\pi2)$</p><p>$\therefore 2x_0 \in [\frac\pi3, \pi)$</p><p>所以,$\tan2x_0\in (-\infty, 0)\cup[\sqrt3,+\infty)$</p><p>小结: 面对这种题目时, 可以使用<strong>数形结合</strong>的方法, 找到题目中的量的几何意义, 这也是做题时中常用的技巧.</p><hr><p>(秋天的金枪鱼- Day8 来自“秋天的金枪鱼”的“吃白巧克力的黑猫”)</p><p>如果对我们有什么建议, 或是有想了解的知识/题目, 请留言! 谢谢支持!</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Day 7 氧化剂的pk</title>
+      <link href="nanwai/old_notes/ftday7/"/>
+      <url>nanwai/old_notes/ftday7/</url>
+      
+        <content type="html"><![CDATA[<p>问题: 用足量的KNO₃和O₂氧化等量的H₂SO₃溶液, 充分反应后哪一个溶液pH值更小?</p><p>解答: </p><p>1º H₂SO₃与O₂反应</p><p><code>2H₂SO₃ + O₂ → 4H⁺ + 2SO₄²⁻</code></p><p>2º H₂SO₃与KNO₃反应</p><p><code>3H₂SO₃ + 2NO₃⁻ → 2SO₄²⁻ + 2NO↑ 4H⁺ + H₂O</code></p><p>将两个反应方程中H₂SO₃系数调整一致</p><p><code>3H₂SO₃ + 1.5O₂ → 6H⁺ + 3SO₄²⁻</code><br><code>3H₂SO₃ + 2NO₃⁻ → 2SO₄²⁻ + 2NO↑ 4H⁺ + H₂O</code></p><p>显然, 等量的H₂SO₃与O₂反应时生成的H⁺物质的量, 大于与KNO₃反应时生成的H⁺物质的量, 且与KNO₃反应时生成H₂O, 稀释了H⁺</p><p>综上所述, 反应后, 与O₂反应组pH值更小.</p><p>(秋天的金枪鱼- Day7 来自“秋天的金枪鱼”的“南外”)</p><p>如果对我们有什么建议, 或是有想了解的知识/题目, 请留言! 谢谢支持!</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 化学 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Day 2 一道趣题(集合与命题)</title>
+      <link href="vnrConvasdyne/old_notes/ftday2/"/>
+      <url>vnrConvasdyne/old_notes/ftday2/</url>
+      
+        <content type="html"><![CDATA[<p>  这是一道关于“集合与命题”的高中数学题目</p><p>  看似复杂的题目, 经过一定的分析后, 可以秒杀. 题目如下</p><script type="math/tex; mode=display">设集合:A = \{0, \pi, -1, \sqrt{2}, 11, 13, 81, 121 \}</script><p>$其非空子集为A_i (i=1,2,3,…,255)$</p><p>$A_i的各元素的乘积计为a_i(即a_i = \prod_{j \in A_i}j)$</p><p>  $求a_1+a_2+a_3+…a_{255}(即求 \sum_{i=1}^{255}a_i)$</p><p>说实话, 我第一次看到这道题的时候一点思路也没有. 非但有无理数, 而且8元素的集合有255个非空子集, 就算全部列出来也头疼啊, 一定有巧妙方法,所以我打算从一个小一点的集合开始:</p><p>  首先我们不妨设A是一个三元集合</p><p>  $\{x,y,z\}$</p><p>  它的非空子集们有:</p><p>$\{x\}, \{y\}, \{z\}, \{x, y\}, \{y, z\}, \{z, x\}, \{x, y, z\}$共7个</p><p>此时, $\sum_{i=1}^{7}a_i=xyz+xy+yz+zx+x+y+z$</p><p>熟悉因式分解的话, 可以看出, 这个式子可以写作:</p><p>$(x+1)(y+1)(z+1)-1$</p><p>同理, 原式所求的数也可以分解成:</p><p>$(x_1+1)(x_2+1)…(x_8+1)-1, (x_i \in A)$</p><p>由于A中有一个元素为-1, 所以原式=0 -1 = -1</p><p>做完题目后我仔细一想…</p><p>$(x_1+1)(x_2+1)…(x_n+1), (x_i \in A)$可以用来表达“一个集合每一个子集各项乘积之和”</p><script type="math/tex; mode=display">\sum_{i=1}^{2^n}(\prod_{j \in A_i}j)</script><p>为什么呢?</p><p>对于第一个括号,可以写成</p><script type="math/tex; mode=display">(x_1^1+x_1^0)</script><p>所以将上式的第一个括号展开后, 我们可以得到</p><script type="math/tex; mode=display">x_1^1(x_2+1)...(x_n+1) + x_1^0(x_2+1)...(x_n+1)</script><p>也就是“所有包含x1的子集的各项乘积之和”+“所有不包含x1的子集的各项乘积之和”</p><p>以此类推, 全部展开后可以遍历A的所有子集.</p><p>最后, A的子集中的空集, 它的各项乘积是多少呢? 由此可知, 是集合A中每一项的0次方的乘积, 即为1</p><p>实际上, 整数次方的二项式定理也可以以类似的思路理解.</p><p>(秋天的金枪鱼- Day2 来自“秋天的金枪鱼”的“吃白巧克力的黑猫”)</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Day 1 两道化学选择题</title>
+      <link href="nanwai/old_notes/ftday1/"/>
+      <url>nanwai/old_notes/ftday1/</url>
+      
+        <content type="html"><![CDATA[<p>这是是“秋天的金枪鱼”的第1份稿件, 作者为“秋天的金枪鱼”的“南外”, 提供两道化学选择题的解答.<br><img src="../../../img/day1/img1.jpg" alt="img1"><br>A选项: 二氧化硫通入溶液中,形成亚硫酸. 硝酸根在酸性条件下具有氧化性, 把亚硫酸氧化成硫酸（二氧化氮与水反应生成硝酸）, 硫酸与氯化钡反应生成硫酸钡沉淀. 排除.</p><p>B选项: 铝离子和氨水反应生成氢氧化铝沉淀. 排除.</p><p>C选项: 侯氏制碱法生成碳酸氢钠沉淀. 排除.</p><p>故选D.<br><img src="../../../img/day1/img2.jpg" alt="img2"><br>因为输入无色气体，故A、C中红棕色的二氧化氮不符题意, 排除.</p><p>二氧化碳通过过氧化钠生成氧气, 氧气与一氧化氮生成二氧化氮, 氨气通过浓硫酸生成硫酸铵，即气体被吸收. </p><p>氮气则可能存在. </p><p>故选最合理的答案为B</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 化学 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hexo Notes!</title>
+      <link href="vnrConvasdyne/hexo_notes/"/>
+      <url>vnrConvasdyne/hexo_notes/</url>
+      
+        <content type="html"><![CDATA[<p>这里用来记录我使用Hexo的一些笔记.</p><h3 id="dependencies"><a href="#dependencies" class="headerlink" title="dependencies"></a>dependencies</h3><p>git<br>node.js</p><h3 id="install"><a href="#install" class="headerlink" title="install"></a>install</h3><p><code>npm install -g hexo-cli</code></p><h3 id="init"><a href="#init" class="headerlink" title="init"></a>init</h3><p><code>hexo init &lt;folder&gt;</code><br><code>cd &lt;folder&gt;</code><br><code>npm install</code></p><h3 id="support-latex"><a href="#support-latex" class="headerlink" title="support latex"></a>support latex</h3><p><code>npm uninstall hexo-renderer-marked --save</code><br><code>npm install hexo-renderer-kramed --save</code></p><hr><p>in /blog/themes/<theme_name>/config.yml:<br>ADD :</p><h2 id=""><a href="#" class="headerlink" title=""></a><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">mathjax:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></h2><p>in /blog/node_modules/hexo-renderer-kramed/lib/renderer.js:<br>REPLACE<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// Change inline math rule</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">formatText</span>(<span class="params">text</span>) </span>&#123;</span><br><span class="line">    <span class="comment">// Fit kramed&#x27;s rule: $$ + \1 + $$</span></span><br><span class="line">    <span class="keyword">return</span> text.replace(<span class="regexp">/`\$(.*?)\$`/g</span>, <span class="string">&#x27;$$$$$1$$$$&#x27;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><br>WITH</p><h2 id="-1"><a href="#-1" class="headerlink" title=""></a><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// Change inline math rule</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">formatText</span>(<span class="params">text</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> text;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></h2><p><code>npm install hexo-renderer-mathjax --save</code><br>in /node_modules/hexo-renderer-mathjax/mathjax.html:<br>ADD/REPLACE</p><h2 id="-2"><a href="#-2" class="headerlink" title=""></a><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src=<span class="string">&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML&quot;</span>&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure></h2><p>in /node_modules/kramed/lib/rules/inline.js:</p><p>REPLACE  <code>em: /^\b_((?:__|[\s\S])+?)_\b|^\*((?:\*\*|[\s\S])+?)\*(?!\*)/,</code></p><p>WITH  <code>em: /^\*((?:\*\*|[\s\S])+?)\*(?!\*)/,</code></p><p>REPLACE<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">escape: &#x2F;^\\([\\&#96;*&#123;&#125;\[\]()#$+\-.!_&gt;])&#x2F;,</span><br></pre></td></tr></table></figure><br>WITH<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">escape: &#x2F;^\\([&#96;*\[\]()# +\-.!_&gt;])&#x2F;,</span><br></pre></td></tr></table></figure><br>in Front-matter of each .md, ADD <code>mathjax: true</code></p><h3 id="support-mermaid"><a href="#support-mermaid" class="headerlink" title="support mermaid"></a>support mermaid</h3><h2 id="install-hexo-filter-mermaid-diagrams"><a href="#install-hexo-filter-mermaid-diagrams" class="headerlink" title="install: hexo-filter-mermaid-diagrams"></a>install: <code>hexo-filter-mermaid-diagrams</code></h2><p>in /blog/themes/<theme_name>/config.yml:<br>mermaid: ## mermaid url <a href="https://github.com/knsv/mermaid">https://github.com/knsv/mermaid</a><br>  enable: true  # default true<br>  version: “7.1.2” # default v7.1.2<br>  options:  # find more api options from <a href="https://github.com/knsv/mermaid/blob/master/src/mermaidAPI.js">https://github.com/knsv/mermaid/blob/master/src/mermaidAPI.js</a></p><pre><code>#startOnload: true  // default true</code></pre><hr><p>ADD<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&lt;% <span class="keyword">if</span> (theme.mermaid.enable) &#123; %&gt;</span><br><span class="line">    &lt;script src=<span class="string">&#x27;https://unpkg.com/mermaid@&lt;%= theme.mermaid.version %&gt;/dist/mermaid.min.js&#x27;</span>&gt;&lt;/script&gt;</span><br><span class="line">    &lt;script&gt;</span><br><span class="line">      <span class="keyword">if</span> (<span class="built_in">window</span>.mermaid) &#123;</span><br><span class="line">        mermaid.initialize(&#123;<span class="attr">theme</span>: <span class="string">&#x27;forest&#x27;</span>&#125;);</span><br><span class="line">      &#125;</span><br><span class="line">    &lt;/script&gt;</span><br><span class="line">  &lt;% &#125; %&gt;</span><br></pre></td></tr></table></figure><br>TO /blog/themes/<theme_name>/layout/_partial/footer.ejs</p><h3 id="support-categories"><a href="#support-categories" class="headerlink" title="support categories"></a>support categories</h3><p><code>hexo new page categories</code><br>ADD <code>type: &quot;categories&quot;</code> TO Front-matter of /blog/source/categories/index.md<br>in Front-matter of arbitrary .md:<br>ADD<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">categories: </span><br><span class="line"><span class="bullet">-</span> Cons</span><br></pre></td></tr></table></figure></p><ul><li>Note: one .md could only have one category</li></ul><h3 id="support-tags"><a href="#support-tags" class="headerlink" title="support tags"></a>support tags</h3><p><code>hexo new page tags</code><br>ADD <code>type: &quot;tags&quot;</code> TO Front-matter of /blog/source/tags/index.md<br>in Front-matter of arbitrary .md:<br>ADD<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">tags:</span><br><span class="line">- consI</span><br><span class="line">- consII</span><br><span class="line">- consIII</span><br></pre></td></tr></table></figure></p><h3 id="modify-url"><a href="#modify-url" class="headerlink" title="modify url"></a>modify url</h3><p>in blog/_config.yml/<br>modify <code>permalink</code></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>

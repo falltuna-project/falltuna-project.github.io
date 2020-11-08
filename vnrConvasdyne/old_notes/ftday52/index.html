@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="Falltuna Project">
+    
+    
+    
+    
+    
+    
+    <title>DAY51/DAY52 那些学完就忘的立体几何#5 (线面垂直) | 秋天的金枪鱼</title>
+    <link href="http://example.com" rel="prefetch" />
+
+    
+<link rel="stylesheet" href="/css/bootstrap.min.css">
+<link rel="stylesheet" href="/css/aos.css">
+<link rel="stylesheet" href="/css/style.css">
+
+    
+<script src="/js/jquery.min.js"></script>
+
+    
+<script src="/js/bootstrap.min.js"></script>
+
+    
+<script src="/js/aos.js"></script>
+
+    
+<script src="/js/highslide/highslide-full.min.js"></script>
+
+    
+<link rel="stylesheet" href="/js/highslide/highslide.css">
+
+    <style type="text/css">
+        @media (max-width: 768px) {
+            body {
+                background-color: #f0f0f0;
+                background: url('/imgs/xsbg.gif');
+                background-attachment: fixed;
+            }
+        }
+    </style>
+    
+    <!--<script type="text/javascript">
+      if (document.images) {
+        var avatar = new Image();
+        avatar.src = '/imgs/mashiro.jpg'
+        var previews = 'preview1.jpg,preview2.jpg,preview3.jpg,preview4.jpg'.split(',')
+        var previewsPreLoad = []
+        for(var i = 0; i < length; i++) {
+          previewsPreLoad.push(new Image())
+          previewsPreLoad[previewsPreLoad.length - 1].src = '/imgs/preview' + previews[i]
+        }
+      }
+    </script>-->
+<meta name="generator" content="Hexo 5.2.0"></head>
+<body>
+    <!-- 背景轮播图功能 -->
+    <section class="hidden-xs">
+    <ul class="cb-slideshow">
+        <li><span>天若</span></li>
+        <li><span>有情</span></li>
+        <li><span>天亦老</span></li>
+        <li><span>我为</span></li>
+        <li><span>长者</span></li>
+        <li><span>续一秒</span></li>
+    </ul>
+</section>
+    <!-- 欧尼酱功能, 谁用谁知道 -->
+    
+    <header class="navbar navbar-inverse" id="gal-header">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed"
+                    data-toggle="collapse" data-target=".bs-navbar-collapse"
+                    aria-expanded="false">
+                <span class="fa fa-lg fa-reorder"></span>
+            </button>
+            <a href="http://example.com">
+                
+                <style>
+                    #gal-header .navbar-brand {
+                        height: 54px;
+                        line-height: 24px;
+                        font-size: 28px;
+                        opacity: 1;
+                        background-color: rgba(0,0,0,0);
+                        text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px #fff,0 0 20px #228DFF,0 0 35px #228DFF,0 0 40px #228DFF,0 0 50px #228DFF,0 0 75px #228DFF;
+                    }
+                </style>
+                <!-- 这里使用文字(navbar_text or config.title) -->
+                <div class="navbar-brand">秋天的金枪鱼</div>
+                
+            </a>
+        </div>
+        <div class="collapse navbar-collapse bs-navbar-collapse">
+            <ul class="nav navbar-nav" id="menu-gal">
+                
+                
+                <li class="">
+                    <a href="/">
+                        <i class="fa fa-home"></i>首页
+                    </a>
+                </li>
+                
+                
+                
+                <li class="">
+                    <a href="/archives">
+                        <i class="fa fa-archive"></i>归档
+                    </a>
+                </li>
+                
+                
+                
+                
+                <li class="dropdown">
+                    <!-- TODO 添加hover dropdown效果 -->
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false" data-hover="dropdown">
+                        <i class="fa fa-list"></i>分类
+                    </a>
+                    <ul class="dropdown-menu">
+                        
+                        
+                        <li>
+                            <a href="/categories/%E6%95%B0%E5%AD%A6/">数学</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/categories/%E5%8C%96%E5%AD%A6/">化学</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/categories/%E7%89%A9%E7%90%86/">物理</a>
+                        </li>
+                        
+                        
+                        
+                    </ul>
+                </li>
+                
+                
+                
+                
+                
+                <li class="">
+                    <a href="/tags">
+                        <i class="fa fa-tags"></i>标签
+                    </a>
+                </li>
+                
+                
+                
+                
+                <li class="">
+                    <a href="/about">
+                        <i class="fa fa-user"></i>关于我
+                    </a>
+                </li>
+                
+                
+            </ul>
+        </div>
+    </div>
+</header>
+    <div id="gal-body">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 gal-right" id="mainstay">
+                    
+<article class="article well article-body" id="article">
+    <div class="breadcrumb">
+        <i class="fa fa-home"></i>
+        <a href="http://example.com">秋天的金枪鱼</a>
+        >
+        <span>DAY51/DAY52 那些学完就忘的立体几何#5 (线面垂直)</span>
+    </div>
+    <!-- 大型设备详细文章 -->
+    <div class="hidden-xs">
+        <div class="title-article">
+            <h1>
+                <a href="/vnrConvasdyne/old_notes/ftday52/">DAY51/DAY52 那些学完就忘的立体几何#5 (线面垂直)</a>
+            </h1>
+        </div>
+        <div class="tag-article">
+            
+            <span class="label label-gal">
+                <i class="fa fa-calendar"></i> 2020-10-04
+            </span>
+            
+        </div>
+    </div>
+    <!-- 小型设备详细文章 -->
+    <div class="visible-xs">
+        <center>
+            <div class="title-article">
+                <h4>
+                    <a href="/vnrConvasdyne/old_notes/ftday52/">DAY51/DAY52 那些学完就忘的立体几何#5 (线面垂直)</a>
+                </h4>
+            </div>
+            <p>
+                <i class="fa fa-calendar"></i> 2020-10-04
+            </p>
+            <p>
+                
+                
+            </p>
+        </center>
+    </div>
+    <div class="content-article">
+        <p>经过了前几篇的折磨(目前我还不知道究竟前几篇有多困难, 毕竟我是先写本文再打算去补前几篇的), 本期我们来看一个相对轻松一些的话题——线面垂直.</p>
+<h2 id="线面垂直的定义"><a href="#线面垂直的定义" class="headerlink" title="线面垂直的定义"></a>线面垂直的定义</h2><p>线面垂直, 顾名思义, 就是直线与平面垂直. <del>这好像是废话</del></p>
+<p>其定义就是: <strong><code>直线与平面上 任意一条直线都垂直, 记号为l⟂α</code></strong></p>
+<p><del>第七感比较弱的同学可能对此感到奇怪, 为什么是任意一条直线? 平面上会有无数条直线和已知直线异面的? 但别忘了还有异面垂直这件事!</del></p>
+<h2 id="线面垂直的判定"><a href="#线面垂直的判定" class="headerlink" title="线面垂直的判定"></a>线面垂直的判定</h2><p>我们不能指望用线面垂直的定义去证明线面垂直, 毕竟那可是要证明无数条直线垂直于已知直线啊! <del>地球毁灭了都证不完</del></p>
+<p>所以, 下面是线面垂直的判定定理:</p>
+<p><strong><code>若已知直线垂直于平面上的两条相交直线, 则已知直线垂直于平面.</code></strong></p>
+<script type="math/tex; mode=display">
+\begin{cases}
+a \subset \alpha\\
+b\subset\alpha\\
+a\cap b=M\\
+l\perp a\\
+l\perp b
+\end{cases}</script><script type="math/tex; mode=display">
+=>l\perp \alpha</script><p>狂欢吧! 本来是无穷多条直线的工作量被简化成了两条直线! (虽说这两条直线有特殊条件限制)</p>
+<p><del>不要吐槽这看起来很长, 因为等到熟练了以后</del>如果你觉得a⊂α, b⊂α是显然的, 就可以不用写!</p>
+<h3 id="判定定理的证明"><a href="#判定定理的证明" class="headerlink" title="判定定理的证明"></a>判定定理的证明</h3><p>接下来要证明这个结论</p>
+<p><del>学过空间向量的同学可以用空间向量秒杀, 但现在还是老老实实好好证明吧</del></p>
+<p>∵a, b ⊂ α, a ∩ b = O</p>
+<p>所以a,b都是α上的直线, 而且更棒的是他们不平行.</p>
+<p>所以我们可以先把平面α分割成三个划分: A是所有平行于a(包括a)的直线的集合;  B是所有平行于b(包括b)的直线的集合; C是所有其他直线的集合.</p>
+<p>l ⊥ a</p>
+<p>=&gt; ∀x∈A, x ⊥ l (等角定理)</p>
+<p>同理∀y∈B, y ⊥ l</p>
+<p>于是我们证明了A,B这两个子集的所有直线都平行于l</p>
+<p>剩下的就只有C集合要处理了</p>
+<p><del>这时候我恨不得使用空间向量分解定理, 可惜不行</del></p>
+<p>从C中随便取出一条直线c, 在c上随便取一点Q. 在l上, 平面外取一点P.</p>
+<p>过Q作直线, 使得QA=QB, 其中A∈a, B∈b, 联结AB, PA, PB, PQ.</p>
+<p>PO⊥OA =&gt; PA²=AO²+PO²</p>
+<p>同理PB²=BO²+PO²</p>
+<p>又由于中线定理, </p>
+<p>2OQ²+1/2AB²=OA²+OB²</p>
+<p>2PQ² +1/2AB²=PA²+PB²</p>
+<p>把这四个式子加加减减, 最终竟然得到了PQ²=PO²+OQ², </p>
+<p>说明l确实垂直于c, </p>
+<p>既然对于任意的c都能如此操作</p>
+<p>所以C中所有元素都垂直于l</p>
+<p>得证.</p>
+<p>当然网上还有用全等证明的方法, 那个的辅助线更多, 感兴趣的话可以上网查, 这里不写了.</p>
+<hr>
+<p>有了线面垂直的判定定理, 我们可以判定线面垂直了.</p>
+<p>注意! 平面上两条直线必须是相交的! 如果是平行的话会出事! <del>第七感好的同学估计已经想象出来了.</del></p>
+<h2 id="线面垂直的性质"><a href="#线面垂直的性质" class="headerlink" title="线面垂直的性质"></a>线面垂直的性质</h2><p>线面垂直具有很多性质, 这些性质很实用(不如说没有这些性质, 就算你<del>不小心</del>证明线面垂直, 也没什么用)</p>
+<h3 id="线面垂直性质"><a href="#线面垂直性质" class="headerlink" title="线面垂直性质"></a>线面垂直性质</h3><p><strong><code>如果一条直线垂直于一平面, 则该直线垂直于平面中的任意一条直线.</code></strong></p>
+<p>话说这是定义吧! 但无论是上课还是网上资料都把这个作为性质.</p>
+<h3 id="引理1"><a href="#引理1" class="headerlink" title="引理1"></a>引理1</h3><p><strong><code>过已知平面外一点能且只能作一条直线垂直于平面.</code></strong></p>
+<p>好的接下来我们来证明. </p>
+<blockquote>
+<p>假设过点P可以作两条直线垂直于已知平面α, 分别为m和n.</p>
+<p>假设两个垂足分别是A和B, 联结AB.</p>
+<p>在三角形PAB中好像有两个直角啊, 矛盾了.</p>
+<p>得证.</p>
+</blockquote>
+<p>引理1也是个有用的性质, 更重要的是我们要用这个证明性质定理. (所以才叫引理)</p>
+<h3 id="引理2"><a href="#引理2" class="headerlink" title="引理2"></a>引理2</h3><p><strong><code>两条平行直线中一条垂直于已知平面, 则另一条也垂直于已知平面.</code></strong></p>
+<script type="math/tex; mode=display">
+\begin{cases}
+a\perp\alpha\\
+b//a
+\end{cases}
+\implies b\perp\alpha</script><blockquote>
+<p>a, b 确立平面β. 设α∩β=l, b∩α=P</p>
+<p>在平面β上, b⊥l</p>
+<p>过P作直线c, c⊂α</p>
+<p>由性质, a⊥c</p>
+<p>由等角定理, b⊥c</p>
+<p>又c∩l=P</p>
+<p>所以b⊥α</p>
+<p>得证</p>
+</blockquote>
+<h3 id="性质定理"><a href="#性质定理" class="headerlink" title="性质定理"></a>性质定理</h3><p><strong><code>两条垂直于同一平面的直线互相平行.</code></strong></p>
+<p>符号语言来说就是:</p>
+<script type="math/tex; mode=display">
+\begin{cases}
+m\perp\alpha\\
+n\perp\alpha
+\end{cases}
+\implies m//n</script><p>是个直观来说成立的结论, 但我们还是试着证明一下.</p>
+<p>还是利用反证法.</p>
+<blockquote>
+<p>1º 假设m∩n=P</p>
+<p>那么过P点有两条垂直于平面α的直线, 与引理1矛盾.</p>
+<p>2º 假设m和n是异面直线</p>
+<p>从m上取一点Q,</p>
+<p>Q在直线n外, 所以经过Q和n可以确定一个平面β</p>
+<p>过Q, 在β上作l//n</p>
+<p>又n⊥α</p>
+<p>l⊥α (引理2)</p>
+<p>于是过Q点有两条直线(m和l)垂直于平面α, 与引理1矛盾.</p>
+<p>综合1º, 2º, m//n</p>
+<p>得证</p>
+</blockquote>
+<hr>
+<p>反证是一种很重要的证明方式, 尤其是在立体几何证明中. 当你忽然发现正面迎敌没有办法说明, 或者正面迎敌需要证明无数次的时候就可以试试看反证了.</p>
+<p>这些就是线面垂直的重点内容了. 本期无作业~</p>
+
+    </div>
+</article>
+
+
+                </div>
+                <aside class="col-md-4 gal-left" id="sidebar">
+    <!-- 此为sidebar的搜索框, 非搜索结果页面 -->
+<aside id="sidebar-search">
+    <div class="search hidden-xs" data-aos="fade-up" data-aos-duration="2000">
+        <form class="form-inline clearfix" id="search-form" method="get"
+              action="/search/index.html">
+            <input type="text" name="s" class="form-control" id="searchInput" placeholder="搜索文章~" autocomplete="off">
+            <button class="btn btn-danger btn-gal" type="submit">
+                <i class="fa fa-search"></i>
+            </button>
+        </form>
+    </div>
+</aside>
+    <aside id="sidebar-author">
+    <div class="panel panel-gal" data-aos="flip-right" data-aos-duration="3000">
+        <div class="panel-heading" style="text-align: center">
+            <i class="fa fa-quote-left"></i>
+            Falltuna Project
+            <i class="fa fa-quote-right"></i>
+        </div>
+        <div class="author-panel text-center">
+            <img src="/imgs/mashiro.jpg" width="140" height="140"
+                 alt="个人头像" class="author-image">
+            <p class="author-description"></p>
+        </div>
+    </div>
+</aside>
+    
+    <aside id="sidebar-recent_comments">
+    <div class="panel panel-gal recent hidden-xs" data-aos="fade-up" data-aos-duration="2000">
+        <div class="panel-heading">
+            <i class="fa fa-comments"></i>
+            最新评论
+            <i class="fa fa-times-circle panel-remove"></i>
+            <i class="fa fa-chevron-circle-up panel-toggle"></i>
+        </div>
+        <ul class="list-group list-group-flush"></ul>
+    </div>
+</aside>
+    
+    <!-- 要配置好leancloud才能开启此小工具 -->
+    
+    
+    <aside id="sidebar-recent_posts">
+    <div class="panel panel-gal recent hidden-xs" data-aos="fade-up" data-aos-duration="2000">
+        <div class="panel-heading">
+            <i class="fa fa-refresh"></i>
+            近期文章
+            <i class="fa fa-times-circle panel-remove"></i>
+            <i class="fa fa-chevron-circle-up panel-toggle"></i>
+        </div>
+        <ul class="list-group list-group-flush">
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/falltuna-project/falltuna-main/">Falltuna Notes!</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/old_notes/ftday55/">DAY55 那些学完就忘的立体几何#8 (三余弦定理)</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/old_notes/ftday54/">DAY54 那些学完就忘的立体几何#7 (线面夹角)</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/old_notes/ftday53/">DAY53 那些学完就忘的立体几何#6 (三垂线定理)</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/old_notes/ftday52/">DAY51/DAY52 那些学完就忘的立体几何#5 (线面垂直)</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/old_notes/ftday50/">DAY50 那些学完就忘的立体几何#4 (异面直线所成角计算)</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/old_notes/ftday49/">DAY49 那些学完就忘的立体几何#3 (直线与直线的位置关系)</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/old_notes/ftday48/">DAY48 那些学完就忘的立体几何#2 (四条公理与等角定理)</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/old_notes/ftday47/">DAY47 那些学完就忘的立体几何#1 (基础概念)</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/old_notes/ftday45/">DAY46 对数篇(5) 计算尺</a>
+                </span>
+            </li>
+            
+        </ul>
+    </div>
+</aside>
+    
+    
+    <aside id="sidebar-rand_posts">
+    <div class="panel panel-gal recent hidden-xs" data-aos="fade-up" data-aos-duration="2000">
+        <div class="panel-heading">
+            <i class="fa fa-refresh"></i>
+            随机文章
+            <i class="fa fa-times-circle panel-remove"></i>
+            <i class="fa fa-chevron-circle-up panel-toggle"></i>
+        </div>
+        <ul class="list-group list-group-flush">
+            
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/old_notes/ftday52/">DAY51/DAY52 那些学完就忘的立体几何#5 (线面垂直)</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/old_notes/ftday48/">DAY48 那些学完就忘的立体几何#2 (四条公理与等角定理)</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/old_notes/ftday45/">DAY46 对数篇(5) 计算尺</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/old_notes/ftday42/">DAY43 对数篇(2) 换底公式</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/old_notes/ftday41/">DAY42 对数篇(1) 对数的定义</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/old_notes/ft18/">Day 18 一道三角比计算题</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/old_notes/ft17/">Day 17 构造递推数列解决排列组合问题(下)</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/old_notes/ft16/">Day 16 构造递推数列解决排列组合问题(上)</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/old_notes/falltunaday8p2/">Day 8 在解题过程中多用一些几何意义吧!</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/nanwai/old_notes/ftday7/">Day 7 氧化剂的pk</a>
+                </span>
+            </li>
+            
+        </ul>
+    </div>
+</aside>
+    
+    
+    <aside id="gal-sets">
+        <div class="panel panel-gal hidden-xs" data-aos="fade-up" data-aos-duration="2000">
+            <ul class="nav nav-pills pills-gal">
+
+                
+                <li>
+                    <a href="/vnrConvasdyne/old_notes/ftday52/index.html#sidebar-tags" data-toggle="tab" id="tags-tab">热门标签</a>
+                </li>
+                
+                
+                <li>
+                    <a href="/vnrConvasdyne/old_notes/ftday52/index.html#sidebar-friend-links" data-toggle="tab" id="friend-links-tab">友情链接</a>
+                </li>
+                
+                
+                <li>
+                    <a href="/vnrConvasdyne/old_notes/ftday52/index.html#sidebar-links" data-toggle="tab" id="links-tab">个人链接</a>
+                </li>
+                
+            </ul>
+            <div class="tab-content">
+                
+                <div class="cloud-tags tab-pane nav bs-sidenav fade" id="sidebar-tags">
+    
+</div>
+                
+                
+                <div class="friend-links tab-pane nav bs-sidenav fade" id="sidebar-friend-links">
+    
+    <li>
+        <a href="https://www.geogebra.org/" target="_blank">Geogebra</a>
+    </li>
+    
+    <li>
+        <a href="https://www.desmos.com/calculator" target="_blank">Desmos Calculator</a>
+    </li>
+    
+</div>
+                
+                
+                <div class="links tab-pane nav bs-sidenav fade" id="sidebar-links">
+    
+    <li>
+        <a href="https://github.com/falltuna-project/" target="_blank">Falltuna&#39;s Github</a>
+    </li>
+    
+</div>
+                
+            </div>
+        </div>
+    </aside>
+    
+</aside>
+            </div>
+        </div>
+    </div>
+    <footer id="gal-footer">
+    <div class="container">
+        Copyright © 2020 Falltuna Project. Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>.&nbsp;Theme by <a href="https://github.com/ZEROKISEKI" target="_blank">AONOSORA</a>
+    </div>
+</footer>
+
+<!-- 回到顶端 -->
+<div id="gal-gotop">
+    <i class="fa fa-angle-up"></i>
+</div>
+
+
+    <script src='https://unpkg.com/mermaid@7.1.2/dist/mermaid.min.js'></script>
+    <script>
+      if (window.mermaid) {
+        mermaid.initialize({theme: 'forest'});
+      }
+    </script>
+  
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<!-- <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+</body>
+
+<script src="/js/activate-power-mode.js"></script>
+
+<script>
+
+    // 配置highslide
+	hs.graphicsDir = '/js/highslide/graphics/'
+    hs.outlineType = "rounded-white";
+    hs.dimmingOpacity = 0.8;
+    hs.outlineWhileAnimating = true;
+    hs.showCredits = false;
+    hs.captionEval = "this.thumb.alt";
+    hs.numberPosition = "caption";
+    hs.align = "center";
+    hs.transitions = ["expand", "crossfade"];
+    hs.lang.number = '共%2张图, 当前是第%1张';
+    hs.addSlideshow({
+      interval: 5000,
+      repeat: true,
+      useControls: true,
+      fixedControls: "fit",
+      overlayOptions: {
+        opacity: 0.75,
+        position: "bottom center",
+        hideOnMouseOut: true
+      }
+    })
+
+    // 初始化aos
+    AOS.init({
+      duration: 1000,
+      delay: 0,
+      easing: 'ease-out-back'
+    });
+
+</script>
+<script>
+	POWERMODE.colorful = 'true';    // make power mode colorful
+	POWERMODE.shake = 'true';       // turn off shake
+	// TODO 这里根据具体情况修改
+	document.body.addEventListener('input', POWERMODE);
+</script>
+<script>
+    window.slideConfig = {
+      prefix: '/imgs/slide/background',
+      ext: 'jpg',
+      maxCount: '6'
+    }
+</script>
+
+<script src="/js/hs.js"></script>
+<script src="/js/blog.js"></script>
+
+
+
+
+</html>

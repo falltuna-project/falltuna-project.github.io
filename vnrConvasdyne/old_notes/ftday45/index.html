@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="Falltuna Project">
+    
+    
+    
+    
+    
+    
+    <title>DAY46 对数篇(5) 计算尺 | 秋天的金枪鱼</title>
+    <link href="http://example.com" rel="prefetch" />
+
+    
+<link rel="stylesheet" href="/css/bootstrap.min.css">
+<link rel="stylesheet" href="/css/aos.css">
+<link rel="stylesheet" href="/css/style.css">
+
+    
+<script src="/js/jquery.min.js"></script>
+
+    
+<script src="/js/bootstrap.min.js"></script>
+
+    
+<script src="/js/aos.js"></script>
+
+    
+<script src="/js/highslide/highslide-full.min.js"></script>
+
+    
+<link rel="stylesheet" href="/js/highslide/highslide.css">
+
+    <style type="text/css">
+        @media (max-width: 768px) {
+            body {
+                background-color: #f0f0f0;
+                background: url('/imgs/xsbg.gif');
+                background-attachment: fixed;
+            }
+        }
+    </style>
+    
+    <!--<script type="text/javascript">
+      if (document.images) {
+        var avatar = new Image();
+        avatar.src = '/imgs/mashiro.jpg'
+        var previews = 'preview1.jpg,preview2.jpg,preview3.jpg,preview4.jpg'.split(',')
+        var previewsPreLoad = []
+        for(var i = 0; i < length; i++) {
+          previewsPreLoad.push(new Image())
+          previewsPreLoad[previewsPreLoad.length - 1].src = '/imgs/preview' + previews[i]
+        }
+      }
+    </script>-->
+<meta name="generator" content="Hexo 5.2.0"></head>
+<body>
+    <!-- 背景轮播图功能 -->
+    <section class="hidden-xs">
+    <ul class="cb-slideshow">
+        <li><span>天若</span></li>
+        <li><span>有情</span></li>
+        <li><span>天亦老</span></li>
+        <li><span>我为</span></li>
+        <li><span>长者</span></li>
+        <li><span>续一秒</span></li>
+    </ul>
+</section>
+    <!-- 欧尼酱功能, 谁用谁知道 -->
+    
+    <header class="navbar navbar-inverse" id="gal-header">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed"
+                    data-toggle="collapse" data-target=".bs-navbar-collapse"
+                    aria-expanded="false">
+                <span class="fa fa-lg fa-reorder"></span>
+            </button>
+            <a href="http://example.com">
+                
+                <style>
+                    #gal-header .navbar-brand {
+                        height: 54px;
+                        line-height: 24px;
+                        font-size: 28px;
+                        opacity: 1;
+                        background-color: rgba(0,0,0,0);
+                        text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px #fff,0 0 20px #228DFF,0 0 35px #228DFF,0 0 40px #228DFF,0 0 50px #228DFF,0 0 75px #228DFF;
+                    }
+                </style>
+                <!-- 这里使用文字(navbar_text or config.title) -->
+                <div class="navbar-brand">秋天的金枪鱼</div>
+                
+            </a>
+        </div>
+        <div class="collapse navbar-collapse bs-navbar-collapse">
+            <ul class="nav navbar-nav" id="menu-gal">
+                
+                
+                <li class="">
+                    <a href="/">
+                        <i class="fa fa-home"></i>首页
+                    </a>
+                </li>
+                
+                
+                
+                <li class="">
+                    <a href="/archives">
+                        <i class="fa fa-archive"></i>归档
+                    </a>
+                </li>
+                
+                
+                
+                
+                <li class="dropdown">
+                    <!-- TODO 添加hover dropdown效果 -->
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false" data-hover="dropdown">
+                        <i class="fa fa-list"></i>分类
+                    </a>
+                    <ul class="dropdown-menu">
+                        
+                        
+                        <li>
+                            <a href="/categories/%E6%95%B0%E5%AD%A6/">数学</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/categories/%E5%8C%96%E5%AD%A6/">化学</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/categories/%E7%89%A9%E7%90%86/">物理</a>
+                        </li>
+                        
+                        
+                        
+                    </ul>
+                </li>
+                
+                
+                
+                
+                
+                <li class="">
+                    <a href="/tags">
+                        <i class="fa fa-tags"></i>标签
+                    </a>
+                </li>
+                
+                
+                
+                
+                <li class="">
+                    <a href="/about">
+                        <i class="fa fa-user"></i>关于我
+                    </a>
+                </li>
+                
+                
+            </ul>
+        </div>
+    </div>
+</header>
+    <div id="gal-body">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 gal-right" id="mainstay">
+                    
+<article class="article well article-body" id="article">
+    <div class="breadcrumb">
+        <i class="fa fa-home"></i>
+        <a href="http://example.com">秋天的金枪鱼</a>
+        >
+        <span>DAY46 对数篇(5) 计算尺</span>
+    </div>
+    <!-- 大型设备详细文章 -->
+    <div class="hidden-xs">
+        <div class="title-article">
+            <h1>
+                <a href="/vnrConvasdyne/old_notes/ftday45/">DAY46 对数篇(5) 计算尺</a>
+            </h1>
+        </div>
+        <div class="tag-article">
+            
+            <span class="label label-gal">
+                <i class="fa fa-calendar"></i> 2020-09-29
+            </span>
+            
+        </div>
+    </div>
+    <!-- 小型设备详细文章 -->
+    <div class="visible-xs">
+        <center>
+            <div class="title-article">
+                <h4>
+                    <a href="/vnrConvasdyne/old_notes/ftday45/">DAY46 对数篇(5) 计算尺</a>
+                </h4>
+            </div>
+            <p>
+                <i class="fa fa-calendar"></i> 2020-09-29
+            </p>
+            <p>
+                
+                
+            </p>
+        </center>
+    </div>
+    <div class="content-article">
+        <p>上回分解:</p>
+<p>原式可以化简为:</p>
+<p>log<sub>2</sub>2x=log<sub>2</sub>(x-a)<sup>2</sup></p>
+<p>于是乎我们就可以得到, 在2x&gt;0, (x-a)<sup>2</sup>&gt;0的限制条件下, 当2x=(x-a)<sup>2</sup>有一个实数根时a满足条件.</p>
+<p>也即是说2x=(x-a)<sup>2</sup>有一个大于0的实根.</p>
+<p>这里推荐标答里两边开根号, 把a用x表示出来然后配方解的方案(比起直接拆省去很多不必要的讨论).</p>
+<p>最后得到a∈{-1/2}∪[0, +∞)</p>
+<hr>
+<p>在卡西欧、TI这些电子计算器遍地开花前, 有一种计算工具曾经统治了人类三百余年, 而这种工具的出现正是基于对数的发明. 这种工具就是计算尺.</p>
+<p><img src="../../../img/day45/image-57810101232951202.png" alt="image-57810101232951202"></p>
+<p><img src="../../../img/day45/1024px-Slide_rule_example2_with_labels.svg.png" alt="2880px-Slide_rule_example2_with_labels.svg"></p>
+<p>如图<small>(引用自维基百科(CC-BY-SA 3.0)</small>,计算尺的刻度并不是线性的, 而是在lgX处标上X. </p>
+<p>计算尺利用的就是对数的两个运算性质.</p>
+<p><img src="../../../img/day45/image-57810101232935495.png" alt="image-57810101232935495"></p>
+<p>比如若我们要计算182乘以212, 把滑尺(人们常说的C尺)刻度的182对齐固定部分的X(人们常说的D尺)</p>
+<p><img src="../img/day45/image-57810101233607230.png" alt="image-57810101233607230" /></p>
+<p>然后去D尺上的212处读, 可以读到在386附近, 根据估算, 212乘以182约等于38600 (实际答案是38584,没差多少)</p>
+<p><img src="../../../img/day45/image-57810101234203464.png" alt="image-57810101234203464"></p>
+<p>当我们在使用计算尺估算的时候, 实际上是把绿色这一段和紫色这一段相加.</p>
+<p><strong>本质是$\log(1.82)+\log(2.12)\approx\log(3.86)$</strong></p>
+<p>反之亦然, 除法亦能计算.</p>
+<p>有了乘除法的对应后, 人们又在计算尺上加上了三角比的对应等等, 计算尺成为了一个绝佳的计算(或是估算, 毕竟现实中没必要那么精准)工具.</p>
+<p>然而, 计算尺还是有缺陷:</p>
+<p>首先它(因为刻度上没有位数之分)不能帮你算出结果有几位, 所以积/商的大致范围还得要由使用者估算.</p>
+<p>其次, 它不能直接计算加减法, 需要先把加减法转化成乘除法再计算.</p>
+<p><img src="../../../img/day45/1280px-IBM_150_Extra_Engineers_1951.jpg" alt="1280px-IBM_150_Extra_Engineers_1951"></p>
+<p>固然计算尺不会死机, 也高度标准化所以不需要独立的说明书, 但显然计算尺无法适应时代了. <del>不过作为作文素材还是很不错的.</del></p>
+<p>上图(1951年)IBM的广告就用一种震撼人心的手法向大家阐释了计算器比起计算尺的强大计算力. 然而广告并不是在说明人会被机器取代, 而是告诉大家: 计算器取代计算尺, 是把富有创造力的工程师们从冗杂的体力劳动中解放出来. 回想起前辈们挑着油灯, 拿着计算尺, 翻着八位对数表苦算之岁月, 我由衷想到, 我们能生活在这个卡西欧遍地开花的时代实属幸运.</p>
+<blockquote>
+<p> 对数篇·完</p>
+</blockquote>
+
+    </div>
+</article>
+
+
+                </div>
+                <aside class="col-md-4 gal-left" id="sidebar">
+    <!-- 此为sidebar的搜索框, 非搜索结果页面 -->
+<aside id="sidebar-search">
+    <div class="search hidden-xs" data-aos="fade-up" data-aos-duration="2000">
+        <form class="form-inline clearfix" id="search-form" method="get"
+              action="/search/index.html">
+            <input type="text" name="s" class="form-control" id="searchInput" placeholder="搜索文章~" autocomplete="off">
+            <button class="btn btn-danger btn-gal" type="submit">
+                <i class="fa fa-search"></i>
+            </button>
+        </form>
+    </div>
+</aside>
+    <aside id="sidebar-author">
+    <div class="panel panel-gal" data-aos="flip-right" data-aos-duration="3000">
+        <div class="panel-heading" style="text-align: center">
+            <i class="fa fa-quote-left"></i>
+            Falltuna Project
+            <i class="fa fa-quote-right"></i>
+        </div>
+        <div class="author-panel text-center">
+            <img src="/imgs/mashiro.jpg" width="140" height="140"
+                 alt="个人头像" class="author-image">
+            <p class="author-description"></p>
+        </div>
+    </div>
+</aside>
+    
+    <aside id="sidebar-recent_comments">
+    <div class="panel panel-gal recent hidden-xs" data-aos="fade-up" data-aos-duration="2000">
+        <div class="panel-heading">
+            <i class="fa fa-comments"></i>
+            最新评论
+            <i class="fa fa-times-circle panel-remove"></i>
+            <i class="fa fa-chevron-circle-up panel-toggle"></i>
+        </div>
+        <ul class="list-group list-group-flush"></ul>
+    </div>
+</aside>
+    
+    <!-- 要配置好leancloud才能开启此小工具 -->
+    
+    
+    <aside id="sidebar-recent_posts">
+    <div class="panel panel-gal recent hidden-xs" data-aos="fade-up" data-aos-duration="2000">
+        <div class="panel-heading">
+            <i class="fa fa-refresh"></i>
+            近期文章
+            <i class="fa fa-times-circle panel-remove"></i>
+            <i class="fa fa-chevron-circle-up panel-toggle"></i>
+        </div>
+        <ul class="list-group list-group-flush">
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/falltuna-project/falltuna-main/">Falltuna Notes!</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/old_notes/ftday55/">DAY55 那些学完就忘的立体几何#8 (三余弦定理)</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/old_notes/ftday54/">DAY54 那些学完就忘的立体几何#7 (线面夹角)</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/old_notes/ftday53/">DAY53 那些学完就忘的立体几何#6 (三垂线定理)</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/old_notes/ftday52/">DAY51/DAY52 那些学完就忘的立体几何#5 (线面垂直)</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/old_notes/ftday50/">DAY50 那些学完就忘的立体几何#4 (异面直线所成角计算)</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/old_notes/ftday49/">DAY49 那些学完就忘的立体几何#3 (直线与直线的位置关系)</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/old_notes/ftday48/">DAY48 那些学完就忘的立体几何#2 (四条公理与等角定理)</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/old_notes/ftday47/">DAY47 那些学完就忘的立体几何#1 (基础概念)</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/old_notes/ftday45/">DAY46 对数篇(5) 计算尺</a>
+                </span>
+            </li>
+            
+        </ul>
+    </div>
+</aside>
+    
+    
+    <aside id="sidebar-rand_posts">
+    <div class="panel panel-gal recent hidden-xs" data-aos="fade-up" data-aos-duration="2000">
+        <div class="panel-heading">
+            <i class="fa fa-refresh"></i>
+            随机文章
+            <i class="fa fa-times-circle panel-remove"></i>
+            <i class="fa fa-chevron-circle-up panel-toggle"></i>
+        </div>
+        <ul class="list-group list-group-flush">
+            
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/falltuna-project/falltuna-main/">Falltuna Notes!</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/old_notes/ftday50/">DAY50 那些学完就忘的立体几何#4 (异面直线所成角计算)</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/old_notes/ftday44/">DAY45 对数篇(4) 对数方程</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/old_notes/ftday25/">Day 25 从整体分析问题</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/old_notes/ftday26/">未收录 未命名物理题</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/old_notes/ftday24/">Day 24 构造二次函数证明不等式</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/old_notes/ft17/">Day 17 构造递推数列解决排列组合问题(下)</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/old_notes/ftday2/">Day 2 一道趣题(集合与命题)</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/nanwai/old_notes/ftday1/">Day 1 两道化学选择题</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/hexo_notes/">Hexo Notes!</a>
+                </span>
+            </li>
+            
+        </ul>
+    </div>
+</aside>
+    
+    
+    <aside id="gal-sets">
+        <div class="panel panel-gal hidden-xs" data-aos="fade-up" data-aos-duration="2000">
+            <ul class="nav nav-pills pills-gal">
+
+                
+                <li>
+                    <a href="/vnrConvasdyne/old_notes/ftday45/index.html#sidebar-tags" data-toggle="tab" id="tags-tab">热门标签</a>
+                </li>
+                
+                
+                <li>
+                    <a href="/vnrConvasdyne/old_notes/ftday45/index.html#sidebar-friend-links" data-toggle="tab" id="friend-links-tab">友情链接</a>
+                </li>
+                
+                
+                <li>
+                    <a href="/vnrConvasdyne/old_notes/ftday45/index.html#sidebar-links" data-toggle="tab" id="links-tab">个人链接</a>
+                </li>
+                
+            </ul>
+            <div class="tab-content">
+                
+                <div class="cloud-tags tab-pane nav bs-sidenav fade" id="sidebar-tags">
+    
+</div>
+                
+                
+                <div class="friend-links tab-pane nav bs-sidenav fade" id="sidebar-friend-links">
+    
+    <li>
+        <a href="https://www.geogebra.org/" target="_blank">Geogebra</a>
+    </li>
+    
+    <li>
+        <a href="https://www.desmos.com/calculator" target="_blank">Desmos Calculator</a>
+    </li>
+    
+</div>
+                
+                
+                <div class="links tab-pane nav bs-sidenav fade" id="sidebar-links">
+    
+    <li>
+        <a href="https://github.com/falltuna-project/" target="_blank">Falltuna&#39;s Github</a>
+    </li>
+    
+</div>
+                
+            </div>
+        </div>
+    </aside>
+    
+</aside>
+            </div>
+        </div>
+    </div>
+    <footer id="gal-footer">
+    <div class="container">
+        Copyright © 2020 Falltuna Project. Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>.&nbsp;Theme by <a href="https://github.com/ZEROKISEKI" target="_blank">AONOSORA</a>
+    </div>
+</footer>
+
+<!-- 回到顶端 -->
+<div id="gal-gotop">
+    <i class="fa fa-angle-up"></i>
+</div>
+
+
+    <script src='https://unpkg.com/mermaid@7.1.2/dist/mermaid.min.js'></script>
+    <script>
+      if (window.mermaid) {
+        mermaid.initialize({theme: 'forest'});
+      }
+    </script>
+  
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<!-- <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+</body>
+
+<script src="/js/activate-power-mode.js"></script>
+
+<script>
+
+    // 配置highslide
+	hs.graphicsDir = '/js/highslide/graphics/'
+    hs.outlineType = "rounded-white";
+    hs.dimmingOpacity = 0.8;
+    hs.outlineWhileAnimating = true;
+    hs.showCredits = false;
+    hs.captionEval = "this.thumb.alt";
+    hs.numberPosition = "caption";
+    hs.align = "center";
+    hs.transitions = ["expand", "crossfade"];
+    hs.lang.number = '共%2张图, 当前是第%1张';
+    hs.addSlideshow({
+      interval: 5000,
+      repeat: true,
+      useControls: true,
+      fixedControls: "fit",
+      overlayOptions: {
+        opacity: 0.75,
+        position: "bottom center",
+        hideOnMouseOut: true
+      }
+    })
+
+    // 初始化aos
+    AOS.init({
+      duration: 1000,
+      delay: 0,
+      easing: 'ease-out-back'
+    });
+
+</script>
+<script>
+	POWERMODE.colorful = 'true';    // make power mode colorful
+	POWERMODE.shake = 'true';       // turn off shake
+	// TODO 这里根据具体情况修改
+	document.body.addEventListener('input', POWERMODE);
+</script>
+<script>
+    window.slideConfig = {
+      prefix: '/imgs/slide/background',
+      ext: 'jpg',
+      maxCount: '6'
+    }
+</script>
+
+<script src="/js/hs.js"></script>
+<script src="/js/blog.js"></script>
+
+
+
+
+</html>
