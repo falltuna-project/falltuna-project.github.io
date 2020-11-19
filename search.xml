@@ -17,11 +17,65 @@
     
     
     <entry>
-      <title>数形结合</title>
-      <link href="vnrConvasdyne/mds/ftid96/"/>
-      <url>vnrConvasdyne/mds/ftid96/</url>
+      <title>不等式的应用</title>
+      <link href="vnrConvasdyne/mds/ftid100/"/>
+      <url>vnrConvasdyne/mds/ftid100/</url>
       
-        <content type="html"><![CDATA[<p>今天的<del>水枪鱼</del>金枪鱼分享的是一道数形结合相关的数学题.</p><p>设$u\in[-\sqrt2,\sqrt2], v\in(0,+\infty)$</p><p>求证:$(u-v)^2+(\sqrt{2-u^2}-\frac9v)^2\ge8$</p><hr><p>当两个平方相加的时候, 我们首先会想到的应该是勾股定理(想到圆一定是跳步了). 这时候利用几何意义的解法就是<strong>两点之间距离公式</strong>!</p><p>这时候我们有两个点$A(u,\sqrt{2-u^2}),B(v,\frac9v)$</p><p>显然A在一个半径为$\sqrt2$的半圆上, B在一条反比例函数上.<br><!-- <img src="/Users/ngichingaij/Library/Application Support/typora-user-images/Screen Shot 2020-11-17 at 19.41.48.png" alt="Screen Shot 2020-11-17 at 19.41.48" style="zoom:33%;" /> --><br><img src="../../../img/id96/img.png" alt="img"><br>这时候最近的距离就是y=x那条线连过去的距离, 经计算=2√2</p>]]></content>
+        <content type="html"><![CDATA[<p>已知$x,y\in\mathbb{R^+},a=x+y,b=\sqrt{x^2+7xy+y^2}, c=\sqrt{kxy}, \forall x,y,$以$a,b,c$为边均能构成三角形, 求正数$k$的取值范围.</p><hr><p>我们知道能组成三角形的含义即是:</p><script type="math/tex; mode=display">\begin{cases}a+b>c\\b+c>a\\c+a>b\end{cases}</script><p>在此处, 我们使用:</p><script type="math/tex; mode=display">\begin{cases}\sqrt{kxy}<(x+y)+\sqrt{x^2+7xy+y^2}\\\sqrt{kxy}>\sqrt{x^2+7xy+y^2}-(x+y)\end{cases}</script><p>这两个不等式.</p><p>把$\sqrt{xy}$除过去(反正是正实数)可以得到:</p><script type="math/tex; mode=display">\begin{cases}\sqrt{k}<\frac{(x+y)+\sqrt{x^2+7xy+y^2}}{\sqrt{xy}}\\\sqrt{k}>\frac{\sqrt{x^2+7xy+y^2}-(x+y)}{\sqrt{xy}}\end{cases}</script><p>首先先来求第一个等式里k的范围:</p><script type="math/tex; mode=display">\because x+y\ge2\sqrt{xy},\\又\sqrt{x^2+7xy+y^2}\ge\sqrt{7xy+2xy}=3\sqrt{xy}\\\therefore\frac{(x+y)+\sqrt{x^2+7xy+y^2}}{\sqrt{xy}}\ge5(\iff x=y)\\\therefore \sqrt{k}<5, k<25</script><p>然后是第二个. 第二个因为分子有减法, 不能使用相同的放缩.</p><p>那么怎么把分子里的减法变成加法呢? 我们可以用<strong>分子有理化</strong></p><p>化简得到右边的式子:</p><script type="math/tex; mode=display">\frac{\sqrt{x^2+7xy+y^2}-(x+y)}{\sqrt{xy}}\\=\frac{5xy}{\sqrt{xy}(\sqrt{x^2+5xy+y^2}+(x+y))}\\=5\cdot\frac{\sqrt{xy}}{\sqrt{x^2+5xy+y^2}+(x+y)}\\\le5\cdot1/5=1</script><p>综上, $k\in(1,25)$</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 不等式 </tag>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>不等式证明二次函数性质</title>
+      <link href="vnrConvasdyne/mds/ftid101/"/>
+      <url>vnrConvasdyne/mds/ftid101/</url>
+      
+        <content type="html"><![CDATA[<p>设$f(x)=x^2+ax+b,\quad M(a,b)\triangleq\max\{y|y=|f(x)|, x\in[-1,1]\}$</p><p>当$M(a,b)\le2$时, 求$|a|+|b|_{\max}$</p><p>遇到这种求极值的题目, 我们要做的是:</p><ul><li>第一步: 证明极值</li><li>第二步: 构造极值</li></ul><p>证明: 首先因为$M(a,b)\le2$所以一定有$|f(1)|=|1+a+b|\le2$和</p><p>$|f(-1)|=|1-a+b|\le2$</p><p>所以就会有$|a+b|=|f(1)-1|=|1+a+b-1|\le|f(1)|+1\le3$和$|a-b|=|f(-1)-1|=|1-a+b-1|\le|f(-1)|+1\le3$</p><p>由三角不等式, $|a|+|b|=\max\{|a-b|,|a+b|\}\le3$</p><p>构造: 取$a=-2,b=-1$, 满足条件.</p><p>综上所述, $|a|+|b|_{\max}=3$</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 不等式 </tag>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>精彩的三角换元</title>
+      <link href="vnrConvasdyne/mds/ftid102/"/>
+      <url>vnrConvasdyne/mds/ftid102/</url>
+      
+        <content type="html"><![CDATA[<p>今天我们来看一道精彩的三角换元题.</p><p>我自己没做过这题, 只是看见某些人在网上搜了一道题去骗签名(并不是), 然后当看见证法时被震撼到了而已.</p><p>$\frac{a^2}{1+a^2}+\frac{b^2}{1+b^2}+\frac{c^2}{1+c^2}+\frac{d^2}{1+d^2}=1, $求证: $abcd\le1/9$</p><script type="math/tex; mode=display">a\triangleq\tan\alpha,\quad b\triangleq\tan\beta,\quad c\triangleq\tan\gamma,\quad d\triangleq\tan\delta,\quad\\(\alpha,\beta,\gamma,\delta\in[0,\pi/2)\\\frac{a^2}{1+a^2}=\frac{\tan^2\alpha}{\sec^2\alpha}=\sin^2\alpha\\同理, \\\frac{b^2}{1+b^2}=\sin^2\beta\\\frac{c^2}{1+c^2}=\sin^2\gamma\\\frac{d^2}{1+d^2}=\sin^2\delta\\</script><script type="math/tex; mode=display">\sin^2\alpha+\sin^2\beta+\sin^2\gamma+\sin^2\delta=1\\3\sqrt[3]{\sin^2\alpha\cdot\sin^2\beta\cdot\sin^2\gamma}\le1-\sin^2\delta=\cos^2\delta\\同理有:\\3\sqrt[3]{\sin^2\beta\cdot\sin^2\gamma\cdot\sin^2\delta}\le1-\sin^2\alpha=\cos^2\alpha\\3\sqrt[3]{\sin^2\gamma\cdot\sin^2\delta\cdot\sin^2\alpha}\le1-\sin^2\beta=\cos^2\beta\\3\sqrt[3]{\sin^2\delta\cdot\sin^2\alpha\cdot\sin^2\beta}\le1-\sin^2\gamma=\cos^2\gamma\\四个式子相乘:\\81\sqrt[3]{\sin^6\alpha\cdot\sin^6\beta\cdot\sin^6\gamma\cdot\sin^6\delta}\\=81\sin^2\alpha\cdot\sin^2\beta\cdot\sin^2\gamma\cdot\sin^2\delta\\\le\cos^2\alpha\cdot\cos^2\beta\cdot\cos^2\gamma\cdot\cos^2\delta\\\implies\tan^2\alpha\cdot\tan^2\beta\cdot\tan^2\gamma\cdot\tan^2\delta\\\le1/81\\i.e. abcd\le1/9</script>]]></content>
       
       
       <categories>
@@ -35,7 +89,63 @@
             
             <tag> 吃白巧克力的黑猫 </tag>
             
-            <tag> 数形结合 </tag>
+            <tag> 不等式证明 </tag>
+            
+            <tag> 三角换元 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>一道对数方程相关的数学题</title>
+      <link href="vnrConvasdyne/mds/ftid98/"/>
+      <url>vnrConvasdyne/mds/ftid98/</url>
+      
+        <content type="html"><![CDATA[<p>设$a\in R$, 函数$f(x)=\log_2(\frac1x+a)$</p><p>(1)若关于$x$的方程$f(x)-\log_2[(a-4)x+(2a-5)]=0$的解集中恰有一个元素, 求$a$的取值范围.</p><p>(2)设$a&gt;0$,$\forall t\in[\frac12,1], f(x)_{\max}-f(x)_{\min}\le1 (x\in[t,t+1])$</p><p>求$a$的取值范围.</p><p>参考解答:</p><p>(1)</p><script type="math/tex; mode=display">\begin{align}&\log_2(\frac1x+a)=\log_2[(a-4)x+(2a-5)]\\\iff&\begin{cases}(a-4)x^2+(a-5)x-1=0\qquad(1)\\\frac1x>-a\end{cases}\\\iff&\begin{cases}((a-4)x-1)(x+1)=0\qquad(1)\\\frac1x>-a\end{cases}\\1^o&当a=4时, (1)的根为x=-1\\2^o&当a=3时, \frac1{a-4}=-1, (1)有重根x=-1\\3^o&当a\neq3,a\neq4时, x_1=-1, x_2=\frac1{a-4}\\&\begin{cases}-1>-a\\a-4\le-a\end{cases}或\begin{cases}a-4>-a\\-1\le-a\end{cases}\\&解得:a\in(1,2]\\综上,& a\in(1,2]\cup\{3,4\} \end{align}</script><p>这道题看起来是很复杂对数方程问题, 实则可以转化为二次型方程根的讨论, 但x的范围有限制.</p><p>通过对二次型方程的讨论, 我们可以得到结果.</p><p>需注意的是, 讨论二次型方程时首先应考虑二次项系数, 然后是判别式之类的这些.</p><p>(2)</p><script type="math/tex; mode=display">\begin{align}\because& u=\frac1x+a在(0,+\infty)\searrow\\\therefore& f(x)在(0,+\infty)\searrow\\\forall& t\in[\frac12,1], x\in[t,t+1]:\\&f(x)_{\max}=f(t)=\log_2(\frac1t+a)\\&f(x)_{\min}=f(t+1)=\log_2(\frac1{t+1}+a)\\&f(x)_{\max}-f(x)_{\min}=\log_2(\frac1t+a)-\log_2(\frac1{t+1}+a)\le1\\\implies&\frac1t+a\le\frac2{t+1}+2a\implies a\ge\frac1t-\frac{2}{t+1}\end{align}\\</script><p>到这一步之后, 我们用t表示出了a, 把对数题转化为了求a取值范围.</p><script type="math/tex; mode=display">\begin{align}(法一)&\\&a\ge\frac{1-t}{t^2+t}\triangleq u\\&当t=1时, u=0\\&当t\in[\frac12,1)时,\\&\frac1u=\frac{(1-t)^2-3(t-1)+2}{1-t}=(1-t)-3+\frac{2}{1-t}\\&关于1-t\searrow, i.e.关于t\nearrow\implies]\frac1u_{\max}在t=1/2时取到,\\&此时u=2/3\therefore a\ge u_{\max}=2/3, i.e.a\in[2/3,+\infty)\end{align}</script><p>方法1是用t表示a, 然后用耐克函数单调性计算极值.</p><script type="math/tex; mode=display">\begin{align}(法二)&\\\implies&at^2+(a+1)t-1\ge0\quad(\forall t\in[1/2,1])\\\because&a>0, \therefore y=at^2+(a+1)t-1开口上\\\implies&y=at^2+(a+1)t-1在t\in[1/2,1]\nearrow,\\\therefore& y_{\min}=\frac34a-1/2\ge0\implies a\ge2/3s\end{align}</script><p>因为这道题a&gt;0是已知条件, 所以也可以用二次函数讨论, 这时候的计算量甚至比上面一种方法还少.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> 对数 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>对数方程无解</title>
+      <link href="vnrConvasdyne/mds/ftid99/"/>
+      <url>vnrConvasdyne/mds/ftid99/</url>
+      
+        <content type="html"><![CDATA[<p>之前我学到用变量表示参数可以有效地解决求方程有解这类问题, 这次来看一道“方程无解”:</p><p>$\log_2(x+2)+\log_2(x+14)=3+\log_2(ax+3)=0$无解, 求$a$取值范围.</p><p>首先是常规的步骤: 写出定义域, 化简拆空对数:</p><script type="math/tex; mode=display">\begin{align}\iff\begin{cases}x>-2\\x>-14\\ax+3>0\\x^2+16x+4=8ax无解\end{cases}\end{align}</script><p>我们用$x$表示$a$, 得到:</p><p>$a=\frac{x^2+16x+4}{8x}=\frac{x}8+2+\frac{1}{2x}$</p><p>当x有解的时候, 我们可以把$a$关于$x$的函数图像画出来</p><p><img src="../../../img/id99/img.png" alt="img" style="zoom:30%;" /></p><p>(或者用基本不等式处理), 得到$a\in(-\infty,3/2)\cup[5/2,+\infty)$这个范围, 此为“有解”. “无解”则为其补集: $a\in[3/2,5/2)$</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> 对数 </tag>
             
         </tags>
       
@@ -69,6 +179,60 @@
     
     
     <entry>
+      <title>数形结合</title>
+      <link href="vnrConvasdyne/mds/ftid96/"/>
+      <url>vnrConvasdyne/mds/ftid96/</url>
+      
+        <content type="html"><![CDATA[<p>今天的<del>水枪鱼</del>金枪鱼分享的是一道数形结合相关的数学题.</p><p>设$u\in[-\sqrt2,\sqrt2], v\in(0,+\infty)$</p><p>求证:$(u-v)^2+(\sqrt{2-u^2}-\frac9v)^2\ge8$</p><hr><p>当两个平方相加的时候, 我们首先会想到的应该是勾股定理(想到圆一定是跳步了). 这时候利用几何意义的解法就是<strong>两点之间距离公式</strong>!</p><p>这时候我们有两个点$A(u,\sqrt{2-u^2}),B(v,\frac9v)$</p><p>显然A在一个半径为$\sqrt2$的半圆上, B在一条反比例函数上.<br><!-- <img src="/Users/ngichingaij/Library/Application Support/typora-user-images/Screen Shot 2020-11-17 at 19.41.48.png" alt="Screen Shot 2020-11-17 at 19.41.48" style="zoom:33%;" /> --><br><img src="../../../img/id96/img.png" alt="img"><br>这时候最近的距离就是y=x那条线连过去的距离, 经计算=2√2</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> 数形结合 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>权方和不等式</title>
+      <link href="vnrConvasdyne/mds/ftday93/"/>
+      <url>vnrConvasdyne/mds/ftday93/</url>
+      
+        <content type="html"><![CDATA[<p>今天我们来介绍权方和不等式:</p><script type="math/tex; mode=display">\sum_{1}^{n}\frac{a_i^{m+1}}{b_i^m}\le\frac{(\sum_{1}^{n} a_i)^{m+1}}{(\sum_{1}^{n} b_i)^m}(m\in(-\infty, -1) \cup(0,+\infty))</script><p>取等条件: $a_i=\lambda b_i$ (和柯西相同)</p><p>可能有同学会说: “已经有均值三角柯西排序琴生不等式了, 还要多一个干什么?”</p><p><del>另外不要问“权方和是谁”这种奇怪的问题.</del></p><p>但事实上, 权方和不等式真的非常有用!</p><p>在m=2时， 权方和不等式<del>被温教授</del>称为T2引理, 这也是最常见的应用.</p><p>我们可以用权方和不等式做题目:</p><h4 id="例题一"><a href="#例题一" class="headerlink" title="例题一"></a>例题一</h4><script type="math/tex; mode=display">设x,y>0, 且x+y=1\\求\frac{1}{x}+\frac{4}{y}的最小值</script><p>解：由权方和不等式：</p><script type="math/tex; mode=display">\frac{1^2}{x}+\frac{2^2}{y}\ge\frac{(1+2)^2}{x+y}=9</script><p>当且仅当<script type="math/tex">\frac{1}{x}=\frac{2}{y}</script>时等号成立</p><p><strong>一步解决问题, 认准权方和不等式.</strong></p><h4 id="例题二"><a href="#例题二" class="headerlink" title="例题二"></a>例题二</h4><script type="math/tex; mode=display">若正实数a, b满足4a+3b=1, 求\min\{\frac{1}{2a+b}+\frac{1}{a+b}\}</script><p>我们看到条件为$mx+ny=k$, 其中$x,y&gt;0, k, m, n$为常数时, 就可以使用权方和不等式.</p><p>在这个例子中, 我们把$\frac{1}{a+b}$换成$\frac{2}{2a+2b}$,</p><p>有$(2a+b)+(2a+2b)=1$, 所以可以由权方和不等式得到:</p><script type="math/tex; mode=display">\frac{1^2}{2a+b}+\frac{(\sqrt2)^2}{2a+2b}\ge\frac{(1+\sqrt2)^2}{4a+3b}=\frac{3+\sqrt2}{1}=3+\sqrt2</script><p>$当且仅当\frac{1}{2a+b}+\frac{\sqrt2}{2a+2b}时等号成立$</p><p>所以我们可以看到权方和不等式可以代替很多均值的步骤!</p><h4 id="练习"><a href="#练习" class="headerlink" title="练习"></a>练习</h4><p>已知$x&gt;0, y&gt;0$, 且$\frac{1}{x}+\frac{2}{y+1}=1$, 求$\min\{2x+y\}$</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 不等式 </tag>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>一道反证法相关的题目</title>
       <link href="vnrConvasdyne/mds/ftday94/"/>
       <url>vnrConvasdyne/mds/ftday94/</url>
@@ -85,9 +249,9 @@
       
         <tags>
             
-            <tag> 反证 </tag>
-            
             <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> 反证 </tag>
             
         </tags>
       
@@ -113,33 +277,6 @@
         <tags>
             
             <tag> 吃白巧克力的黑猫 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>权方和不等式</title>
-      <link href="vnrConvasdyne/mds/ftday93/"/>
-      <url>vnrConvasdyne/mds/ftday93/</url>
-      
-        <content type="html"><![CDATA[<p>今天我们来介绍权方和不等式:</p><script type="math/tex; mode=display">\sum_{1}^{n}\frac{a_i^{m+1}}{b_i^m}\le\frac{(\sum_{1}^{n} a_i)^{m+1}}{(\sum_{1}^{n} b_i)^m}(m\in(-\infty, -1) \cup(0,+\infty))</script><p>取等条件: $a_i=\lambda b_i$ (和柯西相同)</p><p>可能有同学会说: “已经有均值三角柯西排序琴生不等式了, 还要多一个干什么?”</p><p><del>另外不要问“权方和是谁”这种奇怪的问题.</del></p><p>但事实上, 权方和不等式真的非常有用!</p><p>在m=2时， 权方和不等式<del>被温教授</del>称为T2引理, 这也是最常见的应用.</p><p>我们可以用权方和不等式做题目:</p><h4 id="例题一"><a href="#例题一" class="headerlink" title="例题一"></a>例题一</h4><script type="math/tex; mode=display">设x,y>0, 且x+y=1\\求\frac{1}{x}+\frac{4}{y}的最小值</script><p>解：由权方和不等式：</p><script type="math/tex; mode=display">\frac{1^2}{x}+\frac{2^2}{y}\ge\frac{(1+2)^2}{x+y}=9</script><p>当且仅当<script type="math/tex">\frac{1}{x}=\frac{2}{y}</script>时等号成立</p><p><strong>一步解决问题, 认准权方和不等式.</strong></p><h4 id="例题二"><a href="#例题二" class="headerlink" title="例题二"></a>例题二</h4><script type="math/tex; mode=display">若正实数a, b满足4a+3b=1, 求\min\{\frac{1}{2a+b}+\frac{1}{a+b}\}</script><p>我们看到条件为$mx+ny=k$, 其中$x,y&gt;0, k, m, n$为常数时, 就可以使用权方和不等式.</p><p>在这个例子中, 我们把$\frac{1}{a+b}$换成$\frac{2}{2a+2b}$,</p><p>有$(2a+b)+(2a+2b)=1$, 所以可以由权方和不等式得到:</p><script type="math/tex; mode=display">\frac{1^2}{2a+b}+\frac{(\sqrt2)^2}{2a+2b}\ge\frac{(1+\sqrt2)^2}{4a+3b}=\frac{3+\sqrt2}{1}=3+\sqrt2</script><p>$当且仅当\frac{1}{2a+b}+\frac{\sqrt2}{2a+2b}时等号成立$</p><p>所以我们可以看到权方和不等式可以代替很多均值的步骤!</p><h4 id="练习"><a href="#练习" class="headerlink" title="练习"></a>练习</h4><p>已知$x&gt;0, y&gt;0$, 且$\frac{1}{x}+\frac{2}{y+1}=1$, 求$\min\{2x+y\}$</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 数学 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 吃白巧克力的黑猫 </tag>
-            
-            <tag> 不等式 </tag>
             
         </tags>
       
@@ -501,33 +638,6 @@
     
     
     <entry>
-      <title>Day 25 从整体分析问题</title>
-      <link href="vnrConvasdyne/old_notes/ftday25/"/>
-      <url>vnrConvasdyne/old_notes/ftday25/</url>
-      
-        <content type="html"><![CDATA[<p>在做数学题的时候, 从整体分析问题也是一种有效的技巧.</p><p>举这样一道经典的例题:</p><h2 id="例题一"><a href="#例题一" class="headerlink" title="例题一"></a>例题一</h2><p>能否找出7个实数, 使得任意3个相加之和小于0, 但任意5个相加之和大于0? 如果能请举例, 如果不能请说明理由.</p><p>直觉告诉我这多半是不能的. 具体该怎么证明呢? 这时候我们能借助一张数表.</p><p>假设我们真的找到了这样的7个数字, 把它们按照这个顺序列举出来:</p><script type="math/tex; mode=display">a_1\space a_2\space a_3\space a_4\space a_5a_2\space a_3\space a_4\space a_5\space a_6a_3\space a_4\space a_5\space a_6\space a_7</script><p>在这张表格中, 每一列的和都小于0, 所以所有列加起来也小于0.</p><p>可是每一行的和都大于0, 因此所有行之和大于0.</p><p>也就是说, 这张数表里的所有数字之和既大于0又小于0, 矛盾.</p><h2 id="另一个例子"><a href="#另一个例子" class="headerlink" title="另一个例子"></a>另一个例子</h2><p>假设在一张$3 \times3$的表格中, 每一个格子填一个数.</p><p>记$S_i$是i行的三个数的和,</p><p>记$T_j$是j列三个数的和.</p><p>设$P_{ij}=S_i-T_j$</p><p>求证: $P_{ij}$中至多有6个是正数.</p><p>我们先考虑$S_1+S_2+S_3$, 它是这张数表中所有数字之和. 同理, $T_1+T_2+T_3$也是, 这两个和显然相等.</p><p>现在, 把这两个和相减.</p><p>$S_1+S_2+S_3-T_1+T_2+T_3=0$</p><p>重新分配一下以后就是:</p><p>$(S_1-T_1)+(S_2-T_2)+(S_3-T_3)=0$</p><p>也就是:</p><p>$P_{11}+P_{22}+P_{33}=0$</p><p>这三个数里面至少有一个不是正数.</p><p>同理, 重新排列还可以得到:</p><p>$P_{12}+P_{23}+P_{31}$里至少有一个不是正数; $P_{13}+P_{21}+P_{32}$里至少有一个不是正数.</p><p>因此, 在$P_{ij}$中至多只有6个正数.</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 数学 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 吃白巧克力的黑猫 </tag>
-            
-            <tag> oldNotes </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>DAY25 高斯函数求值</title>
       <link href="vnrConvasdyne/old_notes/ft19/"/>
       <url>vnrConvasdyne/old_notes/ft19/</url>
@@ -549,6 +659,33 @@
             <tag> oldNotes </tag>
             
             <tag> 代数 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Day 25 从整体分析问题</title>
+      <link href="vnrConvasdyne/old_notes/ftday25/"/>
+      <url>vnrConvasdyne/old_notes/ftday25/</url>
+      
+        <content type="html"><![CDATA[<p>在做数学题的时候, 从整体分析问题也是一种有效的技巧.</p><p>举这样一道经典的例题:</p><h2 id="例题一"><a href="#例题一" class="headerlink" title="例题一"></a>例题一</h2><p>能否找出7个实数, 使得任意3个相加之和小于0, 但任意5个相加之和大于0? 如果能请举例, 如果不能请说明理由.</p><p>直觉告诉我这多半是不能的. 具体该怎么证明呢? 这时候我们能借助一张数表.</p><p>假设我们真的找到了这样的7个数字, 把它们按照这个顺序列举出来:</p><script type="math/tex; mode=display">a_1\space a_2\space a_3\space a_4\space a_5a_2\space a_3\space a_4\space a_5\space a_6a_3\space a_4\space a_5\space a_6\space a_7</script><p>在这张表格中, 每一列的和都小于0, 所以所有列加起来也小于0.</p><p>可是每一行的和都大于0, 因此所有行之和大于0.</p><p>也就是说, 这张数表里的所有数字之和既大于0又小于0, 矛盾.</p><h2 id="另一个例子"><a href="#另一个例子" class="headerlink" title="另一个例子"></a>另一个例子</h2><p>假设在一张$3 \times3$的表格中, 每一个格子填一个数.</p><p>记$S_i$是i行的三个数的和,</p><p>记$T_j$是j列三个数的和.</p><p>设$P_{ij}=S_i-T_j$</p><p>求证: $P_{ij}$中至多有6个是正数.</p><p>我们先考虑$S_1+S_2+S_3$, 它是这张数表中所有数字之和. 同理, $T_1+T_2+T_3$也是, 这两个和显然相等.</p><p>现在, 把这两个和相减.</p><p>$S_1+S_2+S_3-T_1+T_2+T_3=0$</p><p>重新分配一下以后就是:</p><p>$(S_1-T_1)+(S_2-T_2)+(S_3-T_3)=0$</p><p>也就是:</p><p>$P_{11}+P_{22}+P_{33}=0$</p><p>这三个数里面至少有一个不是正数.</p><p>同理, 重新排列还可以得到:</p><p>$P_{12}+P_{23}+P_{31}$里至少有一个不是正数; $P_{13}+P_{21}+P_{32}$里至少有一个不是正数.</p><p>因此, 在$P_{ij}$中至多只有6个正数.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> oldNotes </tag>
             
         </tags>
       
@@ -600,11 +737,11 @@
       
         <tags>
             
+            <tag> 不等式 </tag>
+            
             <tag> 吃白巧克力的黑猫 </tag>
             
             <tag> oldNotes </tag>
-            
-            <tag> 不等式 </tag>
             
             <tag> 构造 </tag>
             
@@ -691,11 +828,11 @@
       
         <tags>
             
+            <tag> 不等式 </tag>
+            
             <tag> 吃白巧克力的黑猫 </tag>
             
             <tag> oldNotes </tag>
-            
-            <tag> 不等式 </tag>
             
             <tag> 构造 </tag>
             
@@ -909,35 +1046,6 @@
     
     
     <entry>
-      <title>Day 8 在解题过程中多用一些几何意义吧!</title>
-      <link href="vnrConvasdyne/old_notes/falltunaday8p2/"/>
-      <url>vnrConvasdyne/old_notes/falltunaday8p2/</url>
-      
-        <content type="html"><![CDATA[<!-- <script   src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script> --><p>对有些人来说, 无论是在初中数学中还是高中数学中, 几何都有些烦人. 不过有时, 要解决代数问题, 我们也得联系几何意义. 下面是一道例题</p><hr><p>定义非零向量$\vec{OM}=(a,b)$的“相伴函数“为$f(x)=a\sin x + b\cos x (x\in \mathbb{R})$,</p><p> 向量$\vec{OM}=(a,b)$称为函数$f(x)=a\sin x + b\cos x$的“相伴向量”(其中$O$为坐标原点). </p><p>记平面内所有向量的“相伴函数”构成的集合为$S$.</p><p>(2)已知点$M(a,b)(b\neq0)$ 满足: $(a-\sqrt3)^2+(b-1)^2=1$上一点, </p><p>向量$\vec{OM}$的“相伴函数”$f(x)$在$x=x_0$处取得最大值. 当点$M$运动时, 求$\tan2x_0$的取值范围.</p><hr><p>先开始分析题目</p><p>观察可知,  $(a-\sqrt3)^2+(b-1)^2=1$是一个圆, 圆心在$(\sqrt3,1)$,半径为1, 所以$a\ge \sqrt3-1, b\gt0$</p><p>$f(x)$可以用<strong>辅助角公式</strong>化简为$\sqrt{a^2+b^2}\sin (x+\arctan\frac ba)$若要取到最大值, 一定是在$x+\arctan\frac ba=\frac\pi2+2k\pi$时,</p><p>$i.e. x_0=\frac\pi2-\arctan\frac ba + 2k\pi$, 显然$2k\pi$不影响正切值, 省略.</p><hr><h3 id="如果我们就这样开始计算……"><a href="#如果我们就这样开始计算……" class="headerlink" title="如果我们就这样开始计算……"></a>如果我们就这样开始计算……</h3><p>那么既然得到了$x_0=\frac\pi2-\arctan\frac ba$, 就知道$2x_0=\pi - 2\arctan\frac ba$,</p><p>$\tan 2x_0=-\tan(2\arctan\frac ba)$, 那么根据正切两倍角公式, 不难得出$\tan2 x_0=\frac{-2\frac ba}{1-\frac{b^2}{a^2}}=-\frac{2ab}{a^2-b^2}$, 现在这个式子看起来好多了, 但考虑到我们对$a,b$的了解仅限上面那个复杂得要死的圆, 就算能化简出$a,b$的关系… (一看就知道有根号) 求这样一个式子的值域也是一件很困难的事.</p><hr><h3 id="如果多考虑点几何意义……"><a href="#如果多考虑点几何意义……" class="headerlink" title="如果多考虑点几何意义……"></a>如果多考虑点几何意义……</h3><p>$M$点坐标是$(a,b)$,  $\frac ba$的意义是什么呢?</p><p>根据直线斜率的定义, $k_{OM}=\frac ba$</p><p>$M$既然在这个圆上, </p><p><img src="../../../img/day8/Screen Shot 5780-11-22 at 17.23.19.png" alt="Screen Shot 5780-11-22 at 17.23.19" style="zoom:30%;" /></p><p>那斜率最小就是这种情况: $M$点在$x$轴正半轴上:$\frac ba=0$.</p><p>然而题目条件规定$(b\neq0)$, 也就是说:</p><p>$\therefore x_{0_{max}}=\frac\pi2-0 \lt\frac\pi2 $</p><p>看起来很顺利, 但是$x_{0_{min}}$怎么求呢?</p><p>我们知道从圆外一点引一条直线, 与圆有交点, 切点的斜率取到最大值或者最小值 (可以证明, 但这里直接用这个结论).</p><p><img src="../../../img/day8/Screen Shot 5780-11-22 at 17.41.27.png" alt="Screen Shot 5780-11-22 at 17.41.27" style="zoom:30%;" /></p><p>显然, 切线$OM\perp AM$,</p><p>$\therefore\triangle AOD\cong\triangle AOM (HL.)$</p><p>显然, 此时$x_{0_{max}}=\frac\pi2-\alpha_{OM}=\frac\pi2-2\cdot \frac\pi6 = \frac\pi6$</p><p>$\therefore x_0 \in [\frac\pi6, \frac\pi2)$</p><p>$\therefore 2x_0 \in [\frac\pi3, \pi)$</p><p>所以,$\tan2x_0\in (-\infty, 0)\cup[\sqrt3,+\infty)$</p><p>小结: 面对这种题目时, 可以使用<strong>数形结合</strong>的方法, 找到题目中的量的几何意义, 这也是做题时中常用的技巧.</p><hr><p>(秋天的金枪鱼- Day8 来自“秋天的金枪鱼”的“吃白巧克力的黑猫”)</p><p>如果对我们有什么建议, 或是有想了解的知识/题目, 请留言! 谢谢支持!</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 数学 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 吃白巧克力的黑猫 </tag>
-            
-            <tag> 数形结合 </tag>
-            
-            <tag> oldNotes </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>未收录 相伴函数与相伴向量</title>
       <link href="vnrConvasdyne/old_notes/falltunaday8p1/"/>
       <url>vnrConvasdyne/old_notes/falltunaday8p1/</url>
@@ -959,6 +1067,35 @@
             <tag> oldNotes </tag>
             
             <tag> 代数 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Day 8 在解题过程中多用一些几何意义吧!</title>
+      <link href="vnrConvasdyne/old_notes/falltunaday8p2/"/>
+      <url>vnrConvasdyne/old_notes/falltunaday8p2/</url>
+      
+        <content type="html"><![CDATA[<!-- <script   src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script> --><p>对有些人来说, 无论是在初中数学中还是高中数学中, 几何都有些烦人. 不过有时, 要解决代数问题, 我们也得联系几何意义. 下面是一道例题</p><hr><p>定义非零向量$\vec{OM}=(a,b)$的“相伴函数“为$f(x)=a\sin x + b\cos x (x\in \mathbb{R})$,</p><p> 向量$\vec{OM}=(a,b)$称为函数$f(x)=a\sin x + b\cos x$的“相伴向量”(其中$O$为坐标原点). </p><p>记平面内所有向量的“相伴函数”构成的集合为$S$.</p><p>(2)已知点$M(a,b)(b\neq0)$ 满足: $(a-\sqrt3)^2+(b-1)^2=1$上一点, </p><p>向量$\vec{OM}$的“相伴函数”$f(x)$在$x=x_0$处取得最大值. 当点$M$运动时, 求$\tan2x_0$的取值范围.</p><hr><p>先开始分析题目</p><p>观察可知,  $(a-\sqrt3)^2+(b-1)^2=1$是一个圆, 圆心在$(\sqrt3,1)$,半径为1, 所以$a\ge \sqrt3-1, b\gt0$</p><p>$f(x)$可以用<strong>辅助角公式</strong>化简为$\sqrt{a^2+b^2}\sin (x+\arctan\frac ba)$若要取到最大值, 一定是在$x+\arctan\frac ba=\frac\pi2+2k\pi$时,</p><p>$i.e. x_0=\frac\pi2-\arctan\frac ba + 2k\pi$, 显然$2k\pi$不影响正切值, 省略.</p><hr><h3 id="如果我们就这样开始计算……"><a href="#如果我们就这样开始计算……" class="headerlink" title="如果我们就这样开始计算……"></a>如果我们就这样开始计算……</h3><p>那么既然得到了$x_0=\frac\pi2-\arctan\frac ba$, 就知道$2x_0=\pi - 2\arctan\frac ba$,</p><p>$\tan 2x_0=-\tan(2\arctan\frac ba)$, 那么根据正切两倍角公式, 不难得出$\tan2 x_0=\frac{-2\frac ba}{1-\frac{b^2}{a^2}}=-\frac{2ab}{a^2-b^2}$, 现在这个式子看起来好多了, 但考虑到我们对$a,b$的了解仅限上面那个复杂得要死的圆, 就算能化简出$a,b$的关系… (一看就知道有根号) 求这样一个式子的值域也是一件很困难的事.</p><hr><h3 id="如果多考虑点几何意义……"><a href="#如果多考虑点几何意义……" class="headerlink" title="如果多考虑点几何意义……"></a>如果多考虑点几何意义……</h3><p>$M$点坐标是$(a,b)$,  $\frac ba$的意义是什么呢?</p><p>根据直线斜率的定义, $k_{OM}=\frac ba$</p><p>$M$既然在这个圆上, </p><p><img src="../../../img/day8/Screen Shot 5780-11-22 at 17.23.19.png" alt="Screen Shot 5780-11-22 at 17.23.19" style="zoom:30%;" /></p><p>那斜率最小就是这种情况: $M$点在$x$轴正半轴上:$\frac ba=0$.</p><p>然而题目条件规定$(b\neq0)$, 也就是说:</p><p>$\therefore x_{0_{max}}=\frac\pi2-0 \lt\frac\pi2 $</p><p>看起来很顺利, 但是$x_{0_{min}}$怎么求呢?</p><p>我们知道从圆外一点引一条直线, 与圆有交点, 切点的斜率取到最大值或者最小值 (可以证明, 但这里直接用这个结论).</p><p><img src="../../../img/day8/Screen Shot 5780-11-22 at 17.41.27.png" alt="Screen Shot 5780-11-22 at 17.41.27" style="zoom:30%;" /></p><p>显然, 切线$OM\perp AM$,</p><p>$\therefore\triangle AOD\cong\triangle AOM (HL.)$</p><p>显然, 此时$x_{0_{max}}=\frac\pi2-\alpha_{OM}=\frac\pi2-2\cdot \frac\pi6 = \frac\pi6$</p><p>$\therefore x_0 \in [\frac\pi6, \frac\pi2)$</p><p>$\therefore 2x_0 \in [\frac\pi3, \pi)$</p><p>所以,$\tan2x_0\in (-\infty, 0)\cup[\sqrt3,+\infty)$</p><p>小结: 面对这种题目时, 可以使用<strong>数形结合</strong>的方法, 找到题目中的量的几何意义, 这也是做题时中常用的技巧.</p><hr><p>(秋天的金枪鱼- Day8 来自“秋天的金枪鱼”的“吃白巧克力的黑猫”)</p><p>如果对我们有什么建议, 或是有想了解的知识/题目, 请留言! 谢谢支持!</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> 数形结合 </tag>
+            
+            <tag> oldNotes </tag>
             
         </tags>
       

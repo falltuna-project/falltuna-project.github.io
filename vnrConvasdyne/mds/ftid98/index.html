@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="Falltuna Project">
+    
+    
+    
+    
+    
+    
+    <title>一道对数方程相关的数学题 | 秋天的金枪鱼</title>
+    <link href="https://falltuna-project.github.io" rel="prefetch" />
+
+    
+<link rel="stylesheet" href="/css/bootstrap.min.css">
+<link rel="stylesheet" href="/css/aos.css">
+<link rel="stylesheet" href="/css/style.css">
+
+    
+<script src="/js/jquery.min.js"></script>
+
+    
+<script src="/js/bootstrap.min.js"></script>
+
+    
+<script src="/js/aos.js"></script>
+
+    
+<script src="/js/highslide/highslide-full.min.js"></script>
+
+    
+<link rel="stylesheet" href="/js/highslide/highslide.css">
+
+    <style type="text/css">
+        @media (max-width: 768px) {
+            body {
+                background-color: #f0f0f0;
+                background: url('/imgs/xsbg.gif');
+                background-attachment: fixed;
+            }
+        }
+    </style>
+    
+    <!--<script type="text/javascript">
+      if (document.images) {
+        var avatar = new Image();
+        avatar.src = '/imgs/mashiro.jpg'
+        var previews = 'preview1.jpg,preview2.jpg,preview3.jpg,preview4.jpg'.split(',')
+        var previewsPreLoad = []
+        for(var i = 0; i < length; i++) {
+          previewsPreLoad.push(new Image())
+          previewsPreLoad[previewsPreLoad.length - 1].src = '/imgs/preview' + previews[i]
+        }
+      }
+    </script>-->
+<meta name="generator" content="Hexo 5.2.0"></head>
+<body>
+    <!-- 背景轮播图功能 -->
+    <section class="hidden-xs">
+    <ul class="cb-slideshow">
+​        <li><span>幸せが生まれる瞬間</span></li>
+​        <li><span>見つけたいから</span></li>
+​        <li><span>手と手を繋ぎ飛びだそう</span></li>
+​        <li><span>今その時</span></li>
+    </ul>
+</section>
+    <!-- 欧尼酱功能, 谁用谁知道 -->
+    
+    <header class="navbar navbar-inverse" id="gal-header">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed"
+                    data-toggle="collapse" data-target=".bs-navbar-collapse"
+                    aria-expanded="false">
+                <span class="fa fa-lg fa-reorder"></span>
+            </button>
+            <a href="https://falltuna-project.github.io">
+                
+                <style>
+                    #gal-header .navbar-brand {
+                        height: 54px;
+                        line-height: 24px;
+                        font-size: 28px;
+                        opacity: 1;
+                        background-color: rgba(0,0,0,0);
+                        text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px #fff,0 0 20px #228DFF,0 0 35px #228DFF,0 0 40px #228DFF,0 0 50px #228DFF,0 0 75px #228DFF;
+                    }
+                </style>
+                <!-- 这里使用文字(navbar_text or config.title) -->
+                <div class="navbar-brand">秋天的金枪鱼</div>
+                
+            </a>
+        </div>
+        <div class="collapse navbar-collapse bs-navbar-collapse">
+            <ul class="nav navbar-nav" id="menu-gal">
+                
+                
+                <li class="">
+                    <a href="/">
+                        <i class="fa fa-home"></i>首页
+                    </a>
+                </li>
+                
+                
+                
+                <li class="">
+                    <a href="/archives">
+                        <i class="fa fa-archive"></i>归档
+                    </a>
+                </li>
+                
+                
+                
+                
+                <li class="dropdown">
+                    <!-- TODO 添加hover dropdown效果 -->
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false" data-hover="dropdown">
+                        <i class="fa fa-list"></i>分类
+                    </a>
+                    <ul class="dropdown-menu">
+                        
+                        
+                        <li>
+                            <a href="/categories/%E6%95%B0%E5%AD%A6/">数学</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/categories/%E5%8C%96%E5%AD%A6/">化学</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/categories/%E7%89%A9%E7%90%86/">物理</a>
+                        </li>
+                        
+                        
+                        
+                    </ul>
+                </li>
+                
+                
+                
+                
+                
+                <li class="dropdown">
+                    <!-- TODO 添加hover dropdown效果 -->
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false" data-hover="dropdown">
+                        <i class="fa fa-tags"></i>标签
+                    </a>
+                    <ul class="dropdown-menu">
+                        
+                        
+                        <li>
+                            <a href="/tags/%E4%B8%8D%E7%AD%89%E5%BC%8F/">不等式</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/tags/%E5%90%83%E7%99%BD%E5%B7%A7%E5%85%8B%E5%8A%9B%E7%9A%84%E9%BB%91%E7%8C%AB/">吃白巧克力的黑猫</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/tags/%E5%8F%8D%E8%AF%81/">反证</a>
+                        </li>
+                        
+                        
+                        <li>
+                            <a href="/tags">...</a>
+                        </li>
+                        
+                        
+                    </ul>
+                </li>
+                
+                
+                
+                
+                <li class="">
+                    <a href="/about">
+                        <i class="fa fa-user"></i>关于我
+                    </a>
+                </li>
+                
+                
+            </ul>
+        </div>
+    </div>
+</header>
+    <div id="gal-body">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 gal-right" id="mainstay">
+                    
+<article class="article well article-body" id="article">
+    <div class="breadcrumb">
+        <i class="fa fa-home"></i>
+        <a href="https://falltuna-project.github.io">秋天的金枪鱼</a>
+        >
+        <span>一道对数方程相关的数学题</span>
+    </div>
+    <!-- 大型设备详细文章 -->
+    <div class="hidden-xs">
+        <div class="title-article">
+            <h1>
+                <a href="/vnrConvasdyne/mds/ftid98/">一道对数方程相关的数学题</a>
+            </h1>
+        </div>
+        <div class="tag-article">
+            
+            <span class="label label-gal">
+                <i class="fa fa-tags"></i>
+                
+                <a href="/tags/%E5%90%83%E7%99%BD%E5%B7%A7%E5%85%8B%E5%8A%9B%E7%9A%84%E9%BB%91%E7%8C%AB/">吃白巧克力的黑猫</a>, 
+                
+                <a href="/tags/%E5%AF%B9%E6%95%B0/">对数</a>
+                
+            </span>
+            
+            <span class="label label-gal">
+                <i class="fa fa-calendar"></i> 2020-11-19
+            </span>
+            
+        </div>
+    </div>
+    <!-- 小型设备详细文章 -->
+    <div class="visible-xs">
+        <center>
+            <div class="title-article">
+                <h4>
+                    <a href="/vnrConvasdyne/mds/ftid98/">一道对数方程相关的数学题</a>
+                </h4>
+            </div>
+            <p>
+                <i class="fa fa-calendar"></i> 2020-11-19
+            </p>
+            <p>
+                
+                <i class="fa fa-tags"></i>
+                
+                <a href="/tags/%E5%90%83%E7%99%BD%E5%B7%A7%E5%85%8B%E5%8A%9B%E7%9A%84%E9%BB%91%E7%8C%AB/">吃白巧克力的黑猫</a>, 
+                
+                <a href="/tags/%E5%AF%B9%E6%95%B0/">对数</a>
+                
+                
+                
+            </p>
+        </center>
+    </div>
+    <div class="content-article">
+        <p>设$a\in R$, 函数$f(x)=\log_2(\frac1x+a)$</p>
+<p>(1)若关于$x$的方程$f(x)-\log_2[(a-4)x+(2a-5)]=0$的解集中恰有一个元素, 求$a$的取值范围.</p>
+<p>(2)设$a&gt;0$,$\forall t\in[\frac12,1], f(x)_{\max}-f(x)_{\min}\le1 (x\in[t,t+1])$</p>
+<p>求$a$的取值范围.</p>
+<p>参考解答:</p>
+<p>(1)</p>
+<script type="math/tex; mode=display">
+\begin{align}
+&\log_2(\frac1x+a)=\log_2[(a-4)x+(2a-5)]\\
+\iff&
+\begin{cases}
+(a-4)x^2+(a-5)x-1=0\qquad(1)\\
+\frac1x>-a
+\end{cases}\\
+\iff&
+\begin{cases}
+((a-4)x-1)(x+1)=0\qquad(1)\\
+\frac1x>-a
+\end{cases}\\
+1^o&当a=4时, (1)的根为x=-1\\
+2^o&当a=3时, \frac1{a-4}=-1, (1)有重根x=-1\\
+3^o&当a\neq3,a\neq4时, x_1=-1, x_2=\frac1{a-4}\\
+&\begin{cases}
+-1>-a\\
+a-4\le-a
+\end{cases}
+或
+\begin{cases}
+a-4>-a\\
+-1\le-a
+\end{cases}\\
+&解得:a\in(1,2]\\
+综上,& a\in(1,2]\cup\{3,4\} 
+\end{align}</script><p>这道题看起来是很复杂对数方程问题, 实则可以转化为二次型方程根的讨论, 但x的范围有限制.</p>
+<p>通过对二次型方程的讨论, 我们可以得到结果.</p>
+<p>需注意的是, 讨论二次型方程时首先应考虑二次项系数, 然后是判别式之类的这些.</p>
+<p>(2)</p>
+<script type="math/tex; mode=display">
+\begin{align}
+\because& u=\frac1x+a在(0,+\infty)\searrow\\
+\therefore& f(x)在(0,+\infty)\searrow\\
+\forall& t\in[\frac12,1], x\in[t,t+1]:\\
+&f(x)_{\max}=f(t)=\log_2(\frac1t+a)\\
+&f(x)_{\min}=f(t+1)=\log_2(\frac1{t+1}+a)\\
+&f(x)_{\max}-f(x)_{\min}=\log_2(\frac1t+a)-\log_2(\frac1{t+1}+a)\le1\\
+\implies&\frac1t+a\le\frac2{t+1}+2a
+\implies a\ge\frac1t-\frac{2}{t+1}
+\end{align}\\</script><p>到这一步之后, 我们用t表示出了a, 把对数题转化为了求a取值范围.</p>
+<script type="math/tex; mode=display">
+\begin{align}
+(法一)&\\
+&a\ge\frac{1-t}{t^2+t}\triangleq u\\
+&当t=1时, u=0\\
+&当t\in[\frac12,1)时,\\
+&\frac1u=\frac{(1-t)^2-3(t-1)+2}{1-t}=(1-t)-3+\frac{2}{1-t}\\
+&关于1-t\searrow, i.e.关于t\nearrow\implies]\frac1u_{\max}在t=1/2时取到,\\
+&此时u=2/3
+\therefore a\ge u_{\max}=2/3, i.e.a\in[2/3,+\infty)
+\end{align}</script><p>方法1是用t表示a, 然后用耐克函数单调性计算极值.</p>
+<script type="math/tex; mode=display">
+\begin{align}
+(法二)&\\
+\implies&at^2+(a+1)t-1\ge0\quad(\forall t\in[1/2,1])\\
+\because&a>0, \therefore y=at^2+(a+1)t-1开口上\\
+\implies&y=at^2+(a+1)t-1在t\in[1/2,1]\nearrow,\\
+\therefore& y_{\min}=\frac34a-1/2\ge0\implies a\ge2/3s
+\end{align}</script><p>因为这道题a&gt;0是已知条件, 所以也可以用二次函数讨论, 这时候的计算量甚至比上面一种方法还少.</p>
+
+    </div>
+</article>
+
+
+                </div>
+                <aside class="col-md-4 gal-left" id="sidebar">
+    <!-- 此为sidebar的搜索框, 非搜索结果页面 -->
+<aside id="sidebar-search">
+    <div class="search hidden-xs" data-aos="fade-up" data-aos-duration="2000">
+        <form class="form-inline clearfix" id="search-form" method="get"
+              action="/search/index.html">
+            <input type="text" name="s" class="form-control" id="searchInput" placeholder="搜索文章~" autocomplete="off">
+            <button class="btn btn-danger btn-gal" type="submit">
+                <i class="fa fa-search"></i>
+            </button>
+        </form>
+    </div>
+</aside>
+    <aside id="sidebar-author">
+    <div class="panel panel-gal" data-aos="flip-right" data-aos-duration="3000">
+        <div class="panel-heading" style="text-align: center">
+            <i class="fa fa-quote-left"></i>
+            Falltuna Project
+            <i class="fa fa-quote-right"></i>
+        </div>
+        <div class="author-panel text-center">
+            <img src="/imgs/mashiro.jpg" width="140" height="140"
+                 alt="个人头像" class="author-image">
+            <p class="author-description"></p>
+        </div>
+    </div>
+</aside>
+    
+    <aside id="sidebar-recent_comments">
+    <div class="panel panel-gal recent hidden-xs" data-aos="fade-up" data-aos-duration="2000">
+        <div class="panel-heading">
+            <i class="fa fa-comments"></i>
+            最新评论
+            <i class="fa fa-times-circle panel-remove"></i>
+            <i class="fa fa-chevron-circle-up panel-toggle"></i>
+        </div>
+        <ul class="list-group list-group-flush"></ul>
+    </div>
+</aside>
+    
+    <!-- 要配置好leancloud才能开启此小工具 -->
+    
+    
+    <aside id="sidebar-recent_posts">
+    <div class="panel panel-gal recent hidden-xs" data-aos="fade-up" data-aos-duration="2000">
+        <div class="panel-heading">
+            <i class="fa fa-refresh"></i>
+            近期文章
+            <i class="fa fa-times-circle panel-remove"></i>
+            <i class="fa fa-chevron-circle-up panel-toggle"></i>
+        </div>
+        <ul class="list-group list-group-flush">
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/falltuna-project/falltuna-main/">Falltuna Notes!</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/mds/ftid100/">不等式的应用</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/mds/ftid101/">不等式证明二次函数性质</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/mds/ftid102/">精彩的三角换元</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/mds/ftid98/">一道对数方程相关的数学题</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/mds/ftid99/">对数方程无解</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/mds/ftid97/">对数方程</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/mds/ftid96/">数形结合</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/mds/ftday93/">权方和不等式</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/mds/ftday94/">一道反证法相关的题目</a>
+                </span>
+            </li>
+            
+        </ul>
+    </div>
+</aside>
+    
+    
+    <aside id="sidebar-rand_posts">
+    <div class="panel panel-gal recent hidden-xs" data-aos="fade-up" data-aos-duration="2000">
+        <div class="panel-heading">
+            <i class="fa fa-refresh"></i>
+            随机文章
+            <i class="fa fa-times-circle panel-remove"></i>
+            <i class="fa fa-chevron-circle-up panel-toggle"></i>
+        </div>
+        <ul class="list-group list-group-flush">
+            
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/falltuna-project/falltuna-main/">Falltuna Notes!</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/mds/ftday93/">权方和不等式</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/mds/ftday95/">变量分离二次函数根的分布</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/old_notes/ftday43/">DAY44 对数篇(3) 指数方程</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/old_notes/ftday42/">DAY43 对数篇(2) 换底公式</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/old_notes/ftday23/">Day 22 用数学归纳法证明数列性质</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/old_notes/ft17/">Day 17 构造递推数列解决排列组合问题(下)</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/nanwai/old_notes/ftday7/">Day 7 氧化剂的pk</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/old_notes/ftday2/">Day 2 一道趣题(集合与命题)</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/nanwai/old_notes/ftday1/">Day 1 两道化学选择题</a>
+                </span>
+            </li>
+            
+        </ul>
+    </div>
+</aside>
+    
+    
+    <aside id="gal-sets">
+        <div class="panel panel-gal hidden-xs" data-aos="fade-up" data-aos-duration="2000">
+            <ul class="nav nav-pills pills-gal">
+
+                
+                <li>
+                    <a href="/vnrConvasdyne/mds/ftid98/index.html#sidebar-tags" data-toggle="tab" id="tags-tab">热门标签</a>
+                </li>
+                
+                
+                <li>
+                    <a href="/vnrConvasdyne/mds/ftid98/index.html#sidebar-friend-links" data-toggle="tab" id="friend-links-tab">友情链接</a>
+                </li>
+                
+                
+                <li>
+                    <a href="/vnrConvasdyne/mds/ftid98/index.html#sidebar-links" data-toggle="tab" id="links-tab">个人链接</a>
+                </li>
+                
+            </ul>
+            <div class="tab-content">
+                
+                <div class="cloud-tags tab-pane nav bs-sidenav fade" id="sidebar-tags">
+    
+    <a href="/tags/%E4%B8%8D%E7%AD%89%E5%BC%8F/" style="font-size: 10.551933343727722px;" class="tag-cloud-link">不等式</a>
+    
+    <a href="/tags/%E5%90%83%E7%99%BD%E5%B7%A7%E5%85%8B%E5%8A%9B%E7%9A%84%E9%BB%91%E7%8C%AB/" style="font-size: 15.097500048325575px;" class="tag-cloud-link">吃白巧克力的黑猫</a>
+    
+    <a href="/tags/%E5%8F%8D%E8%AF%81/" style="font-size: 13.602287537996759px;" class="tag-cloud-link">反证</a>
+    
+    <a href="/tags/%E4%B8%8D%E7%AD%89%E5%BC%8F%E8%AF%81%E6%98%8E/" style="font-size: 9.924067671680069px;" class="tag-cloud-link">不等式证明</a>
+    
+    <a href="/tags/%E4%B8%89%E8%A7%92%E6%8D%A2%E5%85%83/" style="font-size: 13.576829182583804px;" class="tag-cloud-link">三角换元</a>
+    
+    <a href="/tags/%E6%95%B0%E5%BD%A2%E7%BB%93%E5%90%88/" style="font-size: 19.321786901809173px;" class="tag-cloud-link">数形结合</a>
+    
+    <a href="/tags/%E5%AF%B9%E6%95%B0/" style="font-size: 10.994685250735184px;" class="tag-cloud-link">对数</a>
+    
+    <a href="/tags/%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95/" style="font-size: 13.991100350292166px;" class="tag-cloud-link">解析几何</a>
+    
+    <a href="/tags/oldNotes/" style="font-size: 16.507397591951978px;" class="tag-cloud-link">oldNotes</a>
+    
+    <a href="/tags/%E6%B1%9F%E6%B6%9B/" style="font-size: 19.491517899100828px;" class="tag-cloud-link">江涛</a>
+    
+    <a href="/tags/%E7%A7%91%E6%99%AE/" style="font-size: 10.118283406356511px;" class="tag-cloud-link">科普</a>
+    
+    <a href="/tags/%E4%BB%A3%E6%95%B0/" style="font-size: 9.650137874157336px;" class="tag-cloud-link">代数</a>
+    
+    <a href="/tags/%E7%BB%84%E5%90%88%E6%95%B0%E5%AD%A6/" style="font-size: 15.243172521838265px;" class="tag-cloud-link">组合数学</a>
+    
+    <a href="/tags/%E4%B8%89%E8%A7%92%E6%AF%94/" style="font-size: 17.274179677122632px;" class="tag-cloud-link">三角比</a>
+    
+    <a href="/tags/%E6%9E%84%E9%80%A0/" style="font-size: 13.001717868671232px;" class="tag-cloud-link">构造</a>
+    
+    <a href="/tags/%E6%95%B0%E5%88%97/" style="font-size: 13.156429894801708px;" class="tag-cloud-link">数列</a>
+    
+    <a href="/tags/%E6%95%B0%E5%AD%A6%E5%BD%92%E7%BA%B3%E6%B3%95/" style="font-size: 10.743493904559939px;" class="tag-cloud-link">数学归纳法</a>
+    
+    <a href="/tags/%E5%8D%97%E5%A4%96/" style="font-size: 12.619601074843374px;" class="tag-cloud-link">南外</a>
+    
+    <a href="/tags/%E5%AF%B9%E6%95%B0%E7%B3%BB%E5%88%97/" style="font-size: 8.267205762067706px;" class="tag-cloud-link">对数系列</a>
+    
+    <a href="/tags/%E6%9E%81%E9%99%90/" style="font-size: 15.16516590059564px;" class="tag-cloud-link">极限</a>
+    
+    <a href="/tags/%E7%AB%8B%E4%BD%93%E5%87%A0%E4%BD%95%E7%B3%BB%E5%88%97/" style="font-size: 9.39286113271494px;" class="tag-cloud-link">立体几何系列</a>
+    
+</div>
+                
+                
+                <div class="friend-links tab-pane nav bs-sidenav fade" id="sidebar-friend-links">
+    
+    <li>
+        <a href="https://www.geogebra.org/" target="_blank">Geogebra</a>
+    </li>
+    
+    <li>
+        <a href="https://www.desmos.com/calculator" target="_blank">Desmos Calculator</a>
+    </li>
+    
+</div>
+                
+                
+                <div class="links tab-pane nav bs-sidenav fade" id="sidebar-links">
+    
+    <li>
+        <a href="https://github.com/falltuna-project/" target="_blank">Falltuna&#39;s Github</a>
+    </li>
+    
+</div>
+                
+            </div>
+        </div>
+    </aside>
+    
+</aside>
+            </div>
+        </div>
+    </div>
+    <footer id="gal-footer">
+    <div class="container">
+        Copyright © 2020 Falltuna Project. Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>.&nbsp;Theme by <a href="https://github.com/ZEROKISEKI" target="_blank">AONOSORA</a>
+    </div>
+</footer>
+
+<!-- 回到顶端 -->
+<div id="gal-gotop">
+    <i class="fa fa-angle-up"></i>
+</div>
+
+
+  <script src='https://unpkg.com/mermaid@7.1.2/dist/mermaid.min.js'></script>
+  <script>
+    if (window.mermaid) {
+      mermaid.initialize({theme: 'forest'});
+    }
+  </script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<!-- <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+</body>
+
+<script src="/js/activate-power-mode.js"></script>
+
+<script>
+
+    // 配置highslide
+	hs.graphicsDir = '/js/highslide/graphics/'
+    hs.outlineType = "rounded-white";
+    hs.dimmingOpacity = 0.8;
+    hs.outlineWhileAnimating = true;
+    hs.showCredits = false;
+    hs.captionEval = "this.thumb.alt";
+    hs.numberPosition = "caption";
+    hs.align = "center";
+    hs.transitions = ["expand", "crossfade"];
+    hs.lang.number = '共%2张图, 当前是第%1张';
+    hs.addSlideshow({
+      interval: 5000,
+      repeat: true,
+      useControls: true,
+      fixedControls: "fit",
+      overlayOptions: {
+        opacity: 0.75,
+        position: "bottom center",
+        hideOnMouseOut: true
+      }
+    })
+
+    // 初始化aos
+    AOS.init({
+      duration: 1000,
+      delay: 0,
+      easing: 'ease-out-back'
+    });
+
+</script>
+<script>
+	POWERMODE.colorful = 'true';    // make power mode colorful
+	POWERMODE.shake = 'true';       // turn off shake
+	// TODO 这里根据具体情况修改
+	document.body.addEventListener('input', POWERMODE);
+</script>
+<script>
+    window.slideConfig = {
+      prefix: '/imgs/slide/background',
+      ext: 'jpg',
+      maxCount: '6'
+    }
+</script>
+
+<script src="/js/hs.js"></script>
+<script src="/js/blog.js"></script>
+
+
+
+
+</html>
