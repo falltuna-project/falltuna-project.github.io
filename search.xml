@@ -44,6 +44,62 @@
     
     
     <entry>
+      <title>证明离散函数值域</title>
+      <link href="vnrConvasdyne/mds/ftid105/"/>
+      <url>vnrConvasdyne/mds/ftid105/</url>
+      
+        <content type="html"><![CDATA[<p>今天来分享一道高阶思维题目:</p><p>设$A=\{a|a=7p, p\in\mathbb{N^*}\}$, 在$A$上定义$f:\forall a\in A, f(a)=A$的各位数字之和.</p><p>求证: $f(a)\in B=\{b|b\ge2,b\in\mathbb{N^*}\}$</p><script type="math/tex; mode=display">\begin{align}1^o &先证B\subseteq\{b|b\ge2,b\in\mathbb{N^*}\}:\\&\because 7 \nmid10^n,(n\in\mathbb{N^*}) \\&\therefore a\neq10^n,(n\in\mathbb{N^*})\\&\therefore f(a)\neq1,又f(a)\in\mathbb{N^*}\\\implies&B\in\{b|b\ge2,b\in\mathbb{N^*}\}\\2^o &证明\{b|b\ge2,b\in\mathbb{N^*}\}\subseteq B:\\\quad&1^{''} b=2k \quad (k\in\mathbb{N^*})\\\quad&取a=\underbrace{10011001...1001}_{k个1001},\\\quad&7\mid a,\quad b=f(a)=2k\in B\\\quad&2^{''} b=2k+1 \quad (k\in\mathbb{N^*})\\\quad&取a=\underbrace{1001...1001}_{k-1个1001}21,\\\quad&7\mid a,\quad b=f(a)=2k-1+3=2k+1\in B\\综合&1^{''},2^{''}, 可知\{b|b\ge2,b\in\mathbb{N^*}\}\subseteq B\\综上, &B=\{b|b\ge2,b\in\mathbb{N^*}\}\end{align}</script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> 数论 </tag>
+            
+            <tag> 高阶思维 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Cauchy方程的应用</title>
+      <link href="vnrConvasdyne/mds/ftid106/"/>
+      <url>vnrConvasdyne/mds/ftid106/</url>
+      
+        <content type="html"><![CDATA[<p>先介绍Cauchy方程:</p><p>若$f(x)$连续, 且$f(x)+f(y)=f(x+y)\quad(\forall x,y)$, 则$f(x)=ax, a=f(1)$</p><hr><p>例题:</p><p>$f(x)$在$\R$上连续, $f(x+y)=f(x)+f(y)+xy(x+y), f(1)=0$, 求$f(x)$.</p><p>首先看到$xy(x+y)$这个表达式, 就应该联想到$(x+y)^3$<del>(虽然我并没有)</del></p><p>我们可以把原式改变一下:</p><script type="math/tex; mode=display">f(x+y)=f(x)+f(y)+1/3(x^2y+xy^2)</script><p>接下来是极其富有高阶思维的一步:</p><script type="math/tex; mode=display">=f(x)+f(y)+1/3((x+y)^3-x^3-y^3)</script><p>把原来的东西和$(x+y)^3$结合起来了.</p><p>完成这一步之后, 通过移项得到:</p><script type="math/tex; mode=display">f(x+y)-1/3(x+y)^3=f(x)-1/3\cdot x^3+f(y)-1/3\cdot y^3</script><p>我们已经看到Cauchy方程的影子了:</p><script type="math/tex; mode=display">\begin{align}&g(x)\triangleq f(x)-1/3\cdot x^3,\\&g(x+y)=g(x)+g(y)\\\implies& g(x)=ax\quad a=g(1)=0-1/3=-1/3\\\implies& f(x)=1/3x^3-1/3x\end{align}</script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> 函数方程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>对数函数之单调性还是解方程?</title>
       <link href="vnrConvasdyne/mds/ftid103/"/>
       <url>vnrConvasdyne/mds/ftid103/</url>
@@ -98,6 +154,33 @@
     
     
     <entry>
+      <title>不等式证明二次函数性质</title>
+      <link href="vnrConvasdyne/mds/ftid101/"/>
+      <url>vnrConvasdyne/mds/ftid101/</url>
+      
+        <content type="html"><![CDATA[<p>设$f(x)=x^2+ax+b,\quad M(a,b)\triangleq\max\{y|y=|f(x)|, x\in[-1,1]\}$</p><p>当$M(a,b)\le2$时, 求$|a|+|b|_{\max}$</p><p>遇到这种求极值的题目, 我们要做的是:</p><ul><li>第一步: 证明极值</li><li>第二步: 构造极值</li></ul><p>证明: 首先因为$M(a,b)\le2$所以一定有$|f(1)|=|1+a+b|\le2$和</p><p>$|f(-1)|=|1-a+b|\le2$</p><p>所以就会有$|a+b|=|f(1)-1|=|1+a+b-1|\le|f(1)|+1\le3$和$|a-b|=|f(-1)-1|=|1-a+b-1|\le|f(-1)|+1\le3$</p><p>由三角不等式, $|a|+|b|=\max\{|a-b|,|a+b|\}\le3$</p><p>构造: 取$a=-2,b=-1$, 满足条件.</p><p>综上所述, $|a|+|b|_{\max}=3$</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 不等式 </tag>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>精彩的三角换元</title>
       <link href="vnrConvasdyne/mds/ftid102/"/>
       <url>vnrConvasdyne/mds/ftid102/</url>
@@ -119,33 +202,6 @@
             <tag> 不等式证明 </tag>
             
             <tag> 三角换元 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>不等式证明二次函数性质</title>
-      <link href="vnrConvasdyne/mds/ftid101/"/>
-      <url>vnrConvasdyne/mds/ftid101/</url>
-      
-        <content type="html"><![CDATA[<p>设$f(x)=x^2+ax+b,\quad M(a,b)\triangleq\max\{y|y=|f(x)|, x\in[-1,1]\}$</p><p>当$M(a,b)\le2$时, 求$|a|+|b|_{\max}$</p><p>遇到这种求极值的题目, 我们要做的是:</p><ul><li>第一步: 证明极值</li><li>第二步: 构造极值</li></ul><p>证明: 首先因为$M(a,b)\le2$所以一定有$|f(1)|=|1+a+b|\le2$和</p><p>$|f(-1)|=|1-a+b|\le2$</p><p>所以就会有$|a+b|=|f(1)-1|=|1+a+b-1|\le|f(1)|+1\le3$和$|a-b|=|f(-1)-1|=|1-a+b-1|\le|f(-1)|+1\le3$</p><p>由三角不等式, $|a|+|b|=\max\{|a-b|,|a+b|\}\le3$</p><p>构造: 取$a=-2,b=-1$, 满足条件.</p><p>综上所述, $|a|+|b|_{\max}=3$</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 数学 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 不等式 </tag>
-            
-            <tag> 吃白巧克力的黑猫 </tag>
             
         </tags>
       
@@ -721,16 +777,16 @@
     
     
     <entry>
-      <title>未收录 未命名物理题</title>
-      <link href="vnrConvasdyne/old_notes/ftday26/"/>
-      <url>vnrConvasdyne/old_notes/ftday26/</url>
+      <title>Day 25 从整体分析问题</title>
+      <link href="vnrConvasdyne/old_notes/ftday25/"/>
+      <url>vnrConvasdyne/old_notes/ftday25/</url>
       
-        <content type="html"><![CDATA[<p>一条均匀木板长12m, 重200N, 可绕$O$轴转动, $AO$为3m,$B$端用一根最多可承受200N拉力的绳系住, 使木板呈水平状态, 绳与木板的夹角$\alpha=30^\circ$. 现在有一个重力为600N的人在板上行走, 问此人在距离$A$端多远的范围内是安全的?</p><p>板长L=12m, 所以板重力作用在距离A点6m处, 在支点O右侧3m, 所以竖直向下重力的力矩为$G_板(\frac L2-OA)=600$N·m</p><p>假设人最多可以距离A点x米,</p><p>先考虑人在$OB$的情况: </p><p>如果人距离$OB$太近, 绳子会断, 所以要计算绳子最大拉力时人的位置, 此时人与A的距离是人距离A的最大值.</p><p>$G_人(x-OA)+G_板(\frac L2-OA)\le T_{max}\cdot OBsin\alpha$</p><p>解得:</p><p>$x\le3.5$m</p><p>再考虑人在$OA$情况:</p><p>如果人距离$A$很近, 木板可能会逆时针旋转, 因此要计算木板刚好受力平衡的情况, 此时人与A的距离是人距离A的最小值.</p><p>$G_人(OA-x)\le G_板(\frac L2-OA)$</p><p>解得:</p><p>$x\ge2$m</p><p>所以人在距离A端2~3.5米的距离范围内活动是安全的.</p>]]></content>
+        <content type="html"><![CDATA[<p>在做数学题的时候, 从整体分析问题也是一种有效的技巧.</p><p>举这样一道经典的例题:</p><h2 id="例题一"><a href="#例题一" class="headerlink" title="例题一"></a>例题一</h2><p>能否找出7个实数, 使得任意3个相加之和小于0, 但任意5个相加之和大于0? 如果能请举例, 如果不能请说明理由.</p><p>直觉告诉我这多半是不能的. 具体该怎么证明呢? 这时候我们能借助一张数表.</p><p>假设我们真的找到了这样的7个数字, 把它们按照这个顺序列举出来:</p><script type="math/tex; mode=display">a_1\space a_2\space a_3\space a_4\space a_5a_2\space a_3\space a_4\space a_5\space a_6a_3\space a_4\space a_5\space a_6\space a_7</script><p>在这张表格中, 每一列的和都小于0, 所以所有列加起来也小于0.</p><p>可是每一行的和都大于0, 因此所有行之和大于0.</p><p>也就是说, 这张数表里的所有数字之和既大于0又小于0, 矛盾.</p><h2 id="另一个例子"><a href="#另一个例子" class="headerlink" title="另一个例子"></a>另一个例子</h2><p>假设在一张$3 \times3$的表格中, 每一个格子填一个数.</p><p>记$S_i$是i行的三个数的和,</p><p>记$T_j$是j列三个数的和.</p><p>设$P_{ij}=S_i-T_j$</p><p>求证: $P_{ij}$中至多有6个是正数.</p><p>我们先考虑$S_1+S_2+S_3$, 它是这张数表中所有数字之和. 同理, $T_1+T_2+T_3$也是, 这两个和显然相等.</p><p>现在, 把这两个和相减.</p><p>$S_1+S_2+S_3-T_1+T_2+T_3=0$</p><p>重新分配一下以后就是:</p><p>$(S_1-T_1)+(S_2-T_2)+(S_3-T_3)=0$</p><p>也就是:</p><p>$P_{11}+P_{22}+P_{33}=0$</p><p>这三个数里面至少有一个不是正数.</p><p>同理, 重新排列还可以得到:</p><p>$P_{12}+P_{23}+P_{31}$里至少有一个不是正数; $P_{13}+P_{21}+P_{32}$里至少有一个不是正数.</p><p>因此, 在$P_{ij}$中至多只有6个正数.</p>]]></content>
       
       
       <categories>
           
-          <category> 物理 </category>
+          <category> 数学 </category>
           
       </categories>
       
@@ -748,16 +804,16 @@
     
     
     <entry>
-      <title>Day 25 从整体分析问题</title>
-      <link href="vnrConvasdyne/old_notes/ftday25/"/>
-      <url>vnrConvasdyne/old_notes/ftday25/</url>
+      <title>未收录 未命名物理题</title>
+      <link href="vnrConvasdyne/old_notes/ftday26/"/>
+      <url>vnrConvasdyne/old_notes/ftday26/</url>
       
-        <content type="html"><![CDATA[<p>在做数学题的时候, 从整体分析问题也是一种有效的技巧.</p><p>举这样一道经典的例题:</p><h2 id="例题一"><a href="#例题一" class="headerlink" title="例题一"></a>例题一</h2><p>能否找出7个实数, 使得任意3个相加之和小于0, 但任意5个相加之和大于0? 如果能请举例, 如果不能请说明理由.</p><p>直觉告诉我这多半是不能的. 具体该怎么证明呢? 这时候我们能借助一张数表.</p><p>假设我们真的找到了这样的7个数字, 把它们按照这个顺序列举出来:</p><script type="math/tex; mode=display">a_1\space a_2\space a_3\space a_4\space a_5a_2\space a_3\space a_4\space a_5\space a_6a_3\space a_4\space a_5\space a_6\space a_7</script><p>在这张表格中, 每一列的和都小于0, 所以所有列加起来也小于0.</p><p>可是每一行的和都大于0, 因此所有行之和大于0.</p><p>也就是说, 这张数表里的所有数字之和既大于0又小于0, 矛盾.</p><h2 id="另一个例子"><a href="#另一个例子" class="headerlink" title="另一个例子"></a>另一个例子</h2><p>假设在一张$3 \times3$的表格中, 每一个格子填一个数.</p><p>记$S_i$是i行的三个数的和,</p><p>记$T_j$是j列三个数的和.</p><p>设$P_{ij}=S_i-T_j$</p><p>求证: $P_{ij}$中至多有6个是正数.</p><p>我们先考虑$S_1+S_2+S_3$, 它是这张数表中所有数字之和. 同理, $T_1+T_2+T_3$也是, 这两个和显然相等.</p><p>现在, 把这两个和相减.</p><p>$S_1+S_2+S_3-T_1+T_2+T_3=0$</p><p>重新分配一下以后就是:</p><p>$(S_1-T_1)+(S_2-T_2)+(S_3-T_3)=0$</p><p>也就是:</p><p>$P_{11}+P_{22}+P_{33}=0$</p><p>这三个数里面至少有一个不是正数.</p><p>同理, 重新排列还可以得到:</p><p>$P_{12}+P_{23}+P_{31}$里至少有一个不是正数; $P_{13}+P_{21}+P_{32}$里至少有一个不是正数.</p><p>因此, 在$P_{ij}$中至多只有6个正数.</p>]]></content>
+        <content type="html"><![CDATA[<p>一条均匀木板长12m, 重200N, 可绕$O$轴转动, $AO$为3m,$B$端用一根最多可承受200N拉力的绳系住, 使木板呈水平状态, 绳与木板的夹角$\alpha=30^\circ$. 现在有一个重力为600N的人在板上行走, 问此人在距离$A$端多远的范围内是安全的?</p><p>板长L=12m, 所以板重力作用在距离A点6m处, 在支点O右侧3m, 所以竖直向下重力的力矩为$G_板(\frac L2-OA)=600$N·m</p><p>假设人最多可以距离A点x米,</p><p>先考虑人在$OB$的情况: </p><p>如果人距离$OB$太近, 绳子会断, 所以要计算绳子最大拉力时人的位置, 此时人与A的距离是人距离A的最大值.</p><p>$G_人(x-OA)+G_板(\frac L2-OA)\le T_{max}\cdot OBsin\alpha$</p><p>解得:</p><p>$x\le3.5$m</p><p>再考虑人在$OA$情况:</p><p>如果人距离$A$很近, 木板可能会逆时针旋转, 因此要计算木板刚好受力平衡的情况, 此时人与A的距离是人距离A的最小值.</p><p>$G_人(OA-x)\le G_板(\frac L2-OA)$</p><p>解得:</p><p>$x\ge2$m</p><p>所以人在距离A端2~3.5米的距离范围内活动是安全的.</p>]]></content>
       
       
       <categories>
           
-          <category> 数学 </category>
+          <category> 物理 </category>
           
       </categories>
       
