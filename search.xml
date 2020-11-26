@@ -17,6 +17,87 @@
     
     
     <entry>
+      <title>一道复杂的f(0)=0</title>
+      <link href="vnrConvasdyne/mds/ftid107/"/>
+      <url>vnrConvasdyne/mds/ftid107/</url>
+      
+        <content type="html"><![CDATA[<p>对于很多(被设计好的)特殊函数, 证明$f(0)=0$不是一件困难的事, 不过对于下面这道题, 它的难点就在求证$f(0)=0$</p><p>$f(x)\quad x\in\R$</p><p>$\forall x,y\in\R: f(x)+f(y)=f(f(x)\cdot f(y))$</p><p>求证: $\forall x\in\R, f(x)=0$</p><p>我们不难发现<del>我就没发现</del>, 如果$f(0)=0$, 那么由$f(0)+f(x)=f(f(0)\cdot f(x)$, 即$f(x)+0=f(0\cdot f(x))=f(0)=0$即可证明.</p><p>那么如何证明$f(0)=0$?</p><p>我们设$f(0)=c,$</p><p>$2c=f(0)+f(0)=f(c^2)$</p><p>$4c=f(c^2)+f(c^2)=f(f(c^2)\cdot f(c^2))=f(4c^2)$</p><p>$c+4c=f(0)+f(4c^2)=f(c\cdot 4c)=f(4c^2)=4c$</p><p>$5c=4c$</p><p>$i.e. c=0$</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> 函数方程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>函数值域之解析几何法(线性规划思想)</title>
+      <link href="vnrConvasdyne/mds/ftid108/"/>
+      <url>vnrConvasdyne/mds/ftid108/</url>
+      
+        <content type="html"><![CDATA[<script type="math/tex; mode=display">求函数y=x+\sqrt{1-x^2}的值域</script><p><strong>你还在想着三角换元吗? 你out啦! </strong><del>为什么有种中老年人电视广告的感觉???</del> </p><p><strong>使用<em>解析几何</em>大法解决问题, 用<em>解析几何</em>一步到家</strong></p><p>当然不是说三角换元解决不了问题, 不过, 在第一轮复习时, 我们已经学过(默认)线性规划了. </p><p>这道题就是来证明, 线性规划(的思想)除了开卡车以外还能解决常规问题:</p><hr><p>我们令$u=\sqrt{1-x^2}=-x+y$</p><p>以$u$为纵轴, $x$为横轴作图:</p><p>$u=\sqrt{1-x^2}$的图像大家很熟悉<del>(如果不熟悉可以两边平方成有限定$u\ge0$的单位圆)</del></p><p>而$-x+y$更是老朋友了, 一条以$-1$为斜率$y$为截距的直线.</p><p><img src="../../../img/id108/Screen Shot 2020-11-26 at 23.28.57.png" alt="Screen Shot 2020-11-26 at 23.28.57" style="zoom:33%;" /></p><p>我们一点也不惊讶地发现, $y$取$[-1,\sqrt2]$时, 直线与半圆有交点.</p><p>所以这就是$y$的取值范围.</p><hr><p>练习:</p><p>$y=x+\sqrt{x^2-1}$的值域</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> 函数求值域 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>函数值域之解析几何法(斜率的应用)</title>
+      <link href="vnrConvasdyne/mds/ftid109/"/>
+      <url>vnrConvasdyne/mds/ftid109/</url>
+      
+        <content type="html"><![CDATA[<p>一个函数值域能水这么多期我也真是没想到.</p><p><del>感谢某位慷慨的老师给我们那么多精心设计的例题</del></p><p>上期解答(上一次有上期解答是11月17号(官网)的水枪鱼了……)</p><p>前面的操作一样(恕我复制黏贴):</p><p>令$u=\sqrt{1-x^2}=-x+y$</p><p>以$u$为纵轴, $x$为横轴作图:</p><p>这一次$u=\sqrt{1-x^2}$的图像(仍然是用两边平方的方法展开, 可知)是一个等轴双曲线(其渐近线为$y=\pm x$)</p><p><img src="../../../img/id109/Screen Shot 2020-11-26 at 23.38.02.png" alt="Screen Shot 2020-11-26 at 23.38.02" style="zoom:33%;" /></p><p>由想象力+图像可知, $y\in[-1,0)\cup[1,+\infty)$时有解.</p><hr><p>今天又是一道值域问题:</p><script type="math/tex; mode=display">求y=\frac{\sin x}{\cos x+2}​的值域.</script><p>今天我们要来介绍三种方法.</p><p><em>(法一)</em></p><p>当看到这种<del>不三不四的带三角的一次</del>式子之后, 可以选择把分母乘过去, 经过一系列的变换你竟然用上了辅助角公式, 把式子化简成了:</p><p>$\sin(x+\varphi)=\frac{2y}{\sqrt{1+y^2}}$这种形式, 然后因为$x+\varphi$可以取任意实数, 所以得到了$\frac{2y}{\sqrt{1+y^2}}$的范围, 两边平方之解之即得.</p><p><em>(法二)</em></p><p>当看到$\sin, \cos$同时出现的时候可以用上万能的万能置换, 你会发现它真的能用上.<del>颠覆了我对万能置换的认知, 我本以为一生都不会见到几次使用万能置换的机会</del></p><p>令$\tan(\theta/2)=t\quad (t\in\R)$, 那么我们有:</p><script type="math/tex; mode=display">y=\frac{\frac{2t}{1+t^2}}{\frac{1-t^2}{1+t^2}+2}</script><p>经过一系列化简后也能解出$y$的取值范围</p><p><em>(法三)**</em>重点!**</p><script type="math/tex; mode=display">\ce{k}=\frac{y_2-y_1}{x_2-x_1}=\frac{\sin x-0}{\cos x-(-2)}</script><p>不可思议的是, 这东西多像一个斜率公式, 所以我们把原来的$y$也当成某直线的斜率, 那么$(\cos x, \sin x)$, $(-2,0)$就是两个点了.</p><p>也就是说, 某条直线恒过$(-2,0)$, 另一个点在$(\cos x, \sin x)$上, 其斜率取值范围?</p><p><del>我们学三角比定义的时候了解到:</del>$(\cos x, \sin x)$是一个单位圆, 所以这个问题又可以画图了:</p><p><img src="../../../img/id109/vr002-85g70.gif" alt="vr002-85g70" style="zoom:33%;" /></p><hr><p>最终答案到底是什么呢?</p><p>请看下一篇文章.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> 函数求值域 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>解对数方程</title>
       <link href="vnrConvasdyne/mds/ftid104/"/>
       <url>vnrConvasdyne/mds/ftid104/</url>
@@ -77,7 +158,7 @@
       <link href="vnrConvasdyne/mds/ftid106/"/>
       <url>vnrConvasdyne/mds/ftid106/</url>
       
-        <content type="html"><![CDATA[<p>先介绍Cauchy方程:</p><p>若$f(x)$连续, 且$f(x)+f(y)=f(x+y)\quad(\forall x,y)$, 则$f(x)=ax, a=f(1)$</p><hr><p>例题:</p><p>$f(x)$在$\R$上连续, $f(x+y)=f(x)+f(y)+xy(x+y), f(1)=0$, 求$f(x)$.</p><p>首先看到$xy(x+y)$这个表达式, 就应该联想到$(x+y)^3$<del>(虽然我并没有)</del></p><p>我们可以把原式改变一下:</p><script type="math/tex; mode=display">f(x+y)=f(x)+f(y)+1/3(x^2y+xy^2)</script><p>接下来是极其富有高阶思维的一步:</p><script type="math/tex; mode=display">=f(x)+f(y)+1/3((x+y)^3-x^3-y^3)</script><p>把原来的东西和$(x+y)^3$结合起来了.</p><p>完成这一步之后, 通过移项得到:</p><script type="math/tex; mode=display">f(x+y)-1/3(x+y)^3=f(x)-1/3\cdot x^3+f(y)-1/3\cdot y^3</script><p>我们已经看到Cauchy方程的影子了:</p><script type="math/tex; mode=display">\begin{align}&g(x)\triangleq f(x)-1/3\cdot x^3,\\&g(x+y)=g(x)+g(y)\\\implies& g(x)=ax\quad a=g(1)=0-1/3=-1/3\\\implies& f(x)=1/3x^3-1/3x\end{align}</script>]]></content>
+        <content type="html"><![CDATA[<p>先介绍……</p><h3 id="Cauchy方程"><a href="#Cauchy方程" class="headerlink" title="Cauchy方程"></a>Cauchy方程</h3><p>若$f(x)$连续, 且$f(x)+f(y)=f(x+y)\quad(\forall x,y)$, 则$f(x)=ax, a=f(1)$</p><hr><h3 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h3><p>$f(x)$在$\R$上连续, $f(x+y)=f(x)+f(y)+xy(x+y), f(1)=0$, 求$f(x)$.</p><p>首先看到$xy(x+y)$这个表达式, 就应该联想到$(x+y)^3$<del>(虽然我并没有)</del></p><p>我们可以把原式改变一下:</p><script type="math/tex; mode=display">f(x+y)=f(x)+f(y)+1/3(x^2y+xy^2)</script><p>接下来是极其富有高阶思维的一步:</p><script type="math/tex; mode=display">=f(x)+f(y)+1/3((x+y)^3-x^3-y^3)</script><p>把原来的东西和$(x+y)^3$结合起来了.</p><p>完成这一步之后, 通过移项得到:</p><script type="math/tex; mode=display">f(x+y)-1/3(x+y)^3=f(x)-1/3\cdot x^3+f(y)-1/3\cdot y^3</script><p>我们已经看到Cauchy方程的影子了:</p><script type="math/tex; mode=display">\begin{align}&g(x)\triangleq f(x)-1/3\cdot x^3,\\&g(x+y)=g(x)+g(y)\\\implies& g(x)=ax\quad a=g(1)=0-1/3=-1/3\\\implies& f(x)=1/3x^3-1/3x\end{align}</script><p>后面的步骤基本上就是在利用定理了, 最终我们可以解出$f(x)$.</p><p>如果真的是在考试/竞赛的时候, 当然可以用数列的思想把整数点之间的递推关系找出来, 直觉强的同学说不定就拟合出了$f(x)$呢?</p>]]></content>
       
       
       <categories>
@@ -210,11 +291,11 @@
     
     
     <entry>
-      <title>一道对数方程相关的数学题</title>
-      <link href="vnrConvasdyne/mds/ftid98/"/>
-      <url>vnrConvasdyne/mds/ftid98/</url>
+      <title>对数方程无解</title>
+      <link href="vnrConvasdyne/mds/ftid99/"/>
+      <url>vnrConvasdyne/mds/ftid99/</url>
       
-        <content type="html"><![CDATA[<p>设$a\in R$, 函数$f(x)=\log_2(\frac1x+a)$</p><p>(1)若关于$x$的方程$f(x)-\log_2[(a-4)x+(2a-5)]=0$的解集中恰有一个元素, 求$a$的取值范围.</p><p>(2)设$a&gt;0$,$\forall t\in[\frac12,1], f(x)_{\max}-f(x)_{\min}\le1 (x\in[t,t+1])$</p><p>求$a$的取值范围.</p><p>参考解答:</p><p>(1)</p><script type="math/tex; mode=display">\begin{align}&\log_2(\frac1x+a)=\log_2[(a-4)x+(2a-5)]\\\iff&\begin{cases}(a-4)x^2+(a-5)x-1=0\qquad(1)\\\frac1x>-a\end{cases}\\\iff&\begin{cases}((a-4)x-1)(x+1)=0\qquad(1)\\\frac1x>-a\end{cases}\\1^o&当a=4时, (1)的根为x=-1\\2^o&当a=3时, \frac1{a-4}=-1, (1)有重根x=-1\\3^o&当a\neq3,a\neq4时, x_1=-1, x_2=\frac1{a-4}\\&\begin{cases}-1>-a\\a-4\le-a\end{cases}或\begin{cases}a-4>-a\\-1\le-a\end{cases}\\&解得:a\in(1,2]\\综上,& a\in(1,2]\cup\{3,4\} \end{align}</script><p>这道题看起来是很复杂对数方程问题, 实则可以转化为二次型方程根的讨论, 但x的范围有限制.</p><p>通过对二次型方程的讨论, 我们可以得到结果.</p><p>需注意的是, 讨论二次型方程时首先应考虑二次项系数, 然后是判别式之类的这些.</p><p>(2)</p><script type="math/tex; mode=display">\begin{align}\because& u=\frac1x+a在(0,+\infty)\searrow\\\therefore& f(x)在(0,+\infty)\searrow\\\forall& t\in[\frac12,1], x\in[t,t+1]:\\&f(x)_{\max}=f(t)=\log_2(\frac1t+a)\\&f(x)_{\min}=f(t+1)=\log_2(\frac1{t+1}+a)\\&f(x)_{\max}-f(x)_{\min}=\log_2(\frac1t+a)-\log_2(\frac1{t+1}+a)\le1\\\implies&\frac1t+a\le\frac2{t+1}+2a\implies a\ge\frac1t-\frac{2}{t+1}\end{align}</script><p>到这一步之后, 我们用t表示出了a, 把对数题转化为了求a取值范围.</p><script type="math/tex; mode=display">\begin{align}(法一)&\\&a\ge\frac{1-t}{t^2+t}\triangleq u\\&当t=1时, u=0\\&当t\in[\frac12,1)时,\\&\frac1u=\frac{(1-t)^2-3(t-1)+2}{1-t}=(1-t)-3+\frac{2}{1-t}\\&关于1-t\searrow, i.e.关于t\nearrow\implies]\frac1u_{\max}在t=1/2时取到,\\&此时u=2/3\therefore a\ge u_{\max}=2/3, i.e.a\in[2/3,+\infty)\end{align}</script><p>方法1是用t表示a, 然后用耐克函数单调性计算极值.</p><script type="math/tex; mode=display">\begin{align}(法二)&\\\implies&at^2+(a+1)t-1\ge0\quad(\forall t\in[1/2,1])\\\because&a>0, \therefore y=at^2+(a+1)t-1开口上\\\implies&y=at^2+(a+1)t-1在t\in[1/2,1]\nearrow,\\\therefore& y_{\min}=\frac34a-1/2\ge0\implies a\ge2/3s\end{align}</script><p>因为这道题a&gt;0是已知条件, 所以也可以用二次函数讨论, 这时候的计算量甚至比上面一种方法还少.</p>]]></content>
+        <content type="html"><![CDATA[<p>之前我学到用变量表示参数可以有效地解决求方程有解这类问题, 这次来看一道“方程无解”:</p><p>$\log_2(x+2)+\log_2(x+14)=3+\log_2(ax+3)=0$无解, 求$a$取值范围.</p><p>首先是常规的步骤: 写出定义域, 化简拆空对数:</p><script type="math/tex; mode=display">\begin{align}\iff\begin{cases}x>-2\\x>-14\\ax+3>0\\x^2+16x+4=8ax无解\end{cases}\end{align}</script><p>我们用$x$表示$a$, 得到:</p><p>$a=\frac{x^2+16x+4}{8x}=\frac{x}8+2+\frac{1}{2x}$</p><p>当x有解的时候, 我们可以把$a$关于$x$的函数图像画出来</p><p><img src="../../../img/id99/img.png" alt="img" style="zoom:30%;" /></p><p>(或者用基本不等式处理), 得到$a\in(-\infty,3/2)\cup[5/2,+\infty)$这个范围, 此为“有解”. “无解”则为其补集: $a\in[3/2,5/2)$</p>]]></content>
       
       
       <categories>
@@ -237,11 +318,11 @@
     
     
     <entry>
-      <title>对数方程无解</title>
-      <link href="vnrConvasdyne/mds/ftid99/"/>
-      <url>vnrConvasdyne/mds/ftid99/</url>
+      <title>一道对数方程相关的数学题</title>
+      <link href="vnrConvasdyne/mds/ftid98/"/>
+      <url>vnrConvasdyne/mds/ftid98/</url>
       
-        <content type="html"><![CDATA[<p>之前我学到用变量表示参数可以有效地解决求方程有解这类问题, 这次来看一道“方程无解”:</p><p>$\log_2(x+2)+\log_2(x+14)=3+\log_2(ax+3)=0$无解, 求$a$取值范围.</p><p>首先是常规的步骤: 写出定义域, 化简拆空对数:</p><script type="math/tex; mode=display">\begin{align}\iff\begin{cases}x>-2\\x>-14\\ax+3>0\\x^2+16x+4=8ax无解\end{cases}\end{align}</script><p>我们用$x$表示$a$, 得到:</p><p>$a=\frac{x^2+16x+4}{8x}=\frac{x}8+2+\frac{1}{2x}$</p><p>当x有解的时候, 我们可以把$a$关于$x$的函数图像画出来</p><p><img src="../../../img/id99/img.png" alt="img" style="zoom:30%;" /></p><p>(或者用基本不等式处理), 得到$a\in(-\infty,3/2)\cup[5/2,+\infty)$这个范围, 此为“有解”. “无解”则为其补集: $a\in[3/2,5/2)$</p>]]></content>
+        <content type="html"><![CDATA[<p>设$a\in R$, 函数$f(x)=\log_2(\frac1x+a)$</p><p>(1)若关于$x$的方程$f(x)-\log_2[(a-4)x+(2a-5)]=0$的解集中恰有一个元素, 求$a$的取值范围.</p><p>(2)设$a&gt;0$,$\forall t\in[\frac12,1], f(x)_{\max}-f(x)_{\min}\le1 (x\in[t,t+1])$</p><p>求$a$的取值范围.</p><p>参考解答:</p><p>(1)</p><script type="math/tex; mode=display">\begin{align}&\log_2(\frac1x+a)=\log_2[(a-4)x+(2a-5)]\\\iff&\begin{cases}(a-4)x^2+(a-5)x-1=0\qquad(1)\\\frac1x>-a\end{cases}\\\iff&\begin{cases}((a-4)x-1)(x+1)=0\qquad(1)\\\frac1x>-a\end{cases}\\1^o&当a=4时, (1)的根为x=-1\\2^o&当a=3时, \frac1{a-4}=-1, (1)有重根x=-1\\3^o&当a\neq3,a\neq4时, x_1=-1, x_2=\frac1{a-4}\\&\begin{cases}-1>-a\\a-4\le-a\end{cases}或\begin{cases}a-4>-a\\-1\le-a\end{cases}\\&解得:a\in(1,2]\\综上,& a\in(1,2]\cup\{3,4\} \end{align}</script><p>这道题看起来是很复杂对数方程问题, 实则可以转化为二次型方程根的讨论, 但x的范围有限制.</p><p>通过对二次型方程的讨论, 我们可以得到结果.</p><p>需注意的是, 讨论二次型方程时首先应考虑二次项系数, 然后是判别式之类的这些.</p><p>(2)</p><script type="math/tex; mode=display">\begin{align}\because& u=\frac1x+a在(0,+\infty)\searrow\\\therefore& f(x)在(0,+\infty)\searrow\\\forall& t\in[\frac12,1], x\in[t,t+1]:\\&f(x)_{\max}=f(t)=\log_2(\frac1t+a)\\&f(x)_{\min}=f(t+1)=\log_2(\frac1{t+1}+a)\\&f(x)_{\max}-f(x)_{\min}=\log_2(\frac1t+a)-\log_2(\frac1{t+1}+a)\le1\\\implies&\frac1t+a\le\frac2{t+1}+2a\implies a\ge\frac1t-\frac{2}{t+1}\end{align}</script><p>到这一步之后, 我们用t表示出了a, 把对数题转化为了求a取值范围.</p><script type="math/tex; mode=display">\begin{align}(法一)&\\&a\ge\frac{1-t}{t^2+t}\triangleq u\\&当t=1时, u=0\\&当t\in[\frac12,1)时,\\&\frac1u=\frac{(1-t)^2-3(t-1)+2}{1-t}=(1-t)-3+\frac{2}{1-t}\\&关于1-t\searrow, i.e.关于t\nearrow\implies]\frac1u_{\max}在t=1/2时取到,\\&此时u=2/3\therefore a\ge u_{\max}=2/3, i.e.a\in[2/3,+\infty)\end{align}</script><p>方法1是用t表示a, 然后用耐克函数单调性计算极值.</p><script type="math/tex; mode=display">\begin{align}(法二)&\\\implies&at^2+(a+1)t-1\ge0\quad(\forall t\in[1/2,1])\\\because&a>0, \therefore y=at^2+(a+1)t-1开口上\\\implies&y=at^2+(a+1)t-1在t\in[1/2,1]\nearrow,\\\therefore& y_{\min}=\frac34a-1/2\ge0\implies a\ge2/3s\end{align}</script><p>因为这道题a&gt;0是已知条件, 所以也可以用二次函数讨论, 这时候的计算量甚至比上面一种方法还少.</p>]]></content>
       
       
       <categories>
@@ -320,7 +401,7 @@
       <link href="vnrConvasdyne/mds/ftday93/"/>
       <url>vnrConvasdyne/mds/ftday93/</url>
       
-        <content type="html"><![CDATA[<p>今天我们来介绍权方和不等式:</p><script type="math/tex; mode=display">\sum_{1}^{n}\frac{a_i^{m+1}}{b_i^m}\le\frac{(\sum_{1}^{n} a_i)^{m+1}}{(\sum_{1}^{n} b_i)^m}(m\in(-\infty, -1) \cup(0,+\infty))</script><p>取等条件: $a_i=\lambda b_i$ (和柯西相同)</p><p>可能有同学会说: “已经有均值三角柯西排序琴生不等式了, 还要多一个干什么?”</p><p><del>另外不要问“权方和是谁”这种奇怪的问题.</del></p><p>但事实上, 权方和不等式真的非常有用!</p><p>在m=2时， 权方和不等式<del>被温教授</del>称为T2引理, 这也是最常见的应用.</p><p>我们可以用权方和不等式做题目:</p><h4 id="例题一"><a href="#例题一" class="headerlink" title="例题一"></a>例题一</h4><script type="math/tex; mode=display">设x,y>0, 且x+y=1\\求\frac{1}{x}+\frac{4}{y}的最小值</script><p>解：由权方和不等式：</p><script type="math/tex; mode=display">\frac{1^2}{x}+\frac{2^2}{y}\ge\frac{(1+2)^2}{x+y}=9</script><p>当且仅当<script type="math/tex">\frac{1}{x}=\frac{2}{y}</script>时等号成立</p><p><strong>一步解决问题, 认准权方和不等式.</strong></p><h4 id="例题二"><a href="#例题二" class="headerlink" title="例题二"></a>例题二</h4><script type="math/tex; mode=display">若正实数a, b满足4a+3b=1, 求\min\{\frac{1}{2a+b}+\frac{1}{a+b}\}</script><p>我们看到条件为$mx+ny=k$, 其中$x,y&gt;0, k, m, n$为常数时, 就可以使用权方和不等式.</p><p>在这个例子中, 我们把$\frac{1}{a+b}$换成$\frac{2}{2a+2b}$,</p><p>有$(2a+b)+(2a+2b)=1$, 所以可以由权方和不等式得到:</p><script type="math/tex; mode=display">\frac{1^2}{2a+b}+\frac{(\sqrt2)^2}{2a+2b}\ge\frac{(1+\sqrt2)^2}{4a+3b}=\frac{3+\sqrt2}{1}=3+\sqrt2</script><p>$当且仅当\frac{1}{2a+b}+\frac{\sqrt2}{2a+2b}时等号成立$</p><p>所以我们可以看到权方和不等式可以代替很多均值的步骤!</p><h4 id="练习"><a href="#练习" class="headerlink" title="练习"></a>练习</h4><p>已知$x&gt;0, y&gt;0$, 且$\frac{1}{x}+\frac{2}{y+1}=1$, 求$\min\{2x+y\}$</p>]]></content>
+        <content type="html"><![CDATA[<p>今天我们来介绍权方和不等式:</p><script type="math/tex; mode=display">\sum_{1}^{n}\frac{a_i^{m+1}}{b_i^m}\le\frac{(\sum_{1}^{n} a_i)^{m+1}}{(\sum_{1}^{n} b_i)^m}(m\in(-\infty, -1) \cup(0,+\infty))</script><p>取等条件: $a_i=\lambda b_i$ (和柯西相同)</p><p>可能有同学会说: “已经有均值三角柯西排序琴生不等式了, 还要多一个干什么?”</p><p><del>另外不要问“权方和是谁”这种奇怪的问题.</del></p><p>但事实上, 权方和不等式真的非常有用!</p><p>在m=2时， 权方和不等式<del>被温教授</del>称为T2引理, 这也是最常见的应用.</p><p>我们可以用权方和不等式做题目:</p><h4 id="例题一"><a href="#例题一" class="headerlink" title="例题一"></a>例题一</h4><script type="math/tex; mode=display">设x,y>0, 且x+y=1\\求\frac{1}{x}+\frac{4}{y}的最小值</script><p>解：由权方和不等式：</p><script type="math/tex; mode=display">\frac{1^2}{x}+\frac{2^2}{y}\ge\frac{(1+2)^2}{x+y}=9</script><p>当且仅当<script type="math/tex">\frac{1}{x}=\frac{2}{y}</script>时等号成立</p><p><strong>一步解决问题, 认准权方和不等式.</strong></p><h4 id="例题二"><a href="#例题二" class="headerlink" title="例题二"></a>例题二</h4><script type="math/tex; mode=display">若正实数a, b满足4a+3b=1, 求\min\{\frac{1}{2a+b}+\frac{1}{a+b}\}</script><p>我们看到条件为$mx+ny=k$, 其中$x,y&gt;0, k, m, n$为常数时, 就可以使用权方和不等式.</p><p>在这个例子中, 我们把$\frac{1}{a+b}$换成$\frac{2}{2a+2b}$,</p><p>有$(2a+b)+(2a+2b)=1$, 所以可以由权方和不等式得到:</p><script type="math/tex; mode=display">\frac{1^2}{2a+b}+\frac{(\sqrt2)^2}{2a+2b}\ge\frac{(1+\sqrt2)^2}{4a+3b}=\frac{3+\sqrt2}{1}=3+\sqrt2</script><p>$当且仅当\frac{1}{2a+b}=\frac{\sqrt2}{2a+2b}时等号成立$</p><p>所以我们可以看到权方和不等式可以代替很多均值的步骤!</p><h4 id="练习"><a href="#练习" class="headerlink" title="练习"></a>练习</h4><p>已知$x&gt;0, y&gt;0$, 且$\frac{1}{x}+\frac{2}{y+1}=1$, 求$\min\{2x+y\}$</p>]]></content>
       
       
       <categories>

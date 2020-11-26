@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="Falltuna Project">
+    
+    
+    
+    
+    
+    
+    <title>函数值域之解析几何法(斜率的应用) | 秋天的金枪鱼</title>
+    <link href="https://falltuna-project.github.io" rel="prefetch" />
+
+    
+<link rel="stylesheet" href="/css/bootstrap.min.css">
+<link rel="stylesheet" href="/css/aos.css">
+<link rel="stylesheet" href="/css/style.css">
+
+    
+<script src="/js/jquery.min.js"></script>
+
+    
+<script src="/js/bootstrap.min.js"></script>
+
+    
+<script src="/js/aos.js"></script>
+
+    
+<script src="/js/highslide/highslide-full.min.js"></script>
+
+    
+<link rel="stylesheet" href="/js/highslide/highslide.css">
+
+    <style type="text/css">
+        @media (max-width: 768px) {
+            body {
+                background-color: #f0f0f0;
+                background: url('/imgs/xsbg.gif');
+                background-attachment: fixed;
+            }
+        }
+    </style>
+    
+    <!--<script type="text/javascript">
+      if (document.images) {
+        var avatar = new Image();
+        avatar.src = '/imgs/mashiro.jpg'
+        var previews = 'preview1.jpg,preview2.jpg,preview3.jpg,preview4.jpg'.split(',')
+        var previewsPreLoad = []
+        for(var i = 0; i < length; i++) {
+          previewsPreLoad.push(new Image())
+          previewsPreLoad[previewsPreLoad.length - 1].src = '/imgs/preview' + previews[i]
+        }
+      }
+    </script>-->
+<meta name="generator" content="Hexo 5.2.0"></head>
+<body>
+    <!-- 背景轮播图功能 -->
+    <section class="hidden-xs">
+    <ul class="cb-slideshow">
+​        <li><span>幸せが生まれる瞬間</span></li>
+​        <li><span>見つけたいから</span></li>
+​        <li><span>手と手を繋ぎ飛びだそう</span></li>
+​        <li><span>今その時</span></li>
+    </ul>
+</section>
+    <!-- 欧尼酱功能, 谁用谁知道 -->
+    
+    <header class="navbar navbar-inverse" id="gal-header">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed"
+                    data-toggle="collapse" data-target=".bs-navbar-collapse"
+                    aria-expanded="false">
+                <span class="fa fa-lg fa-reorder"></span>
+            </button>
+            <a href="https://falltuna-project.github.io">
+                
+                <style>
+                    #gal-header .navbar-brand {
+                        height: 54px;
+                        line-height: 24px;
+                        font-size: 28px;
+                        opacity: 1;
+                        background-color: rgba(0,0,0,0);
+                        text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px #fff,0 0 20px #228DFF,0 0 35px #228DFF,0 0 40px #228DFF,0 0 50px #228DFF,0 0 75px #228DFF;
+                    }
+                </style>
+                <!-- 这里使用文字(navbar_text or config.title) -->
+                <div class="navbar-brand">秋天的金枪鱼</div>
+                
+            </a>
+        </div>
+        <div class="collapse navbar-collapse bs-navbar-collapse">
+            <ul class="nav navbar-nav" id="menu-gal">
+                
+                
+                <li class="">
+                    <a href="/">
+                        <i class="fa fa-home"></i>首页
+                    </a>
+                </li>
+                
+                
+                
+                <li class="">
+                    <a href="/archives">
+                        <i class="fa fa-archive"></i>归档
+                    </a>
+                </li>
+                
+                
+                
+                
+                <li class="dropdown">
+                    <!-- TODO 添加hover dropdown效果 -->
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false" data-hover="dropdown">
+                        <i class="fa fa-list"></i>分类
+                    </a>
+                    <ul class="dropdown-menu">
+                        
+                        
+                        <li>
+                            <a href="/categories/%E6%95%B0%E5%AD%A6/">数学</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/categories/%E5%8C%96%E5%AD%A6/">化学</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/categories/%E7%89%A9%E7%90%86/">物理</a>
+                        </li>
+                        
+                        
+                        
+                    </ul>
+                </li>
+                
+                
+                
+                
+                
+                <li class="dropdown">
+                    <!-- TODO 添加hover dropdown效果 -->
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false" data-hover="dropdown">
+                        <i class="fa fa-tags"></i>标签
+                    </a>
+                    <ul class="dropdown-menu">
+                        
+                        
+                        <li>
+                            <a href="/tags/%E4%B8%8D%E7%AD%89%E5%BC%8F/">不等式</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/tags/%E5%90%83%E7%99%BD%E5%B7%A7%E5%85%8B%E5%8A%9B%E7%9A%84%E9%BB%91%E7%8C%AB/">吃白巧克力的黑猫</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/tags/%E5%8F%8D%E8%AF%81/">反证</a>
+                        </li>
+                        
+                        
+                        <li>
+                            <a href="/tags">...</a>
+                        </li>
+                        
+                        
+                    </ul>
+                </li>
+                
+                
+                
+                
+                <li class="">
+                    <a href="/about">
+                        <i class="fa fa-user"></i>关于我
+                    </a>
+                </li>
+                
+                
+            </ul>
+        </div>
+    </div>
+</header>
+    <div id="gal-body">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 gal-right" id="mainstay">
+                    
+<article class="article well article-body" id="article">
+    <div class="breadcrumb">
+        <i class="fa fa-home"></i>
+        <a href="https://falltuna-project.github.io">秋天的金枪鱼</a>
+        >
+        <span>函数值域之解析几何法(斜率的应用)</span>
+    </div>
+    <!-- 大型设备详细文章 -->
+    <div class="hidden-xs">
+        <div class="title-article">
+            <h1>
+                <a href="/vnrConvasdyne/mds/ftid109/">函数值域之解析几何法(斜率的应用)</a>
+            </h1>
+        </div>
+        <div class="tag-article">
+            
+            <span class="label label-gal">
+                <i class="fa fa-tags"></i>
+                
+                <a href="/tags/%E5%90%83%E7%99%BD%E5%B7%A7%E5%85%8B%E5%8A%9B%E7%9A%84%E9%BB%91%E7%8C%AB/">吃白巧克力的黑猫</a>, 
+                
+                <a href="/tags/%E5%87%BD%E6%95%B0%E6%B1%82%E5%80%BC%E5%9F%9F/">函数求值域</a>
+                
+            </span>
+            
+            <span class="label label-gal">
+                <i class="fa fa-calendar"></i> 2020-11-26
+            </span>
+            
+        </div>
+    </div>
+    <!-- 小型设备详细文章 -->
+    <div class="visible-xs">
+        <center>
+            <div class="title-article">
+                <h4>
+                    <a href="/vnrConvasdyne/mds/ftid109/">函数值域之解析几何法(斜率的应用)</a>
+                </h4>
+            </div>
+            <p>
+                <i class="fa fa-calendar"></i> 2020-11-26
+            </p>
+            <p>
+                
+                <i class="fa fa-tags"></i>
+                
+                <a href="/tags/%E5%90%83%E7%99%BD%E5%B7%A7%E5%85%8B%E5%8A%9B%E7%9A%84%E9%BB%91%E7%8C%AB/">吃白巧克力的黑猫</a>, 
+                
+                <a href="/tags/%E5%87%BD%E6%95%B0%E6%B1%82%E5%80%BC%E5%9F%9F/">函数求值域</a>
+                
+                
+                
+            </p>
+        </center>
+    </div>
+    <div class="content-article">
+        <p>一个函数值域能水这么多期我也真是没想到.</p>
+<p><del>感谢某位慷慨的老师给我们那么多精心设计的例题</del></p>
+<p>上期解答(上一次有上期解答是11月17号(官网)的水枪鱼了……)</p>
+<p>前面的操作一样(恕我复制黏贴):</p>
+<p>令$u=\sqrt{1-x^2}=-x+y$</p>
+<p>以$u$为纵轴, $x$为横轴作图:</p>
+<p>这一次$u=\sqrt{1-x^2}$的图像(仍然是用两边平方的方法展开, 可知)是一个等轴双曲线(其渐近线为$y=\pm x$)</p>
+<p><img src="../../../img/id109/Screen Shot 2020-11-26 at 23.38.02.png" alt="Screen Shot 2020-11-26 at 23.38.02" style="zoom:33%;" /></p>
+<p>由想象力+图像可知, $y\in[-1,0)\cup[1,+\infty)$时有解.</p>
+<hr>
+<p>今天又是一道值域问题:</p>
+<script type="math/tex; mode=display">
+求y=\frac{\sin x}{\cos x+2}​的值域.</script><p>今天我们要来介绍三种方法.</p>
+<p><em>(法一)</em></p>
+<p>当看到这种<del>不三不四的带三角的一次</del>式子之后, 可以选择把分母乘过去, 经过一系列的变换你竟然用上了辅助角公式, 把式子化简成了:</p>
+<p>$\sin(x+\varphi)=\frac{2y}{\sqrt{1+y^2}}$这种形式, 然后因为$x+\varphi$可以取任意实数, 所以得到了$\frac{2y}{\sqrt{1+y^2}}$的范围, 两边平方之解之即得.</p>
+<p><em>(法二)</em></p>
+<p>当看到$\sin, \cos$同时出现的时候可以用上万能的万能置换, 你会发现它真的能用上.<del>颠覆了我对万能置换的认知, 我本以为一生都不会见到几次使用万能置换的机会</del></p>
+<p>令$\tan(\theta/2)=t\quad (t\in\R)$, 那么我们有:</p>
+<script type="math/tex; mode=display">
+y=\frac{\frac{2t}{1+t^2}}{\frac{1-t^2}{1+t^2}+2}</script><p>经过一系列化简后也能解出$y$的取值范围</p>
+<p><em>(法三)**</em>重点!**</p>
+<script type="math/tex; mode=display">
+\ce{k}=\frac{y_2-y_1}{x_2-x_1}=\frac{\sin x-0}{\cos x-(-2)}</script><p>不可思议的是, 这东西多像一个斜率公式, 所以我们把原来的$y$也当成某直线的斜率, 那么$(\cos x, \sin x)$, $(-2,0)$就是两个点了.</p>
+<p>也就是说, 某条直线恒过$(-2,0)$, 另一个点在$(\cos x, \sin x)$上, 其斜率取值范围?</p>
+<p><del>我们学三角比定义的时候了解到:</del>$(\cos x, \sin x)$是一个单位圆, 所以这个问题又可以画图了:</p>
+<p><img src="../../../img/id109/vr002-85g70.gif" alt="vr002-85g70" style="zoom:33%;" /></p>
+<hr>
+<p>最终答案到底是什么呢?</p>
+<p>请看下一篇文章.</p>
+
+    </div>
+</article>
+
+
+                </div>
+                <aside class="col-md-4 gal-left" id="sidebar">
+    <!-- 此为sidebar的搜索框, 非搜索结果页面 -->
+<aside id="sidebar-search">
+    <div class="search hidden-xs" data-aos="fade-up" data-aos-duration="2000">
+        <form class="form-inline clearfix" id="search-form" method="get"
+              action="/search/index.html">
+            <input type="text" name="s" class="form-control" id="searchInput" placeholder="搜索文章~" autocomplete="off">
+            <button class="btn btn-danger btn-gal" type="submit">
+                <i class="fa fa-search"></i>
+            </button>
+        </form>
+    </div>
+</aside>
+    <aside id="sidebar-author">
+    <div class="panel panel-gal" data-aos="flip-right" data-aos-duration="3000">
+        <div class="panel-heading" style="text-align: center">
+            <i class="fa fa-quote-left"></i>
+            Falltuna Project
+            <i class="fa fa-quote-right"></i>
+        </div>
+        <div class="author-panel text-center">
+            <img src="/imgs/mashiro.jpg" width="140" height="140"
+                 alt="个人头像" class="author-image">
+            <p class="author-description"></p>
+        </div>
+    </div>
+</aside>
+    
+    <aside id="sidebar-recent_comments">
+    <div class="panel panel-gal recent hidden-xs" data-aos="fade-up" data-aos-duration="2000">
+        <div class="panel-heading">
+            <i class="fa fa-comments"></i>
+            最新评论
+            <i class="fa fa-times-circle panel-remove"></i>
+            <i class="fa fa-chevron-circle-up panel-toggle"></i>
+        </div>
+        <ul class="list-group list-group-flush"></ul>
+    </div>
+</aside>
+    
+    <!-- 要配置好leancloud才能开启此小工具 -->
+    
+    
+    <aside id="sidebar-recent_posts">
+    <div class="panel panel-gal recent hidden-xs" data-aos="fade-up" data-aos-duration="2000">
+        <div class="panel-heading">
+            <i class="fa fa-refresh"></i>
+            近期文章
+            <i class="fa fa-times-circle panel-remove"></i>
+            <i class="fa fa-chevron-circle-up panel-toggle"></i>
+        </div>
+        <ul class="list-group list-group-flush">
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/falltuna-project/falltuna-main/">Falltuna Notes!</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/mds/ftid107/">一道复杂的f(0)=0</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/mds/ftid108/">函数值域之解析几何法(线性规划思想)</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/mds/ftid109/">函数值域之解析几何法(斜率的应用)</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/mds/ftid104/">解对数方程</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/mds/ftid105/">证明离散函数值域</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/mds/ftid106/">Cauchy方程的应用</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/mds/ftid103/">对数函数之单调性还是解方程?</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/mds/ftid100/">不等式的应用</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/mds/ftid101/">不等式证明二次函数性质</a>
+                </span>
+            </li>
+            
+        </ul>
+    </div>
+</aside>
+    
+    
+    <aside id="sidebar-rand_posts">
+    <div class="panel panel-gal recent hidden-xs" data-aos="fade-up" data-aos-duration="2000">
+        <div class="panel-heading">
+            <i class="fa fa-refresh"></i>
+            随机文章
+            <i class="fa fa-times-circle panel-remove"></i>
+            <i class="fa fa-chevron-circle-up panel-toggle"></i>
+        </div>
+        <ul class="list-group list-group-flush">
+            
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/mds/ftid107/">一道复杂的f(0)=0</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/mds/ftid104/">解对数方程</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/mds/ftday93/">权方和不等式</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/old_notes/ftday54/">DAY54 那些学完就忘的立体几何#7 (线面夹角)</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/old_notes/ftday49/">DAY49 那些学完就忘的立体几何#3 (直线与直线的位置关系)</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/old_notes/ftday25/">Day 25 从整体分析问题</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/old_notes/ftday21/">Day 19 数列关系式的处理</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/old_notes/ft17/">Day 17 构造递推数列解决排列组合问题(下)</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/old_notes/falltunaday8p1/">未收录 相伴函数与相伴向量</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/vnrConvasdyne/old_notes/falltunaday8p2/">Day 8 在解题过程中多用一些几何意义吧!</a>
+                </span>
+            </li>
+            
+        </ul>
+    </div>
+</aside>
+    
+    
+    <aside id="gal-sets">
+        <div class="panel panel-gal hidden-xs" data-aos="fade-up" data-aos-duration="2000">
+            <ul class="nav nav-pills pills-gal">
+
+                
+                <li>
+                    <a href="/vnrConvasdyne/mds/ftid109/index.html#sidebar-tags" data-toggle="tab" id="tags-tab">热门标签</a>
+                </li>
+                
+                
+                <li>
+                    <a href="/vnrConvasdyne/mds/ftid109/index.html#sidebar-friend-links" data-toggle="tab" id="friend-links-tab">友情链接</a>
+                </li>
+                
+                
+                <li>
+                    <a href="/vnrConvasdyne/mds/ftid109/index.html#sidebar-links" data-toggle="tab" id="links-tab">个人链接</a>
+                </li>
+                
+            </ul>
+            <div class="tab-content">
+                
+                <div class="cloud-tags tab-pane nav bs-sidenav fade" id="sidebar-tags">
+    
+    <a href="/tags/%E4%B8%8D%E7%AD%89%E5%BC%8F/" style="font-size: 17.569529924971153px;" class="tag-cloud-link">不等式</a>
+    
+    <a href="/tags/%E5%90%83%E7%99%BD%E5%B7%A7%E5%85%8B%E5%8A%9B%E7%9A%84%E9%BB%91%E7%8C%AB/" style="font-size: 9.430948777199648px;" class="tag-cloud-link">吃白巧克力的黑猫</a>
+    
+    <a href="/tags/%E5%8F%8D%E8%AF%81/" style="font-size: 14.583506160350282px;" class="tag-cloud-link">反证</a>
+    
+    <a href="/tags/%E4%B8%8D%E7%AD%89%E5%BC%8F%E8%AF%81%E6%98%8E/" style="font-size: 17.17193219831621px;" class="tag-cloud-link">不等式证明</a>
+    
+    <a href="/tags/%E4%B8%89%E8%A7%92%E6%8D%A2%E5%85%83/" style="font-size: 14.85335467421248px;" class="tag-cloud-link">三角换元</a>
+    
+    <a href="/tags/%E5%AF%B9%E6%95%B0/" style="font-size: 18.442066848965347px;" class="tag-cloud-link">对数</a>
+    
+    <a href="/tags/%E6%95%B0%E8%AE%BA/" style="font-size: 15.234728581982342px;" class="tag-cloud-link">数论</a>
+    
+    <a href="/tags/%E9%AB%98%E9%98%B6%E6%80%9D%E7%BB%B4/" style="font-size: 13.598846248710759px;" class="tag-cloud-link">高阶思维</a>
+    
+    <a href="/tags/%E5%87%BD%E6%95%B0%E6%96%B9%E7%A8%8B/" style="font-size: 12.804814165371083px;" class="tag-cloud-link">函数方程</a>
+    
+    <a href="/tags/%E5%87%BD%E6%95%B0%E6%B1%82%E5%80%BC%E5%9F%9F/" style="font-size: 17.27555059679357px;" class="tag-cloud-link">函数求值域</a>
+    
+    <a href="/tags/%E6%95%B0%E5%BD%A2%E7%BB%93%E5%90%88/" style="font-size: 10.368521551997283px;" class="tag-cloud-link">数形结合</a>
+    
+    <a href="/tags/%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95/" style="font-size: 13.737188650368651px;" class="tag-cloud-link">解析几何</a>
+    
+    <a href="/tags/oldNotes/" style="font-size: 15.332267995170806px;" class="tag-cloud-link">oldNotes</a>
+    
+    <a href="/tags/%E6%B1%9F%E6%B6%9B/" style="font-size: 19.204471161773156px;" class="tag-cloud-link">江涛</a>
+    
+    <a href="/tags/%E7%A7%91%E6%99%AE/" style="font-size: 9.843543523296141px;" class="tag-cloud-link">科普</a>
+    
+    <a href="/tags/%E4%BB%A3%E6%95%B0/" style="font-size: 8.294645030622831px;" class="tag-cloud-link">代数</a>
+    
+    <a href="/tags/%E7%BB%84%E5%90%88%E6%95%B0%E5%AD%A6/" style="font-size: 9.68072940468895px;" class="tag-cloud-link">组合数学</a>
+    
+    <a href="/tags/%E4%B8%89%E8%A7%92%E6%AF%94/" style="font-size: 16.972429187867284px;" class="tag-cloud-link">三角比</a>
+    
+    <a href="/tags/%E6%9E%84%E9%80%A0/" style="font-size: 17.902345627244117px;" class="tag-cloud-link">构造</a>
+    
+    <a href="/tags/%E5%8D%97%E5%A4%96/" style="font-size: 9.095155928961116px;" class="tag-cloud-link">南外</a>
+    
+    <a href="/tags/%E6%9E%81%E9%99%90/" style="font-size: 17.28123141388315px;" class="tag-cloud-link">极限</a>
+    
+    <a href="/tags/%E6%95%B0%E5%88%97/" style="font-size: 11.940712250951599px;" class="tag-cloud-link">数列</a>
+    
+    <a href="/tags/%E6%95%B0%E5%AD%A6%E5%BD%92%E7%BA%B3%E6%B3%95/" style="font-size: 10.870759975980777px;" class="tag-cloud-link">数学归纳法</a>
+    
+    <a href="/tags/%E5%AF%B9%E6%95%B0%E7%B3%BB%E5%88%97/" style="font-size: 11.197829975338484px;" class="tag-cloud-link">对数系列</a>
+    
+    <a href="/tags/%E7%AB%8B%E4%BD%93%E5%87%A0%E4%BD%95%E7%B3%BB%E5%88%97/" style="font-size: 10.355768147561633px;" class="tag-cloud-link">立体几何系列</a>
+    
+</div>
+                
+                
+                <div class="friend-links tab-pane nav bs-sidenav fade" id="sidebar-friend-links">
+    
+    <li>
+        <a href="https://www.geogebra.org/" target="_blank">Geogebra</a>
+    </li>
+    
+    <li>
+        <a href="https://www.desmos.com/calculator" target="_blank">Desmos Calculator</a>
+    </li>
+    
+</div>
+                
+                
+                <div class="links tab-pane nav bs-sidenav fade" id="sidebar-links">
+    
+    <li>
+        <a href="https://github.com/falltuna-project/" target="_blank">Falltuna&#39;s Github</a>
+    </li>
+    
+</div>
+                
+            </div>
+        </div>
+    </aside>
+    
+</aside>
+            </div>
+        </div>
+    </div>
+    <footer id="gal-footer">
+    <div class="container">
+        Copyright © 2020 Falltuna Project. Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>.&nbsp;Theme by <a href="https://github.com/ZEROKISEKI" target="_blank">AONOSORA</a>
+    </div>
+</footer>
+
+<!-- 回到顶端 -->
+<div id="gal-gotop">
+    <i class="fa fa-angle-up"></i>
+</div>
+
+
+  <script src='https://unpkg.com/mermaid@7.1.2/dist/mermaid.min.js'></script>
+  <script>
+    if (window.mermaid) {
+      mermaid.initialize({theme: 'forest'});
+    }
+  </script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<!-- <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+</body>
+
+<script src="/js/activate-power-mode.js"></script>
+
+<script>
+
+    // 配置highslide
+	hs.graphicsDir = '/js/highslide/graphics/'
+    hs.outlineType = "rounded-white";
+    hs.dimmingOpacity = 0.8;
+    hs.outlineWhileAnimating = true;
+    hs.showCredits = false;
+    hs.captionEval = "this.thumb.alt";
+    hs.numberPosition = "caption";
+    hs.align = "center";
+    hs.transitions = ["expand", "crossfade"];
+    hs.lang.number = '共%2张图, 当前是第%1张';
+    hs.addSlideshow({
+      interval: 5000,
+      repeat: true,
+      useControls: true,
+      fixedControls: "fit",
+      overlayOptions: {
+        opacity: 0.75,
+        position: "bottom center",
+        hideOnMouseOut: true
+      }
+    })
+
+    // 初始化aos
+    AOS.init({
+      duration: 1000,
+      delay: 0,
+      easing: 'ease-out-back'
+    });
+
+</script>
+<script>
+	POWERMODE.colorful = 'true';    // make power mode colorful
+	POWERMODE.shake = 'true';       // turn off shake
+	// TODO 这里根据具体情况修改
+	document.body.addEventListener('input', POWERMODE);
+</script>
+<script>
+    window.slideConfig = {
+      prefix: '/imgs/slide/background',
+      ext: 'jpg',
+      maxCount: '6'
+    }
+</script>
+
+<script src="/js/hs.js"></script>
+<script src="/js/blog.js"></script>
+
+
+
+
+</html>
