@@ -44,11 +44,11 @@
     
     
     <entry>
-      <title>指数函数分拆成一个奇函数和一个偶函数?</title>
-      <link href="vnrConvasdyne/mds/ftid114/"/>
-      <url>vnrConvasdyne/mds/ftid114/</url>
+      <title>分段奇函数</title>
+      <link href="vnrConvasdyne/mds/ftid113/"/>
+      <url>vnrConvasdyne/mds/ftid113/</url>
       
-        <content type="html"><![CDATA[<p>$f(x)$是偶函数, $g(x)$是奇函数, $f(x)+g(x)=e^x$</p><p>设$h(x)=f(x-1)$, 若$h(2a+1)&gt;h(-a/2)$, 求$a$</p><p>我们列出方程: </p><p>$\begin{cases}<br>f(x)+g(x)=e^x\\<br>f(-x)+g(-x)=f(x)-g(x)=e^{-x}<br>\end{cases}$</p><p>随后解出: </p><p>$\begin{cases}f(x)=\frac{e^x+e^{-x}}{2}=\cosh x\\g(x)=\frac{e^x-e^{-x}}{2}=\sinh x\end{cases}$</p><p><del>如果对$\cosh x$熟悉的同学(或者只要见过其图像), 就</del></p><p>不难发现, 它是个在$[0, +\infty)\nearrow$的偶函数,</p><p><del>但对于从未见过这个函数的同学,</del> </p><p>考虑到高考不能大概不能直接用这个函数的图像, 下面我们来证明一下这个结论:</p><p>设$e^x=u$, $\cosh x=\frac{u+1/u}{2}$</p><p>对于$x\ge0, u\ge1$, 根据<del>高考可以用的</del>耐克函数性质, $u+1/u\nearrow$</p><p>又因为$e^x\nearrow$</p><p>由复合函数单调性法则, $\cosh x\nearrow$</p><p>现在考虑$h(x)=f(x-1)$, 它就是个来迷惑人的东西.</p><p>我们完全可以把原方程化简成:$f(2a+1-1)&gt;f(-a/2-1)$</p><p>也就是解不等式$\cosh (2a)&gt;\cosh(-a/2 -1)$</p><p>现在我们确认其单调性后, 可以画图像</p><p><img src="../../../img/id114/Screen Shot 2020-12-02 at 21.05.31.png" alt="Screen Shot 2020-12-02 at 21.05.31" style="zoom:33%;" /></p><p>只要$\cosh2a$的位置比$\cosh(-a/2-1)$高即可,</p><p>因为是偶函数, 单调递增, 所以</p><p>可以把方程化简成: $|2a|&gt;|-a/2-1|$</p><p>解得:$a\in(-\infty,-2/5)\cup(2/3,+\infty)$</p>]]></content>
+        <content type="html"><![CDATA[<script type="math/tex; mode=display">\begin{align}&a\in\mathbb{R}, f(x)为奇函数, 定义在\mathbb{R}上.\\&当x<0时, f(x)=9x+\frac{a^2}x+7\\&若\forall x\in[0,+\infty), f(x)\ge a+1,\\&求a的取值范围.\end{align}</script><p>首先, 因为$f(x)$定义在$\mathbb{R}$上, 所以它在$x=0$也有意义. </p><p>由于$f(x)$为奇函数, 所以$f(0)=0\ge a+1$</p><p>$\implies a\lt-1$</p><p>接下来, 对于$x&gt;0, f(x)=-f(-x)=-(9(-x)+\frac{a^2}{-x}+7)$</p><p>$\implies f(x) =9x+\frac{a^2}x-7\quad(x&gt;0)$</p><p>$f(x)\ge2\sqrt{9a^2}+7\ge a+1\implies 6|a|-7\ge a+1$</p><p>我们有$a\lt -1$, 所以直接有$-6a-7\ge a+1$</p><p>$i.e. \quad a\le-8/7$</p><p>这道题的坑在哪里呢? 如果忘记$f(0)=0$, 就会额外讨论$a&gt;0$的情况, 解出两个区间.</p>]]></content>
       
       
       <categories>
@@ -71,11 +71,11 @@
     
     
     <entry>
-      <title>分段奇函数</title>
-      <link href="vnrConvasdyne/mds/ftid113/"/>
-      <url>vnrConvasdyne/mds/ftid113/</url>
+      <title>指数函数分拆成一个奇函数和一个偶函数?</title>
+      <link href="vnrConvasdyne/mds/ftid114/"/>
+      <url>vnrConvasdyne/mds/ftid114/</url>
       
-        <content type="html"><![CDATA[<script type="math/tex; mode=display">\begin{align}&a\in\mathbb{R}, f(x)为奇函数, 定义在\mathbb{R}上.\\&当x<0时, f(x)=9x+\frac{a^2}x+7\\&若\forall x\in[0,+\infty), f(x)\ge a+1,\\&求a的取值范围.\end{align}</script><p>首先, 因为$f(x)$定义在$\mathbb{R}$上, 所以它在$x=0$也有意义. </p><p>由于$f(x)$为奇函数, 所以$f(0)=0\ge a+1$</p><p>$\implies a\lt-1$</p><p>接下来, 对于$x&gt;0, f(x)=-f(-x)=-(9(-x)+\frac{a^2}{-x}+7)$</p><p>$\implies f(x) =9x+\frac{a^2}x-7\quad(x&gt;0)$</p><p>$f(x)\ge2\sqrt{9a^2}+7\ge a+1\implies 6|a|-7\ge a+1$</p><p>我们有$a\lt -1$, 所以直接有$-6a-7\ge a+1$</p><p>$i.e. \quad a\le-8/7$</p><p>这道题的坑在哪里呢? 如果忘记$f(0)=0$, 就会额外讨论$a&gt;0$的情况, 解出两个区间.</p>]]></content>
+        <content type="html"><![CDATA[<p>$f(x)$是偶函数, $g(x)$是奇函数, $f(x)+g(x)=e^x$</p><p>设$h(x)=f(x-1)$, 若$h(2a+1)&gt;h(-a/2)$, 求$a$</p><p>我们列出方程: </p><p>$\begin{cases}<br>f(x)+g(x)=e^x\\<br>f(-x)+g(-x)=f(x)-g(x)=e^{-x}<br>\end{cases}$</p><p>随后解出: </p><p>$\begin{cases}f(x)=\frac{e^x+e^{-x}}{2}=\cosh x\\g(x)=\frac{e^x-e^{-x}}{2}=\sinh x\end{cases}$</p><p><del>如果对$\cosh x$熟悉的同学(或者只要见过其图像), 就</del></p><p>不难发现, 它是个在$[0, +\infty)\nearrow$的偶函数,</p><p><del>但对于从未见过这个函数的同学,</del> </p><p>考虑到高考不能大概不能直接用这个函数的图像, 下面我们来证明一下这个结论:</p><p>设$e^x=u$, $\cosh x=\frac{u+1/u}{2}$</p><p>对于$x\ge0, u\ge1$, 根据<del>高考可以用的</del>耐克函数性质, $u+1/u\nearrow$</p><p>又因为$e^x\nearrow$</p><p>由复合函数单调性法则, $\cosh x\nearrow$</p><p>现在考虑$h(x)=f(x-1)$, 它就是个来迷惑人的东西.</p><p>我们完全可以把原方程化简成:$f(2a+1-1)&gt;f(-a/2-1)$</p><p>也就是解不等式$\cosh (2a)&gt;\cosh(-a/2 -1)$</p><p>现在我们确认其单调性后, 可以画图像</p><p><img src="../../../img/id114/Screen Shot 2020-12-02 at 21.05.31.png" alt="Screen Shot 2020-12-02 at 21.05.31" style="zoom:33%;" /></p><p>只要$\cosh2a$的位置比$\cosh(-a/2-1)$高即可,</p><p>因为是偶函数, 所以</p><p>可以把方程化简成: $|2a|&gt;|-a/2-1|$</p><p>解得:$a\in(-\infty,-2/5)\cup(2/3,+\infty)$</p>]]></content>
       
       
       <categories>
@@ -258,33 +258,6 @@
     
     
     <entry>
-      <title>Cauchy方程的应用</title>
-      <link href="vnrConvasdyne/mds/ftid106/"/>
-      <url>vnrConvasdyne/mds/ftid106/</url>
-      
-        <content type="html"><![CDATA[<p>先介绍……</p><h3 id="Cauchy方程"><a href="#Cauchy方程" class="headerlink" title="Cauchy方程"></a>Cauchy方程</h3><p>若$f(x)$连续, 且$f(x)+f(y)=f(x+y)\quad(\forall x,y)$, 则$f(x)=ax, a=f(1)$</p><hr><h3 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h3><p>$f(x)$在$\mathbb{R}$上连续, $f(x+y)=f(x)+f(y)+xy(x+y), f(1)=0$, 求$f(x)$.</p><p>首先看到$xy(x+y)$这个表达式, 就应该联想到$(x+y)^3$<del>(虽然我并没有)</del></p><p>我们可以把原式改变一下:</p><script type="math/tex; mode=display">f(x+y)=f(x)+f(y)+1/3(x^2y+xy^2)</script><p>接下来是极其富有高阶思维的一步:</p><script type="math/tex; mode=display">=f(x)+f(y)+1/3((x+y)^3-x^3-y^3)</script><p>把原来的东西和$(x+y)^3$结合起来了.</p><p>完成这一步之后, 通过移项得到:</p><script type="math/tex; mode=display">f(x+y)-1/3(x+y)^3=f(x)-1/3\cdot x^3+f(y)-1/3\cdot y^3</script><p>我们已经看到Cauchy方程的影子了:</p><script type="math/tex; mode=display">\begin{align}&g(x)\triangleq f(x)-1/3\cdot x^3,\\&g(x+y)=g(x)+g(y)\\\implies& g(x)=ax\quad a=g(1)=0-1/3=-1/3\\\implies& f(x)=1/3x^3-1/3x\end{align}</script><p>后面的步骤基本上就是在利用定理了, 最终我们可以解出$f(x)$.</p><p>如果真的是在考试/竞赛的时候, 当然可以用数列的思想把整数点之间的递推关系找出来, 直觉强的同学说不定就拟合出了$f(x)$呢?</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 数学 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 吃白巧克力的黑猫 </tag>
-            
-            <tag> 函数方程 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>证明离散函数值域</title>
       <link href="vnrConvasdyne/mds/ftid105/"/>
       <url>vnrConvasdyne/mds/ftid105/</url>
@@ -306,6 +279,33 @@
             <tag> 数论 </tag>
             
             <tag> 高阶思维 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Cauchy方程的应用</title>
+      <link href="vnrConvasdyne/mds/ftid106/"/>
+      <url>vnrConvasdyne/mds/ftid106/</url>
+      
+        <content type="html"><![CDATA[<p>先介绍……</p><h3 id="Cauchy方程"><a href="#Cauchy方程" class="headerlink" title="Cauchy方程"></a>Cauchy方程</h3><p>若$f(x)$连续, 且$f(x)+f(y)=f(x+y)\quad(\forall x,y)$, 则$f(x)=ax, a=f(1)$</p><hr><h3 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h3><p>$f(x)$在$\mathbb{R}$上连续, $f(x+y)=f(x)+f(y)+xy(x+y), f(1)=0$, 求$f(x)$.</p><p>首先看到$xy(x+y)$这个表达式, 就应该联想到$(x+y)^3$<del>(虽然我并没有)</del></p><p>我们可以把原式改变一下:</p><script type="math/tex; mode=display">f(x+y)=f(x)+f(y)+1/3(x^2y+xy^2)</script><p>接下来是极其富有高阶思维的一步:</p><script type="math/tex; mode=display">=f(x)+f(y)+1/3((x+y)^3-x^3-y^3)</script><p>把原来的东西和$(x+y)^3$结合起来了.</p><p>完成这一步之后, 通过移项得到:</p><script type="math/tex; mode=display">f(x+y)-1/3(x+y)^3=f(x)-1/3\cdot x^3+f(y)-1/3\cdot y^3</script><p>我们已经看到Cauchy方程的影子了:</p><script type="math/tex; mode=display">\begin{align}&g(x)\triangleq f(x)-1/3\cdot x^3,\\&g(x+y)=g(x)+g(y)\\\implies& g(x)=ax\quad a=g(1)=0-1/3=-1/3\\\implies& f(x)=1/3x^3-1/3x\end{align}</script><p>后面的步骤基本上就是在利用定理了, 最终我们可以解出$f(x)$.</p><p>如果真的是在考试/竞赛的时候, 当然可以用数列的思想把整数点之间的递推关系找出来, 直觉强的同学说不定就拟合出了$f(x)$呢?</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> 函数方程 </tag>
             
         </tags>
       
@@ -341,33 +341,6 @@
     
     
     <entry>
-      <title>不等式的应用</title>
-      <link href="vnrConvasdyne/mds/ftid100/"/>
-      <url>vnrConvasdyne/mds/ftid100/</url>
-      
-        <content type="html"><![CDATA[<p>已知$x,y\in\mathbb{R^+},a=x+y,b=\sqrt{x^2+7xy+y^2}, c=\sqrt{kxy}, \forall x,y,$以$a,b,c$为边均能构成三角形, 求正数$k$的取值范围.</p><hr><p>我们知道能组成三角形的含义即是:</p><script type="math/tex; mode=display">\begin{cases}a+b>c\\b+c>a\\c+a>b\end{cases}</script><p>在此处, 我们使用:</p><script type="math/tex; mode=display">\begin{cases}\sqrt{kxy}<(x+y)+\sqrt{x^2+7xy+y^2}\\\sqrt{kxy}>\sqrt{x^2+7xy+y^2}-(x+y)\end{cases}</script><p>这两个不等式.</p><p>把$\sqrt{xy}$除过去(反正是正实数)可以得到:</p><script type="math/tex; mode=display">\begin{cases}\sqrt{k}<\frac{(x+y)+\sqrt{x^2+7xy+y^2}}{\sqrt{xy}}\\\sqrt{k}>\frac{\sqrt{x^2+7xy+y^2}-(x+y)}{\sqrt{xy}}\end{cases}</script><p>首先先来求第一个等式里k的范围:</p><script type="math/tex; mode=display">\begin{align}\because& x+y\ge2\sqrt{xy},\\又&\sqrt{x^2+7xy+y^2}\ge\sqrt{7xy+2xy}=3\sqrt{xy}\\\therefore&\frac{(x+y)+\sqrt{x^2+7xy+y^2}}{\sqrt{xy}}\ge5(\iff x=y)\\\therefore& \sqrt{k}<5, k<25\end{align}</script><p>然后是第二个. 第二个因为分子有减法, 不能使用相同的放缩.</p><p>那么怎么把分子里的减法变成加法呢? 我们可以用<strong>分子有理化</strong></p><p>化简得到右边的式子:</p><script type="math/tex; mode=display">\begin{align}&\frac{\sqrt{x^2+7xy+y^2}-(x+y)}{\sqrt{xy}}\\=&\frac{5xy}{\sqrt{xy}(\sqrt{x^2+5xy+y^2}+(x+y))}\\=&5\cdot\frac{\sqrt{xy}}{\sqrt{x^2+5xy+y^2}+(x+y)}\\\le&5\cdot1/5=1\end{align}</script><p>综上, $k\in(1,25)$</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 数学 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 吃白巧克力的黑猫 </tag>
-            
-            <tag> 不等式 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>不等式证明二次函数性质</title>
       <link href="vnrConvasdyne/mds/ftid101/"/>
       <url>vnrConvasdyne/mds/ftid101/</url>
@@ -384,9 +357,9 @@
       
         <tags>
             
-            <tag> 吃白巧克力的黑猫 </tag>
-            
             <tag> 不等式 </tag>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
             
         </tags>
       
@@ -416,6 +389,33 @@
             <tag> 不等式证明 </tag>
             
             <tag> 三角换元 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>不等式的应用</title>
+      <link href="vnrConvasdyne/mds/ftid100/"/>
+      <url>vnrConvasdyne/mds/ftid100/</url>
+      
+        <content type="html"><![CDATA[<p>已知$x,y\in\mathbb{R^+},a=x+y,b=\sqrt{x^2+7xy+y^2}, c=\sqrt{kxy}, \forall x,y,$以$a,b,c$为边均能构成三角形, 求正数$k$的取值范围.</p><hr><p>我们知道能组成三角形的含义即是:</p><script type="math/tex; mode=display">\begin{cases}a+b>c\\b+c>a\\c+a>b\end{cases}</script><p>在此处, 我们使用:</p><script type="math/tex; mode=display">\begin{cases}\sqrt{kxy}<(x+y)+\sqrt{x^2+7xy+y^2}\\\sqrt{kxy}>\sqrt{x^2+7xy+y^2}-(x+y)\end{cases}</script><p>这两个不等式.</p><p>把$\sqrt{xy}$除过去(反正是正实数)可以得到:</p><script type="math/tex; mode=display">\begin{cases}\sqrt{k}<\frac{(x+y)+\sqrt{x^2+7xy+y^2}}{\sqrt{xy}}\\\sqrt{k}>\frac{\sqrt{x^2+7xy+y^2}-(x+y)}{\sqrt{xy}}\end{cases}</script><p>首先先来求第一个等式里k的范围:</p><script type="math/tex; mode=display">\begin{align}\because& x+y\ge2\sqrt{xy},\\又&\sqrt{x^2+7xy+y^2}\ge\sqrt{7xy+2xy}=3\sqrt{xy}\\\therefore&\frac{(x+y)+\sqrt{x^2+7xy+y^2}}{\sqrt{xy}}\ge5(\iff x=y)\\\therefore& \sqrt{k}<5, k<25\end{align}</script><p>然后是第二个. 第二个因为分子有减法, 不能使用相同的放缩.</p><p>那么怎么把分子里的减法变成加法呢? 我们可以用<strong>分子有理化</strong></p><p>化简得到右边的式子:</p><script type="math/tex; mode=display">\begin{align}&\frac{\sqrt{x^2+7xy+y^2}-(x+y)}{\sqrt{xy}}\\=&\frac{5xy}{\sqrt{xy}(\sqrt{x^2+5xy+y^2}+(x+y))}\\=&5\cdot\frac{\sqrt{xy}}{\sqrt{x^2+5xy+y^2}+(x+y)}\\\le&5\cdot1/5=1\end{align}</script><p>综上, $k\in(1,25)$</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 不等式 </tag>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
             
         </tags>
       
@@ -546,32 +546,7 @@
       
         <tags>
             
-            <tag> 吃白巧克力的黑猫 </tag>
-            
             <tag> 不等式 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>变量分离二次函数根的分布</title>
-      <link href="vnrConvasdyne/mds/ftday95/"/>
-      <url>vnrConvasdyne/mds/ftday95/</url>
-      
-        <content type="html"><![CDATA[<p>补一篇比较水的金枪鱼……</p><p>用变量分离的方法, 可以解决特定的问题. (话说这不是废话吗?) 下文将会具体介绍一道题:</p><p>关于$x$的方程: $4^x+a\cdot 2^x+a+1$在区间$(1,2)$中有根, 求$a$的取值范围.</p><p>首先是遇到指数方程的第一步: 换元</p><p>$2^x\triangleq u$</p><p>那么原式可以化成: $u^2+au+a+1$, 设为$f(u)$</p><p>$x\in(1,2)\implies u\in(2,4)$</p><p>即$f(u)=0$在$(2,4)$上有根</p><p>我们把$a$提取出来:</p><script type="math/tex; mode=display">\begin{align}&u^2+au+a+1=0\\\implies &-a(u+1)=u^2+1\\\implies& a = -\frac{u^2+1}{u+1}=-\frac{u^2+u-2(u+1)+1+2}{u+1}=-(u+1-2+\frac{2}{u+1})\\\end{align}</script><p>接下来利用耐克函数的性质, 可以轻松求得$a\in(-\frac{17}5,\frac52)$</p><hr><p>比起用原来的二次函数讨论/韦达定理, 这种方法显然容易得多. 不过, 要想到这种方法本身不容易, 其中的思维含量也不低.</p><p>不过, 能通过减少分类, 减少错误率, 何不为之?</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 数学 </category>
-          
-      </categories>
-      
-      
-        <tags>
             
             <tag> 吃白巧克力的黑猫 </tag>
             
@@ -601,6 +576,31 @@
             <tag> 吃白巧克力的黑猫 </tag>
             
             <tag> 反证 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>变量分离二次函数根的分布</title>
+      <link href="vnrConvasdyne/mds/ftday95/"/>
+      <url>vnrConvasdyne/mds/ftday95/</url>
+      
+        <content type="html"><![CDATA[<p>补一篇比较水的金枪鱼……</p><p>用变量分离的方法, 可以解决特定的问题. (话说这不是废话吗?) 下文将会具体介绍一道题:</p><p>关于$x$的方程: $4^x+a\cdot 2^x+a+1$在区间$(1,2)$中有根, 求$a$的取值范围.</p><p>首先是遇到指数方程的第一步: 换元</p><p>$2^x\triangleq u$</p><p>那么原式可以化成: $u^2+au+a+1$, 设为$f(u)$</p><p>$x\in(1,2)\implies u\in(2,4)$</p><p>即$f(u)=0$在$(2,4)$上有根</p><p>我们把$a$提取出来:</p><script type="math/tex; mode=display">\begin{align}&u^2+au+a+1=0\\\implies &-a(u+1)=u^2+1\\\implies& a = -\frac{u^2+1}{u+1}=-\frac{u^2+u-2(u+1)+1+2}{u+1}=-(u+1-2+\frac{2}{u+1})\\\end{align}</script><p>接下来利用耐克函数的性质, 可以轻松求得$a\in(-\frac{17}5,\frac52)$</p><hr><p>比起用原来的二次函数讨论/韦达定理, 这种方法显然容易得多. 不过, 要想到这种方法本身不容易, 其中的思维含量也不低.</p><p>不过, 能通过减少分类, 减少错误率, 何不为之?</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
             
         </tags>
       
@@ -841,9 +841,9 @@
       
         <tags>
             
-            <tag> 科普 </tag>
-            
             <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> 科普 </tag>
             
             <tag> 对数系列 </tag>
             
@@ -978,9 +978,9 @@
       
         <tags>
             
-            <tag> oldNotes </tag>
-            
             <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> oldNotes </tag>
             
             <tag> 代数 </tag>
             
@@ -1007,9 +1007,9 @@
       
         <tags>
             
-            <tag> oldNotes </tag>
-            
             <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> oldNotes </tag>
             
         </tags>
       
@@ -1034,9 +1034,9 @@
       
         <tags>
             
-            <tag> oldNotes </tag>
-            
             <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> oldNotes </tag>
             
         </tags>
       
@@ -1061,13 +1061,13 @@
       
         <tags>
             
-            <tag> oldNotes </tag>
+            <tag> 不等式 </tag>
             
             <tag> 吃白巧克力的黑猫 </tag>
             
-            <tag> 构造 </tag>
+            <tag> oldNotes </tag>
             
-            <tag> 不等式 </tag>
+            <tag> 构造 </tag>
             
         </tags>
       
@@ -1092,9 +1092,9 @@
       
         <tags>
             
-            <tag> oldNotes </tag>
-            
             <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> oldNotes </tag>
             
             <tag> 数列 </tag>
             
@@ -1121,9 +1121,9 @@
       
         <tags>
             
-            <tag> oldNotes </tag>
-            
             <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> oldNotes </tag>
             
             <tag> 数列 </tag>
             
@@ -1152,13 +1152,13 @@
       
         <tags>
             
-            <tag> oldNotes </tag>
+            <tag> 不等式 </tag>
             
             <tag> 吃白巧克力的黑猫 </tag>
             
-            <tag> 构造 </tag>
+            <tag> oldNotes </tag>
             
-            <tag> 不等式 </tag>
+            <tag> 构造 </tag>
             
         </tags>
       
@@ -1183,9 +1183,9 @@
       
         <tags>
             
-            <tag> oldNotes </tag>
-            
             <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> oldNotes </tag>
             
             <tag> 数列 </tag>
             
@@ -1212,9 +1212,9 @@
       
         <tags>
             
-            <tag> oldNotes </tag>
-            
             <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> oldNotes </tag>
             
             <tag> 三角比 </tag>
             
@@ -1241,9 +1241,9 @@
       
         <tags>
             
-            <tag> oldNotes </tag>
-            
             <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> oldNotes </tag>
             
             <tag> 组合数学 </tag>
             
@@ -1270,9 +1270,9 @@
       
         <tags>
             
-            <tag> oldNotes </tag>
-            
             <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> oldNotes </tag>
             
             <tag> 组合数学 </tag>
             
@@ -1299,9 +1299,9 @@
       
         <tags>
             
-            <tag> oldNotes </tag>
-            
             <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> oldNotes </tag>
             
             <tag> 极限 </tag>
             
@@ -1328,11 +1328,11 @@
       
         <tags>
             
+            <tag> 吃白巧克力的黑猫 </tag>
+            
             <tag> oldNotes </tag>
             
             <tag> 科普 </tag>
-            
-            <tag> 吃白巧克力的黑猫 </tag>
             
         </tags>
       
@@ -1370,35 +1370,6 @@
     
     
     <entry>
-      <title>Day 8 在解题过程中多用一些几何意义吧!</title>
-      <link href="vnrConvasdyne/old_notes/falltunaday8p2/"/>
-      <url>vnrConvasdyne/old_notes/falltunaday8p2/</url>
-      
-        <content type="html"><![CDATA[<!-- <script   src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script> --><p>对有些人来说, 无论是在初中数学中还是高中数学中, 几何都有些烦人. 不过有时, 要解决代数问题, 我们也得联系几何意义. 下面是一道例题</p><hr><p>定义非零向量$\vec{OM}=(a,b)$的“相伴函数“为$f(x)=a\sin x + b\cos x (x\in \mathbb{R})$,</p><p> 向量$\vec{OM}=(a,b)$称为函数$f(x)=a\sin x + b\cos x$的“相伴向量”(其中$O$为坐标原点). </p><p>记平面内所有向量的“相伴函数”构成的集合为$S$.</p><p>(2)已知点$M(a,b)(b\neq0)$ 满足: $(a-\sqrt3)^2+(b-1)^2=1$上一点, </p><p>向量$\vec{OM}$的“相伴函数”$f(x)$在$x=x_0$处取得最大值. 当点$M$运动时, 求$\tan2x_0$的取值范围.</p><hr><p>先开始分析题目</p><p>观察可知,  $(a-\sqrt3)^2+(b-1)^2=1$是一个圆, 圆心在$(\sqrt3,1)$,半径为1, 所以$a\ge \sqrt3-1, b\gt0$</p><p>$f(x)$可以用<strong>辅助角公式</strong>化简为$\sqrt{a^2+b^2}\sin (x+\arctan\frac ba)$若要取到最大值, 一定是在$x+\arctan\frac ba=\frac\pi2+2k\pi$时,</p><p>$i.e. x_0=\frac\pi2-\arctan\frac ba + 2k\pi$, 显然$2k\pi$不影响正切值, 省略.</p><hr><h3 id="如果我们就这样开始计算……"><a href="#如果我们就这样开始计算……" class="headerlink" title="如果我们就这样开始计算……"></a>如果我们就这样开始计算……</h3><p>那么既然得到了$x_0=\frac\pi2-\arctan\frac ba$, 就知道$2x_0=\pi - 2\arctan\frac ba$,</p><p>$\tan 2x_0=-\tan(2\arctan\frac ba)$, 那么根据正切两倍角公式, 不难得出$\tan2 x_0=\frac{-2\frac ba}{1-\frac{b^2}{a^2}}=-\frac{2ab}{a^2-b^2}$, 现在这个式子看起来好多了, 但考虑到我们对$a,b$的了解仅限上面那个复杂得要死的圆, 就算能化简出$a,b$的关系… (一看就知道有根号) 求这样一个式子的值域也是一件很困难的事.</p><hr><h3 id="如果多考虑点几何意义……"><a href="#如果多考虑点几何意义……" class="headerlink" title="如果多考虑点几何意义……"></a>如果多考虑点几何意义……</h3><p>$M$点坐标是$(a,b)$,  $\frac ba$的意义是什么呢?</p><p>根据直线斜率的定义, $k_{OM}=\frac ba$</p><p>$M$既然在这个圆上, </p><p><img src="../../../img/day8/Screen Shot 5780-11-22 at 17.23.19.png" alt="Screen Shot 5780-11-22 at 17.23.19" style="zoom:30%;" /></p><p>那斜率最小就是这种情况: $M$点在$x$轴正半轴上:$\frac ba=0$.</p><p>然而题目条件规定$(b\neq0)$, 也就是说:</p><p>$\therefore x_{0_{max}}=\frac\pi2-0 \lt\frac\pi2 $</p><p>看起来很顺利, 但是$x_{0_{min}}$怎么求呢?</p><p>我们知道从圆外一点引一条直线, 与圆有交点, 切点的斜率取到最大值或者最小值 (可以证明, 但这里直接用这个结论).</p><p><img src="../../../img/day8/Screen Shot 5780-11-22 at 17.41.27.png" alt="Screen Shot 5780-11-22 at 17.41.27" style="zoom:30%;" /></p><p>显然, 切线$OM\perp AM$,</p><p>$\therefore\triangle AOD\cong\triangle AOM (HL.)$</p><p>显然, 此时$x_{0_{max}}=\frac\pi2-\alpha_{OM}=\frac\pi2-2\cdot \frac\pi6 = \frac\pi6$</p><p>$\therefore x_0 \in [\frac\pi6, \frac\pi2)$</p><p>$\therefore 2x_0 \in [\frac\pi3, \pi)$</p><p>所以,$\tan2x_0\in (-\infty, 0)\cup[\sqrt3,+\infty)$</p><p>小结: 面对这种题目时, 可以使用<strong>数形结合</strong>的方法, 找到题目中的量的几何意义, 这也是做题时中常用的技巧.</p><hr><p>(秋天的金枪鱼- Day8 来自“秋天的金枪鱼”的“吃白巧克力的黑猫”)</p><p>如果对我们有什么建议, 或是有想了解的知识/题目, 请留言! 谢谢支持!</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 数学 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> oldNotes </tag>
-            
-            <tag> 吃白巧克力的黑猫 </tag>
-            
-            <tag> 数形结合 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>未收录 相伴函数与相伴向量</title>
       <link href="vnrConvasdyne/old_notes/falltunaday8p1/"/>
       <url>vnrConvasdyne/old_notes/falltunaday8p1/</url>
@@ -1415,11 +1386,40 @@
       
         <tags>
             
+            <tag> 吃白巧克力的黑猫 </tag>
+            
             <tag> oldNotes </tag>
+            
+            <tag> 代数 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Day 8 在解题过程中多用一些几何意义吧!</title>
+      <link href="vnrConvasdyne/old_notes/falltunaday8p2/"/>
+      <url>vnrConvasdyne/old_notes/falltunaday8p2/</url>
+      
+        <content type="html"><![CDATA[<!-- <script   src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script> --><p>对有些人来说, 无论是在初中数学中还是高中数学中, 几何都有些烦人. 不过有时, 要解决代数问题, 我们也得联系几何意义. 下面是一道例题</p><hr><p>定义非零向量$\vec{OM}=(a,b)$的“相伴函数“为$f(x)=a\sin x + b\cos x (x\in \mathbb{R})$,</p><p> 向量$\vec{OM}=(a,b)$称为函数$f(x)=a\sin x + b\cos x$的“相伴向量”(其中$O$为坐标原点). </p><p>记平面内所有向量的“相伴函数”构成的集合为$S$.</p><p>(2)已知点$M(a,b)(b\neq0)$ 满足: $(a-\sqrt3)^2+(b-1)^2=1$上一点, </p><p>向量$\vec{OM}$的“相伴函数”$f(x)$在$x=x_0$处取得最大值. 当点$M$运动时, 求$\tan2x_0$的取值范围.</p><hr><p>先开始分析题目</p><p>观察可知,  $(a-\sqrt3)^2+(b-1)^2=1$是一个圆, 圆心在$(\sqrt3,1)$,半径为1, 所以$a\ge \sqrt3-1, b\gt0$</p><p>$f(x)$可以用<strong>辅助角公式</strong>化简为$\sqrt{a^2+b^2}\sin (x+\arctan\frac ba)$若要取到最大值, 一定是在$x+\arctan\frac ba=\frac\pi2+2k\pi$时,</p><p>$i.e. x_0=\frac\pi2-\arctan\frac ba + 2k\pi$, 显然$2k\pi$不影响正切值, 省略.</p><hr><h3 id="如果我们就这样开始计算……"><a href="#如果我们就这样开始计算……" class="headerlink" title="如果我们就这样开始计算……"></a>如果我们就这样开始计算……</h3><p>那么既然得到了$x_0=\frac\pi2-\arctan\frac ba$, 就知道$2x_0=\pi - 2\arctan\frac ba$,</p><p>$\tan 2x_0=-\tan(2\arctan\frac ba)$, 那么根据正切两倍角公式, 不难得出$\tan2 x_0=\frac{-2\frac ba}{1-\frac{b^2}{a^2}}=-\frac{2ab}{a^2-b^2}$, 现在这个式子看起来好多了, 但考虑到我们对$a,b$的了解仅限上面那个复杂得要死的圆, 就算能化简出$a,b$的关系… (一看就知道有根号) 求这样一个式子的值域也是一件很困难的事.</p><hr><h3 id="如果多考虑点几何意义……"><a href="#如果多考虑点几何意义……" class="headerlink" title="如果多考虑点几何意义……"></a>如果多考虑点几何意义……</h3><p>$M$点坐标是$(a,b)$,  $\frac ba$的意义是什么呢?</p><p>根据直线斜率的定义, $k_{OM}=\frac ba$</p><p>$M$既然在这个圆上, </p><p><img src="../../../img/day8/Screen Shot 5780-11-22 at 17.23.19.png" alt="Screen Shot 5780-11-22 at 17.23.19" style="zoom:30%;" /></p><p>那斜率最小就是这种情况: $M$点在$x$轴正半轴上:$\frac ba=0$.</p><p>然而题目条件规定$(b\neq0)$, 也就是说:</p><p>$\therefore x_{0_{max}}=\frac\pi2-0 \lt\frac\pi2 $</p><p>看起来很顺利, 但是$x_{0_{min}}$怎么求呢?</p><p>我们知道从圆外一点引一条直线, 与圆有交点, 切点的斜率取到最大值或者最小值 (可以证明, 但这里直接用这个结论).</p><p><img src="../../../img/day8/Screen Shot 5780-11-22 at 17.41.27.png" alt="Screen Shot 5780-11-22 at 17.41.27" style="zoom:30%;" /></p><p>显然, 切线$OM\perp AM$,</p><p>$\therefore\triangle AOD\cong\triangle AOM (HL.)$</p><p>显然, 此时$x_{0_{max}}=\frac\pi2-\alpha_{OM}=\frac\pi2-2\cdot \frac\pi6 = \frac\pi6$</p><p>$\therefore x_0 \in [\frac\pi6, \frac\pi2)$</p><p>$\therefore 2x_0 \in [\frac\pi3, \pi)$</p><p>所以,$\tan2x_0\in (-\infty, 0)\cup[\sqrt3,+\infty)$</p><p>小结: 面对这种题目时, 可以使用<strong>数形结合</strong>的方法, 找到题目中的量的几何意义, 这也是做题时中常用的技巧.</p><hr><p>(秋天的金枪鱼- Day8 来自“秋天的金枪鱼”的“吃白巧克力的黑猫”)</p><p>如果对我们有什么建议, 或是有想了解的知识/题目, 请留言! 谢谢支持!</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
             
             <tag> 吃白巧克力的黑猫 </tag>
             
-            <tag> 代数 </tag>
+            <tag> 数形结合 </tag>
+            
+            <tag> oldNotes </tag>
             
         </tags>
       
@@ -1471,9 +1471,9 @@
       
         <tags>
             
-            <tag> oldNotes </tag>
-            
             <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> oldNotes </tag>
             
             <tag> 代数 </tag>
             
