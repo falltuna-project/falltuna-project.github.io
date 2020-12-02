@@ -17,11 +17,144 @@
     
     
     <entry>
+      <title>旋转函数图像(?)</title>
+      <link href="vnrConvasdyne/mds/ftid112/"/>
+      <url>vnrConvasdyne/mds/ftid112/</url>
+      
+        <content type="html"><![CDATA[<p>关于上一期“华师大课程”的续, 很抱歉本人不慎把题目忘了, 咕了.</p><p>可能有人会认为旋转函数图像的意思是: 我终于要把“二次函数的旋转”这一远古传奇拿出来了?</p><p>不是的, 今天还是一道常规题:</p><script type="math/tex; mode=display">\begin{align}&设a>0, f(x)=|\frac{2}{x-1}-a|\quad(x>1)\\&f(x)图像与x轴交点为A,\\&\forall P在f(x)图像上, 均\exists Q在f(x)图像上(A,P,Q不重合)\\&满足: |AP|=|AQ|, \vec{AP}\cdot\vec{AQ}=0,\\&求a的值.\end{align}</script><p>相信各位同学的第一反应就是画出$f(x)$的图像, 究竟怎么画呢?</p><p>我们可以通过函数变换:</p><p>$\frac{2}{x}\to\frac{2}{1-x}\to\frac{2}{1-x}-a\to f(x)$</p><p><img src="../../../img/id112/Screen Shot 2020-12-02 at 19.32.48.png" alt="Screen Shot 2020-12-02 at 19.32.48" style="zoom:33%;" /></p><p>得到函数图像为<strong>红色实线部分!</strong></p><p>对这张图像有印象后, 我们再来看题目.</p><p>无疑, 按照平面向量的运算规则, 可知: $AP=AQ, AP\perp AQ$</p><p>既然$P$是任意取到的点, 可以在图像左边单调减的部分, 也可以在右边单调增的部分</p><p>又能对于任意的点$P$, 都存在$Q$, $APQ$构成等腰直角三角形.</p><p>高阶思维在于, 题目其实在说, 以$A$为旋转中心, 把左半部分顺时针旋转$\pi/2$就可以和右半部分重合!</p><p>想出这点后, 不难得到$a=\sqrt2$这一结论.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> 函数图像 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>指数函数分拆成一个奇函数和一个偶函数?</title>
+      <link href="vnrConvasdyne/mds/ftid114/"/>
+      <url>vnrConvasdyne/mds/ftid114/</url>
+      
+        <content type="html"><![CDATA[<p>$f(x)$是偶函数, $g(x)$是奇函数, $f(x)+g(x)=e^x$</p><p>设$h(x)=f(x-1)$, 若$h(2a+1)&gt;h(-a/2)$, 求$a$</p><p>我们列出方程: </p><p>$\begin{cases}<br>f(x)+g(x)=e^x\\<br>f(-x)+g(-x)=f(x)-g(x)=e^{-x}<br>\end{cases}$</p><p>随后解出: </p><p>$\begin{cases}f(x)=\frac{e^x+e^{-x}}{2}=\cosh x\\g(x)=\frac{e^x-e^{-x}}{2}=\sinh x\end{cases}$</p><p><del>如果对$\cosh x$熟悉的同学(或者只要见过其图像), 就</del></p><p>不难发现, 它是个在$[0, +\infty)\nearrow$的偶函数,</p><p><del>但对于从未见过这个函数的同学,</del> </p><p>考虑到高考不能大概不能直接用这个函数的图像, 下面我们来证明一下这个结论:</p><p>设$e^x=u$, $\cosh x=\frac{u+1/u}{2}$</p><p>对于$x\ge0, u\ge1$, 根据<del>高考可以用的</del>耐克函数性质, $u+1/u\nearrow$</p><p>又因为$e^x\nearrow$</p><p>由复合函数单调性法则, $\cosh x\nearrow$</p><p>现在考虑$h(x)=f(x-1)$, 它就是个来迷惑人的东西.</p><p>我们完全可以把原方程化简成:$f(2a+1-1)&gt;f(-a/2-1)$</p><p>也就是解不等式$\cosh (2a)&gt;\cosh(-a/2 -1)$</p><p>现在我们确认其单调性后, 可以画图像</p><p><img src="../../../img/id114/Screen Shot 2020-12-02 at 21.05.31.png" alt="Screen Shot 2020-12-02 at 21.05.31" style="zoom:33%;" /></p><p>只要$\cosh2a$的位置比$\cosh(-a/2-1)$高即可,</p><p>因为是偶函数, 单调递增, 所以</p><p>可以把方程化简成: $|2a|&gt;|-a/2-1|$</p><p>解得:$a\in(-\infty,-2/5)\cup(2/3,+\infty)$</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> 函数奇偶性 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>分段奇函数</title>
+      <link href="vnrConvasdyne/mds/ftid113/"/>
+      <url>vnrConvasdyne/mds/ftid113/</url>
+      
+        <content type="html"><![CDATA[<script type="math/tex; mode=display">\begin{align}&a\in\mathbb{R}, f(x)为奇函数, 定义在\mathbb{R}上.\\&当x<0时, f(x)=9x+\frac{a^2}x+7\\&若\forall x\in[0,+\infty), f(x)\ge a+1,\\&求a的取值范围.\end{align}</script><p>首先, 因为$f(x)$定义在$\mathbb{R}$上, 所以它在$x=0$也有意义. </p><p>由于$f(x)$为奇函数, 所以$f(0)=0\ge a+1$</p><p>$\implies a\lt-1$</p><p>接下来, 对于$x&gt;0, f(x)=-f(-x)=-(9(-x)+\frac{a^2}{-x}+7)$</p><p>$\implies f(x) =9x+\frac{a^2}x-7\quad(x&gt;0)$</p><p>$f(x)\ge2\sqrt{9a^2}+7\ge a+1\implies 6|a|-7\ge a+1$</p><p>我们有$a\lt -1$, 所以直接有$-6a-7\ge a+1$</p><p>$i.e. \quad a\le-8/7$</p><p>这道题的坑在哪里呢? 如果忘记$f(0)=0$, 就会额外讨论$a&gt;0$的情况, 解出两个区间.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> 函数奇偶性 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>函数值域之解析几何法(单调性)</title>
+      <link href="vnrConvasdyne/mds/ftid110/"/>
+      <url>vnrConvasdyne/mds/ftid110/</url>
+      
+        <content type="html"><![CDATA[<p><del>又是大意了没有睡觉的一天</del></p><h3 id="上期解答-答案"><a href="#上期解答-答案" class="headerlink" title="上期解答(答案)"></a>上期解答(答案)</h3><p>$y\in[-\sqrt3/3,\sqrt3/3]$</p><h2 id="单调性解决函数值域"><a href="#单调性解决函数值域" class="headerlink" title="单调性解决函数值域"></a>单调性解决函数值域</h2><h3 id="例题一"><a href="#例题一" class="headerlink" title="例题一"></a>例题一</h3><script type="math/tex; mode=display">y=\arcsin x+2\arctan x</script><p>求上面那个函数的值域.</p><p>一开始同学们可能会不知所措, 这什么鬼?</p><p>然而细心的你一定会发现$\arcsin x\nearrow, \arctan x\nearrow$. 所以……</p><p>由于$\arctan x\in\mathbb{R}, \arcsin x\in[-1,1],$所以$y\in[-1,1]$</p><p>将两个端点代入卡西欧(或者直接用定义计算, 如果记得住的话), 得到:$y\in[-\pi,\pi]$</p><h3 id="例题二"><a href="#例题二" class="headerlink" title="例题二"></a>例题二</h3><script type="math/tex; mode=display">y=\sqrt{2x^2-3x+4}+\sqrt{x^2-2x}</script><p>求上面那个函数的值域.</p><p>好的如果看到两个根号相加, 第一反应大概是……</p><p><strong>这是不是个……解析几何?</strong></p><p><strong>两点之间距离公式!</strong></p><p>然而这东西的二次项系数不对啊, 不能这么操作.</p><p>再者难道是……</p><p><strong>双曲线???</strong>但好像也不对, 太复杂了, 也不像<strong>柯西不等式</strong>能解决的问题.</p><p>不过, 如果这时候你求一下它的定义域, 会发现$2x^2-3x+4\ge0\implies x\in\mathbb{R}$, $x^2-2x\ge0\implies x\in(-\infty,0]\cup[2,+\infty)$</p><p>有趣的是, $2x^2-3x+4_{\min}$在$x=3/4$时取到, 也就是说, $2x^2-3x+4$在$(-\infty,0]\searrow,$在$[2,+\infty)\nearrow$.(而显然$x^2-2x$也是如此)</p><p>所以, 在两段定义域区间中, 这个函数都是单调函数.</p><p>显然, 当$x=0, y=2$; $x=2,y=\sqrt6$</p><p>$\implies y\in[\sqrt6,+\infty)$</p><hr><p>有同学问: 换一个数据, 这方法不就没用了吗? 但关键是, 这题目是故意这样设计的, 考察的就是学生使用单调性的能力.</p><p>下一期的金枪鱼会隆重介绍华师大课程上的两道题.</p><p><del>本人因为在华师大课程中坐最后一排, 全程都是看直播的感觉, 老师和前排活跃学生都完全听不到我说的话.</del></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> 函数求值域 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>20-11-27华师大课程题目(1)</title>
+      <link href="vnrConvasdyne/mds/ftid111/"/>
+      <url>vnrConvasdyne/mds/ftid111/</url>
+      
+        <content type="html"><![CDATA[<p>废话不多说了, 请看题:</p><script type="math/tex; mode=display">\begin{align}&设n\ge5, \quad a_1,a_2,a_3...a_n\in\mathbb{N^*}(a_i互不相等), \quad 有下列性质:\\&S=\{a_1,a_2,a_3...a_n\}, \\&\forall A, B\subset S\quad(A,B\neq\varnothing), A中所有元素之和\neq B中所有元素之和\\&满足上述条件下, 求\max{\sum_{i=1}^n\frac1{a_i}}\end{align}</script><p><del>好的, 我们不解释题目.</del></p><p>我们要如何构造出一组数, 使得里面任意挑几个, 相加都不会等于另一个, 且这组数最小呢?</p><p>首先想到的是, 我们要找一个足够大的数, 使得它等于其余所有数之和再加1.</p><p>你有想到什么好的例子吗?</p><p>是的<strong>构造一个<em>等比数列</em>, 以<em>2</em>为公比.</strong></p><p>接下来只要证明它是最小的就行了.</p><hr><script type="math/tex; mode=display">\begin{align}1^o &存在性:\\&S=\{2^k|k\in\mathbb{N^*}, k\le n \},\\&满足: \forall A, B\subset S, (\sum_{a\in A}a)\ne(\sum_{b\in B}b)\end{align}</script><p>我们就这样构造出来了一个……满足条件的集合.</p><p>如何证明它真的满足条件呢? 首先, 把所有数字改成二进制, 你会惊奇地发现, <strong>$a_1$就是$(1)_2, a_1$就是$(10)_2$, 以此类推, $a_k$就是$(1\underbrace{00…0}_{k-1个})_2$</strong>, 这些$a_k$加起来的组合可以用来表示互不相同的数字<del>, 太不可思议了!</del></p><script type="math/tex; mode=display">\begin{align}2^o &最大性:\\&考虑I=\sum_{i=1}^{n}(1/2)^{i-1}-\frac{1}{a_i}\ge0\\&(通分后得到)\\&\iff \sum_{i=1}^{n}(\frac{1}{2^{i-1}\cdot a_i})\cdot(a_i-2^{i-1})\ge 0\\&(把左边括号设成c_i, 右边括号设成d_i)\\&我们有c_1\ge...c_i\ge c_{i+1}\ge...c_n\gt0,\\&设\sum_{i=1}^kd_i=D_k,\\&我们有D_k=\sum_{i=1}^ka_i-\sum_{i=1}^k2^{i-1}=\sum_{i=1}^ka_i-(2^k-1)\ge0\\&若不然, 则\sum_{i=1}^ka_i\lt2^k-1\\&对于A_k={a_1,...a_k}\subset S, A_k共有2^k-1个非空子集, 故有2^k-1种和,\\&但把所有元素加起来都到不了和的种类数, 矛盾.\\&(到这里我们也可以思考: 其实最大值正是在a_i取遍2^k-1个的情况下得到.)\\&定义了这个D_k以后, 我们可以把d_k换掉:\\&I=\sum_{i=1}^n(c_id_i)=\sum_{i=1}^nc_i(D_i-D_{i-1})\\&(用S_n表示a_n也是数列里的常规操作了, 可从头开始造一个S_n这种实在是想不到)\\&(约定D_0=0)\\&\quad =c_1D_1-c_1D_0+c_2D_2-c_2D_1+...c_nD_n-c_nD_{n-1}\\&\quad=D_1(c_1-c_2)+D_2(c_2-c_3)+...D_{n-1}(c_{n-1}-c_n)+D_nc_n\\&\because D_n\ge 0, c_i\ge c_{i+1}>0, \therefore I\ge0\\&于是乎没有比之前我们构造的情况更大的情况了, 证明结束, 可喜可贺.\end{align}</script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>一道复杂的f(0)=0</title>
       <link href="vnrConvasdyne/mds/ftid107/"/>
       <url>vnrConvasdyne/mds/ftid107/</url>
       
-        <content type="html"><![CDATA[<p>对于很多(被设计好的)特殊函数, 证明$f(0)=0$不是一件困难的事, 不过对于下面这道题, 它的难点就在求证$f(0)=0$</p><p>$f(x)\quad x\in\R$</p><p>$\forall x,y\in\R: f(x)+f(y)=f(f(x)\cdot f(y))$</p><p>求证: $\forall x\in\R, f(x)=0$</p><p>我们不难发现<del>我就没发现</del>, 如果$f(0)=0$, 那么由$f(0)+f(x)=f(f(0)\cdot f(x)$, 即$f(x)+0=f(0\cdot f(x))=f(0)=0$即可证明.</p><p>那么如何证明$f(0)=0$?</p><p>我们设$f(0)=c,$</p><p>$2c=f(0)+f(0)=f(c^2)$</p><p>$4c=f(c^2)+f(c^2)=f(f(c^2)\cdot f(c^2))=f(4c^2)$</p><p>$c+4c=f(0)+f(4c^2)=f(c\cdot 4c)=f(4c^2)=4c$</p><p>$5c=4c$</p><p>$i.e. c=0$</p>]]></content>
+        <content type="html"><![CDATA[<p>对于很多(被设计好的)特殊函数, 证明$f(0)=0$不是一件困难的事, 不过对于下面这道题, 它的难点就在求证$f(0)=0$</p><p>$f(x)\quad x\in\mathbb{R}$</p><p>$\forall x,y\in\mathbb{R}: f(x)+f(y)=f(f(x)\cdot f(y))$</p><p>求证: $\forall x\in\mathbb{R}, f(x)=0$</p><p>我们不难发现<del>我就没发现</del>, 如果$f(0)=0$, 那么由$f(0)+f(x)=f(f(0)\cdot f(x)$, 即$f(x)+0=f(0\cdot f(x))=f(0)=0$即可证明.</p><p>那么如何证明$f(0)=0$?</p><p>我们设$f(0)=c,$</p><p>$2c=f(0)+f(0)=f(c^2)$</p><p>$4c=f(c^2)+f(c^2)=f(f(c^2)\cdot f(c^2))=f(4c^2)$</p><p>$c+4c=f(0)+f(4c^2)=f(c\cdot 4c)=f(4c^2)=4c$</p><p>$5c=4c$</p><p>$i.e. c=0$</p>]]></content>
       
       
       <categories>
@@ -75,7 +208,7 @@
       <link href="vnrConvasdyne/mds/ftid109/"/>
       <url>vnrConvasdyne/mds/ftid109/</url>
       
-        <content type="html"><![CDATA[<p>一个函数值域能水这么多期我也真是没想到.</p><p><del>感谢某位慷慨的老师给我们那么多精心设计的例题</del></p><p>上期解答(上一次有上期解答是11月17号(官网)的水枪鱼了……)</p><p>前面的操作一样(恕我复制黏贴):</p><p>令$u=\sqrt{1-x^2}=-x+y$</p><p>以$u$为纵轴, $x$为横轴作图:</p><p>这一次$u=\sqrt{1-x^2}$的图像(仍然是用两边平方的方法展开, 可知)是一个等轴双曲线(其渐近线为$y=\pm x$)</p><p><img src="../../../img/id109/Screen Shot 2020-11-26 at 23.38.02.png" alt="Screen Shot 2020-11-26 at 23.38.02" style="zoom:33%;" /></p><p>由想象力+图像可知, $y\in[-1,0)\cup[1,+\infty)$时有解.</p><hr><p>今天又是一道值域问题:</p><script type="math/tex; mode=display">求y=\frac{\sin x}{\cos x+2}​的值域.</script><p>今天我们要来介绍三种方法.</p><p><em>(法一)</em></p><p>当看到这种<del>不三不四的带三角的一次</del>式子之后, 可以选择把分母乘过去, 经过一系列的变换你竟然用上了辅助角公式, 把式子化简成了:</p><p>$\sin(x+\varphi)=\frac{2y}{\sqrt{1+y^2}}$这种形式, 然后因为$x+\varphi$可以取任意实数, 所以得到了$\frac{2y}{\sqrt{1+y^2}}$的范围, 两边平方之解之即得.</p><p><em>(法二)</em></p><p>当看到$\sin, \cos$同时出现的时候可以用上万能的万能置换, 你会发现它真的能用上.<del>颠覆了我对万能置换的认知, 我本以为一生都不会见到几次使用万能置换的机会</del></p><p>令$\tan(\theta/2)=t\quad (t\in\R)$, 那么我们有:</p><script type="math/tex; mode=display">y=\frac{\frac{2t}{1+t^2}}{\frac{1-t^2}{1+t^2}+2}</script><p>经过一系列化简后也能解出$y$的取值范围</p><p><em>(法三)**</em>重点!**</p><script type="math/tex; mode=display">\ce{k}=\frac{y_2-y_1}{x_2-x_1}=\frac{\sin x-0}{\cos x-(-2)}</script><p>不可思议的是, 这东西多像一个斜率公式, 所以我们把原来的$y$也当成某直线的斜率, 那么$(\cos x, \sin x)$, $(-2,0)$就是两个点了.</p><p>也就是说, 某条直线恒过$(-2,0)$, 另一个点在$(\cos x, \sin x)$上, 其斜率取值范围?</p><p><del>我们学三角比定义的时候了解到:</del>$(\cos x, \sin x)$是一个单位圆, 所以这个问题又可以画图了:</p><p><img src="../../../img/id109/vr002-85g70.gif" alt="vr002-85g70" style="zoom:33%;" /></p><hr><p>最终答案到底是什么呢?</p><p>请看下一篇文章.</p>]]></content>
+        <content type="html"><![CDATA[<p>一个函数值域能水这么多期我也真是没想到.</p><p><del>感谢某位慷慨的老师给我们那么多精心设计的例题</del></p><p>上期解答(上一次有上期解答是11月17号(官网)的水枪鱼了……)</p><p>前面的操作一样(恕我复制黏贴):</p><p>令$u=\sqrt{1-x^2}=-x+y$</p><p>以$u$为纵轴, $x$为横轴作图:</p><p>这一次$u=\sqrt{1-x^2}$的图像(仍然是用两边平方的方法展开, 可知)是一个等轴双曲线(其渐近线为$y=\pm x$)</p><p><img src="../../../img/id109/Screen Shot 2020-11-26 at 23.38.02.png" alt="Screen Shot 2020-11-26 at 23.38.02" style="zoom:33%;" /></p><p>由想象力+图像可知, $y\in[-1,0)\cup[1,+\infty)$时有解.</p><hr><p>今天又是一道值域问题:</p><script type="math/tex; mode=display">求y=\frac{\sin x}{\cos x+2}​的值域.</script><p>今天我们要来介绍三种方法.</p><p><em>(法一)</em></p><p>当看到这种<del>不三不四的带三角的一次</del>式子之后, 可以选择把分母乘过去, 经过一系列的变换你竟然用上了辅助角公式, 把式子化简成了:</p><p>$\sin(x+\varphi)=\frac{2y}{\sqrt{1+y^2}}$这种形式, 然后因为$x+\varphi$可以取任意实数, 所以得到了$\frac{2y}{\sqrt{1+y^2}}$的范围, 两边平方之解之即得.</p><p><em>(法二)</em></p><p>当看到$\sin, \cos$同时出现的时候可以用上万能的万能置换, 你会发现它真的能用上.<del>颠覆了我对万能置换的认知, 我本以为一生都不会见到几次使用万能置换的机会</del></p><p>令$\tan(\theta/2)=t\quad (t\in\mathbb{R})$, 那么我们有:</p><script type="math/tex; mode=display">y=\frac{\frac{2t}{1+t^2}}{\frac{1-t^2}{1+t^2}+2}</script><p>经过一系列化简后也能解出$y$的取值范围</p><p><em>(法三)**</em>重点!**</p><script type="math/tex; mode=display">\ce{k}=\frac{y_2-y_1}{x_2-x_1}=\frac{\sin x-0}{\cos x-(-2)}</script><p>不可思议的是, 这东西多像一个斜率公式, 所以我们把原来的$y$也当成某直线的斜率, 那么$(\cos x, \sin x)$, $(-2,0)$就是两个点了.</p><p>也就是说, 某条直线恒过$(-2,0)$, 另一个点在$(\cos x, \sin x)$上, 其斜率取值范围?</p><p><del>我们学三角比定义的时候了解到:</del>$(\cos x, \sin x)$是一个单位圆, 所以这个问题又可以画图了:</p><p><img src="../../../img/id109/vr002-85g70.gif" alt="vr002-85g70" style="zoom:33%;" /></p><hr><p>最终答案到底是什么呢?</p><p>请看下一篇文章.</p>]]></content>
       
       
       <categories>
@@ -125,6 +258,33 @@
     
     
     <entry>
+      <title>Cauchy方程的应用</title>
+      <link href="vnrConvasdyne/mds/ftid106/"/>
+      <url>vnrConvasdyne/mds/ftid106/</url>
+      
+        <content type="html"><![CDATA[<p>先介绍……</p><h3 id="Cauchy方程"><a href="#Cauchy方程" class="headerlink" title="Cauchy方程"></a>Cauchy方程</h3><p>若$f(x)$连续, 且$f(x)+f(y)=f(x+y)\quad(\forall x,y)$, 则$f(x)=ax, a=f(1)$</p><hr><h3 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h3><p>$f(x)$在$\mathbb{R}$上连续, $f(x+y)=f(x)+f(y)+xy(x+y), f(1)=0$, 求$f(x)$.</p><p>首先看到$xy(x+y)$这个表达式, 就应该联想到$(x+y)^3$<del>(虽然我并没有)</del></p><p>我们可以把原式改变一下:</p><script type="math/tex; mode=display">f(x+y)=f(x)+f(y)+1/3(x^2y+xy^2)</script><p>接下来是极其富有高阶思维的一步:</p><script type="math/tex; mode=display">=f(x)+f(y)+1/3((x+y)^3-x^3-y^3)</script><p>把原来的东西和$(x+y)^3$结合起来了.</p><p>完成这一步之后, 通过移项得到:</p><script type="math/tex; mode=display">f(x+y)-1/3(x+y)^3=f(x)-1/3\cdot x^3+f(y)-1/3\cdot y^3</script><p>我们已经看到Cauchy方程的影子了:</p><script type="math/tex; mode=display">\begin{align}&g(x)\triangleq f(x)-1/3\cdot x^3,\\&g(x+y)=g(x)+g(y)\\\implies& g(x)=ax\quad a=g(1)=0-1/3=-1/3\\\implies& f(x)=1/3x^3-1/3x\end{align}</script><p>后面的步骤基本上就是在利用定理了, 最终我们可以解出$f(x)$.</p><p>如果真的是在考试/竞赛的时候, 当然可以用数列的思想把整数点之间的递推关系找出来, 直觉强的同学说不定就拟合出了$f(x)$呢?</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> 函数方程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>证明离散函数值域</title>
       <link href="vnrConvasdyne/mds/ftid105/"/>
       <url>vnrConvasdyne/mds/ftid105/</url>
@@ -146,33 +306,6 @@
             <tag> 数论 </tag>
             
             <tag> 高阶思维 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Cauchy方程的应用</title>
-      <link href="vnrConvasdyne/mds/ftid106/"/>
-      <url>vnrConvasdyne/mds/ftid106/</url>
-      
-        <content type="html"><![CDATA[<p>先介绍……</p><h3 id="Cauchy方程"><a href="#Cauchy方程" class="headerlink" title="Cauchy方程"></a>Cauchy方程</h3><p>若$f(x)$连续, 且$f(x)+f(y)=f(x+y)\quad(\forall x,y)$, 则$f(x)=ax, a=f(1)$</p><hr><h3 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h3><p>$f(x)$在$\R$上连续, $f(x+y)=f(x)+f(y)+xy(x+y), f(1)=0$, 求$f(x)$.</p><p>首先看到$xy(x+y)$这个表达式, 就应该联想到$(x+y)^3$<del>(虽然我并没有)</del></p><p>我们可以把原式改变一下:</p><script type="math/tex; mode=display">f(x+y)=f(x)+f(y)+1/3(x^2y+xy^2)</script><p>接下来是极其富有高阶思维的一步:</p><script type="math/tex; mode=display">=f(x)+f(y)+1/3((x+y)^3-x^3-y^3)</script><p>把原来的东西和$(x+y)^3$结合起来了.</p><p>完成这一步之后, 通过移项得到:</p><script type="math/tex; mode=display">f(x+y)-1/3(x+y)^3=f(x)-1/3\cdot x^3+f(y)-1/3\cdot y^3</script><p>我们已经看到Cauchy方程的影子了:</p><script type="math/tex; mode=display">\begin{align}&g(x)\triangleq f(x)-1/3\cdot x^3,\\&g(x+y)=g(x)+g(y)\\\implies& g(x)=ax\quad a=g(1)=0-1/3=-1/3\\\implies& f(x)=1/3x^3-1/3x\end{align}</script><p>后面的步骤基本上就是在利用定理了, 最终我们可以解出$f(x)$.</p><p>如果真的是在考试/竞赛的时候, 当然可以用数列的思想把整数点之间的递推关系找出来, 直觉强的同学说不定就拟合出了$f(x)$呢?</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 数学 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 吃白巧克力的黑猫 </tag>
-            
-            <tag> 函数方程 </tag>
             
         </tags>
       
@@ -224,9 +357,9 @@
       
         <tags>
             
-            <tag> 不等式 </tag>
-            
             <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> 不等式 </tag>
             
         </tags>
       
@@ -251,9 +384,9 @@
       
         <tags>
             
-            <tag> 不等式 </tag>
-            
             <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> 不等式 </tag>
             
         </tags>
       
@@ -291,11 +424,11 @@
     
     
     <entry>
-      <title>对数方程无解</title>
-      <link href="vnrConvasdyne/mds/ftid99/"/>
-      <url>vnrConvasdyne/mds/ftid99/</url>
+      <title>一道对数方程相关的数学题</title>
+      <link href="vnrConvasdyne/mds/ftid98/"/>
+      <url>vnrConvasdyne/mds/ftid98/</url>
       
-        <content type="html"><![CDATA[<p>之前我学到用变量表示参数可以有效地解决求方程有解这类问题, 这次来看一道“方程无解”:</p><p>$\log_2(x+2)+\log_2(x+14)=3+\log_2(ax+3)=0$无解, 求$a$取值范围.</p><p>首先是常规的步骤: 写出定义域, 化简拆空对数:</p><script type="math/tex; mode=display">\begin{align}\iff\begin{cases}x>-2\\x>-14\\ax+3>0\\x^2+16x+4=8ax无解\end{cases}\end{align}</script><p>我们用$x$表示$a$, 得到:</p><p>$a=\frac{x^2+16x+4}{8x}=\frac{x}8+2+\frac{1}{2x}$</p><p>当x有解的时候, 我们可以把$a$关于$x$的函数图像画出来</p><p><img src="../../../img/id99/img.png" alt="img" style="zoom:30%;" /></p><p>(或者用基本不等式处理), 得到$a\in(-\infty,3/2)\cup[5/2,+\infty)$这个范围, 此为“有解”. “无解”则为其补集: $a\in[3/2,5/2)$</p>]]></content>
+        <content type="html"><![CDATA[<p>设$a\in R$, 函数$f(x)=\log_2(\frac1x+a)$</p><p>(1)若关于$x$的方程$f(x)-\log_2[(a-4)x+(2a-5)]=0$的解集中恰有一个元素, 求$a$的取值范围.</p><p>(2)设$a&gt;0$,$\forall t\in[\frac12,1], f(x)_{\max}-f(x)_{\min}\le1 (x\in[t,t+1])$</p><p>求$a$的取值范围.</p><p>参考解答:</p><p>(1)</p><script type="math/tex; mode=display">\begin{align}&\log_2(\frac1x+a)=\log_2[(a-4)x+(2a-5)]\\\iff&\begin{cases}(a-4)x^2+(a-5)x-1=0\qquad(1)\\\frac1x>-a\end{cases}\\\iff&\begin{cases}((a-4)x-1)(x+1)=0\qquad(1)\\\frac1x>-a\end{cases}\\1^o&当a=4时, (1)的根为x=-1\\2^o&当a=3时, \frac1{a-4}=-1, (1)有重根x=-1\\3^o&当a\neq3,a\neq4时, x_1=-1, x_2=\frac1{a-4}\\&\begin{cases}-1>-a\\a-4\le-a\end{cases}或\begin{cases}a-4>-a\\-1\le-a\end{cases}\\&解得:a\in(1,2]\\综上,& a\in(1,2]\cup\{3,4\} \end{align}</script><p>这道题看起来是很复杂对数方程问题, 实则可以转化为二次型方程根的讨论, 但x的范围有限制.</p><p>通过对二次型方程的讨论, 我们可以得到结果.</p><p>需注意的是, 讨论二次型方程时首先应考虑二次项系数, 然后是判别式之类的这些.</p><p>(2)</p><script type="math/tex; mode=display">\begin{align}\because& u=\frac1x+a在(0,+\infty)\searrow\\\therefore& f(x)在(0,+\infty)\searrow\\\forall& t\in[\frac12,1], x\in[t,t+1]:\\&f(x)_{\max}=f(t)=\log_2(\frac1t+a)\\&f(x)_{\min}=f(t+1)=\log_2(\frac1{t+1}+a)\\&f(x)_{\max}-f(x)_{\min}=\log_2(\frac1t+a)-\log_2(\frac1{t+1}+a)\le1\\\implies&\frac1t+a\le\frac2{t+1}+2a\implies a\ge\frac1t-\frac{2}{t+1}\end{align}</script><p>到这一步之后, 我们用t表示出了a, 把对数题转化为了求a取值范围.</p><script type="math/tex; mode=display">\begin{align}(法一)&\\&a\ge\frac{1-t}{t^2+t}\triangleq u\\&当t=1时, u=0\\&当t\in[\frac12,1)时,\\&\frac1u=\frac{(1-t)^2-3(t-1)+2}{1-t}=(1-t)-3+\frac{2}{1-t}\\&关于1-t\searrow, i.e.关于t\nearrow\implies]\frac1u_{\max}在t=1/2时取到,\\&此时u=2/3\therefore a\ge u_{\max}=2/3, i.e.a\in[2/3,+\infty)\end{align}</script><p>方法1是用t表示a, 然后用耐克函数单调性计算极值.</p><script type="math/tex; mode=display">\begin{align}(法二)&\\\implies&at^2+(a+1)t-1\ge0\quad(\forall t\in[1/2,1])\\\because&a>0, \therefore y=at^2+(a+1)t-1开口上\\\implies&y=at^2+(a+1)t-1在t\in[1/2,1]\nearrow,\\\therefore& y_{\min}=\frac34a-1/2\ge0\implies a\ge2/3s\end{align}</script><p>因为这道题a&gt;0是已知条件, 所以也可以用二次函数讨论, 这时候的计算量甚至比上面一种方法还少.</p>]]></content>
       
       
       <categories>
@@ -318,11 +451,11 @@
     
     
     <entry>
-      <title>一道对数方程相关的数学题</title>
-      <link href="vnrConvasdyne/mds/ftid98/"/>
-      <url>vnrConvasdyne/mds/ftid98/</url>
+      <title>对数方程无解</title>
+      <link href="vnrConvasdyne/mds/ftid99/"/>
+      <url>vnrConvasdyne/mds/ftid99/</url>
       
-        <content type="html"><![CDATA[<p>设$a\in R$, 函数$f(x)=\log_2(\frac1x+a)$</p><p>(1)若关于$x$的方程$f(x)-\log_2[(a-4)x+(2a-5)]=0$的解集中恰有一个元素, 求$a$的取值范围.</p><p>(2)设$a&gt;0$,$\forall t\in[\frac12,1], f(x)_{\max}-f(x)_{\min}\le1 (x\in[t,t+1])$</p><p>求$a$的取值范围.</p><p>参考解答:</p><p>(1)</p><script type="math/tex; mode=display">\begin{align}&\log_2(\frac1x+a)=\log_2[(a-4)x+(2a-5)]\\\iff&\begin{cases}(a-4)x^2+(a-5)x-1=0\qquad(1)\\\frac1x>-a\end{cases}\\\iff&\begin{cases}((a-4)x-1)(x+1)=0\qquad(1)\\\frac1x>-a\end{cases}\\1^o&当a=4时, (1)的根为x=-1\\2^o&当a=3时, \frac1{a-4}=-1, (1)有重根x=-1\\3^o&当a\neq3,a\neq4时, x_1=-1, x_2=\frac1{a-4}\\&\begin{cases}-1>-a\\a-4\le-a\end{cases}或\begin{cases}a-4>-a\\-1\le-a\end{cases}\\&解得:a\in(1,2]\\综上,& a\in(1,2]\cup\{3,4\} \end{align}</script><p>这道题看起来是很复杂对数方程问题, 实则可以转化为二次型方程根的讨论, 但x的范围有限制.</p><p>通过对二次型方程的讨论, 我们可以得到结果.</p><p>需注意的是, 讨论二次型方程时首先应考虑二次项系数, 然后是判别式之类的这些.</p><p>(2)</p><script type="math/tex; mode=display">\begin{align}\because& u=\frac1x+a在(0,+\infty)\searrow\\\therefore& f(x)在(0,+\infty)\searrow\\\forall& t\in[\frac12,1], x\in[t,t+1]:\\&f(x)_{\max}=f(t)=\log_2(\frac1t+a)\\&f(x)_{\min}=f(t+1)=\log_2(\frac1{t+1}+a)\\&f(x)_{\max}-f(x)_{\min}=\log_2(\frac1t+a)-\log_2(\frac1{t+1}+a)\le1\\\implies&\frac1t+a\le\frac2{t+1}+2a\implies a\ge\frac1t-\frac{2}{t+1}\end{align}</script><p>到这一步之后, 我们用t表示出了a, 把对数题转化为了求a取值范围.</p><script type="math/tex; mode=display">\begin{align}(法一)&\\&a\ge\frac{1-t}{t^2+t}\triangleq u\\&当t=1时, u=0\\&当t\in[\frac12,1)时,\\&\frac1u=\frac{(1-t)^2-3(t-1)+2}{1-t}=(1-t)-3+\frac{2}{1-t}\\&关于1-t\searrow, i.e.关于t\nearrow\implies]\frac1u_{\max}在t=1/2时取到,\\&此时u=2/3\therefore a\ge u_{\max}=2/3, i.e.a\in[2/3,+\infty)\end{align}</script><p>方法1是用t表示a, 然后用耐克函数单调性计算极值.</p><script type="math/tex; mode=display">\begin{align}(法二)&\\\implies&at^2+(a+1)t-1\ge0\quad(\forall t\in[1/2,1])\\\because&a>0, \therefore y=at^2+(a+1)t-1开口上\\\implies&y=at^2+(a+1)t-1在t\in[1/2,1]\nearrow,\\\therefore& y_{\min}=\frac34a-1/2\ge0\implies a\ge2/3s\end{align}</script><p>因为这道题a&gt;0是已知条件, 所以也可以用二次函数讨论, 这时候的计算量甚至比上面一种方法还少.</p>]]></content>
+        <content type="html"><![CDATA[<p>之前我学到用变量表示参数可以有效地解决求方程有解这类问题, 这次来看一道“方程无解”:</p><p>$\log_2(x+2)+\log_2(x+14)=3+\log_2(ax+3)=0$无解, 求$a$取值范围.</p><p>首先是常规的步骤: 写出定义域, 化简拆空对数:</p><script type="math/tex; mode=display">\begin{align}\iff\begin{cases}x>-2\\x>-14\\ax+3>0\\x^2+16x+4=8ax无解\end{cases}\end{align}</script><p>我们用$x$表示$a$, 得到:</p><p>$a=\frac{x^2+16x+4}{8x}=\frac{x}8+2+\frac{1}{2x}$</p><p>当x有解的时候, 我们可以把$a$关于$x$的函数图像画出来</p><p><img src="../../../img/id99/img.png" alt="img" style="zoom:30%;" /></p><p>(或者用基本不等式处理), 得到$a\in(-\infty,3/2)\cup[5/2,+\infty)$这个范围, 此为“有解”. “无解”则为其补集: $a\in[3/2,5/2)$</p>]]></content>
       
       
       <categories>
@@ -413,7 +546,32 @@
       
         <tags>
             
+            <tag> 吃白巧克力的黑猫 </tag>
+            
             <tag> 不等式 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>变量分离二次函数根的分布</title>
+      <link href="vnrConvasdyne/mds/ftday95/"/>
+      <url>vnrConvasdyne/mds/ftday95/</url>
+      
+        <content type="html"><![CDATA[<p>补一篇比较水的金枪鱼……</p><p>用变量分离的方法, 可以解决特定的问题. (话说这不是废话吗?) 下文将会具体介绍一道题:</p><p>关于$x$的方程: $4^x+a\cdot 2^x+a+1$在区间$(1,2)$中有根, 求$a$的取值范围.</p><p>首先是遇到指数方程的第一步: 换元</p><p>$2^x\triangleq u$</p><p>那么原式可以化成: $u^2+au+a+1$, 设为$f(u)$</p><p>$x\in(1,2)\implies u\in(2,4)$</p><p>即$f(u)=0$在$(2,4)$上有根</p><p>我们把$a$提取出来:</p><script type="math/tex; mode=display">\begin{align}&u^2+au+a+1=0\\\implies &-a(u+1)=u^2+1\\\implies& a = -\frac{u^2+1}{u+1}=-\frac{u^2+u-2(u+1)+1+2}{u+1}=-(u+1-2+\frac{2}{u+1})\\\end{align}</script><p>接下来利用耐克函数的性质, 可以轻松求得$a\in(-\frac{17}5,\frac52)$</p><hr><p>比起用原来的二次函数讨论/韦达定理, 这种方法显然容易得多. 不过, 要想到这种方法本身不容易, 其中的思维含量也不低.</p><p>不过, 能通过减少分类, 减少错误率, 何不为之?</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
             
             <tag> 吃白巧克力的黑猫 </tag>
             
@@ -443,31 +601,6 @@
             <tag> 吃白巧克力的黑猫 </tag>
             
             <tag> 反证 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>变量分离二次函数根的分布</title>
-      <link href="vnrConvasdyne/mds/ftday95/"/>
-      <url>vnrConvasdyne/mds/ftday95/</url>
-      
-        <content type="html"><![CDATA[<p>补一篇比较水的金枪鱼……</p><p>用变量分离的方法, 可以解决特定的问题. (话说这不是废话吗?) 下文将会具体介绍一道题:</p><p>关于$x$的方程: $4^x+a\cdot 2^x+a+1$在区间$(1,2)$中有根, 求$a$的取值范围.</p><p>首先是遇到指数方程的第一步: 换元</p><p>$2^x\triangleq u$</p><p>那么原式可以化成: $u^2+au+a+1$, 设为$f(u)$</p><p>$x\in(1,2)\implies u\in(2,4)$</p><p>即$f(u)=0$在$(2,4)$上有根</p><p>我们把$a$提取出来:</p><script type="math/tex; mode=display">\begin{align}&u^2+au+a+1=0\\\implies &-a(u+1)=u^2+1\\\implies& a = -\frac{u^2+1}{u+1}=-\frac{u^2+u-2(u+1)+1+2}{u+1}=-(u+1-2+\frac{2}{u+1})\\\end{align}</script><p>接下来利用耐克函数的性质, 可以轻松求得$a\in(-\frac{17}5,\frac52)$</p><hr><p>比起用原来的二次函数讨论/韦达定理, 这种方法显然容易得多. 不过, 要想到这种方法本身不容易, 其中的思维含量也不低.</p><p>不过, 能通过减少分类, 减少错误率, 何不为之?</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 数学 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 吃白巧克力的黑猫 </tag>
             
         </tags>
       
@@ -708,9 +841,9 @@
       
         <tags>
             
-            <tag> 吃白巧克力的黑猫 </tag>
-            
             <tag> 科普 </tag>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
             
             <tag> 对数系列 </tag>
             
@@ -845,9 +978,9 @@
       
         <tags>
             
-            <tag> 吃白巧克力的黑猫 </tag>
-            
             <tag> oldNotes </tag>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
             
             <tag> 代数 </tag>
             
@@ -874,9 +1007,9 @@
       
         <tags>
             
-            <tag> 吃白巧克力的黑猫 </tag>
-            
             <tag> oldNotes </tag>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
             
         </tags>
       
@@ -901,9 +1034,9 @@
       
         <tags>
             
-            <tag> 吃白巧克力的黑猫 </tag>
-            
             <tag> oldNotes </tag>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
             
         </tags>
       
@@ -928,13 +1061,13 @@
       
         <tags>
             
-            <tag> 不等式 </tag>
+            <tag> oldNotes </tag>
             
             <tag> 吃白巧克力的黑猫 </tag>
             
-            <tag> oldNotes </tag>
-            
             <tag> 构造 </tag>
+            
+            <tag> 不等式 </tag>
             
         </tags>
       
@@ -959,9 +1092,9 @@
       
         <tags>
             
-            <tag> 吃白巧克力的黑猫 </tag>
-            
             <tag> oldNotes </tag>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
             
             <tag> 数列 </tag>
             
@@ -988,9 +1121,9 @@
       
         <tags>
             
-            <tag> 吃白巧克力的黑猫 </tag>
-            
             <tag> oldNotes </tag>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
             
             <tag> 数列 </tag>
             
@@ -1019,13 +1152,13 @@
       
         <tags>
             
-            <tag> 不等式 </tag>
+            <tag> oldNotes </tag>
             
             <tag> 吃白巧克力的黑猫 </tag>
             
-            <tag> oldNotes </tag>
-            
             <tag> 构造 </tag>
+            
+            <tag> 不等式 </tag>
             
         </tags>
       
@@ -1050,9 +1183,9 @@
       
         <tags>
             
-            <tag> 吃白巧克力的黑猫 </tag>
-            
             <tag> oldNotes </tag>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
             
             <tag> 数列 </tag>
             
@@ -1079,9 +1212,9 @@
       
         <tags>
             
-            <tag> 吃白巧克力的黑猫 </tag>
-            
             <tag> oldNotes </tag>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
             
             <tag> 三角比 </tag>
             
@@ -1108,9 +1241,9 @@
       
         <tags>
             
-            <tag> 吃白巧克力的黑猫 </tag>
-            
             <tag> oldNotes </tag>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
             
             <tag> 组合数学 </tag>
             
@@ -1137,9 +1270,9 @@
       
         <tags>
             
-            <tag> 吃白巧克力的黑猫 </tag>
-            
             <tag> oldNotes </tag>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
             
             <tag> 组合数学 </tag>
             
@@ -1166,9 +1299,9 @@
       
         <tags>
             
-            <tag> 吃白巧克力的黑猫 </tag>
-            
             <tag> oldNotes </tag>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
             
             <tag> 极限 </tag>
             
@@ -1195,11 +1328,11 @@
       
         <tags>
             
-            <tag> 吃白巧克力的黑猫 </tag>
-            
             <tag> oldNotes </tag>
             
             <tag> 科普 </tag>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
             
         </tags>
       
@@ -1237,35 +1370,6 @@
     
     
     <entry>
-      <title>未收录 相伴函数与相伴向量</title>
-      <link href="vnrConvasdyne/old_notes/falltunaday8p1/"/>
-      <url>vnrConvasdyne/old_notes/falltunaday8p1/</url>
-      
-        <content type="html"><![CDATA[<p>定义$\vec{OM}=(a,b)$的“相伴函数“为$f(x)=a\sin x + b\cos x (x\in \mathbb{R})$,</p><p>向量$\vec{OM}=(a,b)$称为函数$f(x)=a\sin x + b\cos x$的“相伴向量”(其中$O$为坐标原点). </p><p>记平面内所有向量的“相伴函数”构成的集合为$S$.</p><p>(1)设$h(x)=\cos(x+ \frac\pi6)-2\cos(x+\alpha)(\alpha \in \mathbb{R})$, </p><p>求证: $h(x) \in S$, 并求$h(x)$的“相伴向量”模的取值范围;</p><hr><p>(1) 分析: 既然要证明$h(x)$是$S$的元素, 那么只需要把$h(x)$化成$a\sin x + b\cos x$的形式即可. 关键是怎么做? </p><p>原括号里有$ \frac\pi6$和$\alpha$作为参数, 使用<strong>两角和差公式</strong>应该可以把参数拆出来, 保留$\cos(x)$和$\sin(x)$</p><p>解: $h(x)=\cos x\cdot \cos \frac\pi6-\sin x\cdot \sin\frac\pi6-2\cos x\cos \alpha + 2\sin x \sin\alpha$</p><p>经过化简后得到: $h(x)=(2\sin\alpha - \frac12)\sin x + (\frac{\sqrt{3}}2 - 2\cos\alpha)\cos x$</p><p>$\therefore h(x)\in S$</p><p>那么“伴随向量”的模长取值范围也不难求了:</p><p>$\vec{OM}=(2\sin\alpha-\frac12,\frac{\sqrt3}2-2\cos\alpha)$</p><p>$|\vec{OM}|^2=4\sin^2\alpha+\frac14-2\sin\alpha+\frac34+4\cos^2\alpha-2\sqrt3\cos\alpha$</p><p>$\because \sin^2\alpha+\cos^2\alpha=1$</p><p>$\therefore |\vec{OM}|^2 = 5- 2(\sin\alpha+\sqrt{3}\cos\alpha)$</p><p>又$a\sin x+b\cos x = \sqrt{a^2+b^2}\sin(x+\arctan\frac ba)$</p><p>$\therefore |\vec{OM}|^2 = 5- 4\sin(\alpha+\frac\pi3)$</p><p>由于$\sin (x) \in [-1,1]$</p><p>$\therefore |\vec{OM}|^2\in[1,9]$</p><p>$\therefore |\vec{OM}|\in[1,3]$</p><p>小结: 应对这样的题目时, 应该先分析需要把式子化简成什么样子, 再使用公式变形. 同时也应该掌握<strong>两角和公式</strong>、<strong>辅助角公式</strong>以及三角函数的基本性质. (实际上<strong>辅助角公式</strong>可以现场推导, 但需要对“式子能化简到什么程度”有意识)</p><hr><p>(秋天的金枪鱼- Day? 来自“秋天的金枪鱼”的“吃白巧克力的黑猫”)</p><p>如果对我们有什么建议, 或是有想了解的知识/题目, 请留言! 谢谢支持!</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 数学 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 吃白巧克力的黑猫 </tag>
-            
-            <tag> oldNotes </tag>
-            
-            <tag> 代数 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Day 8 在解题过程中多用一些几何意义吧!</title>
       <link href="vnrConvasdyne/old_notes/falltunaday8p2/"/>
       <url>vnrConvasdyne/old_notes/falltunaday8p2/</url>
@@ -1282,11 +1386,40 @@
       
         <tags>
             
+            <tag> oldNotes </tag>
+            
             <tag> 吃白巧克力的黑猫 </tag>
             
             <tag> 数形结合 </tag>
             
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>未收录 相伴函数与相伴向量</title>
+      <link href="vnrConvasdyne/old_notes/falltunaday8p1/"/>
+      <url>vnrConvasdyne/old_notes/falltunaday8p1/</url>
+      
+        <content type="html"><![CDATA[<p>定义$\vec{OM}=(a,b)$的“相伴函数“为$f(x)=a\sin x + b\cos x (x\in \mathbb{R})$,</p><p>向量$\vec{OM}=(a,b)$称为函数$f(x)=a\sin x + b\cos x$的“相伴向量”(其中$O$为坐标原点). </p><p>记平面内所有向量的“相伴函数”构成的集合为$S$.</p><p>(1)设$h(x)=\cos(x+ \frac\pi6)-2\cos(x+\alpha)(\alpha \in \mathbb{R})$, </p><p>求证: $h(x) \in S$, 并求$h(x)$的“相伴向量”模的取值范围;</p><hr><p>(1) 分析: 既然要证明$h(x)$是$S$的元素, 那么只需要把$h(x)$化成$a\sin x + b\cos x$的形式即可. 关键是怎么做? </p><p>原括号里有$ \frac\pi6$和$\alpha$作为参数, 使用<strong>两角和差公式</strong>应该可以把参数拆出来, 保留$\cos(x)$和$\sin(x)$</p><p>解: $h(x)=\cos x\cdot \cos \frac\pi6-\sin x\cdot \sin\frac\pi6-2\cos x\cos \alpha + 2\sin x \sin\alpha$</p><p>经过化简后得到: $h(x)=(2\sin\alpha - \frac12)\sin x + (\frac{\sqrt{3}}2 - 2\cos\alpha)\cos x$</p><p>$\therefore h(x)\in S$</p><p>那么“伴随向量”的模长取值范围也不难求了:</p><p>$\vec{OM}=(2\sin\alpha-\frac12,\frac{\sqrt3}2-2\cos\alpha)$</p><p>$|\vec{OM}|^2=4\sin^2\alpha+\frac14-2\sin\alpha+\frac34+4\cos^2\alpha-2\sqrt3\cos\alpha$</p><p>$\because \sin^2\alpha+\cos^2\alpha=1$</p><p>$\therefore |\vec{OM}|^2 = 5- 2(\sin\alpha+\sqrt{3}\cos\alpha)$</p><p>又$a\sin x+b\cos x = \sqrt{a^2+b^2}\sin(x+\arctan\frac ba)$</p><p>$\therefore |\vec{OM}|^2 = 5- 4\sin(\alpha+\frac\pi3)$</p><p>由于$\sin (x) \in [-1,1]$</p><p>$\therefore |\vec{OM}|^2\in[1,9]$</p><p>$\therefore |\vec{OM}|\in[1,3]$</p><p>小结: 应对这样的题目时, 应该先分析需要把式子化简成什么样子, 再使用公式变形. 同时也应该掌握<strong>两角和公式</strong>、<strong>辅助角公式</strong>以及三角函数的基本性质. (实际上<strong>辅助角公式</strong>可以现场推导, 但需要对“式子能化简到什么程度”有意识)</p><hr><p>(秋天的金枪鱼- Day? 来自“秋天的金枪鱼”的“吃白巧克力的黑猫”)</p><p>如果对我们有什么建议, 或是有想了解的知识/题目, 请留言! 谢谢支持!</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
             <tag> oldNotes </tag>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> 代数 </tag>
             
         </tags>
       
@@ -1338,9 +1471,9 @@
       
         <tags>
             
-            <tag> 吃白巧克力的黑猫 </tag>
-            
             <tag> oldNotes </tag>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
             
             <tag> 代数 </tag>
             
