@@ -17,6 +17,228 @@
     
     
     <entry>
+      <title>旋转(?)函数最小值</title>
+      <link href="vnrConvasdyne/mds/ftid117/"/>
+      <url>vnrConvasdyne/mds/ftid117/</url>
+      
+        <content type="html"><![CDATA[<p>$x^2-2xy+y^2-\sqrt3x-\sqrt3y+12=0$</p><p>求$x^3+y^3_\min$</p><hr><p>当你看到这个式子的时候, 第一步想到的或许是——双十字分解.</p><p>可惜的是坐在我前面的人告诉我这行不通.</p><p>而且这个东西也不是个函数(有$xy$项意味着它是个旋转方程).</p><p>今天我懒得插入图片, 所以我们就用理论分析吧!</p><p>首先看, $x$和$y$似乎交换也可以(?)</p><p>所以可以大胆地猜它的图像……</p><p>如果以$x+y=0$和$x-y=0$作为两条坐标轴的话是一个函数(?)</p><p>带着这样的想法, 我们设$u=x+y, v=x-y$</p><p>$\implies v^2-\sqrt3u+12=0$</p><p>$\implies u\ge4\sqrt3$ </p><p>这时候再用$u,v$表示$x^3+y^3$:</p><p>$x^3+y^3=(x+y)((x+y)^2-3xy)=u(u^2-3/4\cdot(u^2-v^2))$</p><p>$=u/4\cdot(u^2+3\sqrt3u-9)$</p><p>显然它在$[4\sqrt3,+\infty)\nearrow$, 最小值在$4\sqrt3$取到, 代入得到$48\sqrt3$</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> 函数最值 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>根号下的最值——数形结合</title>
+      <link href="vnrConvasdyne/mds/ftid118/"/>
+      <url>vnrConvasdyne/mds/ftid118/</url>
+      
+        <content type="html"><![CDATA[<p>没错这道题太经典了<del>, 虽然我不记得它.</del></p><p>求$f(x)=\sqrt{x^2-3x^2-6x+13}-\sqrt{x^4-x^2+1}$最大值.</p><hr><p>左边的$13$令人想起$4+9$, 两个根号相减让人想到<strong>距离之差</strong></p><p>我们可以试着分解之, 得到:</p><p>$f(x)=\sqrt{(x^2-2)^2+(x-3)^2}-\sqrt{(x^2-1)^2+x^2}$</p><p>所以这就是两个<strong>两点之间距离</strong>之差了, </p><p>设$P(x,x^2),A(3,2),B(0,1)$</p><p><img src="../../../img/id118/Screen Shot 2020-12-13 at 15.02.10.png" alt="Screen Shot 2020-12-13 at 15.02.10" style="zoom:33%;" /></p><p>$f(x)=|PA|-|PB|\le|AB|=\sqrt{10}$ (三角不等式)</p><p>于是我们就得到了这道题的最大值, 可喜可贺.</p><hr><p>有根号的函数最值有什么主要求法呢?</p><ul><li>单调性法: 如果这个函数是单调函数, 那就很简单了!</li><li>柯西不等式: 中间是加号连接的, 一次的, 求最大值的!</li><li>三角换元: 有$\sqrt{1\pm x^2}$项的</li><li>几何意义: 根号下有两个平方项相加可以用两点之间距离公式, 有减号可以是双曲线.</li><li><del>求导: 对于有这个耐心的学生而言是很有用的</del></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> 函数最值 </tag>
+            
+            <tag> 数形结合 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>中心对称函数例题</title>
+      <link href="vnrConvasdyne/mds/ftid119/"/>
+      <url>vnrConvasdyne/mds/ftid119/</url>
+      
+        <content type="html"><![CDATA[<script type="math/tex; mode=display">\begin{align}f(x)=(x+a)(|x+1-a|+|x-3|)-2x+4a的图像是中心对称图形, 求a\end{align}</script><p>按照中间的两个绝对值, 我们可以把函数分段为三段($a=4$时是两段)</p><p>为了方便表示, 我们把$\min\{a-1,3\}$设为$p$, $\max\{a-1,3\}$设为$q$</p><p>经过化简, 我们可知:</p><p>$x\ge q$时, $f(x)$是一个开口向上的抛物线.</p><p>$x\le p$时, $f(x)$是一个开口向下的抛物线.</p><p>而中间一段(如果存在), 一定是一条直线.</p><p>于是乎, $f(x)$图像对称中心(如果存在), 就一定是那条直线(如果存在)的中点(其x坐标为$(a-1+3)/2=\frac{a+2}{2}$).</p><p>那么$f(x)$图像中心对称的一个必要条件就是: 两段抛物线的对称轴关于$x=\frac{a+2}{2}$对称.</p><p>由这点, 我们可以判断出: $a=-2/3$是$f(x)$图像中心对称的必要条件.</p><p>接下来, 我们验证其充分性:</p><p>如果$\exists b, c$使得$f(x)+f(2b-x)=2c$恒成立, 那么就可以推出$f(x)$图像中心对称.</p><p>我们之前推算出$f(x)$的对称中心点$x$坐标为$\frac{a+2}{2}$, 如果$a=-2/3$, 这一点的$x$坐标为$2/3$, 把这个代入成$b$验算即可</p><p>现在, 计算得到$f(x)+f(2\cdot(2/3)-x)=-8$, </p><p>所以事实证明$a=-2/3$是对的!</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> 函数对称性 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>两个对称点的类周期函数</title>
+      <link href="vnrConvasdyne/mds/ftid120/"/>
+      <url>vnrConvasdyne/mds/ftid120/</url>
+      
+        <content type="html"><![CDATA[<p>有一个关于周期性的结论表明, 如果一个函数分别关于两个$y$坐标相等的点对称, 那么它是周期函数.</p><p>不过如果</p><p>两个$y$坐标不相等, 那就是另一件事了.</p><hr><script type="math/tex; mode=display">\begin{align}&f(x)关于(2,0)对称, 又关于(-2,1)对称\\&当x\in(2,6), f(x)=2^x+3x\\&求x\in(8k-2,8k+2) \quad(k\in\mathbb{Z})时\\&f(x)的解析式\end{align}</script><p>好的, 我们先来分析对称性:</p><script type="math/tex; mode=display">\begin{align}&\begin{cases}f(x)+f(4-x)=0 \quad<1>\\f(x)+f(-4-x)=2\end{cases}\\\implies&f(x-8)=f(x)+2\quad<2>\end{align}</script><p>这时候我们得到了一个类似周期性的结论,</p><p>接下来要做的事是把$x\in(8k-2,8k+2)$这个区间通过变换转移到$(2,6)$里来.</p><p>为什么不反过来把$(2,6)$变换到$(8k-2,8k+2)$呢? 因为据传这样很容易把自己绕进去绕不出来.</p><p>我们可以看出: $x-8k+4\in(2,6)$, $f(x-8k+4)=-f(-x+8k) \quad(<1>)$</p><p>$8k$怎么对付呢? 由$<2>$, 每次把$x$增加8, 就要在括号外增加$2$, </p><p>所以$-f(-x+8k) \quad(<2>)=-(f(-x)-2k)$</p><p>我们得到了$f(-x)$, 似乎是绕不出来了, 怎么办呢? </p><p>再试一次吧……</p><p>我们可以看出: $-x+8k+4\in(2,6)$, $f(-x+8k+4)=-f(x-8k)=-(f(x)+2k)$</p><p>$\implies f(x)=-f(-x+8k+4)-2k$</p><p>又$f(-x+8k+4)=2^{-x+8k+4}-3x+24k+12$, 所以$f(x)=-2^{-x+8k+4}+3x-26k-12$</p><hr><p>注意, 代换的时候, 请务必把题目要求的$x$区间变换到已知区间,</p><p>如果不小心代换出$-x$而且很难解决掉的话, 可以从头开始. 只不过这次请把之前的$x$改成$-x$</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> 函数对称性 </tag>
+            
+            <tag> 函数周期性 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>长得像余弦函数的周期函数</title>
+      <link href="vnrConvasdyne/mds/ftid121/"/>
+      <url>vnrConvasdyne/mds/ftid121/</url>
+      
+        <content type="html"><![CDATA[<script type="math/tex; mode=display">\begin{align}&f(x)\quad x\in \mathbb{R}:\\&\forall x,y\in\mathbb{R}, f(x+y)+f(x-y)=2f(x)f(y)\\&f(0)\neq0\\(1)&求f(x)奇偶性\\(2)&若\exists c>0, f(c)=0, 求证f(x)是周期函数\end{align}</script><p>我们先来看第一题:</p><p>首先<del>, 按照套路</del>, 代入$x=y=0$, 得到$f(0+0)+f(0-0)=2f(0)\cdot f(0)$</p><p>于是就有$f(0)=f(0)^2$</p><p>由题目条件, $f(0)=1$</p><p>可以确定它不是奇函数.</p><p>代入$x=0, y$任取, 得到$f(0+y)+f(0-y)=2f(y)\cdot f(0)=2f(y)$</p><p>$i.e.\quad f(y)=f(-y)$</p><p>所以$f(x)$是偶函数没错了.</p><hr><p>然后是第二题:</p><p><del>作为一个数学水平正在原地踏步的学生, 我承认我去年还记得和差化积公式</del></p><p>$f(x+y)+f(x-y)=2f(x)f(y)$是不是有些熟悉呢? </p><p>是的, 和差化积指出: $\cos(x+y)+\cos(x-y)=2\cos(x)\cos(y)$</p><p>$y=\cos(x)$也同样具有$\cos(0)=1$的特性.</p><p>而$\cos(x)$的周期是$2\pi$, 正好是它第一个零点$\pi/2$的四倍, 不难猜想, $f(x)$最小正周期就是$4c$</p><hr><p>我们可以巧妙地利用$f(c)=0$这一特性, </p><p>代入$x=c, y$任取, 得到$f(c+y)+f(c-y)=2f(y)\cdot f(c)=0$</p><p>也就是$f(y-c)=f(c-y)=-f(c+y)$</p><p>$\implies f(y)=-f(y+2c)\implies f(y)=f(y+4c)$</p><p>于是至少$f(x)$是个周期函数得证了.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> 函数奇偶性 </tag>
+            
+            <tag> 函数周期性 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>如果某函数只能是常值函数</title>
+      <link href="vnrConvasdyne/mds/ftid122/"/>
+      <url>vnrConvasdyne/mds/ftid122/</url>
+      
+        <content type="html"><![CDATA[<p>我承认, 我已经编不出好的标题了, 这道题是2020年春考的题目, 直接叫它春考题似乎也不错.</p><p><del>在写这一篇银鳕鱼的时候, 我想自己大概还剩剪报没写, 征文也彻底放弃了. 人到了一年这种时候总是会有点抑郁, 只有写银鳕鱼才能缓解……</del></p><p><del><strong>Life is short, write sablefish.</strong></del></p><script type="math/tex; mode=display">\begin{align}&非空集合{A}\subseteq\mathbb{R}\\&对于f(x)\quad x\in{D},\\&如果\forall t\in A,x\in D\\&有f(x+t)\ge f(x)\\&则称呼f(x)具有A性质\\&当A=\{-2,m\}, D=\mathbb{Z}时,\\&若只有f(x)是常值函数时, 具有A性质\\&求m取值.\end{align}</script><hr><p>我们要试着找到$m$的取值, 可以先从排除开始.</p><p>首先, 由于$f(x)$定义域是整数, 所以很显然……$m\in\mathbb{Z}$.</p><p>然后, 根据性质$A$的定义……我们有这两个不等式</p><p>$(\forall x\in\mathbb{Z}):$</p><p>$f(x-2)\ge f(x)$, $f(x+m)\ge f(x)$</p><p>不妨就把这两个分别记为$(1),(2)$</p><hr><p>显然$m\neq0$, 毕竟这样的话$(2)$和不存在有什么差别?</p><p>为了证明$m\neq0$, 我们举出反例: $f(x)=-x\quad(x\in\mathbb{Z})$满足$(1),(2)$, 但不是常值函数!</p><hr><p>同样地, 很容易想到, $m$不能是负整数, 因为这样的话单调递减函数就能满足条件.</p><p>使用同样的反例, 当$m&lt;0$时, $f(x)=-x\quad(x\in\mathbb{Z})$满足$(1),(2)$, 但不是常值函数!</p><hr><p>我们已经把$m$限制在$\mathbb{Z^+}$这一范围内, 接下来怎么办呢?</p><p>需要一定思维含量的(<del>也就是我没想到过的</del>)是, 所有的正偶数均不可!</p><p>我们设$m=2k\quad (k\in\mathbb{N^*})$</p><p>这时候$(2)$就会变成: $f(x+2m)\ge f(x)$</p><p>然后还有$f(x-2)\ge f(x)\ge f(x+2)\ge … f(x+2m)$</p><p>所以就是: $f(x+2m)=f(x)\quad (\forall x\in\mathbb{Z})$</p><p>也就是说, 对于所有偶数$x$, $f(x)$相等, 且对于所有奇数$x$, $f(x)$相等.</p><p>这并不意味着$f(x)$是个常值函数, 毕竟我们有:</p><p>$f(x)=\begin{cases}1\qquad(2\mid x)\\0\qquad(2\nmid x)\end{cases}$</p><p>这种函数的存在. 很好! 我们已经找到了一个反例, 换句话说所有正偶数均不可.</p><p>按照高考的评分标准, 一道8分的题目我们已经拿到了2分, Hurray!</p><hr><p>我们把范围缩小到正奇数了, 直觉告诉我们, 正奇数就是正确答案.</p><p>接下来是证明部分了.</p><p>所以怎么证明它是个常值函数呢? 反证当然可以, 但这里, 对于一个定义域是整数集的函数,</p><p><del>运用数列的思想,</del> 只要证明$f(x+1)=f(x)$就可以了.</p><p>然后, 常见的证明$a=b$的思路就是……证明$a\mid b, b\mid a$</p><p>不不不, 我跑错片场了, 实际上是要证明$a\le b, b\le a$</p><p>我们有$(1),(2)$这两个神器, 就用它们来证明吧!<del>如果不记得这是什么请翻上面或者看下面的公式</del></p><script type="math/tex; mode=display">\begin{align}&当m=2k+1\quad(k\in\mathbb{N})时:\\&\begin{cases}f(x-2)\ge f(x)\qquad(1)\\f(x+m)\ge f(x)\qquad(2)\end{cases}\\\implies&\begin{cases}f(x-2)\ge f(x)\ge...\ge f(x+(m-1))\\f(x+m)\ge f(x)\end{cases}\\\implies&f(x+m)\ge f(x+(m-1))\end{align}</script><p>第二个大括号里的不等式分别是通过$(1),(2)$得到的, 借助的是$f(x)$作为中间量.</p><p>因为$m$是正奇数, 所以$m-1$理所当然地是个偶数, 可以用不断地堆2上去的方法达到.</p><script type="math/tex; mode=display">\begin{align}&\begin{cases}f(x-2)\ge f(x)\qquad(1)\\f(x+m)\ge f(x)\qquad(2)\end{cases}\\\implies&\begin{cases}f(x+m)\le ...f(x+1)\le f(x-1)\\f(x+m-1)\ge f(x-1)\end{cases}\\\implies&f(x+m)\le f(x+m-1)\end{align}</script><p>同样是那两个性质$(1),(2)$, 这一次借助$f(x-1)$作为中间量, 操作后可以得到新的不等式.</p><p>于是我们就证明了$f(x+m)=f(x+m-1)$, 所以对于正奇数$m$, $f(x)$是常值函数. 考虑到我们已经排除了正奇数以外所有的数, 所以$f(x)$是常值函数意味着$m$一定是正奇数. 本题完结, 可喜可贺.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> 函数 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>无题银鳕鱼</title>
+      <link href="vnrConvasdyne/mds/ftid115/"/>
+      <url>vnrConvasdyne/mds/ftid115/</url>
+      
+        <content type="html"><![CDATA[<p><del>时隔一周的再一次更新</del></p><p>今天的这道题很常见:</p><script type="math/tex; mode=display">\begin{align}(1)\quad&f(x)=\log_2(\sqrt{x^2+4}-ax)在(-\infty,0)上\searrow, 求a\\(2)\quad&a>0, f(x)=\sqrt{x^2+1}-ax在[1,+\infty)\searrow, 求a\end{align}</script><p>因为两道题形式差不多所以放在一起看.</p><p>两道题的解法也差不多, 利用单调性的定义:</p><script type="math/tex; mode=display">\begin{align}(1)\quad&设g(x)=\sqrt{x^2+4}-ax\\&f(g(x))\searrow, \log_2(x)\nearrow\implies g(x)\searrow\\&任取x_1,x_2\in(-\infty,0), (x_1<x_2)\\&\begin{cases}g(x)>0\\g(x_1)-g(x_2)=\sqrt{x_1^2+4}-\sqrt{x_2^2+4}-ax_1+ax_2\end{cases}\\&\implies\begin{cases}a>-\sqrt{1+4/x^2}_{\max}\implies a\ge-1(真数>0)\\ a\lt \frac{x_1+x_2}{\sqrt{x_1^2+4}+\sqrt{x_2^2+4}}_{\min}(单调性, 分子有理化)\end{cases}\\&函数\frac{x}{\sqrt{x^2+a}}在(-\infty,0)上值域为(-1,0),\\&\therefore a\le-1\\&综上, a=-1\end{align}</script><p>这道题利用了分子有理化, 但同样需要注意的是定义域! (真数&gt;0)这一点至关重要.</p><script type="math/tex; mode=display">\begin{align}(2)\quad&任取x_1,x_2\in[1,+\infty), (x_1<x_2)\\&f(x_1)-f(x_2)=(x_1-x_2)(\frac{x_1+x_2}{\sqrt{x_1^2+1}+\sqrt{x_2^2+1}}-a)\\&\implies a\le\frac{x_1+x_2}{\sqrt{x_1^2+1}+\sqrt{x_2^2+1}}\quad\forall x\in[1,+\infty)\\&\sqrt{x_1^2+1}\le\sqrt{x_1^2+x_1^2}=\sqrt2x_1\\&同理, \sqrt{x_2^2+1}\le\sqrt2x_2\\&(当且仅当x_1=x_2=1时两个都取到等号, 但显然)\\&\implies \sqrt{x_1^2+1}\le\sqrt{x_1^2+x_1^2}\gt\sqrt{2}/2\\&\therefore a\in(0,\sqrt2/2]\end{align}</script><p>这道题则要用放缩技巧, 当然利用高等数学的方法会简单不少.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> 函数单调性 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>超长绝对值函数的最值求法</title>
+      <link href="vnrConvasdyne/mds/ftid116/"/>
+      <url>vnrConvasdyne/mds/ftid116/</url>
+      
+        <content type="html"><![CDATA[<script type="math/tex; mode=display">求y=|x-1|+|2x-1|+...|2020x-1|的最小值</script><p><del>似乎是一道高等数学不能带来捷径的函数最值</del></p><p>当看到这样一个神奇的函数的时候, 我们可以先想想一下它的图像长什么样.</p><p><img src="../../../img/id116/Screen Shot 2020-12-09 at 06.13.39.png" alt="Screen Shot 2020-12-09 at 06.13.39" style="zoom:33%;" /></p><p>大概会是这个样子的吧.</p><p>由零点分段可知, 其斜率在$(-\infty,1/2020)$都是$-2020$, 随后逐渐增大至$2020$, 由于连续, 其最小值一定在斜率正负号发生变化的地方取到.</p><p>我们假设它在区间$(\frac{1}{n+1},\frac{1}{n}]$上的斜率是$k_{2021-n}\quad(0&lt;n&lt;2020, n\in\mathbb{Z})$</p><p>$k_1$在区间$(-\infty,1/2020]$上, $k_{2021}$在区间$(1,+\infty)$上</p><p>经过一系列找规律, 我们可以得到:</p><script type="math/tex; mode=display">\begin{align}\\k_1&=-\sum_{i=1}^{2020}(i)\\k_m&=\sum_{i=1}^{m-1}(i)-\sum_{j=m}^{2020}(j)\quad 1<m<2021\\k_{2021}&=\sum_{i=1}^{2020}(i)\end{align}</script><p>现在, 在众多的$k$中, 某一点之后的$k$正负性改变(或者为0), 我们要找到这一点.</p><p>假设这一点是$x=1/n$, 那么有:</p><script type="math/tex; mode=display">\begin{cases}k_{2021-n}\le0\\k_{2022-n}\ge 0\end{cases}</script><p>$i.e.$</p><script type="math/tex; mode=display">\begin{cases}\sum_{i=1}^{n}(i)-\sum_{j=n+1}^{2020}(j)\le0\\\sum_{i=1}^{n-1}(i)-\sum_{j=n}^{2020}(j)\ge 0\end{cases}</script><p>用$\sum_{i=1}^{2020}(i)$减去这两个式子, 得到:</p><script type="math/tex; mode=display">\begin{cases}1010\times2021-n(n+1)\le0\\1010\times2021-(n-1)n\ge 0\end{cases}</script><p>经过估算, 得到$f(x)_\min$在$x=1/1429$时取到.</p><p>接下来, 按照$x=1/1429$拆开绝对值, 然后把$x=0$代入, 有1429个绝对值&gt;0, 取1, 剩余的取-1,</p><p>所以直线$y=kx+b$中的$b=1\times1429+(-1)\times(2020-1429)$</p><p>又上面已经算出来, $x=1/1429, k=2021\times1010-1429\times(1430)$</p><p>所以可以算出$y=\frac{1195242}{1429}$ </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> 函数最值 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>旋转函数图像(?)</title>
       <link href="vnrConvasdyne/mds/ftid112/"/>
       <url>vnrConvasdyne/mds/ftid112/</url>
@@ -341,6 +563,33 @@
     
     
     <entry>
+      <title>不等式的应用</title>
+      <link href="vnrConvasdyne/mds/ftid100/"/>
+      <url>vnrConvasdyne/mds/ftid100/</url>
+      
+        <content type="html"><![CDATA[<p>已知$x,y\in\mathbb{R^+},a=x+y,b=\sqrt{x^2+7xy+y^2}, c=\sqrt{kxy}, \forall x,y,$以$a,b,c$为边均能构成三角形, 求正数$k$的取值范围.</p><hr><p>我们知道能组成三角形的含义即是:</p><script type="math/tex; mode=display">\begin{cases}a+b>c\\b+c>a\\c+a>b\end{cases}</script><p>在此处, 我们使用:</p><script type="math/tex; mode=display">\begin{cases}\sqrt{kxy}<(x+y)+\sqrt{x^2+7xy+y^2}\\\sqrt{kxy}>\sqrt{x^2+7xy+y^2}-(x+y)\end{cases}</script><p>这两个不等式.</p><p>把$\sqrt{xy}$除过去(反正是正实数)可以得到:</p><script type="math/tex; mode=display">\begin{cases}\sqrt{k}<\frac{(x+y)+\sqrt{x^2+7xy+y^2}}{\sqrt{xy}}\\\sqrt{k}>\frac{\sqrt{x^2+7xy+y^2}-(x+y)}{\sqrt{xy}}\end{cases}</script><p>首先先来求第一个等式里k的范围:</p><script type="math/tex; mode=display">\begin{align}\because& x+y\ge2\sqrt{xy},\\又&\sqrt{x^2+7xy+y^2}\ge\sqrt{7xy+2xy}=3\sqrt{xy}\\\therefore&\frac{(x+y)+\sqrt{x^2+7xy+y^2}}{\sqrt{xy}}\ge5(\iff x=y)\\\therefore& \sqrt{k}<5, k<25\end{align}</script><p>然后是第二个. 第二个因为分子有减法, 不能使用相同的放缩.</p><p>那么怎么把分子里的减法变成加法呢? 我们可以用<strong>分子有理化</strong></p><p>化简得到右边的式子:</p><script type="math/tex; mode=display">\begin{align}&\frac{\sqrt{x^2+7xy+y^2}-(x+y)}{\sqrt{xy}}\\=&\frac{5xy}{\sqrt{xy}(\sqrt{x^2+5xy+y^2}+(x+y))}\\=&5\cdot\frac{\sqrt{xy}}{\sqrt{x^2+5xy+y^2}+(x+y)}\\\le&5\cdot1/5=1\end{align}</script><p>综上, $k\in(1,25)$</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 不等式 </tag>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>不等式证明二次函数性质</title>
       <link href="vnrConvasdyne/mds/ftid101/"/>
       <url>vnrConvasdyne/mds/ftid101/</url>
@@ -389,33 +638,6 @@
             <tag> 不等式证明 </tag>
             
             <tag> 三角换元 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>不等式的应用</title>
-      <link href="vnrConvasdyne/mds/ftid100/"/>
-      <url>vnrConvasdyne/mds/ftid100/</url>
-      
-        <content type="html"><![CDATA[<p>已知$x,y\in\mathbb{R^+},a=x+y,b=\sqrt{x^2+7xy+y^2}, c=\sqrt{kxy}, \forall x,y,$以$a,b,c$为边均能构成三角形, 求正数$k$的取值范围.</p><hr><p>我们知道能组成三角形的含义即是:</p><script type="math/tex; mode=display">\begin{cases}a+b>c\\b+c>a\\c+a>b\end{cases}</script><p>在此处, 我们使用:</p><script type="math/tex; mode=display">\begin{cases}\sqrt{kxy}<(x+y)+\sqrt{x^2+7xy+y^2}\\\sqrt{kxy}>\sqrt{x^2+7xy+y^2}-(x+y)\end{cases}</script><p>这两个不等式.</p><p>把$\sqrt{xy}$除过去(反正是正实数)可以得到:</p><script type="math/tex; mode=display">\begin{cases}\sqrt{k}<\frac{(x+y)+\sqrt{x^2+7xy+y^2}}{\sqrt{xy}}\\\sqrt{k}>\frac{\sqrt{x^2+7xy+y^2}-(x+y)}{\sqrt{xy}}\end{cases}</script><p>首先先来求第一个等式里k的范围:</p><script type="math/tex; mode=display">\begin{align}\because& x+y\ge2\sqrt{xy},\\又&\sqrt{x^2+7xy+y^2}\ge\sqrt{7xy+2xy}=3\sqrt{xy}\\\therefore&\frac{(x+y)+\sqrt{x^2+7xy+y^2}}{\sqrt{xy}}\ge5(\iff x=y)\\\therefore& \sqrt{k}<5, k<25\end{align}</script><p>然后是第二个. 第二个因为分子有减法, 不能使用相同的放缩.</p><p>那么怎么把分子里的减法变成加法呢? 我们可以用<strong>分子有理化</strong></p><p>化简得到右边的式子:</p><script type="math/tex; mode=display">\begin{align}&\frac{\sqrt{x^2+7xy+y^2}-(x+y)}{\sqrt{xy}}\\=&\frac{5xy}{\sqrt{xy}(\sqrt{x^2+5xy+y^2}+(x+y))}\\=&5\cdot\frac{\sqrt{xy}}{\sqrt{x^2+5xy+y^2}+(x+y)}\\\le&5\cdot1/5=1\end{align}</script><p>综上, $k\in(1,25)$</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 数学 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 不等式 </tag>
-            
-            <tag> 吃白巧克力的黑猫 </tag>
             
         </tags>
       
