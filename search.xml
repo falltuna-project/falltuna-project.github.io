@@ -185,6 +185,35 @@
     
     
     <entry>
+      <title>f(x)在[-2020,2020]上有几个零点?</title>
+      <link href="vnrConvasdyne/mds/ftid123/"/>
+      <url>vnrConvasdyne/mds/ftid123/</url>
+      
+        <content type="html"><![CDATA[<p>这篇文章是在2020年12月13日写成的, 如果我的推算正确, 它登上公众号的时间应该正好是2020年12月31日.</p><p>也就是说, 不出意外的话要是你们晚一天看到这篇文章, 题目就没有意义了(手动狗头).</p><p>不过仔细一想, 这是我今天最后一篇会在今年刊登的银鳕鱼. </p><p>话说, 你们看到的“我”实际上是几星期前的我, 我第一次听说银鳕鱼这个名字的时候, (如果我的推算准确,) 你们已经看见银鳕鱼DAY19(<em>旋转函数图像(?)</em>)了, 而前18篇文章竟然是一个自认为在写金枪鱼的人写成的. 这就是杨皇说的“康熙六十二年”瓷器的来源吗……</p><p>胡言乱语就到这里, 公众号的朋友们, 我提前18天预祝大家新年快乐~</p><p>下面是题目:</p><script type="math/tex; mode=display">\begin{align}&f(x), x\in\mathbb{R}\\&\forall x\in\mathbb{R}, f(2+x)=f(2-x),f(7+x)=f(7-x)\\&f(x)在[0,7]上有2个零点x=1,x=3,\\&则f(x)在[-2020,2020]上有几个零点?\end{align}</script><p>好的, 因为有两条对称轴, 显然这是个周期函数. 根据周期函数推论, 周期为$2\cdot(7-2)=10$.</p><p>所以只要计算出$[0,10]$有几个零点, 就能知道$[-2020,2020]$有几个零点.</p><p>问题就在于我们只知道$[0,7]$有两个零点, 那么$(7,10]$有几个零点呢?</p><p>这时候要利用前面的条件:</p><p>我们有$f(7+x)=f(7-x)\implies f(x)=f(14-x)$</p><p>$x\in(7,10]\implies14-x\in[4,7)$, 在这个区间中, $f(x)$没有零点! 所以在$(7,10]$也不会有零点.</p><p>所以$f(x)$在$[0,10]$只有两个零点.</p><p>那这时候$[-2020,2020]$上自然就有$202\cdot2\cdot2=808$个零点了.</p><p>同志们可以想想明年(明天)见到这道题, 区间变成$[-2021,2021]$的时候会怎么样.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> 函数周期性 </tag>
+            
+            <tag> 函数零点 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>无题银鳕鱼</title>
       <link href="vnrConvasdyne/mds/ftid115/"/>
       <url>vnrConvasdyne/mds/ftid115/</url>
@@ -579,9 +608,9 @@
       
         <tags>
             
-            <tag> 不等式 </tag>
-            
             <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> 不等式 </tag>
             
         </tags>
       
@@ -606,9 +635,9 @@
       
         <tags>
             
-            <tag> 不等式 </tag>
-            
             <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> 不等式 </tag>
             
         </tags>
       
@@ -752,11 +781,11 @@
     
     
     <entry>
-      <title>权方和不等式</title>
-      <link href="vnrConvasdyne/mds/ftday93/"/>
-      <url>vnrConvasdyne/mds/ftday93/</url>
+      <title>变量分离二次函数根的分布</title>
+      <link href="vnrConvasdyne/mds/ftday95/"/>
+      <url>vnrConvasdyne/mds/ftday95/</url>
       
-        <content type="html"><![CDATA[<p>今天我们来介绍权方和不等式:</p><script type="math/tex; mode=display">\sum_{1}^{n}\frac{a_i^{m+1}}{b_i^m}\le\frac{(\sum_{1}^{n} a_i)^{m+1}}{(\sum_{1}^{n} b_i)^m}(m\in(-\infty, -1) \cup(0,+\infty))</script><p>取等条件: $a_i=\lambda b_i$ (和柯西相同)</p><p>可能有同学会说: “已经有均值三角柯西排序琴生不等式了, 还要多一个干什么?”</p><p><del>另外不要问“权方和是谁”这种奇怪的问题.</del></p><p>但事实上, 权方和不等式真的非常有用!</p><p>在m=2时， 权方和不等式<del>被温教授</del>称为T2引理, 这也是最常见的应用.</p><p>我们可以用权方和不等式做题目:</p><h4 id="例题一"><a href="#例题一" class="headerlink" title="例题一"></a>例题一</h4><script type="math/tex; mode=display">设x,y>0, 且x+y=1\\求\frac{1}{x}+\frac{4}{y}的最小值</script><p>解：由权方和不等式：</p><script type="math/tex; mode=display">\frac{1^2}{x}+\frac{2^2}{y}\ge\frac{(1+2)^2}{x+y}=9</script><p>当且仅当<script type="math/tex">\frac{1}{x}=\frac{2}{y}</script>时等号成立</p><p><strong>一步解决问题, 认准权方和不等式.</strong></p><h4 id="例题二"><a href="#例题二" class="headerlink" title="例题二"></a>例题二</h4><script type="math/tex; mode=display">若正实数a, b满足4a+3b=1, 求\min\{\frac{1}{2a+b}+\frac{1}{a+b}\}</script><p>我们看到条件为$mx+ny=k$, 其中$x,y&gt;0, k, m, n$为常数时, 就可以使用权方和不等式.</p><p>在这个例子中, 我们把$\frac{1}{a+b}$换成$\frac{2}{2a+2b}$,</p><p>有$(2a+b)+(2a+2b)=1$, 所以可以由权方和不等式得到:</p><script type="math/tex; mode=display">\frac{1^2}{2a+b}+\frac{(\sqrt2)^2}{2a+2b}\ge\frac{(1+\sqrt2)^2}{4a+3b}=\frac{3+\sqrt2}{1}=3+\sqrt2</script><p>$当且仅当\frac{1}{2a+b}=\frac{\sqrt2}{2a+2b}时等号成立$</p><p>所以我们可以看到权方和不等式可以代替很多均值的步骤!</p><h4 id="练习"><a href="#练习" class="headerlink" title="练习"></a>练习</h4><p>已知$x&gt;0, y&gt;0$, 且$\frac{1}{x}+\frac{2}{y+1}=1$, 求$\min\{2x+y\}$</p>]]></content>
+        <content type="html"><![CDATA[<p>补一篇比较水的金枪鱼……</p><p>用变量分离的方法, 可以解决特定的问题. (话说这不是废话吗?) 下文将会具体介绍一道题:</p><p>关于$x$的方程: $4^x+a\cdot 2^x+a+1$在区间$(1,2)$中有根, 求$a$的取值范围.</p><p>首先是遇到指数方程的第一步: 换元</p><p>$2^x\triangleq u$</p><p>那么原式可以化成: $u^2+au+a+1$, 设为$f(u)$</p><p>$x\in(1,2)\implies u\in(2,4)$</p><p>即$f(u)=0$在$(2,4)$上有根</p><p>我们把$a$提取出来:</p><script type="math/tex; mode=display">\begin{align}&u^2+au+a+1=0\\\implies &-a(u+1)=u^2+1\\\implies& a = -\frac{u^2+1}{u+1}=-\frac{u^2+u-2(u+1)+1+2}{u+1}=-(u+1-2+\frac{2}{u+1})\\\end{align}</script><p>接下来利用耐克函数的性质, 可以轻松求得$a\in(-\frac{17}5,\frac52)$</p><hr><p>比起用原来的二次函数讨论/韦达定理, 这种方法显然容易得多. 不过, 要想到这种方法本身不容易, 其中的思维含量也不低.</p><p>不过, 能通过减少分类, 减少错误率, 何不为之?</p>]]></content>
       
       
       <categories>
@@ -767,8 +796,6 @@
       
       
         <tags>
-            
-            <tag> 不等式 </tag>
             
             <tag> 吃白巧克力的黑猫 </tag>
             
@@ -806,11 +833,11 @@
     
     
     <entry>
-      <title>变量分离二次函数根的分布</title>
-      <link href="vnrConvasdyne/mds/ftday95/"/>
-      <url>vnrConvasdyne/mds/ftday95/</url>
+      <title>权方和不等式</title>
+      <link href="vnrConvasdyne/mds/ftday93/"/>
+      <url>vnrConvasdyne/mds/ftday93/</url>
       
-        <content type="html"><![CDATA[<p>补一篇比较水的金枪鱼……</p><p>用变量分离的方法, 可以解决特定的问题. (话说这不是废话吗?) 下文将会具体介绍一道题:</p><p>关于$x$的方程: $4^x+a\cdot 2^x+a+1$在区间$(1,2)$中有根, 求$a$的取值范围.</p><p>首先是遇到指数方程的第一步: 换元</p><p>$2^x\triangleq u$</p><p>那么原式可以化成: $u^2+au+a+1$, 设为$f(u)$</p><p>$x\in(1,2)\implies u\in(2,4)$</p><p>即$f(u)=0$在$(2,4)$上有根</p><p>我们把$a$提取出来:</p><script type="math/tex; mode=display">\begin{align}&u^2+au+a+1=0\\\implies &-a(u+1)=u^2+1\\\implies& a = -\frac{u^2+1}{u+1}=-\frac{u^2+u-2(u+1)+1+2}{u+1}=-(u+1-2+\frac{2}{u+1})\\\end{align}</script><p>接下来利用耐克函数的性质, 可以轻松求得$a\in(-\frac{17}5,\frac52)$</p><hr><p>比起用原来的二次函数讨论/韦达定理, 这种方法显然容易得多. 不过, 要想到这种方法本身不容易, 其中的思维含量也不低.</p><p>不过, 能通过减少分类, 减少错误率, 何不为之?</p>]]></content>
+        <content type="html"><![CDATA[<p>今天我们来介绍权方和不等式:</p><script type="math/tex; mode=display">\sum_{1}^{n}\frac{a_i^{m+1}}{b_i^m}\le\frac{(\sum_{1}^{n} a_i)^{m+1}}{(\sum_{1}^{n} b_i)^m}(m\in(-\infty, -1) \cup(0,+\infty))</script><p>取等条件: $a_i=\lambda b_i$ (和柯西相同)</p><p>可能有同学会说: “已经有均值三角柯西排序琴生不等式了, 还要多一个干什么?”</p><p><del>另外不要问“权方和是谁”这种奇怪的问题.</del></p><p>但事实上, 权方和不等式真的非常有用!</p><p>在m=2时， 权方和不等式<del>被温教授</del>称为T2引理, 这也是最常见的应用.</p><p>我们可以用权方和不等式做题目:</p><h4 id="例题一"><a href="#例题一" class="headerlink" title="例题一"></a>例题一</h4><script type="math/tex; mode=display">设x,y>0, 且x+y=1\\求\frac{1}{x}+\frac{4}{y}的最小值</script><p>解：由权方和不等式：</p><script type="math/tex; mode=display">\frac{1^2}{x}+\frac{2^2}{y}\ge\frac{(1+2)^2}{x+y}=9</script><p>当且仅当<script type="math/tex">\frac{1}{x}=\frac{2}{y}</script>时等号成立</p><p><strong>一步解决问题, 认准权方和不等式.</strong></p><h4 id="例题二"><a href="#例题二" class="headerlink" title="例题二"></a>例题二</h4><script type="math/tex; mode=display">若正实数a, b满足4a+3b=1, 求\min\{\frac{1}{2a+b}+\frac{1}{a+b}\}</script><p>我们看到条件为$mx+ny=k$, 其中$x,y&gt;0, k, m, n$为常数时, 就可以使用权方和不等式.</p><p>在这个例子中, 我们把$\frac{1}{a+b}$换成$\frac{2}{2a+2b}$,</p><p>有$(2a+b)+(2a+2b)=1$, 所以可以由权方和不等式得到:</p><script type="math/tex; mode=display">\frac{1^2}{2a+b}+\frac{(\sqrt2)^2}{2a+2b}\ge\frac{(1+\sqrt2)^2}{4a+3b}=\frac{3+\sqrt2}{1}=3+\sqrt2</script><p>$当且仅当\frac{1}{2a+b}=\frac{\sqrt2}{2a+2b}时等号成立$</p><p>所以我们可以看到权方和不等式可以代替很多均值的步骤!</p><h4 id="练习"><a href="#练习" class="headerlink" title="练习"></a>练习</h4><p>已知$x&gt;0, y&gt;0$, 且$\frac{1}{x}+\frac{2}{y+1}=1$, 求$\min\{2x+y\}$</p>]]></content>
       
       
       <categories>
@@ -823,6 +850,8 @@
         <tags>
             
             <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> 不等式 </tag>
             
         </tags>
       
@@ -1283,9 +1312,9 @@
       
         <tags>
             
-            <tag> 不等式 </tag>
-            
             <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> 不等式 </tag>
             
             <tag> oldNotes </tag>
             
@@ -1374,9 +1403,9 @@
       
         <tags>
             
-            <tag> 不等式 </tag>
-            
             <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> 不等式 </tag>
             
             <tag> oldNotes </tag>
             
