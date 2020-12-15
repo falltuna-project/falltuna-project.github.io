@@ -349,6 +349,31 @@
     
     
     <entry>
+      <title>20-11-27华师大课程题目(1)</title>
+      <link href="vnrConvasdyne/mds/ftid111/"/>
+      <url>vnrConvasdyne/mds/ftid111/</url>
+      
+        <content type="html"><![CDATA[<p>废话不多说了, 请看题:</p><script type="math/tex; mode=display">\begin{align}&设n\ge5, \quad a_1,a_2,a_3...a_n\in\mathbb{N^*}(a_i互不相等), \quad 有下列性质:\\&S=\{a_1,a_2,a_3...a_n\}, \\&\forall A, B\subset S\quad(A,B\neq\varnothing), A中所有元素之和\neq B中所有元素之和\\&满足上述条件下, 求\max{\sum_{i=1}^n\frac1{a_i}}\end{align}</script><p><del>好的, 我们不解释题目.</del></p><p>我们要如何构造出一组数, 使得里面任意挑几个, 相加都不会等于另一个, 且这组数最小呢?</p><p>首先想到的是, 我们要找一个足够大的数, 使得它等于其余所有数之和再加1.</p><p>你有想到什么好的例子吗?</p><p>是的<strong>构造一个<em>等比数列</em>, 以<em>2</em>为公比.</strong></p><p>接下来只要证明它是最小的就行了.</p><hr><script type="math/tex; mode=display">\begin{align}1^o &存在性:\\&S=\{2^k|k\in\mathbb{N^*}, k\le n \},\\&满足: \forall A, B\subset S, (\sum_{a\in A}a)\ne(\sum_{b\in B}b)\end{align}</script><p>我们就这样构造出来了一个……满足条件的集合.</p><p>如何证明它真的满足条件呢? 首先, 把所有数字改成二进制, 你会惊奇地发现, <strong>$a_1$就是$(1)_2, a_1$就是$(10)_2$, 以此类推, $a_k$就是$(1\underbrace{00…0}_{k-1个})_2$</strong>, 这些$a_k$加起来的组合可以用来表示互不相同的数字<del>, 太不可思议了!</del></p><script type="math/tex; mode=display">\begin{align}2^o &最大性:\\&考虑I=\sum_{i=1}^{n}(1/2)^{i-1}-\frac{1}{a_i}\ge0\\&(通分后得到)\\&\iff \sum_{i=1}^{n}(\frac{1}{2^{i-1}\cdot a_i})\cdot(a_i-2^{i-1})\ge 0\\&(把左边括号设成c_i, 右边括号设成d_i)\\&我们有c_1\ge...c_i\ge c_{i+1}\ge...c_n\gt0,\\&设\sum_{i=1}^kd_i=D_k,\\&我们有D_k=\sum_{i=1}^ka_i-\sum_{i=1}^k2^{i-1}=\sum_{i=1}^ka_i-(2^k-1)\ge0\\&若不然, 则\sum_{i=1}^ka_i\lt2^k-1\\&对于A_k={a_1,...a_k}\subset S, A_k共有2^k-1个非空子集, 故有2^k-1种和,\\&但把所有元素加起来都到不了和的种类数, 矛盾.\\&(到这里我们也可以思考: 其实最大值正是在a_i取遍2^k-1个的情况下得到.)\\&定义了这个D_k以后, 我们可以把d_k换掉:\\&I=\sum_{i=1}^n(c_id_i)=\sum_{i=1}^nc_i(D_i-D_{i-1})\\&(用S_n表示a_n也是数列里的常规操作了, 可从头开始造一个S_n这种实在是想不到)\\&(约定D_0=0)\\&\quad =c_1D_1-c_1D_0+c_2D_2-c_2D_1+...c_nD_n-c_nD_{n-1}\\&\quad=D_1(c_1-c_2)+D_2(c_2-c_3)+...D_{n-1}(c_{n-1}-c_n)+D_nc_n\\&\because D_n\ge 0, c_i\ge c_{i+1}>0, \therefore I\ge0\\&于是乎没有比之前我们构造的情况更大的情况了, 证明结束, 可喜可贺.\end{align}</script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>函数值域之解析几何法(单调性)</title>
       <link href="vnrConvasdyne/mds/ftid110/"/>
       <url>vnrConvasdyne/mds/ftid110/</url>
@@ -368,31 +393,6 @@
             <tag> 吃白巧克力的黑猫 </tag>
             
             <tag> 函数求值域 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>20-11-27华师大课程题目(1)</title>
-      <link href="vnrConvasdyne/mds/ftid111/"/>
-      <url>vnrConvasdyne/mds/ftid111/</url>
-      
-        <content type="html"><![CDATA[<p>废话不多说了, 请看题:</p><script type="math/tex; mode=display">\begin{align}&设n\ge5, \quad a_1,a_2,a_3...a_n\in\mathbb{N^*}(a_i互不相等), \quad 有下列性质:\\&S=\{a_1,a_2,a_3...a_n\}, \\&\forall A, B\subset S\quad(A,B\neq\varnothing), A中所有元素之和\neq B中所有元素之和\\&满足上述条件下, 求\max{\sum_{i=1}^n\frac1{a_i}}\end{align}</script><p><del>好的, 我们不解释题目.</del></p><p>我们要如何构造出一组数, 使得里面任意挑几个, 相加都不会等于另一个, 且这组数最小呢?</p><p>首先想到的是, 我们要找一个足够大的数, 使得它等于其余所有数之和再加1.</p><p>你有想到什么好的例子吗?</p><p>是的<strong>构造一个<em>等比数列</em>, 以<em>2</em>为公比.</strong></p><p>接下来只要证明它是最小的就行了.</p><hr><script type="math/tex; mode=display">\begin{align}1^o &存在性:\\&S=\{2^k|k\in\mathbb{N^*}, k\le n \},\\&满足: \forall A, B\subset S, (\sum_{a\in A}a)\ne(\sum_{b\in B}b)\end{align}</script><p>我们就这样构造出来了一个……满足条件的集合.</p><p>如何证明它真的满足条件呢? 首先, 把所有数字改成二进制, 你会惊奇地发现, <strong>$a_1$就是$(1)_2, a_1$就是$(10)_2$, 以此类推, $a_k$就是$(1\underbrace{00…0}_{k-1个})_2$</strong>, 这些$a_k$加起来的组合可以用来表示互不相同的数字<del>, 太不可思议了!</del></p><script type="math/tex; mode=display">\begin{align}2^o &最大性:\\&考虑I=\sum_{i=1}^{n}(1/2)^{i-1}-\frac{1}{a_i}\ge0\\&(通分后得到)\\&\iff \sum_{i=1}^{n}(\frac{1}{2^{i-1}\cdot a_i})\cdot(a_i-2^{i-1})\ge 0\\&(把左边括号设成c_i, 右边括号设成d_i)\\&我们有c_1\ge...c_i\ge c_{i+1}\ge...c_n\gt0,\\&设\sum_{i=1}^kd_i=D_k,\\&我们有D_k=\sum_{i=1}^ka_i-\sum_{i=1}^k2^{i-1}=\sum_{i=1}^ka_i-(2^k-1)\ge0\\&若不然, 则\sum_{i=1}^ka_i\lt2^k-1\\&对于A_k={a_1,...a_k}\subset S, A_k共有2^k-1个非空子集, 故有2^k-1种和,\\&但把所有元素加起来都到不了和的种类数, 矛盾.\\&(到这里我们也可以思考: 其实最大值正是在a_i取遍2^k-1个的情况下得到.)\\&定义了这个D_k以后, 我们可以把d_k换掉:\\&I=\sum_{i=1}^n(c_id_i)=\sum_{i=1}^nc_i(D_i-D_{i-1})\\&(用S_n表示a_n也是数列里的常规操作了, 可从头开始造一个S_n这种实在是想不到)\\&(约定D_0=0)\\&\quad =c_1D_1-c_1D_0+c_2D_2-c_2D_1+...c_nD_n-c_nD_{n-1}\\&\quad=D_1(c_1-c_2)+D_2(c_2-c_3)+...D_{n-1}(c_{n-1}-c_n)+D_nc_n\\&\because D_n\ge 0, c_i\ge c_{i+1}>0, \therefore I\ge0\\&于是乎没有比之前我们构造的情况更大的情况了, 证明结束, 可喜可贺.\end{align}</script>]]></content>
-      
-      
-      <categories>
-          
-          <category> 数学 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 吃白巧克力的黑猫 </tag>
             
         </tags>
       
@@ -482,33 +482,6 @@
     
     
     <entry>
-      <title>解对数方程</title>
-      <link href="vnrConvasdyne/mds/ftid104/"/>
-      <url>vnrConvasdyne/mds/ftid104/</url>
-      
-        <content type="html"><![CDATA[<p>最近我们都在复习对数啊……</p><p>这篇本应该是11-23号的, 结果一看时间, 哟! 11-24号了. 我大意了, 没有睡觉, 所以就熬到了现在.</p><p>抱怨完了, 现在是正文:</p><hr><p>设$a\in\mathbb{R}$, 解关于$x$的方程</p><script type="math/tex; mode=display">\log_4(x-1)=\log_2\sqrt{a-x}-\log_2\sqrt{4-x}</script><p>首先看定义域啊定义域(不写定义域, 对数函数会让你失眠<del>以至于想主动写金枪鱼</del>)</p><p>我们在这里不管$a$是个什么鬼东西(反正到时候要求$a$的取值范围), 所以$x\in(1,4)$<del>太草率了吧</del></p><script type="math/tex; mode=display">\begin{align}原式\implies& \log_2\sqrt{x-1}=\log_2\sqrt{a-x}-\log_2\sqrt{4-x}\\\iff& (x-1)(4-x)=a-x \quad(x\in(1,4))\\&a=-x^2+6x-4\end{align}</script><p><img src="../../../img/id104/Screen Shot 2020-11-24 at 00.30.45.png" alt="Screen Shot 2020-11-24 at 00.30.45" style="zoom:33%;" /></p><p>现在看这张图像, 我们来讨论解的数量:</p><p><img src="../../../img/id104/Screen Shot 2020-11-24 at 00.35.53.png" alt="Screen Shot 2020-11-24 at 00.35.53" style="zoom:33%;" /></p><p>显然这种情况下是没有解的</p><p>$当a\in(-\infty,1]\cup(5,+\infty)时, x\in\varnothing$</p><p><img src="../../../img/id104/Screen Shot 2020-11-24 at 00.39.15.png" alt="Screen Shot 2020-11-24 at 00.39.15" style="zoom:33%;" /></p><p>显然这时候, 它有不重合的两根:</p><p>$当a\in(4,5]时, x_{1,2}=\frac{-6\pm\sqrt{\Delta}}{-2}=3\pm\sqrt{5-a}$</p><p><img src="../../../img/id104/Screen Shot 2020-11-24 at 00.36.43.png" alt="Screen Shot 2020-11-24 at 00.36.43" style="zoom:33%;" /></p><p>显然这时候它有且只有一个解,</p><p>那究竟是哪个根呢? 按照图像是小的那个(重根的话加减均相同).</p><p>$当a\in(1,4]\cup\{5\}时, x=3-\sqrt{5-a}$</p><p>综上……</p><p>于是我们就解完了这道题.</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 数学 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 吃白巧克力的黑猫 </tag>
-            
-            <tag> 对数 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>证明离散函数值域</title>
       <link href="vnrConvasdyne/mds/ftid105/"/>
       <url>vnrConvasdyne/mds/ftid105/</url>
@@ -530,6 +503,33 @@
             <tag> 数论 </tag>
             
             <tag> 高阶思维 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>解对数方程</title>
+      <link href="vnrConvasdyne/mds/ftid104/"/>
+      <url>vnrConvasdyne/mds/ftid104/</url>
+      
+        <content type="html"><![CDATA[<p>最近我们都在复习对数啊……</p><p>这篇本应该是11-23号的, 结果一看时间, 哟! 11-24号了. 我大意了, 没有睡觉, 所以就熬到了现在.</p><p>抱怨完了, 现在是正文:</p><hr><p>设$a\in\mathbb{R}$, 解关于$x$的方程</p><script type="math/tex; mode=display">\log_4(x-1)=\log_2\sqrt{a-x}-\log_2\sqrt{4-x}</script><p>首先看定义域啊定义域(不写定义域, 对数函数会让你失眠<del>以至于想主动写金枪鱼</del>)</p><p>我们在这里不管$a$是个什么鬼东西(反正到时候要求$a$的取值范围), 所以$x\in(1,4)$<del>太草率了吧</del></p><script type="math/tex; mode=display">\begin{align}原式\implies& \log_2\sqrt{x-1}=\log_2\sqrt{a-x}-\log_2\sqrt{4-x}\\\iff& (x-1)(4-x)=a-x \quad(x\in(1,4))\\&a=-x^2+6x-4\end{align}</script><p><img src="../../../img/id104/Screen Shot 2020-11-24 at 00.30.45.png" alt="Screen Shot 2020-11-24 at 00.30.45" style="zoom:33%;" /></p><p>现在看这张图像, 我们来讨论解的数量:</p><p><img src="../../../img/id104/Screen Shot 2020-11-24 at 00.35.53.png" alt="Screen Shot 2020-11-24 at 00.35.53" style="zoom:33%;" /></p><p>显然这种情况下是没有解的</p><p>$当a\in(-\infty,1]\cup(5,+\infty)时, x\in\varnothing$</p><p><img src="../../../img/id104/Screen Shot 2020-11-24 at 00.39.15.png" alt="Screen Shot 2020-11-24 at 00.39.15" style="zoom:33%;" /></p><p>显然这时候, 它有不重合的两根:</p><p>$当a\in(4,5]时, x_{1,2}=\frac{-6\pm\sqrt{\Delta}}{-2}=3\pm\sqrt{5-a}$</p><p><img src="../../../img/id104/Screen Shot 2020-11-24 at 00.36.43.png" alt="Screen Shot 2020-11-24 at 00.36.43" style="zoom:33%;" /></p><p>显然这时候它有且只有一个解,</p><p>那究竟是哪个根呢? 按照图像是小的那个(重根的话加减均相同).</p><p>$当a\in(1,4]\cup\{5\}时, x=3-\sqrt{5-a}$</p><p>综上……</p><p>于是我们就解完了这道题.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> 对数 </tag>
             
         </tags>
       
@@ -608,36 +608,9 @@
       
         <tags>
             
-            <tag> 吃白巧克力的黑猫 </tag>
-            
             <tag> 不等式 </tag>
             
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>不等式证明二次函数性质</title>
-      <link href="vnrConvasdyne/mds/ftid101/"/>
-      <url>vnrConvasdyne/mds/ftid101/</url>
-      
-        <content type="html"><![CDATA[<p>设$f(x)=x^2+ax+b,\quad M(a,b)\triangleq\max\{y|y=|f(x)|, x\in[-1,1]\}$</p><p>当$M(a,b)\le2$时, 求$|a|+|b|_{\max}$</p><p>遇到这种求极值的题目, 我们要做的是:</p><ul><li>第一步: 证明极值</li><li>第二步: 构造极值</li></ul><p>证明: 首先因为$M(a,b)\le2$所以一定有$|f(1)|=|1+a+b|\le2$和</p><p>$|f(-1)|=|1-a+b|\le2$</p><p>所以就会有$|a+b|=|f(1)-1|=|1+a+b-1|\le|f(1)|+1\le3$和$|a-b|=|f(-1)-1|=|1-a+b-1|\le|f(-1)|+1\le3$</p><p>由三角不等式, $|a|+|b|=\max\{|a-b|,|a+b|\}\le3$</p><p>构造: 取$a=-2,b=-1$, 满足条件.</p><p>综上所述, $|a|+|b|_{\max}=3$</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 数学 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
             <tag> 吃白巧克力的黑猫 </tag>
-            
-            <tag> 不等式 </tag>
             
         </tags>
       
@@ -675,11 +648,11 @@
     
     
     <entry>
-      <title>一道对数方程相关的数学题</title>
-      <link href="vnrConvasdyne/mds/ftid98/"/>
-      <url>vnrConvasdyne/mds/ftid98/</url>
+      <title>不等式证明二次函数性质</title>
+      <link href="vnrConvasdyne/mds/ftid101/"/>
+      <url>vnrConvasdyne/mds/ftid101/</url>
       
-        <content type="html"><![CDATA[<p>设$a\in R$, 函数$f(x)=\log_2(\frac1x+a)$</p><p>(1)若关于$x$的方程$f(x)-\log_2[(a-4)x+(2a-5)]=0$的解集中恰有一个元素, 求$a$的取值范围.</p><p>(2)设$a&gt;0$,$\forall t\in[\frac12,1], f(x)_{\max}-f(x)_{\min}\le1 (x\in[t,t+1])$</p><p>求$a$的取值范围.</p><p>参考解答:</p><p>(1)</p><script type="math/tex; mode=display">\begin{align}&\log_2(\frac1x+a)=\log_2[(a-4)x+(2a-5)]\\\iff&\begin{cases}(a-4)x^2+(a-5)x-1=0\qquad(1)\\\frac1x>-a\end{cases}\\\iff&\begin{cases}((a-4)x-1)(x+1)=0\qquad(1)\\\frac1x>-a\end{cases}\\1^o&当a=4时, (1)的根为x=-1\\2^o&当a=3时, \frac1{a-4}=-1, (1)有重根x=-1\\3^o&当a\neq3,a\neq4时, x_1=-1, x_2=\frac1{a-4}\\&\begin{cases}-1>-a\\a-4\le-a\end{cases}或\begin{cases}a-4>-a\\-1\le-a\end{cases}\\&解得:a\in(1,2]\\综上,& a\in(1,2]\cup\{3,4\} \end{align}</script><p>这道题看起来是很复杂对数方程问题, 实则可以转化为二次型方程根的讨论, 但x的范围有限制.</p><p>通过对二次型方程的讨论, 我们可以得到结果.</p><p>需注意的是, 讨论二次型方程时首先应考虑二次项系数, 然后是判别式之类的这些.</p><p>(2)</p><script type="math/tex; mode=display">\begin{align}\because& u=\frac1x+a在(0,+\infty)\searrow\\\therefore& f(x)在(0,+\infty)\searrow\\\forall& t\in[\frac12,1], x\in[t,t+1]:\\&f(x)_{\max}=f(t)=\log_2(\frac1t+a)\\&f(x)_{\min}=f(t+1)=\log_2(\frac1{t+1}+a)\\&f(x)_{\max}-f(x)_{\min}=\log_2(\frac1t+a)-\log_2(\frac1{t+1}+a)\le1\\\implies&\frac1t+a\le\frac2{t+1}+2a\implies a\ge\frac1t-\frac{2}{t+1}\end{align}</script><p>到这一步之后, 我们用t表示出了a, 把对数题转化为了求a取值范围.</p><script type="math/tex; mode=display">\begin{align}(法一)&\\&a\ge\frac{1-t}{t^2+t}\triangleq u\\&当t=1时, u=0\\&当t\in[\frac12,1)时,\\&\frac1u=\frac{(1-t)^2-3(t-1)+2}{1-t}=(1-t)-3+\frac{2}{1-t}\\&关于1-t\searrow, i.e.关于t\nearrow\implies]\frac1u_{\max}在t=1/2时取到,\\&此时u=2/3\therefore a\ge u_{\max}=2/3, i.e.a\in[2/3,+\infty)\end{align}</script><p>方法1是用t表示a, 然后用耐克函数单调性计算极值.</p><script type="math/tex; mode=display">\begin{align}(法二)&\\\implies&at^2+(a+1)t-1\ge0\quad(\forall t\in[1/2,1])\\\because&a>0, \therefore y=at^2+(a+1)t-1开口上\\\implies&y=at^2+(a+1)t-1在t\in[1/2,1]\nearrow,\\\therefore& y_{\min}=\frac34a-1/2\ge0\implies a\ge2/3s\end{align}</script><p>因为这道题a&gt;0是已知条件, 所以也可以用二次函数讨论, 这时候的计算量甚至比上面一种方法还少.</p>]]></content>
+        <content type="html"><![CDATA[<p>设$f(x)=x^2+ax+b,\quad M(a,b)\triangleq\max\{y|y=|f(x)|, x\in[-1,1]\}$</p><p>当$M(a,b)\le2$时, 求$|a|+|b|_{\max}$</p><p>遇到这种求极值的题目, 我们要做的是:</p><ul><li>第一步: 证明极值</li><li>第二步: 构造极值</li></ul><p>证明: 首先因为$M(a,b)\le2$所以一定有$|f(1)|=|1+a+b|\le2$和</p><p>$|f(-1)|=|1-a+b|\le2$</p><p>所以就会有$|a+b|=|f(1)-1|=|1+a+b-1|\le|f(1)|+1\le3$和$|a-b|=|f(-1)-1|=|1-a+b-1|\le|f(-1)|+1\le3$</p><p>由三角不等式, $|a|+|b|=\max\{|a-b|,|a+b|\}\le3$</p><p>构造: 取$a=-2,b=-1$, 满足条件.</p><p>综上所述, $|a|+|b|_{\max}=3$</p>]]></content>
       
       
       <categories>
@@ -691,9 +664,9 @@
       
         <tags>
             
-            <tag> 吃白巧克力的黑猫 </tag>
+            <tag> 不等式 </tag>
             
-            <tag> 对数 </tag>
+            <tag> 吃白巧克力的黑猫 </tag>
             
         </tags>
       
@@ -729,11 +702,11 @@
     
     
     <entry>
-      <title>数形结合</title>
-      <link href="vnrConvasdyne/mds/ftid96/"/>
-      <url>vnrConvasdyne/mds/ftid96/</url>
+      <title>一道对数方程相关的数学题</title>
+      <link href="vnrConvasdyne/mds/ftid98/"/>
+      <url>vnrConvasdyne/mds/ftid98/</url>
       
-        <content type="html"><![CDATA[<p>今天的<del>水枪鱼</del>金枪鱼分享的是一道数形结合相关的数学题.</p><p>设$u\in[-\sqrt2,\sqrt2], v\in(0,+\infty)$</p><p>求证:$(u-v)^2+(\sqrt{2-u^2}-\frac9v)^2\ge8$</p><hr><p>当两个平方相加的时候, 我们首先会想到的应该是勾股定理(想到圆一定是跳步了). 这时候利用几何意义的解法就是<strong>两点之间距离公式</strong>!</p><p>这时候我们有两个点$A(u,\sqrt{2-u^2}),B(v,\frac9v)$</p><p>显然A在一个半径为$\sqrt2$的半圆上, B在一条反比例函数上.<br><!-- <img src="/Users/ngichingaij/Library/Application Support/typora-user-images/Screen Shot 2020-11-17 at 19.41.48.png" alt="Screen Shot 2020-11-17 at 19.41.48" style="zoom:33%;" /> --><br><img src="../../../img/id96/img.png" alt="img"><br>这时候最近的距离就是y=x那条线连过去的距离, 经计算=2√2</p>]]></content>
+        <content type="html"><![CDATA[<p>设$a\in R$, 函数$f(x)=\log_2(\frac1x+a)$</p><p>(1)若关于$x$的方程$f(x)-\log_2[(a-4)x+(2a-5)]=0$的解集中恰有一个元素, 求$a$的取值范围.</p><p>(2)设$a&gt;0$,$\forall t\in[\frac12,1], f(x)_{\max}-f(x)_{\min}\le1 (x\in[t,t+1])$</p><p>求$a$的取值范围.</p><p>参考解答:</p><p>(1)</p><script type="math/tex; mode=display">\begin{align}&\log_2(\frac1x+a)=\log_2[(a-4)x+(2a-5)]\\\iff&\begin{cases}(a-4)x^2+(a-5)x-1=0\qquad(1)\\\frac1x>-a\end{cases}\\\iff&\begin{cases}((a-4)x-1)(x+1)=0\qquad(1)\\\frac1x>-a\end{cases}\\1^o&当a=4时, (1)的根为x=-1\\2^o&当a=3时, \frac1{a-4}=-1, (1)有重根x=-1\\3^o&当a\neq3,a\neq4时, x_1=-1, x_2=\frac1{a-4}\\&\begin{cases}-1>-a\\a-4\le-a\end{cases}或\begin{cases}a-4>-a\\-1\le-a\end{cases}\\&解得:a\in(1,2]\\综上,& a\in(1,2]\cup\{3,4\} \end{align}</script><p>这道题看起来是很复杂对数方程问题, 实则可以转化为二次型方程根的讨论, 但x的范围有限制.</p><p>通过对二次型方程的讨论, 我们可以得到结果.</p><p>需注意的是, 讨论二次型方程时首先应考虑二次项系数, 然后是判别式之类的这些.</p><p>(2)</p><script type="math/tex; mode=display">\begin{align}\because& u=\frac1x+a在(0,+\infty)\searrow\\\therefore& f(x)在(0,+\infty)\searrow\\\forall& t\in[\frac12,1], x\in[t,t+1]:\\&f(x)_{\max}=f(t)=\log_2(\frac1t+a)\\&f(x)_{\min}=f(t+1)=\log_2(\frac1{t+1}+a)\\&f(x)_{\max}-f(x)_{\min}=\log_2(\frac1t+a)-\log_2(\frac1{t+1}+a)\le1\\\implies&\frac1t+a\le\frac2{t+1}+2a\implies a\ge\frac1t-\frac{2}{t+1}\end{align}</script><p>到这一步之后, 我们用t表示出了a, 把对数题转化为了求a取值范围.</p><script type="math/tex; mode=display">\begin{align}(法一)&\\&a\ge\frac{1-t}{t^2+t}\triangleq u\\&当t=1时, u=0\\&当t\in[\frac12,1)时,\\&\frac1u=\frac{(1-t)^2-3(t-1)+2}{1-t}=(1-t)-3+\frac{2}{1-t}\\&关于1-t\searrow, i.e.关于t\nearrow\implies]\frac1u_{\max}在t=1/2时取到,\\&此时u=2/3\therefore a\ge u_{\max}=2/3, i.e.a\in[2/3,+\infty)\end{align}</script><p>方法1是用t表示a, 然后用耐克函数单调性计算极值.</p><script type="math/tex; mode=display">\begin{align}(法二)&\\\implies&at^2+(a+1)t-1\ge0\quad(\forall t\in[1/2,1])\\\because&a>0, \therefore y=at^2+(a+1)t-1开口上\\\implies&y=at^2+(a+1)t-1在t\in[1/2,1]\nearrow,\\\therefore& y_{\min}=\frac34a-1/2\ge0\implies a\ge2/3s\end{align}</script><p>因为这道题a&gt;0是已知条件, 所以也可以用二次函数讨论, 这时候的计算量甚至比上面一种方法还少.</p>]]></content>
       
       
       <categories>
@@ -747,7 +720,7 @@
             
             <tag> 吃白巧克力的黑猫 </tag>
             
-            <tag> 数形结合 </tag>
+            <tag> 对数 </tag>
             
         </tags>
       
@@ -781,11 +754,11 @@
     
     
     <entry>
-      <title>变量分离二次函数根的分布</title>
-      <link href="vnrConvasdyne/mds/ftday95/"/>
-      <url>vnrConvasdyne/mds/ftday95/</url>
+      <title>数形结合</title>
+      <link href="vnrConvasdyne/mds/ftid96/"/>
+      <url>vnrConvasdyne/mds/ftid96/</url>
       
-        <content type="html"><![CDATA[<p>补一篇比较水的金枪鱼……</p><p>用变量分离的方法, 可以解决特定的问题. (话说这不是废话吗?) 下文将会具体介绍一道题:</p><p>关于$x$的方程: $4^x+a\cdot 2^x+a+1$在区间$(1,2)$中有根, 求$a$的取值范围.</p><p>首先是遇到指数方程的第一步: 换元</p><p>$2^x\triangleq u$</p><p>那么原式可以化成: $u^2+au+a+1$, 设为$f(u)$</p><p>$x\in(1,2)\implies u\in(2,4)$</p><p>即$f(u)=0$在$(2,4)$上有根</p><p>我们把$a$提取出来:</p><script type="math/tex; mode=display">\begin{align}&u^2+au+a+1=0\\\implies &-a(u+1)=u^2+1\\\implies& a = -\frac{u^2+1}{u+1}=-\frac{u^2+u-2(u+1)+1+2}{u+1}=-(u+1-2+\frac{2}{u+1})\\\end{align}</script><p>接下来利用耐克函数的性质, 可以轻松求得$a\in(-\frac{17}5,\frac52)$</p><hr><p>比起用原来的二次函数讨论/韦达定理, 这种方法显然容易得多. 不过, 要想到这种方法本身不容易, 其中的思维含量也不低.</p><p>不过, 能通过减少分类, 减少错误率, 何不为之?</p>]]></content>
+        <content type="html"><![CDATA[<p>今天的<del>水枪鱼</del>金枪鱼分享的是一道数形结合相关的数学题.</p><p>设$u\in[-\sqrt2,\sqrt2], v\in(0,+\infty)$</p><p>求证:$(u-v)^2+(\sqrt{2-u^2}-\frac9v)^2\ge8$</p><hr><p>当两个平方相加的时候, 我们首先会想到的应该是勾股定理(想到圆一定是跳步了). 这时候利用几何意义的解法就是<strong>两点之间距离公式</strong>!</p><p>这时候我们有两个点$A(u,\sqrt{2-u^2}),B(v,\frac9v)$</p><p>显然A在一个半径为$\sqrt2$的半圆上, B在一条反比例函数上.<br><!-- <img src="/Users/ngichingaij/Library/Application Support/typora-user-images/Screen Shot 2020-11-17 at 19.41.48.png" alt="Screen Shot 2020-11-17 at 19.41.48" style="zoom:33%;" /> --><br><img src="../../../img/id96/img.png" alt="img"><br>这时候最近的距离就是y=x那条线连过去的距离, 经计算=2√2</p>]]></content>
       
       
       <categories>
@@ -796,6 +769,35 @@
       
       
         <tags>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
+            
+            <tag> 数形结合 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>权方和不等式</title>
+      <link href="vnrConvasdyne/mds/ftday93/"/>
+      <url>vnrConvasdyne/mds/ftday93/</url>
+      
+        <content type="html"><![CDATA[<p>今天我们来介绍权方和不等式:</p><script type="math/tex; mode=display">\sum_{1}^{n}\frac{a_i^{m+1}}{b_i^m}\le\frac{(\sum_{1}^{n} a_i)^{m+1}}{(\sum_{1}^{n} b_i)^m}(m\in(-\infty, -1) \cup(0,+\infty))</script><p>取等条件: $a_i=\lambda b_i$ (和柯西相同)</p><p>可能有同学会说: “已经有均值三角柯西排序琴生不等式了, 还要多一个干什么?”</p><p><del>另外不要问“权方和是谁”这种奇怪的问题.</del></p><p>但事实上, 权方和不等式真的非常有用!</p><p>在m=2时， 权方和不等式<del>被温教授</del>称为T2引理, 这也是最常见的应用.</p><p>我们可以用权方和不等式做题目:</p><h4 id="例题一"><a href="#例题一" class="headerlink" title="例题一"></a>例题一</h4><script type="math/tex; mode=display">设x,y>0, 且x+y=1\\求\frac{1}{x}+\frac{4}{y}的最小值</script><p>解：由权方和不等式：</p><script type="math/tex; mode=display">\frac{1^2}{x}+\frac{2^2}{y}\ge\frac{(1+2)^2}{x+y}=9</script><p>当且仅当<script type="math/tex">\frac{1}{x}=\frac{2}{y}</script>时等号成立</p><p><strong>一步解决问题, 认准权方和不等式.</strong></p><h4 id="例题二"><a href="#例题二" class="headerlink" title="例题二"></a>例题二</h4><script type="math/tex; mode=display">若正实数a, b满足4a+3b=1, 求\min\{\frac{1}{2a+b}+\frac{1}{a+b}\}</script><p>我们看到条件为$mx+ny=k$, 其中$x,y&gt;0, k, m, n$为常数时, 就可以使用权方和不等式.</p><p>在这个例子中, 我们把$\frac{1}{a+b}$换成$\frac{2}{2a+2b}$,</p><p>有$(2a+b)+(2a+2b)=1$, 所以可以由权方和不等式得到:</p><script type="math/tex; mode=display">\frac{1^2}{2a+b}+\frac{(\sqrt2)^2}{2a+2b}\ge\frac{(1+\sqrt2)^2}{4a+3b}=\frac{3+\sqrt2}{1}=3+\sqrt2</script><p>$当且仅当\frac{1}{2a+b}=\frac{\sqrt2}{2a+2b}时等号成立$</p><p>所以我们可以看到权方和不等式可以代替很多均值的步骤!</p><h4 id="练习"><a href="#练习" class="headerlink" title="练习"></a>练习</h4><p>已知$x&gt;0, y&gt;0$, 且$\frac{1}{x}+\frac{2}{y+1}=1$, 求$\min\{2x+y\}$</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 不等式 </tag>
             
             <tag> 吃白巧克力的黑猫 </tag>
             
@@ -833,11 +835,11 @@
     
     
     <entry>
-      <title>权方和不等式</title>
-      <link href="vnrConvasdyne/mds/ftday93/"/>
-      <url>vnrConvasdyne/mds/ftday93/</url>
+      <title>变量分离二次函数根的分布</title>
+      <link href="vnrConvasdyne/mds/ftday95/"/>
+      <url>vnrConvasdyne/mds/ftday95/</url>
       
-        <content type="html"><![CDATA[<p>今天我们来介绍权方和不等式:</p><script type="math/tex; mode=display">\sum_{1}^{n}\frac{a_i^{m+1}}{b_i^m}\le\frac{(\sum_{1}^{n} a_i)^{m+1}}{(\sum_{1}^{n} b_i)^m}(m\in(-\infty, -1) \cup(0,+\infty))</script><p>取等条件: $a_i=\lambda b_i$ (和柯西相同)</p><p>可能有同学会说: “已经有均值三角柯西排序琴生不等式了, 还要多一个干什么?”</p><p><del>另外不要问“权方和是谁”这种奇怪的问题.</del></p><p>但事实上, 权方和不等式真的非常有用!</p><p>在m=2时， 权方和不等式<del>被温教授</del>称为T2引理, 这也是最常见的应用.</p><p>我们可以用权方和不等式做题目:</p><h4 id="例题一"><a href="#例题一" class="headerlink" title="例题一"></a>例题一</h4><script type="math/tex; mode=display">设x,y>0, 且x+y=1\\求\frac{1}{x}+\frac{4}{y}的最小值</script><p>解：由权方和不等式：</p><script type="math/tex; mode=display">\frac{1^2}{x}+\frac{2^2}{y}\ge\frac{(1+2)^2}{x+y}=9</script><p>当且仅当<script type="math/tex">\frac{1}{x}=\frac{2}{y}</script>时等号成立</p><p><strong>一步解决问题, 认准权方和不等式.</strong></p><h4 id="例题二"><a href="#例题二" class="headerlink" title="例题二"></a>例题二</h4><script type="math/tex; mode=display">若正实数a, b满足4a+3b=1, 求\min\{\frac{1}{2a+b}+\frac{1}{a+b}\}</script><p>我们看到条件为$mx+ny=k$, 其中$x,y&gt;0, k, m, n$为常数时, 就可以使用权方和不等式.</p><p>在这个例子中, 我们把$\frac{1}{a+b}$换成$\frac{2}{2a+2b}$,</p><p>有$(2a+b)+(2a+2b)=1$, 所以可以由权方和不等式得到:</p><script type="math/tex; mode=display">\frac{1^2}{2a+b}+\frac{(\sqrt2)^2}{2a+2b}\ge\frac{(1+\sqrt2)^2}{4a+3b}=\frac{3+\sqrt2}{1}=3+\sqrt2</script><p>$当且仅当\frac{1}{2a+b}=\frac{\sqrt2}{2a+2b}时等号成立$</p><p>所以我们可以看到权方和不等式可以代替很多均值的步骤!</p><h4 id="练习"><a href="#练习" class="headerlink" title="练习"></a>练习</h4><p>已知$x&gt;0, y&gt;0$, 且$\frac{1}{x}+\frac{2}{y+1}=1$, 求$\min\{2x+y\}$</p>]]></content>
+        <content type="html"><![CDATA[<p>补一篇比较水的金枪鱼……</p><p>用变量分离的方法, 可以解决特定的问题. (话说这不是废话吗?) 下文将会具体介绍一道题:</p><p>关于$x$的方程: $4^x+a\cdot 2^x+a+1$在区间$(1,2)$中有根, 求$a$的取值范围.</p><p>首先是遇到指数方程的第一步: 换元</p><p>$2^x\triangleq u$</p><p>那么原式可以化成: $u^2+au+a+1$, 设为$f(u)$</p><p>$x\in(1,2)\implies u\in(2,4)$</p><p>即$f(u)=0$在$(2,4)$上有根</p><p>我们把$a$提取出来:</p><script type="math/tex; mode=display">\begin{align}&u^2+au+a+1=0\\\implies &-a(u+1)=u^2+1\\\implies& a = -\frac{u^2+1}{u+1}=-\frac{u^2+u-2(u+1)+1+2}{u+1}=-(u+1-2+\frac{2}{u+1})\\\end{align}</script><p>接下来利用耐克函数的性质, 可以轻松求得$a\in(-\frac{17}5,\frac52)$</p><hr><p>比起用原来的二次函数讨论/韦达定理, 这种方法显然容易得多. 不过, 要想到这种方法本身不容易, 其中的思维含量也不低.</p><p>不过, 能通过减少分类, 减少错误率, 何不为之?</p>]]></content>
       
       
       <categories>
@@ -850,8 +852,6 @@
         <tags>
             
             <tag> 吃白巧克力的黑猫 </tag>
-            
-            <tag> 不等式 </tag>
             
         </tags>
       
@@ -1312,9 +1312,9 @@
       
         <tags>
             
-            <tag> 吃白巧克力的黑猫 </tag>
-            
             <tag> 不等式 </tag>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
             
             <tag> oldNotes </tag>
             
@@ -1403,9 +1403,9 @@
       
         <tags>
             
-            <tag> 吃白巧克力的黑猫 </tag>
-            
             <tag> 不等式 </tag>
+            
+            <tag> 吃白巧克力的黑猫 </tag>
             
             <tag> oldNotes </tag>
             
